@@ -64,9 +64,11 @@ returns, call `model.close(final_label)` once, then set
 `examples/synthetic.py` gives a complete sequence.
 The raw rules are implemented by
 [`expert_bank`](output/rr_recap_evidence_extension_20261002/frozen_core.py).
-[`moment`, `solve_weights`, and `targets`](output/rr_recap_error_dependence_20261003/method.py)
-form nodewise Cov weights, the raw mixture and its nonnegative reconciliation,
-respectively; `targets` returns `raw_target` and coherent `target`.
+In the [Cov module](output/rr_recap_error_dependence_20261003/method.py),
+`moment` builds the regularized expert-error second-moment matrices,
+`solve_weights` computes nodewise combination weights, and `targets` forms
+the raw mixture and reconciles it. `targets` returns `raw_target` and coherent
+`target`.
 [`make_contexts`](output/self_funded_policy_learning_20261013/calibration_contexts.py)
 prepares calibration Cov targets and reconciles each expert before calling the
 actor. It reuses the saved coherent scoring targets.
