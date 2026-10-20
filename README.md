@@ -44,8 +44,14 @@ prediction = result["pred"]
 - `S`: nonnegative aggregation matrix, shape `(n, m)`.
 - `v`: fixed positive node variance weights, shape `(n,)`.
 - `b = S @ ub`: coherent nonnegative reference; `ub` has shape `(m,)`.
-- `cov_target`: causal Cov candidate, shape `(n,)`.
-- `experts`: nine causal raw expert forecasts, shape `(n, 9)`.
+- `cov_target`: the paper's **coherent, not-yet-protected** target
+  $z_t^{\mathrm{Cov}}$, shape `(n,)`; it is not the raw mixture
+  $a_t^{\mathrm{Cov}}$ or the protected column $c_t^{\mathrm{Cov}}$.
+  `issue()` applies the protection projection and release guard to construct
+  $c_t^{\mathrm{Cov}}$, the first column of the protected candidate matrix.
+- `experts`: the nine raw rules **after their separate nonnegative
+  reconciliation**, shape `(n, 9)`, before protection. `issue()` protects these
+  nine columns and appends the reference as column eleven.
 - `previous_label`: previous issue's outcome, returned before this release.
 - `calibration=True`: use the protected Cov candidate and archive the record.
 - `reset=True`: reset live cumulative error and remaining allowance, retaining
@@ -56,8 +62,19 @@ candidate columns, regularization and solver budget. After the final label
 returns, call `model.close(final_label)` once, then set
 `model._actor.pending = None` if continuing with a manually settled state.
 `examples/synthetic.py` gives a complete sequence.
-Cov construction and the nine expert rules are in the archived source modules;
-the synthetic example supplies simple causal candidates to exercise the interface.
+The raw rules are implemented by
+[`expert_bank`](output/rr_recap_evidence_extension_20261002/frozen_core.py).
+[`moment`, `solve_weights`, and `targets`](output/rr_recap_error_dependence_20261003/method.py)
+form nodewise Cov weights, the raw mixture and its nonnegative reconciliation,
+respectively; `targets` returns `raw_target` and coherent `target`.
+[`make_contexts`](output/self_funded_policy_learning_20261013/calibration_contexts.py)
+prepares calibration Cov targets and reconciles each expert before calling the
+actor. It reuses the saved coherent scoring targets.
+[`make_bank`](output/paired_root_actual_credit_20261013/numerical_v2/run.py)
+protects those inputs using the actor's current remaining allowances.
+These are archived experiment functions; `targets` assumes the original
+36-observation calibration boundary. The synthetic example uses already
+coherent constructed inputs, not the paper's raw expert-generation pipeline.
 
 ## Source layout and reproducibility
 
@@ -90,6 +107,14 @@ Those commands require the archived research directory layout. They cannot
 run from this source-only checkout alone. The release does not include raw-data
 backbone training or claim to reproduce the original protocols of external
 papers. The aggregate CSVs retain original run identifiers for traceability.
+
+## Resource access
+
+See [RESOURCE_INDEX.md](RESOURCE_INDEX.md) for the relationship between this
+public checkout, Review Evidence 20261020, the historical Online Resources
+1–3, saved-path audits and backbone training. The numerical source was released
+in commit `dfe569351ff38e1d7ed568d0b490c91b3745b5cf`; later documentation
+clarifications do not change that numerical implementation.
 
 ## Contact
 

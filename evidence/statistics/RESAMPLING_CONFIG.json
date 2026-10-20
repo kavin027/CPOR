@@ -1,0 +1,20 @@
+{
+  "replicates": 2000,
+  "block_lengths": [
+    6,
+    12,
+    24
+  ],
+  "rng": "numpy.random.default_rng",
+  "rng_seed": 20261016,
+  "reinitialize_for_each_block_length": true,
+  "original_source": "Online_Resource_2/research_scripts/analyze_revision.py",
+  "original_source_sha256": "6f2955359bce344d57bbda3a9d01c636b9d972cf81ae594c9cd2b02a23cffd92",
+  "shared_indices": "dataset/window shared across both backbones and methods",
+  "percentiles": [
+    2.5,
+    97.5
+  ],
+  "scope": "Conditional on saved first-experiment adaptive errors; no retraining.",
+  "rerun_for_this_revision": false
+}
