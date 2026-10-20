@@ -1,0 +1,22 @@
+[
+  {
+    "arm": "RootFull",
+    "mean": 0.43768088934791677,
+    "groups": 10
+  },
+  {
+    "arm": "RootDirectional",
+    "mean": 0.4517027228210768,
+    "groups": 10
+  },
+  {
+    "arm": "SquareFull",
+    "mean": 0.0,
+    "groups": 10
+  },
+  {
+    "arm": "SquareDirectional",
+    "mean": 0.0539626815127614,
+    "groups": 10
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "public_name": "CPOR",
+  "full_name": "Cumulatively Protected Online Reconciliation",
+  "legacy_storage_key": "C0",
+  "aliases": [
+    "CPOR",
+    "C0",
+    "RootFull",
+    "RR-RECAP"
+  ],
+  "implementation_unchanged": true
+}

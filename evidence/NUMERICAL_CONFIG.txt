@@ -1,0 +1,13 @@
+Numerical configuration (source paths relative to output/ in this repository)
+Final stored-publication check: abs(p - S@u) <= 2e-6 + 1e-8 * abs(S@u), elementwise; nonnegative u. Absolute residual alone is not this test. The reported max_normalized diagnostic uses max(1,abs(p),abs(Su)) and is a different diagnostic, not the acceptance denominator.
+Candidate QP SafeProjection.solve in rr_recap_release_learning_20261002/strict_solver.py: CVXPY/Clarabel, five (tol, objective_divisor) attempts [(1e-11,1),(1e-13,1),(1e-14,1),(1e-13,1000),(1e-13,1e6)], max_iter=500 per attempt, max_threads=1,warm_start=False. No explicit per-attempt wall-clock limit in this QP call. Feasibility and physical objective-gap tests are in the source.
+Checked fallback engine.py: SLSQP attempts (ftol,maxiter,scaled) [(1e-11,300,False),(1e-13,1200,False),(1e-14,3000,True)], with HiGHS multiplier/dual checks. Exhaustion raises instead of returning an unchecked solution. Intermediate allclose calls can reverse operand order; final publication uses the formula above.
+Learning conic_learning.py: native Clarabel 0.11.1, tolerances 1e-8,1e-10,1e-12, max_iter=400,time_limit=120 seconds per attempt. Do not apply this budget to candidate QPs.
+Anchor project() in frozen_core.py: SciPy NNLS maxiter=100*m, fallback lsq_linear(bounds=(0,inf),tol=1e-12,max_iter=2000). u>=0 is asserted; stored b is constructed as u@S.T. Cached endpoints retain b and ub; exact remaining allowances use that same stored b. The original input-level audits require archived forecast inputs, which are not included in this public repository.
+
+Source SHA256:
+candidate_qp: rr_recap_release_learning_20261002/strict_solver.py: aac10447e2cf7fdfeaa6e5dbc10427cd4b8993fe287c6fdf0912a4c626cbd96f
+fallback: rr_recap_evidence_extension_20261002/engine.py: 5a3fb0da4414718338ff1c06791d2a1ac767d953135143dec588386e12defddb
+anchor: rr_recap_evidence_extension_20261002/frozen_core.py: ee7c9a03a363903bac461f1ebb796de6656007eddb7f5081fd4874e2298f4007
+final_release: coupled_publication_learning_20261012/run_experiment.py: f68d00ce71136c7a6c2c0c35a2608a2639d1d1444935ed41497d03ef31987faf
+learning: paired_root_actual_credit_20261013/numerical_v2/conic_learning.py: d89d825f7a3400b5120b2891a4953a721dd33d6d8d9b46d15c7b461f7c0e7e98

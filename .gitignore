@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.npz
+*.npy
+*.pt
+*.pth
+*.log
+evidence/AGGREGATE_CHECK.json
+examples/SYNTHETIC_CHECK.json

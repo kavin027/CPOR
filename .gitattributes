@@ -1,0 +1,3 @@
+# Preserve bytewise provenance hashes of the archived numerical sources.
+* text=auto
+output/** -text
