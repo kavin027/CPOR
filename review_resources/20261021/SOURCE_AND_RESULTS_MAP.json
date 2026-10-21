@@ -1,0 +1,162 @@
+{
+  "version": "CPOR-review-resources-v2-20261021",
+  "tables": {
+    "5": {
+      "folder": "results/table5",
+      "check": "check_table5.py",
+      "paired_percentages": "PAIRED_GAINS.csv",
+      "display_means": "THREE_EXPERIMENT_RMSE.csv",
+      "scope": "six datasets, twelve dataset/backbone groups, three backbone-training runs"
+    },
+    "7": {
+      "folder": "results/table7",
+      "check": "check_table7.py",
+      "paired_percentages": "PAIRED_GAINS.csv",
+      "display_means": "THREE_EXPERIMENT_RMSE.csv",
+      "scope": "six datasets, twelve dataset/backbone groups, three backbone-training runs"
+    },
+    "8": {
+      "folder": "results/table8",
+      "check": "check_table8.py",
+      "paired_percentages": "PAIRED_GAINS.csv",
+      "display_means": "THREE_EXPERIMENT_RMSE.csv",
+      "scope": "six datasets, twelve dataset/backbone groups, three backbone-training runs"
+    }
+  },
+  "files": {
+    "review_resources/20261021/results/table5/CELL_METRICS.csv": {
+      "original": "output/cpor_external_repetitions_20261020/CELL_METRICS.csv",
+      "sha256": "7a7cb7354ab8a6e2cd78b6d123bb4009154a968e0aed17e17882a584e7f8b745"
+    },
+    "review_resources/20261021/results/table5/GROUP_EXPERIMENT_METRICS.csv": {
+      "original": "output/cpor_external_repetitions_20261020/GROUP_EXPERIMENT_METRICS.csv",
+      "sha256": "aadeb9ca92a0bc31370b926c26ebf9b08197a12776222258c1c473c6fafb7ec6"
+    },
+    "review_resources/20261021/results/table5/THREE_EXPERIMENT_RMSE.csv": {
+      "original": "output/cpor_external_repetitions_20261020/THREE_EXPERIMENT_RMSE.csv",
+      "sha256": "9b045a0c82e4824369c69a945a2d6a999390a11b1ec713abdb0cfab5662e2c43"
+    },
+    "review_resources/20261021/results/table5/PAIRED_GAINS.csv": {
+      "original": "output/cpor_external_repetitions_20261020/PAIRED_GAINS.csv",
+      "sha256": "46c090edf18db88f8dff3abf48f153891128f449e43436462b0cb7cd23e552d2"
+    },
+    "review_resources/20261021/results/table5/SUMMARY.json": {
+      "original": "output/cpor_external_repetitions_20261020/SUMMARY.json",
+      "sha256": "0afe3ccd15898ad5cff77d8c754bfd27b90bd9f6ec63cb800b1df0a7a46e8681"
+    },
+    "review_resources/20261021/results/table5/check_table5.py": {
+      "original": "output/cpor_external_repetitions_20261020/check_table5.py",
+      "sha256": "f05ded5884e91f89f7376e2714aa6d12199af67cb82a29c4792959d0aa2a5a79"
+    },
+    "review_resources/20261021/results/table7/CELL_METRICS.csv": {
+      "original": "output/cpor_table7_revision_20261020/CELL_METRICS.csv",
+      "sha256": "cc015bf320f79518df3c3e7ebbfc8e92fed4521f03993e11d9e59e1b839f26f3"
+    },
+    "review_resources/20261021/results/table7/GROUP_EXPERIMENT_METRICS.csv": {
+      "original": "output/cpor_table7_revision_20261020/GROUP_EXPERIMENT_METRICS.csv",
+      "sha256": "376b3a88f07445fbe1bc10b1746d18f13c088e03a368cfe2002a989cfee63889"
+    },
+    "review_resources/20261021/results/table7/THREE_EXPERIMENT_RMSE.csv": {
+      "original": "output/cpor_table7_revision_20261020/THREE_EXPERIMENT_RMSE.csv",
+      "sha256": "37b74ebb534d994c1a875a251d87b81571bd4660f8bb3e0226ae5c011436be19"
+    },
+    "review_resources/20261021/results/table7/PAIRED_GAINS.csv": {
+      "original": "output/cpor_table7_revision_20261020/PAIRED_GAINS.csv",
+      "sha256": "cf8dc5a341df7dff1ef4709baa8f20cd2b769552a2b1c440cd4922cd20fc0dc3"
+    },
+    "review_resources/20261021/results/table7/SUMMARY.json": {
+      "original": "output/cpor_table7_revision_20261020/SUMMARY.json",
+      "sha256": "1c8d0f0f2eb817e62853ed716dab8f12f5b14aa509faa3d4af984cfd235becd6"
+    },
+    "review_resources/20261021/results/table7/check_table7.py": {
+      "original": "output/cpor_table7_revision_20261020/check_table7.py",
+      "sha256": "634f3c8f4e4f20718162205ed5789c02b5d44cbb90a769e3f3bdda482d46a0c0"
+    },
+    "review_resources/20261021/results/table8/CELL_METRICS.csv": {
+      "original": "output/cpor_ablation_completion_20261020/CELL_METRICS.csv",
+      "sha256": "348d95233adf119d47157b044c6e079109bc21f6aba7b01f3b4954c0aee5905f"
+    },
+    "review_resources/20261021/results/table8/GROUP_EXPERIMENT_METRICS.csv": {
+      "original": "output/cpor_ablation_completion_20261020/GROUP_EXPERIMENT_METRICS.csv",
+      "sha256": "091db06658234a03b46366bf608df948be0c0838b4529262ab688c267039e04f"
+    },
+    "review_resources/20261021/results/table8/THREE_EXPERIMENT_RMSE.csv": {
+      "original": "output/cpor_ablation_completion_20261020/THREE_EXPERIMENT_RMSE.csv",
+      "sha256": "c78315133e218973ff46f3a475b65d71f98228350cdd3c7b382998feff11f3d4"
+    },
+    "review_resources/20261021/results/table8/PAIRED_GAINS.csv": {
+      "original": "output/cpor_ablation_completion_20261020/PAIRED_GAINS.csv",
+      "sha256": "43809909879dc5e86a2cad17e87fc0d348e79c46a0c09acd05f7227d0956bb75"
+    },
+    "review_resources/20261021/results/table8/SUMMARY.json": {
+      "original": "output/cpor_ablation_completion_20261020/SUMMARY.json",
+      "sha256": "8d46aac3f59efda6f491f4dcd3191f1aba4dfb102d0b6d78744dd42ef55a4077"
+    },
+    "review_resources/20261021/results/table8/check_table8.py": {
+      "original": "output/cpor_ablation_completion_20261020/check_table8.py",
+      "sha256": "b28d9d4a5809ef9c66138b700d87be6fd1d29cc73f52ead1bb49d60eb9a027bc"
+    },
+    "output/c0_matched_ablation_20261014/experiment.py": {
+      "original": "output/c0_matched_ablation_20261014/experiment.py",
+      "sha256": "d6da6cf45c203d35b9b28f294b75c20b913fba967351ebf12ea25cfcc9d03cde"
+    },
+    "output/c0_matched_ablation_20261014/square_learning.py": {
+      "original": "output/c0_matched_ablation_20261014/square_learning.py",
+      "sha256": "085b79629ddd2b9976d8328142f7d7175b8a8c85f4c39b28a1dc4cc44bba5564"
+    },
+    "output/cpor_ablation_completion_20261020/worker.py": {
+      "original": "output/cpor_ablation_completion_20261020/worker.py",
+      "sha256": "5221754eeaf77eb7cda824c9c2d73605e5e30ae5124730533c8e0edf0ca14c6a"
+    },
+    "output/cpor_ablation_completion_20261020/run_all.py": {
+      "original": "output/cpor_ablation_completion_20261020/run_all.py",
+      "sha256": "bfbcb88089031b3913fbf5b7b57443a7ffdbc1e9ebc3eb5f686fe18954975139"
+    },
+    "output/cpor_ablation_completion_20261020/register.py": {
+      "original": "output/cpor_ablation_completion_20261020/register.py",
+      "sha256": "a236c11944d924f50d867d3e0fb2cc6bca4dc49bae228363151181b123f59bd7"
+    },
+    "output/cpor_ablation_completion_20261020/analyze.py": {
+      "original": "output/cpor_ablation_completion_20261020/analyze.py",
+      "sha256": "402e275f0b5f3c11118135f2e5d4a7f806dfe4f4e1ee4dccc69cf26e00f9d031"
+    },
+    "output/kais_review_response_20261016/Online_Resource_1/cells.json": {
+      "original": "output/kais_review_response_20261016/Online_Resource_1/cells.json",
+      "sha256": "904cc9562920916148a1df716b62911379564aca87a74f93a51c5991a435736f"
+    },
+    "output/c0_seed_validation_20261016/common.py": {
+      "original": "output/c0_seed_validation_20261016/common.py",
+      "sha256": "bd484552351f804ff0df76342e5f7d106052151c1e691e6ddb848115ac16c1c2"
+    },
+    "output/c0_seed_validation_20261016/gpu.py": {
+      "original": "output/c0_seed_validation_20261016/gpu.py",
+      "sha256": "af447bdfa10a2fb4b8aaf88ee134a4e4b0fed9f10e39a8ae4fca98769dadb008"
+    },
+    "output/cpor_external_repetitions_20261020/run.py": {
+      "original": "output/cpor_external_repetitions_20261020/run.py",
+      "sha256": "319ec6a1462ae18db5cfe24c67dab9f0b61ebe2d86348e76e0d51e832fc0962b"
+    },
+    "output/cpor_external_repetitions_20261020/analyze.py": {
+      "original": "output/cpor_external_repetitions_20261020/analyze.py",
+      "sha256": "2518b99bcb68aaf9a7d4541612ad2f7ccb554552298ce7e27d85548e0b8e3833"
+    },
+    "output/rr_recap_strong_baseline_20261006/run.py": {
+      "original": "output/rr_recap_strong_baseline_20261006/run.py",
+      "sha256": "f4e2b3f55640ece472f2b49f1c0fe68fdd19f2d596ea91ed959aaaa015a3a8aa"
+    },
+    "output/rr_recap_evidence_extension_20261002/train.py": {
+      "original": "output/rr_recap_evidence_extension_20261002/train.py",
+      "sha256": "496fd5c31ff4a971716adc2a7cedca3cf74472be31e8625d880ebb8844fcc5b3"
+    },
+    "output/rr_recap_evidence_extension_20261002/major_revision_20261002/external_train.py": {
+      "original": "output/rr_recap_evidence_extension_20261002/major_revision_20261002/external_train.py",
+      "sha256": "b9dfd316a8d8f48cf90b22e060d77c94db44b0fa66e33afe3c50993e6680c90e"
+    },
+    "output/c0_frozen_m5_20261014/run.py": {
+      "original": "output/c0_frozen_m5_20261014/run.py",
+      "sha256": "1e7b640128607b9a2196bd34bf79df6210958f9848173d73c5ef99680d6a25f7"
+    }
+  },
+  "numerical_core_commit": "dfe569351ff38e1d7ed568d0b490c91b3745b5cf",
+  "scope": "Frozen source and saved-result arithmetic, not regenerated predictions; no new model runs."
+}

@@ -1,0 +1,75 @@
+{
+  "sha256": "b693cb3a87c57609b1283d76e284f3a4362824b27cd02fed53340b31b5211e86",
+  "checkpoint_sha256": "1340fa7f3ae56dbc0a119c90461aeffc66b202cf17384e637be40362298f7f16",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\Wiki2.csv": "6ccc3f01e05544b2e12f23910cc3f189fe996b50f46be90b3f5d24d6df77e8f4",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\Wiki2\\PatchTST\\late\\1\\raw.npz": "8ef9d187fa4035b61a2b488b20480fc0f0b3a1a38a92826ad0a39518f32d2dd7",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Wiki2\\PatchTST\\late\\metadata.json": "b0cbfed5404c6bccfa9cebbb03b9845c0e4726e4bbf5911d4179e2d56a8e73ed",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\history\\Wiki2\\PatchTST\\complete.json": "bd5cfde8c319abf0786fd36c5ea221f889726b69ff3465b3c9971c87d8a40983",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\PatchTST\\1\\0\\predictions.csv": "ce2d1c3e7e90a613d9a45232f7e94cdf42d8e305171ff990a43a5d0cb9fbebbd",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\PatchTST\\1\\0\\run.json": "159c18055be8067c7f7f323ca7088bad85b4bb49d82bfb96d8d881bee835fa80",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\PatchTST\\1\\72\\predictions.csv": "315438cc335031a30eda371d9f1b14042f40310d46f02e78091324f5b2d64cb2",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\PatchTST\\1\\72\\run.json": "067c98cdafebe9c9fd78d64fb641a9bf6ddfc25d0910498a62f91bac64c4c5a9",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\Wiki2\\PatchTST\\early\\1\\raw.npz": "efda4898bf6955029a4fe28708d77668441072ab8e553d1bc371fb953f42dfda"
+  },
+  "seed": 1,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 0.8848526577154795,
+      "validation_mse": 7.431684494018555
+    },
+    {
+      "epoch": 2,
+      "train_mse": 0.9012937148412069,
+      "validation_mse": 7.426463961601257
+    },
+    {
+      "epoch": 3,
+      "train_mse": 0.8857483963171641,
+      "validation_mse": 7.423777490854263
+    },
+    {
+      "epoch": 4,
+      "train_mse": 0.8629258573055267,
+      "validation_mse": 7.422924876213074
+    },
+    {
+      "epoch": 5,
+      "train_mse": 0.9068340162436167,
+      "validation_mse": 7.422621250152588
+    },
+    {
+      "epoch": 6,
+      "train_mse": 0.8774218261241913,
+      "validation_mse": 7.422487422823906
+    },
+    {
+      "epoch": 7,
+      "train_mse": 0.8787397642930349,
+      "validation_mse": 7.422429978847504
+    },
+    {
+      "epoch": 8,
+      "train_mse": 0.9001510639985403,
+      "validation_mse": 7.422401160001755
+    },
+    {
+      "epoch": 9,
+      "train_mse": 0.8707982997099558,
+      "validation_mse": 7.422387555241585
+    },
+    {
+      "epoch": 10,
+      "train_mse": 0.8578582604726156,
+      "validation_mse": 7.422380968928337
+    }
+  ],
+  "train_count": 180,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2016-09-14 00:00:00",
+  "first_score": "2016-10-21 00:00:00",
+  "seconds": 0.23146569996606559
+}

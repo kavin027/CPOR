@@ -1,0 +1,84 @@
+{
+  "sha256": "2c26e8909736e0747347d892100cef55a6eec6082ae6b984a532b05c472011a3",
+  "checkpoint_sha256": "35906a3ea8052f6da92ad5727590d5742b089fc33b474584db7e40c5f5ec2660",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\Wiki2.csv": "6ccc3f01e05544b2e12f23910cc3f189fe996b50f46be90b3f5d24d6df77e8f4",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\Wiki2\\PatchTST\\early\\2\\raw.npz": "c4479b91d4c550b15aff3c3f4e81af36d6beacdedf669064f6c6a32327f8b86f",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Wiki2\\PatchTST\\early\\metadata.json": "98aefb81f9a70b65533a0c6374e850759dcaac75d119500155db1aa05a7e71d7",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\history\\Wiki2\\PatchTST\\complete.json": "bd5cfde8c319abf0786fd36c5ea221f889726b69ff3465b3c9971c87d8a40983",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\PatchTST\\2\\0\\predictions.csv": "ac561ad29f8059a852d35de0542e60522c9893a3e7b7470fd47d70c618c67cca",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\PatchTST\\2\\0\\run.json": "b03589ca49ea16ef29911a9786202fe6fb0a8be808c0e8f27489cebd68dfb3be",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\PatchTST\\2\\72\\predictions.csv": "cc5e2a87cd719831fa999837fff1ff23183e63e3f339efd06669ee3723b8a821",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\PatchTST\\2\\72\\run.json": "14bbb3e56ff45b0c3249f127efc05ee8a61fdb7fcdaa25d40959102bc9d11074"
+  },
+  "seed": 2,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 1.6735908091068268,
+      "quality_l1": 0.9147384464740753,
+      "validation_mse": 75.93944978713989
+    },
+    {
+      "epoch": 2,
+      "train_mse": 1.5696112215518951,
+      "quality_l1": 0.9575026631355286,
+      "validation_mse": 71.15493369102478
+    },
+    {
+      "epoch": 3,
+      "train_mse": 1.5494817197322845,
+      "quality_l1": 0.9141453951597214,
+      "validation_mse": 69.33280634880066
+    },
+    {
+      "epoch": 4,
+      "train_mse": 1.5149030983448029,
+      "quality_l1": 0.8820450901985168,
+      "validation_mse": 68.37038087844849
+    },
+    {
+      "epoch": 5,
+      "train_mse": 1.542281299829483,
+      "quality_l1": 0.9474667459726334,
+      "validation_mse": 67.88731408119202
+    },
+    {
+      "epoch": 6,
+      "train_mse": 1.52516470849514,
+      "quality_l1": 0.8976829946041107,
+      "validation_mse": 67.66009759902954
+    },
+    {
+      "epoch": 7,
+      "train_mse": 1.515567421913147,
+      "quality_l1": 0.9188854396343231,
+      "validation_mse": 67.55579471588135
+    },
+    {
+      "epoch": 8,
+      "train_mse": 1.5113413631916046,
+      "quality_l1": 0.918213814496994,
+      "validation_mse": 67.50544452667236
+    },
+    {
+      "epoch": 9,
+      "train_mse": 1.5228939354419708,
+      "quality_l1": 0.9342983812093735,
+      "validation_mse": 67.48383331298828
+    },
+    {
+      "epoch": 10,
+      "train_mse": 1.553761601448059,
+      "quality_l1": 0.9488791823387146,
+      "validation_mse": 67.4731228351593
+    }
+  ],
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2016-07-04 00:00:00",
+  "first_score": "2016-08-10 00:00:00",
+  "seconds": 0.6752643999643624
+}

@@ -1,0 +1,74 @@
+{
+  "sha256": "f7aa5ab1747378aac90fc7fb74f76b081f112f6b4f9bf7787fb31f82b46d96c9",
+  "checkpoint_sha256": "6c29a37e173a4ad4336b768b4611b8e23fa589fd0330b0a9961db7ac55b389eb",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\RH.csv": "b30dc8fb74c6309c67874bb8084bcfaecbe4e800b1129cb292507b6bf7f740bc",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\RH\\DLinear\\early\\2\\raw.npz": "e9c1dc983d71a7ee2148162a176d4f4dc8ea44b1caacc761e0afadbcde02bbf3",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\RH\\DLinear\\early\\metadata.json": "87cdc389f70cba838f2dab197cd44177d1778662fba841c810099b9a732d03c9",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\history\\RH\\DLinear\\complete.json": "da4952594dcc401e61b36b37e0cc5b6472339396b551343eec848778f163dc12",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\RH\\DLinear\\2\\0\\predictions.csv": "559aaba61928afab4646a301dc4739e1f49981d0c037c66dfdbd688cd2bcaccb",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\RH\\DLinear\\2\\0\\run.json": "b1a4440bd0e0cc789aecd342aebcddbfe4a18bb9185479b6dbf19f5dd2935cf3",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\RH\\DLinear\\2\\72\\predictions.csv": "42ef62ddc364fe1c0df1a2dda9e1b424e57c2adfd4c6389c6e08c379fe7d497f",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\RH\\DLinear\\2\\72\\run.json": "7af426d83ab0025c4de92b3eed66e3fbbafdea83dd80b6c9eb33becfb28fad8a"
+  },
+  "seed": 2,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 5.124141275882721,
+      "validation_mse": 8.117460489273071
+    },
+    {
+      "epoch": 2,
+      "train_mse": 3.630584418773651,
+      "validation_mse": 7.664878606796265
+    },
+    {
+      "epoch": 3,
+      "train_mse": 3.349893569946289,
+      "validation_mse": 7.62632417678833
+    },
+    {
+      "epoch": 4,
+      "train_mse": 3.833425462245941,
+      "validation_mse": 7.617314100265503
+    },
+    {
+      "epoch": 5,
+      "train_mse": 3.2603864073753357,
+      "validation_mse": 7.6142895221710205
+    },
+    {
+      "epoch": 6,
+      "train_mse": 3.6206677556037903,
+      "validation_mse": 7.61318826675415
+    },
+    {
+      "epoch": 7,
+      "train_mse": 3.6230181455612183,
+      "validation_mse": 7.612731218338013
+    },
+    {
+      "epoch": 8,
+      "train_mse": 3.085464894771576,
+      "validation_mse": 7.612534523010254
+    },
+    {
+      "epoch": 9,
+      "train_mse": 3.4806511998176575,
+      "validation_mse": 7.612451553344727
+    },
+    {
+      "epoch": 10,
+      "train_mse": 3.1911153197288513,
+      "validation_mse": 7.612416744232178
+    }
+  ],
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2023-07-04 00:00:00",
+  "first_score": "2023-08-10 00:00:00",
+  "seconds": 0.16999079997185618
+}

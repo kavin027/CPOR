@@ -1,32 +1,35 @@
-"""Rebuild six-dataset summary and four-arm table from group RMSEs.
-Standard library only. This checks aggregation, not forecast generation.
-"""
+"""Current Table 5/7/8 arithmetic checks. Standard library only; no training."""
 from pathlib import Path
-import csv,json,statistics,math
-O=Path(__file__).resolve().parent
-def read(name):
-    with (O/name).open(encoding='utf-8',newline='') as f:return list(csv.DictReader(f))
-rows=read('paired_group_seed_gains.csv');out={}
+import runpy,json,hashlib,csv,statistics,math
+ROOT=Path(__file__).resolve().parents[1]
+D=ROOT/'review_resources/20261021'
+for n in [5,7,8]:runpy.run_path(str(D/f'results/table{n}/check_table{n}.py'),run_name='__main__')
+mapping=json.loads((D/'SOURCE_AND_RESULTS_MAP.json').read_text())
+for path,meta in mapping['files'].items():
+    assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==meta['sha256'],path
+for path,h in json.loads((D/'SHA256.json').read_text()).items():
+    assert hashlib.sha256((D/path).read_bytes()).hexdigest()==h,path
+current={}
+for n in [5,7,8]:current[f'table{n}']=json.loads((D/f'results/table{n}/SUMMARY.json').read_text())
+rows=list(csv.DictReader((D/'results/table8/PAIRED_GAINS.csv').open()))
+assert len(rows)==144
+for name,comp in current['table8']['comparisons'].items():
+    vals=[r for r in rows if r['comparison']==name]
+    assert len(vals)==36
+    for sid,x in comp['experiment_means'].items():
+        assert math.isclose(statistics.mean(float(r['gain_pct']) for r in vals if r['seed']==sid),x,abs_tol=1e-10)
+# Cross-check current shared methods against the previously public six-dataset CSV.
+legacy=list(csv.DictReader((ROOT/'evidence/paired_group_seed_gains.csv').open()))
 for ref in ['ProCAST72Warm','ProtectedMLPol','ProtectedCalBest','SquareFull','CovFullFix']:
-    r=[x for x in rows if x['reference']==ref];assert len(r)==36
-    for x in r:assert math.isclose(float(x['gain_pct']),100*(1-float(x['c0_rmse'])/float(x['reference_rmse'])),abs_tol=1e-10)
-    per_run=[statistics.mean(float(x['gain_pct']) for x in r if int(x['seed'])==k) for k in [42,1,2]]
-    assert all(sum(int(x['seed'])==k for x in r)==12 for k in [42,1,2])
-    out[ref]=dict(mean_pct=statistics.mean(per_run),sd_between_experiment_means=statistics.stdev(per_run),experiment_means=per_run)
-assert round(out['ProCAST72Warm']['mean_pct'],2)==28.47
-assert round(out['SquareFull']['mean_pct'],2)==.36
-g=read('ablation_group_metrics.csv');cells={(x['dataset'],x['backbone'],x['method']):float(x['rmse']) for x in g}
-keys=sorted({(x['dataset'],x['backbone']) for x in g});assert len(keys)==10
-arms={a:statistics.mean(100*(1-cells[(d,b,a)]/cells[(d,b,'SquareFull')]) for d,b in keys) for a in ['RootFull','RootDirectional','SquareFull','SquareDirectional']}
-geometry=statistics.mean(100*(1-cells[(d,b,'RootFull')]/cells[(d,b,'RootDirectional')]) for d,b in keys)
-saved=json.loads((O/'ablation_summary.json').read_text())
-for r in saved:assert math.isclose(arms[r['arm']],r['mean'],abs_tol=1e-10)
-assert round(geometry,4)==-.0144
-result=dict(method='CPOR',full_name='Cumulatively Protected Online Reconciliation',
-            six_dataset_summary=out,four_arm_common_square_full=arms,
-            arm_display_names={'RootFull':'CPOR (root/full)','RootDirectional':'CPOR (root/directional)',
-                               'SquareFull':'Squared-risk (full)','SquareDirectional':'Squared-risk (directional)'},
-            root_full_vs_root_directional_pct=geometry,
-            scope='Group arithmetic only; archived arm keys are retained for reproducibility; no new forecasts, fitting or training.')
-(O/'AGGREGATE_CHECK.json').write_text(json.dumps(result,indent=2))
-print(json.dumps(result,indent=2))
+    vals=[r for r in legacy if r['reference']==ref];assert len(vals)==36
+    for r in vals:assert math.isclose(float(r['gain_pct']),100*(1-float(r['c0_rmse'])/float(r['reference_rmse'])),abs_tol=1e-10)
+    mean=statistics.mean(float(r['gain_pct']) for r in vals)
+    if ref=='ProCAST72Warm':expect=current['table5']['primary_summary']['ProCAST']['mean']
+    elif ref=='SquareFull':expect=current['table8']['comparisons']['root_vs_square_full']['mean_gain_pct']
+    else:continue
+    assert math.isclose(mean,expect,abs_tol=1e-10)
+out=dict(version='CPOR-review-resources-v2-20261021',current_tables=[5,7,8],
+         four_arm_scope='6 datasets / 12 groups / 3 runs / 264 trajectories',
+         source_and_resource_hashes_verified=True,new_training=0,new_predictions=0)
+(ROOT/'evidence/AGGREGATE_CHECK.json').write_text(json.dumps(out,indent=2))
+print(json.dumps(out,indent=2))

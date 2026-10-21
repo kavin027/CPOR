@@ -1,0 +1,14 @@
+{
+  "reused": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_external_sota_20261014\\results\\Wiki2\\DLinear\\early\\42\\PIR.npz",
+  "sha256": "aa8b4a026fee1f32f68f7a6c5cf4eddb8860ff8aba3c8d106bf832046e90b933",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\Wiki2.csv": "6ccc3f01e05544b2e12f23910cc3f189fe996b50f46be90b3f5d24d6df77e8f4",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\Wiki2\\DLinear\\early\\42\\raw.npz": "6ebd13770c477201e3a024d8453e02ffc2211cb0bb0fa864b7a84dd0e6d4edde",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Wiki2\\DLinear\\early\\metadata.json": "0f225b91d29dba27586357ea5bd94200772ac8eb209bd6be26d4a61805f7dd2e",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Wiki2\\DLinear\\early\\train.npz": "9b05b8ca0713729f52c26346df8bc4cba05f94c2308a15886b924810c351d45a"
+  },
+  "seed": 42,
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72
+}

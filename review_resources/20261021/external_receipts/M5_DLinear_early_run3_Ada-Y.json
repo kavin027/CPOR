@@ -1,0 +1,68 @@
+{
+  "sha256": "4294aa11564d5dbc0ed382171ad34eb2a34f84d524ced20514f11814ded87368",
+  "checkpoint_sha256": "46cbff061503b524d8cad2b214f305c44194378501acc1672cee8cd6ff313199",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_frozen_m5_20261014\\observed.csv": "8b32f4601b502212969c83dbe064ed6d5ad40e50bca25ed26f64f60b17a9e3ee",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\DLinear\\early\\2\\raw.npz": "e298e2c2d818e38c9826a6eaeccd44151f32480049b91f046ae45e81b23e5585"
+  },
+  "seed": 2,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 2.430343508720398,
+      "validation_mse": 2.003945291042328
+    },
+    {
+      "epoch": 2,
+      "train_mse": 2.187761962413788,
+      "validation_mse": 1.9019367098808289
+    },
+    {
+      "epoch": 3,
+      "train_mse": 1.9608993530273438,
+      "validation_mse": 1.8717588186264038
+    },
+    {
+      "epoch": 4,
+      "train_mse": 2.0504444539546967,
+      "validation_mse": 1.8603025078773499
+    },
+    {
+      "epoch": 5,
+      "train_mse": 1.9101468622684479,
+      "validation_mse": 1.8552351593971252
+    },
+    {
+      "epoch": 6,
+      "train_mse": 2.0933737754821777,
+      "validation_mse": 1.8529145121574402
+    },
+    {
+      "epoch": 7,
+      "train_mse": 1.9619961082935333,
+      "validation_mse": 1.8517912030220032
+    },
+    {
+      "epoch": 8,
+      "train_mse": 1.924319565296173,
+      "validation_mse": 1.8512507677078247
+    },
+    {
+      "epoch": 9,
+      "train_mse": 2.118099480867386,
+      "validation_mse": 1.8509791493415833
+    },
+    {
+      "epoch": 10,
+      "train_mse": 1.9643262922763824,
+      "validation_mse": 1.8508469462394714
+    }
+  ],
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2015-11-24 00:00:00",
+  "first_score": "2015-12-31 00:00:00",
+  "seconds": 0.1575306000886485
+}

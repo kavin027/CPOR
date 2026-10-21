@@ -1,0 +1,85 @@
+{
+  "sha256": "b6449a45a988da190f375b698b3589a8334e4ea8ef3515a12fcfc858632499dd",
+  "checkpoint_sha256": "9609d937a190c2e5aa84481c324a316c1d1aa7d47f5b8e9ee1f83784edf54904",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\Traffic.csv": "7c9d48be1bc10e8ce23b87889468f0e043145cebd5f6fb153ac1e2033cd94077",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\Traffic\\PatchTST\\late\\1\\raw.npz": "f4411c26262a10ec0f8b448e47cdd34189461281ff752339a9293ea91c1e0024",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Traffic\\PatchTST\\late\\metadata.json": "192a2286859d4fcf7e418173a1b578f1cf3e878da58684cfc8d471700fd5b74e",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\history\\Traffic\\PatchTST\\complete.json": "1ef3298ec4b192ba9c1d92a1059cb6bba308ae369d858f6ad4257ce362fb1bf9",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Traffic\\PatchTST\\1\\0\\predictions.csv": "99a6e23c9b430ebe783ec674b9ac6aa4654228459625fca875ff900d9fd4ffa1",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Traffic\\PatchTST\\1\\0\\run.json": "9c23ccc57a66cb01a4fcbbc8f6b7197e092e5acd31d4b6faed2f39422b4e1f36",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Traffic\\PatchTST\\1\\72\\predictions.csv": "6ff520c72b7b776e0ee677ae55269aafea2e464e5e84aef47f8f151d8639f61f",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Traffic\\PatchTST\\1\\72\\run.json": "01641d28240b4166f331bbd74c6ff6babb95bc739ebe0b72e7c1ac465004be88",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\Traffic\\PatchTST\\early\\1\\raw.npz": "1dc555c0e62927dd349ff03aef95a7daa2fe2dae35a658a02faa6970144743c8"
+  },
+  "seed": 1,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 0.405505175391833,
+      "quality_l1": 0.4251113533973694,
+      "validation_mse": 1.3400388360023499
+    },
+    {
+      "epoch": 2,
+      "train_mse": 0.37658566733201343,
+      "quality_l1": 0.4132821261882782,
+      "validation_mse": 1.278023362159729
+    },
+    {
+      "epoch": 3,
+      "train_mse": 0.36591461300849915,
+      "quality_l1": 0.4085291624069214,
+      "validation_mse": 1.2605306506156921
+    },
+    {
+      "epoch": 4,
+      "train_mse": 0.3624464124441147,
+      "quality_l1": 0.4052074005206426,
+      "validation_mse": 1.2521132230758667
+    },
+    {
+      "epoch": 5,
+      "train_mse": 0.3700571805238724,
+      "quality_l1": 0.4140736411015193,
+      "validation_mse": 1.2485917806625366
+    },
+    {
+      "epoch": 6,
+      "train_mse": 0.367762712140878,
+      "quality_l1": 0.41401512424151105,
+      "validation_mse": 1.246953010559082
+    },
+    {
+      "epoch": 7,
+      "train_mse": 0.3644980887571971,
+      "quality_l1": 0.4084358861049016,
+      "validation_mse": 1.2461079359054565
+    },
+    {
+      "epoch": 8,
+      "train_mse": 0.37191903591156006,
+      "quality_l1": 0.41968273123105365,
+      "validation_mse": 1.2457427382469177
+    },
+    {
+      "epoch": 9,
+      "train_mse": 0.36650384465853375,
+      "quality_l1": 0.411228875319163,
+      "validation_mse": 1.2454803586006165
+    },
+    {
+      "epoch": 10,
+      "train_mse": 0.36879589160283405,
+      "quality_l1": 0.4135649651288986,
+      "validation_mse": 1.2453309893608093
+    }
+  ],
+  "train_count": 180,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2008-09-14 00:00:00",
+  "first_score": "2008-10-21 00:00:00",
+  "seconds": 1.2683719999622554
+}

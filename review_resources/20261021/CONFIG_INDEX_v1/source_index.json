@@ -1,0 +1,77 @@
+{
+  "raw_experts": {
+    "file": "output/rr_recap_evidence_extension_20261002/frozen_core.py",
+    "symbols": "expert_bank; project",
+    "sha256": "ee7c9a03a363903bac461f1ebb796de6656007eddb7f5081fd4874e2298f4007"
+  },
+  "cov_weights": {
+    "file": "output/rr_recap_error_dependence_20261003/method.py",
+    "symbols": "moment; solve_weights",
+    "sha256": "9c610d55ca9564f504c7868c9462fe59bc6cdf128d3ba800cc843b1643e6efe5"
+  },
+  "interval_inset_and_qp_fallback": {
+    "file": "output/rr_recap_evidence_extension_20261002/engine.py",
+    "symbols": "safe_bounds; SafeProjection.solve",
+    "sha256": "5a3fb0da4414718338ff1c06791d2a1ac767d953135143dec588386e12defddb"
+  },
+  "candidate_qp": {
+    "file": "output/rr_recap_release_learning_20261002/strict_solver.py",
+    "symbols": "SafeProjection.solve",
+    "sha256": "aac10447e2cf7fdfeaa6e5dbc10427cd4b8993fe287c6fdf0912a4c626cbd96f"
+  },
+  "scoring_bank": {
+    "file": "output/paired_root_actual_credit_20261013/numerical_v2/run.py",
+    "symbols": "make_bank; Actor.issue",
+    "sha256": "4b030ce5d8f0405bd31023073309c2b3f5562dafa65b06320e1f54fd080e9a4e"
+  },
+  "root_fitting": {
+    "file": "output/paired_root_actual_credit_20261013/numerical_v2/conic_learning.py",
+    "symbols": "fit; dual_lower",
+    "sha256": "d89d825f7a3400b5120b2891a4953a721dd33d6d8d9b46d15c7b461f7c0e7e98"
+  },
+  "square_fitting": {
+    "file": "output/c0_matched_ablation_20261014/square_learning.py",
+    "symbols": "fit; polish",
+    "sha256": "085b79629ddd2b9976d8328142f7d7175b8a8c85f4c39b28a1dc4cc44bba5564"
+  },
+  "release_guard": {
+    "file": "output/rr_recap_robust_repair_20261002/guard_v8.py",
+    "symbols": "guard",
+    "sha256": "fb68a8c59eebc4d49fadc6841604b2885b29f7ec62c0af34c3bfa9a4a8712b51"
+  },
+  "candidate_repair_and_gap_update": {
+    "file": "output/coupled_publication_learning_20261012/run_experiment.py",
+    "symbols": "one_action",
+    "sha256": "f68d00ce71136c7a6c2c0c35a2608a2639d1d1444935ed41497d03ef31987faf"
+  },
+  "cov_only_release": {
+    "file": "output/rr_recap_pooling_20261003/precision_release.py",
+    "symbols": "release_repaired",
+    "sha256": "6d6cb221e97b319b732b770df131de8f6c90e620ba0d191b60639e1fd0187479"
+  },
+  "development_and_control_driver": {
+    "file": "output/c0_seed_validation_20261016/common.py",
+    "symbols": "protected_dev; protect; controls",
+    "sha256": "bd484552351f804ff0df76342e5f7d106052151c1e691e6ddb848115ac16c1c2"
+  },
+  "m5_and_support_fit_driver": {
+    "file": "output/c0_seed_validation_20261016/gpu.py",
+    "symbols": "fit; m5; support",
+    "sha256": "af447bdfa10a2fb4b8aaf88ee134a4e4b0fed9f10e39a8ae4fca98769dadb008"
+  },
+  "m5_original_driver": {
+    "file": "output/c0_frozen_m5_20261014/run.py",
+    "symbols": "frozen M5 protocol",
+    "sha256": "1e7b640128607b9a2196bd34bf79df6210958f9848173d73c5ef99680d6a25f7"
+  },
+  "development_fit_driver": {
+    "file": "output/rr_recap_evidence_extension_20261002/train.py",
+    "symbols": "fit protocol",
+    "sha256": "496fd5c31ff4a971716adc2a7cedca3cf74472be31e8625d880ebb8844fcc5b3"
+  },
+  "development_registration": {
+    "file": "output/c0_seed_validation_20261016/register.py",
+    "symbols": "historical provenance checks",
+    "sha256": "542aa21e561b1296fa360585e66b59a004212ee9b4978430b08dbcb47cce0557"
+  }
+}

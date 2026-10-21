@@ -1,0 +1,74 @@
+{
+  "sha256": "064640bad75efe4e18cca0b12937654ab7c82acb2880401500309e95b56f7b0e",
+  "checkpoint_sha256": "130e8f3e5f6273e382dc71b3b2b38145e797b49921d150fb0affd1f9384edd25",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\Wiki2.csv": "6ccc3f01e05544b2e12f23910cc3f189fe996b50f46be90b3f5d24d6df77e8f4",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\Wiki2\\DLinear\\early\\2\\raw.npz": "5983379c1458c89ce5798b7b3c211d34709475f10eedbc0aa86a072429f7d876",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Wiki2\\DLinear\\early\\metadata.json": "0f225b91d29dba27586357ea5bd94200772ac8eb209bd6be26d4a61805f7dd2e",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\history\\Wiki2\\DLinear\\complete.json": "f2a95427b46f6a72c29724701acc8b6eb39cf0ac27f2baed79e8c6574354c28b",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\DLinear\\2\\0\\predictions.csv": "43027df2b585e1a12e621b2c845b3fe7eaaf8693bb18c38ddf583728268d13a5",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\DLinear\\2\\0\\run.json": "dc3a2b1ed006f9aa7c39a9baf37b5c393a09e464ba9e36a74afd36c326f23d4b",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\DLinear\\2\\72\\predictions.csv": "1c13cf3ab9ab27dae20650472a9e1b91d2d204ae965f2283258f84586fc1c8cd",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\DLinear\\2\\72\\run.json": "839269174e09e459b8d554bb3c8a58da0b1835bd0a59fb668222a73d2aa31ee8"
+  },
+  "seed": 2,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 1.8128933012485504,
+      "validation_mse": 135.6104736328125
+    },
+    {
+      "epoch": 2,
+      "train_mse": 1.696606993675232,
+      "validation_mse": 134.97124099731445
+    },
+    {
+      "epoch": 3,
+      "train_mse": 1.5328151881694794,
+      "validation_mse": 134.7614517211914
+    },
+    {
+      "epoch": 4,
+      "train_mse": 1.5765783488750458,
+      "validation_mse": 134.67681884765625
+    },
+    {
+      "epoch": 5,
+      "train_mse": 1.6351797878742218,
+      "validation_mse": 134.64716339111328
+    },
+    {
+      "epoch": 6,
+      "train_mse": 1.6126248836517334,
+      "validation_mse": 134.63584518432617
+    },
+    {
+      "epoch": 7,
+      "train_mse": 1.6025788187980652,
+      "validation_mse": 134.6304054260254
+    },
+    {
+      "epoch": 8,
+      "train_mse": 1.4790432155132294,
+      "validation_mse": 134.6275291442871
+    },
+    {
+      "epoch": 9,
+      "train_mse": 1.6422157287597656,
+      "validation_mse": 134.6261978149414
+    },
+    {
+      "epoch": 10,
+      "train_mse": 1.5477705299854279,
+      "validation_mse": 134.62553024291992
+    }
+  ],
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2016-07-04 00:00:00",
+  "first_score": "2016-08-10 00:00:00",
+  "seconds": 0.1464919000864029
+}

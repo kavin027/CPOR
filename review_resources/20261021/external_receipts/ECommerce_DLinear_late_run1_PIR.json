@@ -1,0 +1,14 @@
+{
+  "reused": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_external_sota_20261014\\results\\ECommerce\\DLinear\\late\\42\\PIR.npz",
+  "sha256": "2c990a74420fb2fa42bdf2cb2dd75227ef35556d8e5df30b0b7024f6d2e8936c",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\ECommerce.csv": "f26eb4e62923a534b1cda6f36d2e4fd4d656f2e1566c344d83caef88433aa23e",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\ECommerce\\DLinear\\late\\42\\raw.npz": "0d8ad5e7dff60b8a0bfdb2c20986e0d3a12496b8c16ad300c7a273ea9291216a",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\ECommerce\\DLinear\\late\\metadata.json": "2a91ecad7302d34815a4a0087a02c8602d9c7220d94af34963c71a2f4695c0b8",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\ECommerce\\DLinear\\late\\train.npz": "628aa9e2963214fec0e4028640e7e93e3caa95d885e2d874fca7ea33ca121cb6"
+  },
+  "seed": 42,
+  "train_count": 84,
+  "validation_count": 36,
+  "scored_count": 72
+}

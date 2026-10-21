@@ -1,0 +1,81 @@
+{
+  "complete": true,
+  "configurations": 22,
+  "experiments": 3,
+  "groups": 12,
+  "methods": 6,
+  "new_adapter_fits": 88,
+  "reused_adapter_results": 44,
+  "added_historical_support_fits": 8,
+  "scored_backbones_and_cpor_reused": true,
+  "primary_summary": {
+    "Ada-Y": {
+      "mean": 23.455671202810688,
+      "experiment_sd": 8.708367013915458,
+      "per_experiment": {
+        "1": 14.016386534238292,
+        "2": 25.173549929100503,
+        "42": 31.177077145093264
+      },
+      "positive_mean_groups": 12,
+      "all_three_positive": 12,
+      "external_vs_raw_mean": -0.639427844249801,
+      "external_vs_raw_positive": 6
+    },
+    "NNLS": {
+      "mean": 21.31787898309298,
+      "experiment_sd": 8.853014741801193,
+      "per_experiment": {
+        "1": 11.428451615380181,
+        "2": 24.020876856995084,
+        "42": 28.504308476903677
+      },
+      "positive_mean_groups": 12,
+      "all_three_positive": 12,
+      "external_vs_raw_mean": 2.0746746023684888,
+      "external_vs_raw_positive": 9
+    },
+    "PIR": {
+      "mean": 14.66313984219849,
+      "experiment_sd": 18.15653552237926,
+      "per_experiment": {
+        "1": -5.215227996793133,
+        "2": 18.83191205898819,
+        "42": 30.37273546440041
+      },
+      "positive_mean_groups": 9,
+      "all_three_positive": 5,
+      "external_vs_raw_mean": 7.99170532511929,
+      "external_vs_raw_positive": 8
+    },
+    "ProCAST": {
+      "mean": 28.474332368326582,
+      "experiment_sd": 7.487618949262283,
+      "per_experiment": {
+        "1": 20.25851599461964,
+        "2": 30.24992228476789,
+        "42": 34.9145588255922
+      },
+      "positive_mean_groups": 12,
+      "all_three_positive": 12,
+      "external_vs_raw_mean": -8.347521894713461,
+      "external_vs_raw_positive": 5
+    },
+    "Raw": {
+      "mean": 22.16841262941644,
+      "experiment_sd": 9.99871654737307,
+      "per_experiment": {
+        "1": 11.372772025760495,
+        "2": 24.021526940300543,
+        "42": 31.110938922188286
+      },
+      "positive_mean_groups": 12,
+      "all_three_positive": 12,
+      "external_vs_raw_mean": 0.0,
+      "external_vs_raw_positive": 0
+    }
+  },
+  "protocol": "Mean window RMSE within group, then mean over three experiments; gains paired within experiment before averaging.",
+  "original_paper_reproduction": false,
+  "parameter_search": false
+}

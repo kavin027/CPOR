@@ -1,0 +1,14 @@
+{
+  "reused": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_external_sota_20261014\\results\\Traffic\\PatchTST\\late\\42\\PIR.npz",
+  "sha256": "040ebac8c927ecc04a6f64a6acd5ee58fa7e4d0e428f5454ab5ea0259ec88d44",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\Traffic.csv": "7c9d48be1bc10e8ce23b87889468f0e043145cebd5f6fb153ac1e2033cd94077",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\Traffic\\PatchTST\\late\\42\\raw.npz": "c46089e5e89f4e44204b1ea8351235b6eb5b13f6c4c3335dd26f08888f308466",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Traffic\\PatchTST\\late\\metadata.json": "192a2286859d4fcf7e418173a1b578f1cf3e878da58684cfc8d471700fd5b74e",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Traffic\\PatchTST\\late\\train.npz": "91924793b23a4f8703741adac6b6610cadba3ca27fbb20f52c26e29be3646654"
+  },
+  "seed": 42,
+  "train_count": 180,
+  "validation_count": 36,
+  "scored_count": 72
+}

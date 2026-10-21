@@ -1,0 +1,38 @@
+{
+  "new_experiments": 0,
+  "configurations": 22,
+  "repetitions": 3,
+  "groups": 12,
+  "cpor_matches_tables5_and6": true,
+  "prior_relative_results_verified": true,
+  "summary": {
+    "ProtectedMLPol": {
+      "mean": 0.3948692581332985,
+      "experiment_sd": 0.05832870532097342,
+      "group_sd": 0.8150250169464793,
+      "mean_positive": 9,
+      "all_three_positive": 6
+    },
+    "ProtectedCalBest": {
+      "mean": 1.9632072289010971,
+      "experiment_sd": 0.20053096625124195,
+      "group_sd": 2.7596658679263566,
+      "mean_positive": 10,
+      "all_three_positive": 9
+    },
+    "SquareFull": {
+      "mean": 0.3575532490897617,
+      "experiment_sd": 0.03423951045737045,
+      "group_sd": 0.509557690391019,
+      "mean_positive": 10,
+      "all_three_positive": 8
+    },
+    "CovFullFix": {
+      "mean": 0.31918283123589214,
+      "experiment_sd": 0.07919899460102571,
+      "group_sd": 0.6312111964216413,
+      "mean_positive": 8,
+      "all_three_positive": 4
+    }
+  }
+}

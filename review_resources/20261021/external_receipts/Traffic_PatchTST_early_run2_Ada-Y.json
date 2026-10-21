@@ -1,0 +1,74 @@
+{
+  "sha256": "e2cf5f6372321438ae0de2806575355e7c583a3168aa236dcc5fd33e37b06005",
+  "checkpoint_sha256": "cbaaac5f8f8e6d5833998acc8ab7526a4651d9ae19a1382339fad9c7efc97e9f",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\Traffic.csv": "7c9d48be1bc10e8ce23b87889468f0e043145cebd5f6fb153ac1e2033cd94077",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\Traffic\\PatchTST\\early\\1\\raw.npz": "1dc555c0e62927dd349ff03aef95a7daa2fe2dae35a658a02faa6970144743c8",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Traffic\\PatchTST\\early\\metadata.json": "cc4f4b9a271be9a96a45071c6ae121bdf0b1c570eefc8ad410e0d78d9e346c7a",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\history\\Traffic\\PatchTST\\complete.json": "1ef3298ec4b192ba9c1d92a1059cb6bba308ae369d858f6ad4257ce362fb1bf9",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Traffic\\PatchTST\\1\\0\\predictions.csv": "99a6e23c9b430ebe783ec674b9ac6aa4654228459625fca875ff900d9fd4ffa1",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Traffic\\PatchTST\\1\\0\\run.json": "9c23ccc57a66cb01a4fcbbc8f6b7197e092e5acd31d4b6faed2f39422b4e1f36",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Traffic\\PatchTST\\1\\72\\predictions.csv": "6ff520c72b7b776e0ee677ae55269aafea2e464e5e84aef47f8f151d8639f61f",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Traffic\\PatchTST\\1\\72\\run.json": "01641d28240b4166f331bbd74c6ff6babb95bc739ebe0b72e7c1ac465004be88"
+  },
+  "seed": 1,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 0.4780604615807533,
+      "validation_mse": 0.17824485898017883
+    },
+    {
+      "epoch": 2,
+      "train_mse": 0.5150327458977699,
+      "validation_mse": 0.17701992392539978
+    },
+    {
+      "epoch": 3,
+      "train_mse": 0.48545024544000626,
+      "validation_mse": 0.17671320587396622
+    },
+    {
+      "epoch": 4,
+      "train_mse": 0.46757082641124725,
+      "validation_mse": 0.17656077444553375
+    },
+    {
+      "epoch": 5,
+      "train_mse": 0.47185248136520386,
+      "validation_mse": 0.17646685242652893
+    },
+    {
+      "epoch": 6,
+      "train_mse": 0.48765502125024796,
+      "validation_mse": 0.1764250472187996
+    },
+    {
+      "epoch": 7,
+      "train_mse": 0.4650906026363373,
+      "validation_mse": 0.17640899121761322
+    },
+    {
+      "epoch": 8,
+      "train_mse": 0.46339748054742813,
+      "validation_mse": 0.17639917135238647
+    },
+    {
+      "epoch": 9,
+      "train_mse": 0.46895065903663635,
+      "validation_mse": 0.17639509588479996
+    },
+    {
+      "epoch": 10,
+      "train_mse": 0.4826850965619087,
+      "validation_mse": 0.1763930395245552
+    }
+  ],
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2008-07-04 00:00:00",
+  "first_score": "2008-08-10 00:00:00",
+  "seconds": 0.2029678999679163
+}

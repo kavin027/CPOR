@@ -1,0 +1,48 @@
+{
+  "sha256": "59ca0775d293d1283fb5437684ea1f378296c52c9cf78f67b0304160ba52d7a6",
+  "checkpoint_sha256": "a14f0fd5d90dcd21dd8e6b6a383b972470604521c14f1d1f5950e9eb39040899",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\RH.csv": "b30dc8fb74c6309c67874bb8084bcfaecbe4e800b1129cb292507b6bf7f740bc",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\RH\\PatchTST\\early\\1\\raw.npz": "0605c26da2b08bcb3d74f6accd79313f44dc330b1414fbfd90ebb4980594fe82",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\RH\\PatchTST\\early\\metadata.json": "a068c89003ebce4744dcc9e52c0b82f2e53da77cb3c38e518468b23ee9b7b448",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\history\\RH\\PatchTST\\complete.json": "f7eb777275a034efc5a2c8ef7406b30692d28971e9b0653778820619d3b81687",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\RH\\PatchTST\\1\\0\\predictions.csv": "69f70d4370d59179d6b6594a651c0f12264514f189c2f92fe2a61259d18181cd",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\RH\\PatchTST\\1\\0\\run.json": "61b23ddcfe9e605ccd90329d24e034eaea932aa763f808135c37aeb6c9144a36",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\RH\\PatchTST\\1\\72\\predictions.csv": "d8932ac18deda7f342680384bf52299a3c573191c81e32e5c33bc5295e82d950",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\RH\\PatchTST\\1\\72\\run.json": "0d2ebb6d0aaab9b860308fafa8ede23da94b2bba0d7d411f4f2c0f832c7151d3"
+  },
+  "seed": 1,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 0.22115233168005943,
+      "quality_l1": 0.34251091070473194,
+      "validation_mse": 0.08401533961296082
+    },
+    {
+      "epoch": 2,
+      "train_mse": 0.20747518353164196,
+      "quality_l1": 0.36045359820127487,
+      "validation_mse": 0.08738875389099121
+    },
+    {
+      "epoch": 3,
+      "train_mse": 0.22026955895125866,
+      "quality_l1": 0.4137452933937311,
+      "validation_mse": 0.08937538415193558
+    },
+    {
+      "epoch": 4,
+      "train_mse": 0.27843847684562206,
+      "quality_l1": 0.4714963734149933,
+      "validation_mse": 0.09049880504608154
+    }
+  ],
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2023-07-04 00:00:00",
+  "first_score": "2023-08-10 00:00:00",
+  "seconds": 1.0531220000702888
+}

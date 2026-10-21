@@ -1,0 +1,68 @@
+{
+  "sha256": "8265cfb4ff31b256b580c4df06ef4e620120c7ee02ec41d3e31faa093292d494",
+  "checkpoint_sha256": "1d47c0acac37a10239a5d1ea937185d7f67437fc565ed4d06531bc690146429e",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_frozen_m5_20261014\\observed.csv": "8b32f4601b502212969c83dbe064ed6d5ad40e50bca25ed26f64f60b17a9e3ee",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\PatchTST\\late\\1\\raw.npz": "89a1cfcd972b7e62c64c0ed774c17a2fa37071d7fbb164fda8a1207c79bb0626"
+  },
+  "seed": 1,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 0.6434685662388802,
+      "validation_mse": 0.2772986516356468
+    },
+    {
+      "epoch": 2,
+      "train_mse": 0.5889960005879402,
+      "validation_mse": 0.2742053493857384
+    },
+    {
+      "epoch": 3,
+      "train_mse": 0.7549141347408295,
+      "validation_mse": 0.27377899736166
+    },
+    {
+      "epoch": 4,
+      "train_mse": 0.600278802216053,
+      "validation_mse": 0.2734403684735298
+    },
+    {
+      "epoch": 5,
+      "train_mse": 0.5772574320435524,
+      "validation_mse": 0.27322571724653244
+    },
+    {
+      "epoch": 6,
+      "train_mse": 0.5452264994382858,
+      "validation_mse": 0.2731367349624634
+    },
+    {
+      "epoch": 7,
+      "train_mse": 0.5423053354024887,
+      "validation_mse": 0.2730996608734131
+    },
+    {
+      "epoch": 8,
+      "train_mse": 0.5498393699526787,
+      "validation_mse": 0.2730775773525238
+    },
+    {
+      "epoch": 9,
+      "train_mse": 0.5938137769699097,
+      "validation_mse": 0.27307214587926865
+    },
+    {
+      "epoch": 10,
+      "train_mse": 0.5611705556511879,
+      "validation_mse": 0.27306994050741196
+    }
+  ],
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2016-02-04 00:00:00",
+  "first_score": "2016-03-12 00:00:00",
+  "seconds": 0.16137340001296252
+}

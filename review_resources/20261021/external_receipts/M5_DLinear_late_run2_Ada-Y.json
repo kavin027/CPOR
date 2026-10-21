@@ -1,0 +1,38 @@
+{
+  "sha256": "fe72b9157831b20d75d816f347f71240bf182ee81a3f55233ce3fbe0e5fe66ff",
+  "checkpoint_sha256": "a6352bbe2920dab891bb21af1011ea3a858fe3268baf9c830e1ebf19a325728e",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_frozen_m5_20261014\\observed.csv": "8b32f4601b502212969c83dbe064ed6d5ad40e50bca25ed26f64f60b17a9e3ee",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\DLinear\\late\\1\\raw.npz": "c4551999cb26c457a399f8451bd34a037de0af1722e964595ca9ee3d63aa452d"
+  },
+  "seed": 1,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 1.0920987278223038,
+      "validation_mse": 0.5815016478300095
+    },
+    {
+      "epoch": 2,
+      "train_mse": 1.0172066539525986,
+      "validation_mse": 0.5822559744119644
+    },
+    {
+      "epoch": 3,
+      "train_mse": 1.2789030522108078,
+      "validation_mse": 0.5829352289438248
+    },
+    {
+      "epoch": 4,
+      "train_mse": 1.0351735949516296,
+      "validation_mse": 0.5829529315233231
+    }
+  ],
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2016-02-04 00:00:00",
+  "first_score": "2016-03-12 00:00:00",
+  "seconds": 0.08402429998386651
+}

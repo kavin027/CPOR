@@ -1,0 +1,12 @@
+{
+  "reused": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_external_adapter_20261014\\results\\M5\\M5\\DLinear\\early\\42\\AdaYBatch.npz",
+  "sha256": "bf6986c8edf41d853134612da2cf7166ec53b5f76018e1275b2cadfcad60d96a",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_frozen_m5_20261014\\observed.csv": "8b32f4601b502212969c83dbe064ed6d5ad40e50bca25ed26f64f60b17a9e3ee",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_frozen_m5_20261014\\results\\DLinear\\early\\42\\raw.npz": "f7ea010b4b17d1d3340ef2c22137e4e8125e82442e92bfcd63446c07eac819f0"
+  },
+  "seed": 42,
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72
+}

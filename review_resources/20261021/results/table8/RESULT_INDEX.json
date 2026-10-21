@@ -1,0 +1,2642 @@
+[
+  {
+    "cell": 0,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\PatchTST\\early\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 0,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\PatchTST\\early\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 0,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\RH\\PatchTST\\early\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 0,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\RH\\PatchTST\\early\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 0,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\PatchTST\\early\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 0,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\PatchTST\\early\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 0,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\RH\\PatchTST\\early\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 0,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\RH\\PatchTST\\early\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 0,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\PatchTST\\early\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 0,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\PatchTST\\early\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 0,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\RH\\PatchTST\\early\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 0,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\RH\\PatchTST\\early\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 1,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\PatchTST\\late\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 1,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\PatchTST\\late\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 1,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\RH\\PatchTST\\late\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 1,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\RH\\PatchTST\\late\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 1,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\PatchTST\\late\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 1,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\PatchTST\\late\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 1,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\RH\\PatchTST\\late\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 1,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\RH\\PatchTST\\late\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 1,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\PatchTST\\late\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 1,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\PatchTST\\late\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 1,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\RH\\PatchTST\\late\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 1,
+    "dataset": "RH",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\RH\\PatchTST\\late\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 2,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\DLinear\\early\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 2,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\DLinear\\early\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 2,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\RH\\DLinear\\early\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 2,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\RH\\DLinear\\early\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 2,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\DLinear\\early\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 2,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\DLinear\\early\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 2,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\RH\\DLinear\\early\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 2,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\RH\\DLinear\\early\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 2,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\DLinear\\early\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 2,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\DLinear\\early\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 2,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\RH\\DLinear\\early\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 2,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\RH\\DLinear\\early\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 3,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\DLinear\\late\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 3,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\DLinear\\late\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 3,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\RH\\DLinear\\late\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 3,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\RH\\DLinear\\late\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 3,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\DLinear\\late\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 3,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\DLinear\\late\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 3,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\RH\\DLinear\\late\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 3,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\RH\\DLinear\\late\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 3,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\DLinear\\late\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 3,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\RH\\DLinear\\late\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 3,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\RH\\DLinear\\late\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 3,
+    "dataset": "RH",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\RH\\DLinear\\late\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 4,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\PatchTST\\early\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 4,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\PatchTST\\early\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 4,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\ECommerce\\PatchTST\\early\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 4,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\ECommerce\\PatchTST\\early\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 4,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\PatchTST\\early\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 4,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\PatchTST\\early\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 4,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\ECommerce\\PatchTST\\early\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 4,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\ECommerce\\PatchTST\\early\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 4,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\PatchTST\\early\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 4,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\PatchTST\\early\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 4,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\ECommerce\\PatchTST\\early\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 4,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\ECommerce\\PatchTST\\early\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 5,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\PatchTST\\late\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 5,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\PatchTST\\late\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 5,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\ECommerce\\PatchTST\\late\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 5,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\ECommerce\\PatchTST\\late\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 5,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\PatchTST\\late\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 5,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\PatchTST\\late\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 5,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\ECommerce\\PatchTST\\late\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 5,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\ECommerce\\PatchTST\\late\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 5,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\PatchTST\\late\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 5,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\PatchTST\\late\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 5,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\ECommerce\\PatchTST\\late\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 5,
+    "dataset": "ECommerce",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\ECommerce\\PatchTST\\late\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 6,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\DLinear\\early\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 6,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\DLinear\\early\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 6,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\ECommerce\\DLinear\\early\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 6,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\ECommerce\\DLinear\\early\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 6,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\DLinear\\early\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 6,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\DLinear\\early\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 6,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\ECommerce\\DLinear\\early\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 6,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\ECommerce\\DLinear\\early\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 6,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\DLinear\\early\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 6,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\DLinear\\early\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 6,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\ECommerce\\DLinear\\early\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 6,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\ECommerce\\DLinear\\early\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 7,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\DLinear\\late\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 7,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\DLinear\\late\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 7,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\ECommerce\\DLinear\\late\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 7,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\ECommerce\\DLinear\\late\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 7,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\DLinear\\late\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 7,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\DLinear\\late\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 7,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\ECommerce\\DLinear\\late\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 7,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\ECommerce\\DLinear\\late\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 7,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\DLinear\\late\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 7,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\ECommerce\\DLinear\\late\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 7,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\ECommerce\\DLinear\\late\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 7,
+    "dataset": "ECommerce",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\ECommerce\\DLinear\\late\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 8,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\PatchTST\\early\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 8,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\PatchTST\\early\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 8,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Traffic\\PatchTST\\early\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 8,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Traffic\\PatchTST\\early\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 8,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\PatchTST\\early\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 8,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\PatchTST\\early\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 8,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Traffic\\PatchTST\\early\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 8,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Traffic\\PatchTST\\early\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 8,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\PatchTST\\early\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 8,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\PatchTST\\early\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 8,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Traffic\\PatchTST\\early\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 8,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Traffic\\PatchTST\\early\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 9,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\PatchTST\\late\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 9,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\PatchTST\\late\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 9,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Traffic\\PatchTST\\late\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 9,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Traffic\\PatchTST\\late\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 9,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\PatchTST\\late\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 9,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\PatchTST\\late\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 9,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Traffic\\PatchTST\\late\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 9,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Traffic\\PatchTST\\late\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 9,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\PatchTST\\late\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 9,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\PatchTST\\late\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 9,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Traffic\\PatchTST\\late\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 9,
+    "dataset": "Traffic",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Traffic\\PatchTST\\late\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 10,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\DLinear\\early\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 10,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\DLinear\\early\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 10,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Traffic\\DLinear\\early\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 10,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Traffic\\DLinear\\early\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 10,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\DLinear\\early\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 10,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\DLinear\\early\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 10,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Traffic\\DLinear\\early\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 10,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Traffic\\DLinear\\early\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 10,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\DLinear\\early\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 10,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\DLinear\\early\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 10,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Traffic\\DLinear\\early\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 10,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Traffic\\DLinear\\early\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 11,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\DLinear\\late\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 11,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\DLinear\\late\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 11,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Traffic\\DLinear\\late\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 11,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Traffic\\DLinear\\late\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 11,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\DLinear\\late\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 11,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\DLinear\\late\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 11,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Traffic\\DLinear\\late\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 11,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Traffic\\DLinear\\late\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 11,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\DLinear\\late\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 11,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Traffic\\DLinear\\late\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 11,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Traffic\\DLinear\\late\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 11,
+    "dataset": "Traffic",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Traffic\\DLinear\\late\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 12,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\PatchTST\\early\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 12,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\PatchTST\\early\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 12,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Wiki2\\PatchTST\\early\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 12,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Wiki2\\PatchTST\\early\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 12,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\PatchTST\\early\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 12,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\PatchTST\\early\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 12,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Wiki2\\PatchTST\\early\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 12,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Wiki2\\PatchTST\\early\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 12,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\PatchTST\\early\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 12,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\PatchTST\\early\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 12,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Wiki2\\PatchTST\\early\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 12,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Wiki2\\PatchTST\\early\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 13,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\PatchTST\\late\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 13,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\PatchTST\\late\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 13,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Wiki2\\PatchTST\\late\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 13,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Wiki2\\PatchTST\\late\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 13,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\PatchTST\\late\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 13,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\PatchTST\\late\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 13,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Wiki2\\PatchTST\\late\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 13,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Wiki2\\PatchTST\\late\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 13,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\PatchTST\\late\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 13,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\PatchTST\\late\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 13,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Wiki2\\PatchTST\\late\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 13,
+    "dataset": "Wiki2",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Wiki2\\PatchTST\\late\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 14,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\DLinear\\early\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 14,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\DLinear\\early\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 14,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Wiki2\\DLinear\\early\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 14,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Wiki2\\DLinear\\early\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 14,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\DLinear\\early\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 14,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\DLinear\\early\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 14,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Wiki2\\DLinear\\early\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 14,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Wiki2\\DLinear\\early\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 14,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\DLinear\\early\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 14,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\DLinear\\early\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 14,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Wiki2\\DLinear\\early\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 14,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Wiki2\\DLinear\\early\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 15,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\DLinear\\late\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 15,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\DLinear\\late\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 15,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Wiki2\\DLinear\\late\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 15,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Wiki2\\DLinear\\late\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 15,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\DLinear\\late\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 15,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\DLinear\\late\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 15,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Wiki2\\DLinear\\late\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 15,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Wiki2\\DLinear\\late\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 15,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\DLinear\\late\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 15,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Wiki2\\DLinear\\late\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 15,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Wiki2\\DLinear\\late\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 15,
+    "dataset": "Wiki2",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Wiki2\\DLinear\\late\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 16,
+    "dataset": "Labour",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Labour\\PatchTST\\late\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 16,
+    "dataset": "Labour",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Labour\\PatchTST\\late\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 16,
+    "dataset": "Labour",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Labour\\PatchTST\\late\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 16,
+    "dataset": "Labour",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Labour\\PatchTST\\late\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 16,
+    "dataset": "Labour",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Labour\\PatchTST\\late\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 16,
+    "dataset": "Labour",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Labour\\PatchTST\\late\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 16,
+    "dataset": "Labour",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Labour\\PatchTST\\late\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 16,
+    "dataset": "Labour",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Labour\\PatchTST\\late\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 16,
+    "dataset": "Labour",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Labour\\PatchTST\\late\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 16,
+    "dataset": "Labour",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Labour\\PatchTST\\late\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 16,
+    "dataset": "Labour",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Labour\\PatchTST\\late\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 16,
+    "dataset": "Labour",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Labour\\PatchTST\\late\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 17,
+    "dataset": "Labour",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Labour\\DLinear\\late\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 17,
+    "dataset": "Labour",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Labour\\DLinear\\late\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 17,
+    "dataset": "Labour",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Labour\\DLinear\\late\\42\\RootDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 17,
+    "dataset": "Labour",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_matched_ablation_20261014\\results\\Labour\\DLinear\\late\\42\\SquareDirectional.npz",
+    "reused": true
+  },
+  {
+    "cell": 17,
+    "dataset": "Labour",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Labour\\DLinear\\late\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 17,
+    "dataset": "Labour",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Labour\\DLinear\\late\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 17,
+    "dataset": "Labour",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Labour\\DLinear\\late\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 17,
+    "dataset": "Labour",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Labour\\DLinear\\late\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 17,
+    "dataset": "Labour",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Labour\\DLinear\\late\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 17,
+    "dataset": "Labour",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\Labour\\DLinear\\late\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 17,
+    "dataset": "Labour",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Labour\\DLinear\\late\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 17,
+    "dataset": "Labour",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\Labour\\DLinear\\late\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 18,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\PatchTST\\early\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 18,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\PatchTST\\early\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 18,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\PatchTST\\early\\42\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 18,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\PatchTST\\early\\42\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 18,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\PatchTST\\early\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 18,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\PatchTST\\early\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 18,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\PatchTST\\early\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 18,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\PatchTST\\early\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 18,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\PatchTST\\early\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 18,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\PatchTST\\early\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 18,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\PatchTST\\early\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 18,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\PatchTST\\early\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 19,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\PatchTST\\late\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 19,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\PatchTST\\late\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 19,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\PatchTST\\late\\42\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 19,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\PatchTST\\late\\42\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 19,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\PatchTST\\late\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 19,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\PatchTST\\late\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 19,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\PatchTST\\late\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 19,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\PatchTST\\late\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 19,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\PatchTST\\late\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 19,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\PatchTST\\late\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 19,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\PatchTST\\late\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 19,
+    "dataset": "M5",
+    "backbone": "PatchTST",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\PatchTST\\late\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 20,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\DLinear\\early\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 20,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\DLinear\\early\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 20,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\DLinear\\early\\42\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 20,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\DLinear\\early\\42\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 20,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\DLinear\\early\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 20,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\DLinear\\early\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 20,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\DLinear\\early\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 20,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\DLinear\\early\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 20,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\DLinear\\early\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 20,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\DLinear\\early\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 20,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\DLinear\\early\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 20,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "early",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\DLinear\\early\\2\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 21,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\DLinear\\late\\42\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 21,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\DLinear\\late\\42\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 21,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\DLinear\\late\\42\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 21,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 42,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\DLinear\\late\\42\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 21,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\DLinear\\late\\1\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 21,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\DLinear\\late\\1\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 21,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\DLinear\\late\\1\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 21,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 1,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\DLinear\\late\\1\\SquareDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 21,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\DLinear\\late\\2\\C0.npz",
+    "reused": true
+  },
+  {
+    "cell": 21,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareFull",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\DLinear\\late\\2\\SquareFull.npz",
+    "reused": true
+  },
+  {
+    "cell": 21,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "RootDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\DLinear\\late\\2\\RootDirectional.npz",
+    "reused": false
+  },
+  {
+    "cell": 21,
+    "dataset": "M5",
+    "backbone": "DLinear",
+    "window": "late",
+    "seed": 2,
+    "arm": "SquareDirectional",
+    "path": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_ablation_completion_20261020\\results\\M5\\DLinear\\late\\2\\SquareDirectional.npz",
+    "reused": false
+  }
+]

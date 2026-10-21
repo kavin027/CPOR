@@ -1,0 +1,85 @@
+{
+  "sha256": "45dc17ef9933c82d1938e7d899f7b4bbb1934d1d6ae8ae0de9a223d2a87088a2",
+  "checkpoint_sha256": "5c9e23a0ef99b3e3f7c97450190c6d5391b0d636b24a05bea48d56801f14dffb",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\Wiki2.csv": "6ccc3f01e05544b2e12f23910cc3f189fe996b50f46be90b3f5d24d6df77e8f4",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\Wiki2\\DLinear\\late\\1\\raw.npz": "e713d24f688d7dc63720cf36b656719b8025e41697f74080f05fd0570899d6b6",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Wiki2\\DLinear\\late\\metadata.json": "bc260805718e5ed892209d5b84485a7aa10bcebd3f075b9acf9341e04f82bb8b",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\history\\Wiki2\\DLinear\\complete.json": "f2a95427b46f6a72c29724701acc8b6eb39cf0ac27f2baed79e8c6574354c28b",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\DLinear\\1\\0\\predictions.csv": "f80661a62ca95680f43d9e9f94d2d454ec56b71ae325649d52d580bdd8bcdc08",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\DLinear\\1\\0\\run.json": "d22d42dee214f15163cd4dbe817b4d71f97808daa1d9f8bf13f91ba1a799f191",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\DLinear\\1\\72\\predictions.csv": "c7bedee20358188b0c6f6c35c55470e8c3263f35a848ee6781d4e7d7b3ae048a",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\DLinear\\1\\72\\run.json": "dfdaec848034684eabda59acd981e11b03de2a19d648ca0a7f15a609ff8b8c65",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\Wiki2\\DLinear\\early\\1\\raw.npz": "9fb6ca1fcdcc824737135fdedd3aa2cb41806328ab6988bf857e3266a90e3806"
+  },
+  "seed": 1,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 1.1073041061560314,
+      "quality_l1": 1.1416377822558086,
+      "validation_mse": 8.187347531318665
+    },
+    {
+      "epoch": 2,
+      "train_mse": 1.0507245759169261,
+      "quality_l1": 1.1643228630224864,
+      "validation_mse": 7.85203093290329
+    },
+    {
+      "epoch": 3,
+      "train_mse": 1.0063532690207164,
+      "quality_l1": 1.1534821291764576,
+      "validation_mse": 7.7698498368263245
+    },
+    {
+      "epoch": 4,
+      "train_mse": 0.9962792992591858,
+      "quality_l1": 1.1565226415793102,
+      "validation_mse": 7.746557116508484
+    },
+    {
+      "epoch": 5,
+      "train_mse": 0.9822080234686533,
+      "quality_l1": 1.1460922161738079,
+      "validation_mse": 7.738245844841003
+    },
+    {
+      "epoch": 6,
+      "train_mse": 0.975188801685969,
+      "quality_l1": 1.139446496963501,
+      "validation_mse": 7.733142375946045
+    },
+    {
+      "epoch": 7,
+      "train_mse": 1.002153108517329,
+      "quality_l1": 1.1471904516220093,
+      "validation_mse": 7.7329718470573425
+    },
+    {
+      "epoch": 8,
+      "train_mse": 0.9769707123438517,
+      "quality_l1": 1.1409676472345989,
+      "validation_mse": 7.731607615947723
+    },
+    {
+      "epoch": 9,
+      "train_mse": 0.967023770014445,
+      "quality_l1": 1.140280544757843,
+      "validation_mse": 7.730979144573212
+    },
+    {
+      "epoch": 10,
+      "train_mse": 0.9732341368993124,
+      "quality_l1": 1.1353878875573475,
+      "validation_mse": 7.7308215498924255
+    }
+  ],
+  "train_count": 180,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2016-09-14 00:00:00",
+  "first_score": "2016-10-21 00:00:00",
+  "seconds": 0.8722249999409541
+}

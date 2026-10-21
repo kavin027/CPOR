@@ -1,0 +1,76 @@
+{
+  "sha256": "ca61e0fb356e7423add2ecda7df7c7924e24165bb710120ee48c039d4950732f",
+  "checkpoint_sha256": "d7da75345eae261d6a2b8c0fd95d7a97f8f12764b1978874ddb09c5ad8eb6e76",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\major_revision_20261002\\external\\data\\Labour.csv": "774ddf54ea0702496c7fb4ff74b649495740516f6dca4590bd1cc685e3da0d8e",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\major_revision_20261002\\external\\forecasts\\Labour\\DLinear\\late\\2\\raw.npz": "512dbdf353a705e49fb8ab74ef288fe849a8ff9dd51929ff940334eb3db88560",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Labour\\DLinear\\late\\metadata.json": "19a368704151e118c255a9bf40657ced2b3b477c07196cd12cd40cdc2b6c71cb",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\history\\Labour\\DLinear\\complete.json": "474e84c04489f5649d83b35ac6c6bfb15947fc3eabfc00e403f3339676222c70",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_external_repetitions_20261020\\historical_support\\Labour\\DLinear\\2\\0\\predictions.csv": "fee93433f99d2697e1faf370aea8271da95f5d671f72b47926c5adb2e2a5b409",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_external_repetitions_20261020\\historical_support\\Labour\\DLinear\\2\\0\\run.json": "d70d3bce76d7c57c4158fd476e5666a90d2f479a9eeac72889ad78c136f1cabd",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_external_repetitions_20261020\\historical_support\\Labour\\DLinear\\2\\72\\predictions.csv": "b5c90686dce68ce6560cc94bad2a141526e0893c451bf7129df1eadef381a9a1",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_external_repetitions_20261020\\historical_support\\Labour\\DLinear\\2\\72\\run.json": "e00fd884efc1fb310d68cbe1675f2de0cf69d69ae3bf887ef20d0781b7ab12d1",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Labour\\DLinear\\2\\144\\predictions.csv": "36a5c11570e48820fceaf7cf5b6bf1afcafb4f163a4b4b3cedd4aea07f4ccab8",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Labour\\DLinear\\2\\144\\run.json": "b073b1c2485e7980f65d4e65079394fb586d49eeb7a9317fca0c22aa494232d2"
+  },
+  "seed": 2,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 4.707658903939383,
+      "validation_mse": 7.432857513427734
+    },
+    {
+      "epoch": 2,
+      "train_mse": 4.056380578449795,
+      "validation_mse": 7.118649005889893
+    },
+    {
+      "epoch": 3,
+      "train_mse": 3.9055324622562955,
+      "validation_mse": 7.027925729751587
+    },
+    {
+      "epoch": 4,
+      "train_mse": 3.8224514552525113,
+      "validation_mse": 6.989204168319702
+    },
+    {
+      "epoch": 5,
+      "train_mse": 3.8096912928989957,
+      "validation_mse": 6.97223162651062
+    },
+    {
+      "epoch": 6,
+      "train_mse": 3.8000991685049876,
+      "validation_mse": 6.964204788208008
+    },
+    {
+      "epoch": 7,
+      "train_mse": 3.791240317480905,
+      "validation_mse": 6.960247039794922
+    },
+    {
+      "epoch": 8,
+      "train_mse": 3.78645988873073,
+      "validation_mse": 6.958266019821167
+    },
+    {
+      "epoch": 9,
+      "train_mse": 3.835369280406407,
+      "validation_mse": 6.957311391830444
+    },
+    {
+      "epoch": 10,
+      "train_mse": 3.809875556400844,
+      "validation_mse": 6.95682168006897
+    }
+  ],
+  "train_count": 216,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2011-11-01 00:00:00",
+  "first_score": "2014-12-01 00:00:00",
+  "seconds": 0.2266865000128746
+}

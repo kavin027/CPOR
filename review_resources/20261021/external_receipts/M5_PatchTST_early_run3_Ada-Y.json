@@ -1,0 +1,68 @@
+{
+  "sha256": "eca5cebce7aa1695e6a9a023fad95734ad716359524db09924e2f9abfac3243f",
+  "checkpoint_sha256": "b72f0dfb21718322d6f79e5f0a2165f25d3cb6dede78e30f9017c9234a815d31",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_frozen_m5_20261014\\observed.csv": "8b32f4601b502212969c83dbe064ed6d5ad40e50bca25ed26f64f60b17a9e3ee",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\PatchTST\\early\\2\\raw.npz": "8cea608e1f965fa3effc0ef0cd61799d689c292e03791d97867d9e7757d6f5a8"
+  },
+  "seed": 2,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 0.28046561405062675,
+      "validation_mse": 0.7281921654939651
+    },
+    {
+      "epoch": 2,
+      "train_mse": 0.27492107450962067,
+      "validation_mse": 0.7253934890031815
+    },
+    {
+      "epoch": 3,
+      "train_mse": 0.27341270446777344,
+      "validation_mse": 0.724725678563118
+    },
+    {
+      "epoch": 4,
+      "train_mse": 0.2740247882902622,
+      "validation_mse": 0.7244042456150055
+    },
+    {
+      "epoch": 5,
+      "train_mse": 0.26967647299170494,
+      "validation_mse": 0.7239813655614853
+    },
+    {
+      "epoch": 6,
+      "train_mse": 0.272738017141819,
+      "validation_mse": 0.723932221531868
+    },
+    {
+      "epoch": 7,
+      "train_mse": 0.2633944861590862,
+      "validation_mse": 0.7238925844430923
+    },
+    {
+      "epoch": 8,
+      "train_mse": 0.26516715064644814,
+      "validation_mse": 0.7238748669624329
+    },
+    {
+      "epoch": 9,
+      "train_mse": 0.27141622453927994,
+      "validation_mse": 0.7238664031028748
+    },
+    {
+      "epoch": 10,
+      "train_mse": 0.2558117061853409,
+      "validation_mse": 0.7238632291555405
+    }
+  ],
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2015-11-24 00:00:00",
+  "first_score": "2015-12-31 00:00:00",
+  "seconds": 0.15143940004054457
+}

@@ -1,0 +1,68 @@
+{
+  "sha256": "311db4377fa6a6021392e99695d6160ae6944b4bc55b5047e523b6728ab70a6c",
+  "checkpoint_sha256": "30eaa3ad8eb3291222360cb24f4521a923ad29397ca464122e0725091451e19e",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_frozen_m5_20261014\\observed.csv": "8b32f4601b502212969c83dbe064ed6d5ad40e50bca25ed26f64f60b17a9e3ee",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\DLinear\\late\\2\\raw.npz": "ac4924ef57226b7e5432997f8b7af4f7bd9b8d9068dedaa831bf2ba09deacd43"
+  },
+  "seed": 2,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 2.523844838142395,
+      "validation_mse": 2.53791606426239
+    },
+    {
+      "epoch": 2,
+      "train_mse": 2.212596207857132,
+      "validation_mse": 2.3971877098083496
+    },
+    {
+      "epoch": 3,
+      "train_mse": 2.0604322850704193,
+      "validation_mse": 2.3565229177474976
+    },
+    {
+      "epoch": 4,
+      "train_mse": 2.2193782329559326,
+      "validation_mse": 2.341283440589905
+    },
+    {
+      "epoch": 5,
+      "train_mse": 2.0594202280044556,
+      "validation_mse": 2.3346816301345825
+    },
+    {
+      "epoch": 6,
+      "train_mse": 2.113026738166809,
+      "validation_mse": 2.331620693206787
+    },
+    {
+      "epoch": 7,
+      "train_mse": 2.2166804671287537,
+      "validation_mse": 2.330146312713623
+    },
+    {
+      "epoch": 8,
+      "train_mse": 2.1391072869300842,
+      "validation_mse": 2.329411745071411
+    },
+    {
+      "epoch": 9,
+      "train_mse": 2.188207596540451,
+      "validation_mse": 2.3290616273880005
+    },
+    {
+      "epoch": 10,
+      "train_mse": 2.1189490258693695,
+      "validation_mse": 2.3288861513137817
+    }
+  ],
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2016-02-04 00:00:00",
+  "first_score": "2016-03-12 00:00:00",
+  "seconds": 0.15574439999181777
+}

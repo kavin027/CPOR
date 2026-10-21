@@ -1,0 +1,14 @@
+{
+  "reused": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_external_adapter_20261014\\results\\original\\RH\\DLinear\\early\\42\\AdaYBatch.npz",
+  "sha256": "d6b4fc8b3c6d07b2dd8cbb562a35afffc4690fec5a848b8b00a57ca19e83034d",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\RH.csv": "b30dc8fb74c6309c67874bb8084bcfaecbe4e800b1129cb292507b6bf7f740bc",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\RH\\DLinear\\early\\42\\raw.npz": "56f8a582c9a563eaaa8cc7b69c39c0124250a4456be621f9c0496784b3778547",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\RH\\DLinear\\early\\metadata.json": "87cdc389f70cba838f2dab197cd44177d1778662fba841c810099b9a732d03c9",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\RH\\DLinear\\early\\train.npz": "9fa09b312adf41690ffa33ee0b94813ac226fa02089c98d76ade5155ec2ea238"
+  },
+  "seed": 42,
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72
+}

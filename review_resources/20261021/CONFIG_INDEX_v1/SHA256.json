@@ -1,0 +1,23 @@
+{
+  "archive_input_hashes.json": "09c669d4890ecd92607edc7f4225d25084f20e9463da8b34f0f1fa035cd9863e",
+  "configurations.csv": "d34115ab607829b3a2a29db58b10dd91c1317a21ce188995349797735473c084",
+  "fitting_stages.csv": "78d133bd28d196f50eb62b01cda85868a323cb0f0a1443ea5221a836070f4e0d",
+  "INDEX_STATUS.json": "64a753d56c67678fbeac80822319333eadaf802531c3927294af138a43a43102",
+  "README.txt": "08311dbfb8bb973de7438fd911d12c30d8c6cbced294a92de26df2f7ce02b4b9",
+  "source_index.json": "313286230410a5a024099043ddb97c208eec96f1ad47e5be73caa904b46e4fe8",
+  "source/output/c0_frozen_m5_20261014/run.py": "1e7b640128607b9a2196bd34bf79df6210958f9848173d73c5ef99680d6a25f7",
+  "source/output/c0_matched_ablation_20261014/square_learning.py": "085b79629ddd2b9976d8328142f7d7175b8a8c85f4c39b28a1dc4cc44bba5564",
+  "source/output/c0_seed_validation_20261016/common.py": "bd484552351f804ff0df76342e5f7d106052151c1e691e6ddb848115ac16c1c2",
+  "source/output/c0_seed_validation_20261016/gpu.py": "af447bdfa10a2fb4b8aaf88ee134a4e4b0fed9f10e39a8ae4fca98769dadb008",
+  "source/output/c0_seed_validation_20261016/register.py": "542aa21e561b1296fa360585e66b59a004212ee9b4978430b08dbcb47cce0557",
+  "source/output/coupled_publication_learning_20261012/run_experiment.py": "f68d00ce71136c7a6c2c0c35a2608a2639d1d1444935ed41497d03ef31987faf",
+  "source/output/paired_root_actual_credit_20261013/numerical_v2/conic_learning.py": "d89d825f7a3400b5120b2891a4953a721dd33d6d8d9b46d15c7b461f7c0e7e98",
+  "source/output/paired_root_actual_credit_20261013/numerical_v2/run.py": "4b030ce5d8f0405bd31023073309c2b3f5562dafa65b06320e1f54fd080e9a4e",
+  "source/output/rr_recap_error_dependence_20261003/method.py": "9c610d55ca9564f504c7868c9462fe59bc6cdf128d3ba800cc843b1643e6efe5",
+  "source/output/rr_recap_evidence_extension_20261002/engine.py": "5a3fb0da4414718338ff1c06791d2a1ac767d953135143dec588386e12defddb",
+  "source/output/rr_recap_evidence_extension_20261002/frozen_core.py": "ee7c9a03a363903bac461f1ebb796de6656007eddb7f5081fd4874e2298f4007",
+  "source/output/rr_recap_evidence_extension_20261002/train.py": "496fd5c31ff4a971716adc2a7cedca3cf74472be31e8625d880ebb8844fcc5b3",
+  "source/output/rr_recap_pooling_20261003/precision_release.py": "6d6cb221e97b319b732b770df131de8f6c90e620ba0d191b60639e1fd0187479",
+  "source/output/rr_recap_release_learning_20261002/strict_solver.py": "aac10447e2cf7fdfeaa6e5dbc10427cd4b8993fe287c6fdf0912a4c626cbd96f",
+  "source/output/rr_recap_robust_repair_20261002/guard_v8.py": "fb68a8c59eebc4d49fadc6841604b2885b29f7ec62c0af34c3bfa9a4a8712b51"
+}

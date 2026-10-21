@@ -1,0 +1,58 @@
+{
+  "sha256": "7310e0833aa06211a0e2efec92422e2d9c8d67576588132458199068722c6d9e",
+  "checkpoint_sha256": "fa4c591db146de445f9cf82ff724f4ee0b6f29a7cd351454a8976bb4198e9a88",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_frozen_m5_20261014\\observed.csv": "8b32f4601b502212969c83dbe064ed6d5ad40e50bca25ed26f64f60b17a9e3ee",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\PatchTST\\early\\1\\raw.npz": "b63c9915c619b47701f21ab3b06529b73bcd42eddee68c4e22d99c3f65dc2587"
+  },
+  "seed": 1,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 0.2752767391502857,
+      "validation_mse": 0.7325432151556015
+    },
+    {
+      "epoch": 2,
+      "train_mse": 0.2768903523683548,
+      "validation_mse": 0.729284018278122
+    },
+    {
+      "epoch": 3,
+      "train_mse": 0.2796814329922199,
+      "validation_mse": 0.7283856421709061
+    },
+    {
+      "epoch": 4,
+      "train_mse": 0.26440542936325073,
+      "validation_mse": 0.7278597205877304
+    },
+    {
+      "epoch": 5,
+      "train_mse": 0.2698872983455658,
+      "validation_mse": 0.7276723086833954
+    },
+    {
+      "epoch": 6,
+      "train_mse": 0.2517370358109474,
+      "validation_mse": 0.727775827050209
+    },
+    {
+      "epoch": 7,
+      "train_mse": 0.26640890166163445,
+      "validation_mse": 0.7278163731098175
+    },
+    {
+      "epoch": 8,
+      "train_mse": 0.260911013931036,
+      "validation_mse": 0.727841928601265
+    }
+  ],
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2015-11-24 00:00:00",
+  "first_score": "2015-12-31 00:00:00",
+  "seconds": 0.12120219995267689
+}

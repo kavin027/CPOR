@@ -1,0 +1,14 @@
+{
+  "reused": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_external_sota_20261014\\results\\Labour\\PatchTST\\late\\42\\PIR.npz",
+  "sha256": "b03e1a67bb8c78ec729b7e91a2259fc099422a0f67f688f28506f9f4cce7d626",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\major_revision_20261002\\external\\data\\Labour.csv": "774ddf54ea0702496c7fb4ff74b649495740516f6dca4590bd1cc685e3da0d8e",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\major_revision_20261002\\external\\forecasts\\Labour\\PatchTST\\late\\42\\raw.npz": "62c0eab14153aece81151354f56209d8d71e5c1e97d5d3b5461fcd34aaddae61",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Labour\\PatchTST\\late\\metadata.json": "c033061538959a3482c6a578f73ae4a85e26536b06ffb817e649a64cc37366ee",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Labour\\PatchTST\\late\\train.npz": "e0d179f2282e5da0fd8a8e80bd2ae54a76fc1c5a1fd7b0514f3b7fedf7ce9989"
+  },
+  "seed": 42,
+  "train_count": 216,
+  "validation_count": 36,
+  "scored_count": 72
+}

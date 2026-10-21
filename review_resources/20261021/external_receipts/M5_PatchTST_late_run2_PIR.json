@@ -1,0 +1,78 @@
+{
+  "sha256": "fce363344cdf01ca0734343ad3d8b0b80e54a08f29798492da5d183462c5e890",
+  "checkpoint_sha256": "901a9eb1f9ab9f5c13238d4269091c80128df6ddf6ff6123a9b4f84c1bc61d80",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_frozen_m5_20261014\\observed.csv": "8b32f4601b502212969c83dbe064ed6d5ad40e50bca25ed26f64f60b17a9e3ee",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\results\\M5\\PatchTST\\late\\1\\raw.npz": "89a1cfcd972b7e62c64c0ed774c17a2fa37071d7fbb164fda8a1207c79bb0626"
+  },
+  "seed": 1,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 0.7840784192085266,
+      "quality_l1": 0.7450704947113991,
+      "validation_mse": 0.2627749741077423
+    },
+    {
+      "epoch": 2,
+      "train_mse": 0.5229137018322945,
+      "quality_l1": 0.5334339663386345,
+      "validation_mse": 0.25057975947856903
+    },
+    {
+      "epoch": 3,
+      "train_mse": 0.5244968011975288,
+      "quality_l1": 0.5426249504089355,
+      "validation_mse": 0.24844884127378464
+    },
+    {
+      "epoch": 4,
+      "train_mse": 0.5162813887000084,
+      "quality_l1": 0.5318201258778572,
+      "validation_mse": 0.24781616777181625
+    },
+    {
+      "epoch": 5,
+      "train_mse": 0.5282460227608681,
+      "quality_l1": 0.5422091856598854,
+      "validation_mse": 0.2475993111729622
+    },
+    {
+      "epoch": 6,
+      "train_mse": 0.5765669420361519,
+      "quality_l1": 0.5990833267569542,
+      "validation_mse": 0.2474798634648323
+    },
+    {
+      "epoch": 7,
+      "train_mse": 0.5212467536330223,
+      "quality_l1": 0.530668742954731,
+      "validation_mse": 0.24745821207761765
+    },
+    {
+      "epoch": 8,
+      "train_mse": 0.5137267783284187,
+      "quality_l1": 0.5288306325674057,
+      "validation_mse": 0.2474391683936119
+    },
+    {
+      "epoch": 9,
+      "train_mse": 0.7608609944581985,
+      "quality_l1": 0.74461829662323,
+      "validation_mse": 0.24743575602769852
+    },
+    {
+      "epoch": 10,
+      "train_mse": 0.553610198199749,
+      "quality_l1": 0.5756783187389374,
+      "validation_mse": 0.2474333941936493
+    }
+  ],
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2016-02-04 00:00:00",
+  "first_score": "2016-03-12 00:00:00",
+  "seconds": 0.7071811999194324
+}

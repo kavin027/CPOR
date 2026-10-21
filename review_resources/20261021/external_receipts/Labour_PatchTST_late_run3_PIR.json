@@ -1,0 +1,86 @@
+{
+  "sha256": "77b9df4d29dbed0a72827cce596c23c29271f8a328a81fa790dcdec15c3d94b5",
+  "checkpoint_sha256": "bc9a7bc87c4fb3ff88c196bdb34250a03939b8d793570b0ff39bafad10d6edc1",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\major_revision_20261002\\external\\data\\Labour.csv": "774ddf54ea0702496c7fb4ff74b649495740516f6dca4590bd1cc685e3da0d8e",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\major_revision_20261002\\external\\forecasts\\Labour\\PatchTST\\late\\2\\raw.npz": "d76dc4a2e354961c4aa69dd48cd7ddebcf4d9abaf157ea63f0beb4dd56aa6886",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Labour\\PatchTST\\late\\metadata.json": "c033061538959a3482c6a578f73ae4a85e26536b06ffb817e649a64cc37366ee",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\history\\Labour\\PatchTST\\complete.json": "9ffe11cb88bfebdf769b061dd1a6a5c29c199daa9caef421d465319dc1305ac0",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_external_repetitions_20261020\\historical_support\\Labour\\PatchTST\\2\\0\\predictions.csv": "b090af65d7f9315c1182bc6cb7b1d5af5af613e43c56b5f407415ade2ee4cd36",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_external_repetitions_20261020\\historical_support\\Labour\\PatchTST\\2\\0\\run.json": "e299c985eba2c2081eaf77dce3ce3d46765da1a334bd046d5dbd73da08d2e3e9",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_external_repetitions_20261020\\historical_support\\Labour\\PatchTST\\2\\72\\predictions.csv": "b7cc53b5a6d52a1d02bfe93135b77d5935af9830fc2534acc5baf6776b18fc0c",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_external_repetitions_20261020\\historical_support\\Labour\\PatchTST\\2\\72\\run.json": "8d5f76e04bed75b668bbb277a9e01a60ec43985ce90e37a991947d03ed7f9302",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Labour\\PatchTST\\2\\144\\predictions.csv": "75799678692db7da48738c3904983c08d6f8113651fe76bdb363e14b99d42365",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Labour\\PatchTST\\2\\144\\run.json": "d4a709b3ddce99709a7cae364f22445ba6f2431d495060233b8931c7441bc298"
+  },
+  "seed": 2,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 0.055394462176731656,
+      "quality_l1": 0.13160011810915812,
+      "validation_mse": 0.07214583642780781
+    },
+    {
+      "epoch": 2,
+      "train_mse": 0.047607772052288055,
+      "quality_l1": 0.05695121682115963,
+      "validation_mse": 0.06375626102089882
+    },
+    {
+      "epoch": 3,
+      "train_mse": 0.0442592916744096,
+      "quality_l1": 0.056244643671172004,
+      "validation_mse": 0.06004275009036064
+    },
+    {
+      "epoch": 4,
+      "train_mse": 0.0423035802585738,
+      "quality_l1": 0.055910397853170125,
+      "validation_mse": 0.058221908286213875
+    },
+    {
+      "epoch": 5,
+      "train_mse": 0.04156359285116196,
+      "quality_l1": 0.05610224711043494,
+      "validation_mse": 0.0573225412517786
+    },
+    {
+      "epoch": 6,
+      "train_mse": 0.041060869715043476,
+      "quality_l1": 0.056428278131144385,
+      "validation_mse": 0.05687479302287102
+    },
+    {
+      "epoch": 7,
+      "train_mse": 0.040957803172724586,
+      "quality_l1": 0.056047060659953525,
+      "validation_mse": 0.05664718151092529
+    },
+    {
+      "epoch": 8,
+      "train_mse": 0.04045390869889941,
+      "quality_l1": 0.05558544131261962,
+      "validation_mse": 0.05653270520269871
+    },
+    {
+      "epoch": 9,
+      "train_mse": 0.04092419014445373,
+      "quality_l1": 0.05622951367071697,
+      "validation_mse": 0.05647601559758186
+    },
+    {
+      "epoch": 10,
+      "train_mse": 0.04040022087948663,
+      "quality_l1": 0.055697468242474964,
+      "validation_mse": 0.05644681677222252
+    }
+  ],
+  "train_count": 216,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2011-11-01 00:00:00",
+  "first_score": "2014-12-01 00:00:00",
+  "seconds": 1.1107947999844328
+}

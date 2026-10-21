@@ -1,0 +1,84 @@
+{
+  "sha256": "cbebd2111c06c9b9dd4781b7502dd53b70c5e3688326ceb09981ac1891cdadb3",
+  "checkpoint_sha256": "4e64435ca3050473638d9db9dc5dff0c0f20af2fb74b5b8c756b0bd26234da42",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\Wiki2.csv": "6ccc3f01e05544b2e12f23910cc3f189fe996b50f46be90b3f5d24d6df77e8f4",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\Wiki2\\DLinear\\early\\2\\raw.npz": "5983379c1458c89ce5798b7b3c211d34709475f10eedbc0aa86a072429f7d876",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Wiki2\\DLinear\\early\\metadata.json": "0f225b91d29dba27586357ea5bd94200772ac8eb209bd6be26d4a61805f7dd2e",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\history\\Wiki2\\DLinear\\complete.json": "f2a95427b46f6a72c29724701acc8b6eb39cf0ac27f2baed79e8c6574354c28b",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\DLinear\\2\\0\\predictions.csv": "43027df2b585e1a12e621b2c845b3fe7eaaf8693bb18c38ddf583728268d13a5",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\DLinear\\2\\0\\run.json": "dc3a2b1ed006f9aa7c39a9baf37b5c393a09e464ba9e36a74afd36c326f23d4b",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\DLinear\\2\\72\\predictions.csv": "1c13cf3ab9ab27dae20650472a9e1b91d2d204ae965f2283258f84586fc1c8cd",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\DLinear\\2\\72\\run.json": "839269174e09e459b8d554bb3c8a58da0b1835bd0a59fb668222a73d2aa31ee8"
+  },
+  "seed": 2,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 2.6477293968200684,
+      "quality_l1": 1.6877218782901764,
+      "validation_mse": 100.8397331237793
+    },
+    {
+      "epoch": 2,
+      "train_mse": 2.36180916428566,
+      "quality_l1": 1.7950865924358368,
+      "validation_mse": 96.00184059143066
+    },
+    {
+      "epoch": 3,
+      "train_mse": 2.1699282228946686,
+      "quality_l1": 1.7389368414878845,
+      "validation_mse": 95.92252349853516
+    },
+    {
+      "epoch": 4,
+      "train_mse": 2.02439945936203,
+      "quality_l1": 1.6368560492992401,
+      "validation_mse": 95.71012878417969
+    },
+    {
+      "epoch": 5,
+      "train_mse": 2.0515716075897217,
+      "quality_l1": 1.7464492619037628,
+      "validation_mse": 95.38948059082031
+    },
+    {
+      "epoch": 6,
+      "train_mse": 1.9913226664066315,
+      "quality_l1": 1.6212090253829956,
+      "validation_mse": 95.1548080444336
+    },
+    {
+      "epoch": 7,
+      "train_mse": 2.031131327152252,
+      "quality_l1": 1.7306237518787384,
+      "validation_mse": 94.98938179016113
+    },
+    {
+      "epoch": 8,
+      "train_mse": 1.9934633076190948,
+      "quality_l1": 1.6809504628181458,
+      "validation_mse": 94.89804649353027
+    },
+    {
+      "epoch": 9,
+      "train_mse": 1.9974980056285858,
+      "quality_l1": 1.6993143558502197,
+      "validation_mse": 94.85129737854004
+    },
+    {
+      "epoch": 10,
+      "train_mse": 2.027930736541748,
+      "quality_l1": 1.7006322145462036,
+      "validation_mse": 94.82712936401367
+    }
+  ],
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2016-07-04 00:00:00",
+  "first_score": "2016-08-10 00:00:00",
+  "seconds": 0.7086722999811172
+}

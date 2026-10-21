@@ -1,0 +1,44 @@
+{
+  "sha256": "0cf30ceb9f35c35f623f933b3d23aca87b001a02e6a38e4d30a3bc7054c125ef",
+  "checkpoint_sha256": "e2217d790c40d821d6e706dd6af1638c4fbd487ba6d652125f45e5f94f5f9c82",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\Wiki2.csv": "6ccc3f01e05544b2e12f23910cc3f189fe996b50f46be90b3f5d24d6df77e8f4",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\Wiki2\\DLinear\\early\\1\\raw.npz": "9fb6ca1fcdcc824737135fdedd3aa2cb41806328ab6988bf857e3266a90e3806",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Wiki2\\DLinear\\early\\metadata.json": "0f225b91d29dba27586357ea5bd94200772ac8eb209bd6be26d4a61805f7dd2e",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\history\\Wiki2\\DLinear\\complete.json": "f2a95427b46f6a72c29724701acc8b6eb39cf0ac27f2baed79e8c6574354c28b",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\DLinear\\1\\0\\predictions.csv": "f80661a62ca95680f43d9e9f94d2d454ec56b71ae325649d52d580bdd8bcdc08",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\DLinear\\1\\0\\run.json": "d22d42dee214f15163cd4dbe817b4d71f97808daa1d9f8bf13f91ba1a799f191",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\DLinear\\1\\72\\predictions.csv": "c7bedee20358188b0c6f6c35c55470e8c3263f35a848ee6781d4e7d7b3ae048a",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\DLinear\\1\\72\\run.json": "dfdaec848034684eabda59acd981e11b03de2a19d648ca0a7f15a609ff8b8c65"
+  },
+  "seed": 1,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 1.178957223892212,
+      "validation_mse": 116.19459629058838
+    },
+    {
+      "epoch": 2,
+      "train_mse": 1.214759647846222,
+      "validation_mse": 116.35011768341064
+    },
+    {
+      "epoch": 3,
+      "train_mse": 1.153959035873413,
+      "validation_mse": 116.43345832824707
+    },
+    {
+      "epoch": 4,
+      "train_mse": 1.1353024393320084,
+      "validation_mse": 116.47314929962158
+    }
+  ],
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2016-07-04 00:00:00",
+  "first_score": "2016-08-10 00:00:00",
+  "seconds": 0.10629530006553978
+}

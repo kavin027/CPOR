@@ -31,6 +31,18 @@ the paper's six-dataset average reductions: 28.4743323683% relative to adapted
 ProCAST and 0.3575532491% relative to the protected squared-risk variant.
 These arithmetic checks are not regeneration of predictions.
 
+## Current manuscript evidence (21 October 2026)
+
+The [current resource index](review_resources/20261021/README.md) supplies
+all 66 configuration boundaries, 228 fitting stages, the square-risk kernel,
+four-arm actor/driver, 264 saved trajectory metrics, and Ada-Y/PIR run receipts.
+`python evidence/check_results.py` now checks the current Table 5, 7 and 8
+results, including all 12 groups and all three backbone-training runs.
+Earlier five-dataset four-arm files are explicitly historical.
+The index and results are available directly in this repository; they are
+also distributed with the manuscript as `CPOR_Review_Resources_v2.zip`.
+No observed data, prediction caches or checkpoint binaries are included.
+
 ## Using the algorithm
 
 ```python
@@ -84,8 +96,8 @@ coherent constructed inputs, not the paper's raw expert-generation pipeline.
 source dependencies under their original relative paths; despite the directory
 name, this release includes no prediction caches. The historical keys `C0`
 and `RootFull` refer to CPOR, and `RR-RECAP` is its previous public name.
-Other experimental arms in those files are historical controls, not the
-method reported as CPOR. Numerical sources are preserved byte for byte.
+The current four-arm actor and square-risk kernel are linked in the resource
+index; other two-step arms remain historical controls. Numerical sources are preserved byte for byte.
 `SOURCE_SHA256.json` identifies them.
 
 `evidence/` contains group-level results, the arithmetic checker, an exact

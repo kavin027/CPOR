@@ -1,0 +1,73 @@
+{
+  "sha256": "f93a25e8cf60a6b72b70518df8ef9d1d2e5857c0dca6ceb297897cf1c185004d",
+  "checkpoint_sha256": "fcc2c4bd899177b7c0e56bdd6dd6d8c1cbce0458457f3cf1c53d30c4fdc029bf",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\ECommerce.csv": "f26eb4e62923a534b1cda6f36d2e4fd4d656f2e1566c344d83caef88433aa23e",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\ECommerce\\PatchTST\\late\\1\\raw.npz": "d257c32cbf4613ffe0c66f4e0281baa86579b33fa2163da2e60eef7298f15471",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\ECommerce\\PatchTST\\late\\metadata.json": "f20b77ae70883f9df48a693647ffef95ffe67290bb9571f5f81d0f34ceb715d6",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\history\\ECommerce\\PatchTST\\complete.json": "16d00579fa077e6992e53c890bc803e5d33472f7d6e4123fc246e369b8f24e3a",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\ECommerce\\PatchTST\\1\\0\\predictions.csv": "989d5b9ad846392932e361824bb48145bc02f0a3f430ac7b52a33f2860c64d00",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\ECommerce\\PatchTST\\1\\0\\run.json": "ed9761b37da5344ba1b5cb1497871b9304292c851cd83539ff36369a4f5387d6",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\ECommerce\\PatchTST\\early\\1\\raw.npz": "a3d43395f0c39f207369e8b07f805fcd1150db88a2d9cdebf336c7e43037bf1c"
+  },
+  "seed": 1,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 0.9827463428179423,
+      "validation_mse": 1.315341293811798
+    },
+    {
+      "epoch": 2,
+      "train_mse": 0.923132042090098,
+      "validation_mse": 1.3120417594909668
+    },
+    {
+      "epoch": 3,
+      "train_mse": 0.9281650185585022,
+      "validation_mse": 1.3105825781822205
+    },
+    {
+      "epoch": 4,
+      "train_mse": 0.919670025507609,
+      "validation_mse": 1.3099793195724487
+    },
+    {
+      "epoch": 5,
+      "train_mse": 0.9305649399757385,
+      "validation_mse": 1.3096948862075806
+    },
+    {
+      "epoch": 6,
+      "train_mse": 0.9404467542966207,
+      "validation_mse": 1.3095756769180298
+    },
+    {
+      "epoch": 7,
+      "train_mse": 0.875714510679245,
+      "validation_mse": 1.3095201253890991
+    },
+    {
+      "epoch": 8,
+      "train_mse": 0.9309978087743124,
+      "validation_mse": 1.3094926476478577
+    },
+    {
+      "epoch": 9,
+      "train_mse": 0.9069684346516927,
+      "validation_mse": 1.3094791173934937
+    },
+    {
+      "epoch": 10,
+      "train_mse": 0.9059587518374125,
+      "validation_mse": 1.3094722032546997
+    }
+  ],
+  "train_count": 84,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2011-07-12 00:00:00",
+  "first_score": "2011-09-01 00:00:00",
+  "seconds": 0.18170139996800572
+}

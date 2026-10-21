@@ -1,0 +1,60 @@
+{
+  "sha256": "e6107c53e0f9dff36df8cb8f24ea6dfed0a3fd00917f3085c3c83ad2de5b8841",
+  "checkpoint_sha256": "477e448e29f56d411e8870aea58d784e20bd586c9a7c6325b9b63881fc62f500",
+  "registration_sha256": "8cd4b5d89313731ed1ebee6f7ebf71d27d955bac7b72cb9d4b563e6a292c1fa3",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\Wiki2.csv": "6ccc3f01e05544b2e12f23910cc3f189fe996b50f46be90b3f5d24d6df77e8f4",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\Wiki2\\PatchTST\\early\\1\\raw.npz": "efda4898bf6955029a4fe28708d77668441072ab8e553d1bc371fb953f42dfda",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\Wiki2\\PatchTST\\early\\metadata.json": "98aefb81f9a70b65533a0c6374e850759dcaac75d119500155db1aa05a7e71d7",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\history\\Wiki2\\PatchTST\\complete.json": "bd5cfde8c319abf0786fd36c5ea221f889726b69ff3465b3c9971c87d8a40983",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\PatchTST\\1\\0\\predictions.csv": "ce2d1c3e7e90a613d9a45232f7e94cdf42d8e305171ff990a43a5d0cb9fbebbd",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\PatchTST\\1\\0\\run.json": "159c18055be8067c7f7f323ca7088bad85b4bb49d82bfb96d8d881bee835fa80",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\PatchTST\\1\\72\\predictions.csv": "315438cc335031a30eda371d9f1b14042f40310d46f02e78091324f5b2d64cb2",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_seed_validation_20261016\\support\\Wiki2\\PatchTST\\1\\72\\run.json": "067c98cdafebe9c9fd78d64fb641a9bf6ddfc25d0910498a62f91bac64c4c5a9"
+  },
+  "seed": 1,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_mse": 1.5028483271598816,
+      "quality_l1": 0.8738598227500916,
+      "validation_mse": 64.5388970375061
+    },
+    {
+      "epoch": 2,
+      "train_mse": 1.4348041713237762,
+      "quality_l1": 0.9520896524190903,
+      "validation_mse": 64.38751602172852
+    },
+    {
+      "epoch": 3,
+      "train_mse": 1.4036097526550293,
+      "quality_l1": 0.9068891555070877,
+      "validation_mse": 64.35565996170044
+    },
+    {
+      "epoch": 4,
+      "train_mse": 1.369918316602707,
+      "quality_l1": 0.8743458390235901,
+      "validation_mse": 64.45413899421692
+    },
+    {
+      "epoch": 5,
+      "train_mse": 1.404782772064209,
+      "quality_l1": 0.93873530626297,
+      "validation_mse": 64.44520998001099
+    },
+    {
+      "epoch": 6,
+      "train_mse": 1.3839372396469116,
+      "quality_l1": 0.8888964354991913,
+      "validation_mse": 64.42978572845459
+    }
+  ],
+  "train_count": 108,
+  "validation_count": 36,
+  "scored_count": 72,
+  "library_last_label": "2016-07-04 00:00:00",
+  "first_score": "2016-08-10 00:00:00",
+  "seconds": 0.5188024999806657
+}

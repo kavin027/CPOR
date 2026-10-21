@@ -1,0 +1,15 @@
+{
+  "version": "CPOR-implementation-index-v1-20261021",
+  "configurations": 66,
+  "fitting_stages": 228,
+  "evidence_status_counts": {
+    "original fit receipt": 176,
+    "recovered original fit receipt": 16,
+    "reconstructed historical schedule; not contemporaneous execution proof": 32,
+    "original receipt plus frozen driver (validation size 36) for gradient boundary": 4
+  },
+  "new_experiments": 0,
+  "source_commit": "dfe569351ff38e1d7ed568d0b490c91b3745b5cf",
+  "public_docs_commit": "2183163b5ab4cfb953c9669646bd1f901594e307",
+  "limitations": "Historical reconstructed schedules are not new execution receipts. Input hashes locate retained archives; archives are not included."
+}

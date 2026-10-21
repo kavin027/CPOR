@@ -1,0 +1,14 @@
+{
+  "reused": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\c0_external_adapter_20261014\\results\\original\\ECommerce\\PatchTST\\early\\42\\AdaYBatch.npz",
+  "sha256": "c8f5427510fb45c6406c03a1f0d23a60249505983e49be86813d235e421a02b2",
+  "inputs": {
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\procast_joint_safe_20261001_v4\\data\\ECommerce.csv": "f26eb4e62923a534b1cda6f36d2e4fd4d656f2e1566c344d83caef88433aa23e",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_evidence_extension_20261002\\forecasts\\ECommerce\\PatchTST\\early\\42\\raw.npz": "285061c81be453b38c8b1332392e35eabcd33fd0e8ebb1d36c2478b27ea956ae",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\ECommerce\\PatchTST\\early\\metadata.json": "585d275be87f48fb38db8255350a07ba4c35e6d2f6f5a310860a7c1215a4cb59",
+    "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\rr_recap_trajectory_learning_20261003\\inputs\\ECommerce\\PatchTST\\early\\train.npz": "04e8308a7351baab46dd112409b340f8a7dc165ee7912e36efb65b0f1ff48d74"
+  },
+  "seed": 42,
+  "train_count": 12,
+  "validation_count": 36,
+  "scored_count": 72
+}
