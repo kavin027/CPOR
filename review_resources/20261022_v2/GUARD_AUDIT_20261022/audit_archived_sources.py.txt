@@ -1,0 +1,39 @@
+from pathlib import Path
+import json,csv,hashlib,numpy as np
+H=Path(__file__).resolve().parent;R=H.parents[1];O=R/'output';A=H/'GUARD_AUDIT_20261022';A.mkdir(exist_ok=True)
+cells=json.loads((O/'kais_review_response_20261016/Online_Resource_1/cells.json').read_text());metric=list(csv.DictReader((O/'cpor_review_followup_20261022/fresh_result_extraction/CURRENT_RESULTS_20261022/ALL_CELL_METRICS.csv').open()));rows=[];sources=[]
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+for c in cells:
+ for seed in [42,1,2]:
+  ds,bb,w=c['dataset'],c['backbone'],c['window']
+  if bb=='PatchTST':d=O/f'c0_seed_validation_20261016/results/{ds}/{bb}/{w}/{seed}'
+  elif seed!=42:d=O/f'dlinear_10000_three_runs_20261021/runs/{seed}/results/{ds}/{w}'
+  else:d=O/('rh_calibration_budget_extension_20261021' if ds=='RH' else 'dlinear_5000_comparison_20261021')/'results'/ds/w
+  p=d/'C0.npz';sp=d/'C0_snapshots.npz'
+  if not sp.exists() and bb=='PatchTST' and seed==42:sp=(R/c['prediction_sources']['C0']).with_name('C0_snapshots.npz')
+  with np.load(p) as z:a={k:z[k] for k in z.files}
+  with np.load(sp) as z:s={k:z[k][-72:] for k in ['P','b','y','published','theta']}
+  ref=[r for r in metric if r['dataset']==ds and r['backbone']==bb and r['window']==w and int(r['seed'])==seed and r['method']=='CPOR'];assert len(ref)==1
+  rmse=float(np.sqrt(((a['pred']-s['y'])**2).mean(0)).mean());assert np.isclose(rmse,float(ref[0]['rmse']),rtol=1e-10,atol=1e-10),(ds,bb,w,seed,rmse,ref[0]['rmse'])
+  np.testing.assert_array_equal(a['pred'],s['published']);np.testing.assert_array_equal(a['theta'],s['theta'])
+  rho=a['contraction'];assert rho.shape==(72,) and ((rho>=0)&(rho<=1)).all()
+  anchor=np.eye(11)[-1];np.testing.assert_allclose(a['theta'],rho[:,None]*a['fit_theta']+(1-rho[:,None])*anchor,atol=1e-14,rtol=1e-14)
+  initial=s['b']+np.einsum('tnj,tj->tn',s['P']-s['b'][:,:,None],a['fit_theta'])
+  # Use the same per-release matrix-vector multiplication as the driver.
+  initial=np.array([s['b'][t]+(s['P'][t]-s['b'][t][:,None])@a['fit_theta'][t] for t in range(72)])
+  reconstructed_move=np.max(np.abs(a['pred']-initial),axis=1)
+  scale=1+np.max(np.abs(initial),axis=1)
+  assert np.max(np.abs(reconstructed_move-a['rounding_move'])/scale)<1e-12
+  move=a['rounding_move']
+  normalized=move/(1+np.max(np.abs(initial),axis=1))
+  for t in range(72):rows.append(dict(dataset=ds,backbone=bb,window=w,run=str(seed),issue=t+1,rho=float(rho[t]),contraction_fraction=float(1-rho[t]),max_absolute_move=float(move[t]),scaled_max_move=float(normalized[t]),learning_failed=int(a['solver_failed'][t])))
+  sources.append(dict(reconstruction_scaled_error=float(np.max(np.abs(reconstructed_move-a['rounding_move'])/scale)),dataset=ds,backbone=bb,window=w,run=seed,path=str(p),sha256=sha(p),snapshot_path=str(sp),snapshot_sha256=sha(sp),rmse=rmse))
+assert len(rows)==4752 and len(sources)==66
+with (A/'RELEASE_DIAGNOSTICS.csv').open('w',newline='') as f:
+ z=csv.DictWriter(f,fieldnames=list(rows[0]));z.writeheader();z.writerows(rows)
+(A/'SOURCE_INDEX.json').write_text(json.dumps(sources,indent=2))
+x=np.array([r['contraction_fraction'] for r in rows]);move=np.array([r['scaled_max_move'] for r in rows]);abs_move=np.array([r['max_absolute_move'] for r in rows]);selected=x[x>0]
+summary=dict(trajectories=66,releases=len(rows),contracted=int((x>0).sum()),fully_to_anchor=int((x==1).sum()),learning_failed=sum(r['learning_failed'] for r in rows),any_stored_change=int((abs_move>0).sum()),rho_one_but_stored_change=int(((x==0)&(abs_move>0)).sum()),max_contraction=float(x.max()),contraction_median_positive=float(np.median(selected)) if len(selected) else None,contraction_p95_positive=float(np.quantile(selected,.95)) if len(selected) else None,max_scaled_move=float(move.max()),max_absolute_move=float(abs_move.max()))
+(A/'SUMMARY.json').write_text(json.dumps(summary,indent=2));print(json.dumps(summary,indent=2))
+
+

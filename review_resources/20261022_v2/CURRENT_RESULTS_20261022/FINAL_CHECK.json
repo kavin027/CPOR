@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "cell_mean_sd_checks": 649,
+  "paired_summary_checks": 85,
+  "input_hashes_verified": true,
+  "zip_crc_verified": true,
+  "independent_stdlib_arithmetic": true
+}

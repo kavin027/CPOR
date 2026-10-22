@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "metric_rows": 1947,
+  "groups_checked": 354,
+  "paired_summaries": 85,
+  "four_arm_summaries": 12,
+  "level_means_checked": 120,
+  "risk_methods_checked": 13,
+  "scope": "Aggregate arithmetic and included-file hashes; not raw-data retraining or exact-ledger replay."
+}

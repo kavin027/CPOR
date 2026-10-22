@@ -1,0 +1,26 @@
+{
+  "completed": "2026-10-21T16:38:22.419751+00:00",
+  "initializations": [
+    42,
+    1,
+    2
+  ],
+  "new_fits": 96,
+  "reused_fits": 48,
+  "dlinear_configurations": 33,
+  "new_dlinear_configurations": 22,
+  "outputs_per_config": 30,
+  "dlinear_metric_rows": 990,
+  "patchtst_reused": true,
+  "fitting_stages": 144,
+  "cap_reached": 0,
+  "protected_trajectories": 528,
+  "envelope_checks": 3452544,
+  "prefix_checks": 3452544,
+  "violations": 0,
+  "failed_learning_publications": 0,
+  "procast_scoring_cap_hits": 0,
+  "procast_calibration_cap_hits": 0,
+  "sd": "sample SD across three initialization-level statistics; ddof=1",
+  "retrospective": true
+}

@@ -1,0 +1,14 @@
+{
+  "trajectories": 66,
+  "releases": 4752,
+  "contracted": 0,
+  "fully_to_anchor": 0,
+  "learning_failed": 0,
+  "any_stored_change": 0,
+  "rho_one_but_stored_change": 0,
+  "max_contraction": 0.0,
+  "contraction_median_positive": null,
+  "contraction_p95_positive": null,
+  "max_scaled_move": 0.0,
+  "max_absolute_move": 0.0
+}

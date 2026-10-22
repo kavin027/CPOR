@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "trajectories": 66,
+  "releases": 4752,
+  "node_checks": 431568,
+  "envelope_violations": 0,
+  "prefix_violations": 0,
+  "balance_mismatches": 0,
+  "R": "40401/40000",
+  "scope": "Exact rational nodewise envelope, accumulated squared-error limit and archived pre-release balances for stored CPOR forecasts. Separate reimplementation, not an external independent replication; excludes coherence, candidate repairs, other methods and model retraining."
+}

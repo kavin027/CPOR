@@ -21,27 +21,36 @@ python -m venv .venv
 # Activate .venv using your shell's activation command.
 python -m pip install -r requirements.txt
 python examples/synthetic.py
-python cpor.py check-results --evidence evidence
+python review_resources/20261022_v2/CURRENT_RESULTS_20261022/check_current_results.py
 ```
 
 The synthetic example exercises candidate protection, six scored weight fits,
 exact envelope checks, feedback settlement and numerical coherence checks.
-The aggregate check requires only the Python standard library. It reconstructs
-the paper's six-dataset average reductions: 28.4743323683% relative to adapted
-ProCAST and 0.3575532491% relative to the protected squared-risk variant.
-These arithmetic checks are not regeneration of predictions.
+The current aggregate check requires only the Python standard library. It verifies
+the increased-budget DLinear results paired with the retained PatchTST streams.
 
-## Current manuscript evidence (21 October 2026)
+## Current manuscript evidence (22 October 2026, E1 v2)
 
-The [current resource index](review_resources/20261021/README.md) supplies
-all 66 configuration boundaries, 228 fitting stages, the square-risk kernel,
-four-arm actor/driver, 264 saved trajectory metrics, and Ada-Y/PIR run receipts.
-`python evidence/check_results.py` now checks the current Table 5, 7 and 8
-results, including all 12 groups and all three backbone-training runs.
-Earlier five-dataset four-arm files are explicitly historical.
-The index and results are available directly in this repository; they are
-also distributed with the manuscript as `CPOR_Review_Resources_v2.zip`.
-No observed data, prediction caches or checkpoint binaries are included.
+Use [the E1 resource index](review_resources/20261022_v2/README.md) for the current
+results, dataset-composition sensitivity, final-guard diagnostics and nodewise replay.
+The [complete E1 archive](review_resources/CPOR_Evidence_20261022_v2.zip) and
+[archive SHA256](review_resources/EVIDENCE_RECEIPT.json) are supplied together.
+The index distinguishes four commands runnable with included files from ledger replay
+requiring archived NPZ inputs. No forecast/observation caches are published.
+
+Current aggregate reductions are 17.04% versus adapted ProCAST, 11.27% versus Ada-Y,
+and about 0.433% for root/full versus squared/full. CPOR has no aggregate advantage
+over protected Cov-only or ML-Pol; these are descriptive comparisons, not population
+generalization guarantees. The author-run ledger replay passed 431,568 node-date
+checks; it is not independent external replication.
+
+## Historical manuscript evidence (21 October 2026)
+
+The [historical resource index](review_resources/20261021/README.md), `evidence/`,
+`python evidence/check_results.py` and `python cpor.py check-results --evidence evidence`
+refer to the original 500-update DLinear streams. Their 28.474332% ProCAST reduction
+and 0.357553% root/square reduction must not be substituted for current results.
+The prior code and results remain unchanged for provenance and budget sensitivity.
 
 ## Using the algorithm
 

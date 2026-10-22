@@ -1,0 +1,11 @@
+{
+  "trajectories": 66,
+  "scored_releases": 4752,
+  "nonanchor_columns": 10,
+  "fixed_scoring_candidate_instances": 47520,
+  "interpretation": "Count of prescribed scoring candidate operations, not count of nonzero numerical displacements or failure-triggered repairs. Endpoint inset is also fixed. Archived make_bank discards per-candidate info; accepted banks cannot identify historical coordinate-repair frequency.",
+  "source_sha256": {
+    "output\\paired_root_actual_credit_20261013\\numerical_v2\\run.py": "4b030ce5d8f0405bd31023073309c2b3f5562dafa65b06320e1f54fd080e9a4e",
+    "output\\coupled_publication_learning_20261012\\run_experiment.py": "f68d00ce71136c7a6c2c0c35a2608a2639d1d1444935ed41497d03ef31987faf"
+  }
+}

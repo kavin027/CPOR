@@ -1,0 +1,13 @@
+{
+  "attachment": "E1",
+  "version": "20261022-v2",
+  "filename": "CPOR_Evidence_20261022_v2.zip",
+  "sha256": "3da4fea2ee81ce3906a7438757209e8aab2ee136d49b5643eeb3ac72cb593d7b",
+  "directories": [
+    "CURRENT_RESULTS_20261022",
+    "REVIEW_ANALYSIS_20261022",
+    "GUARD_AUDIT_20261022",
+    "LEDGER_REPLAY_20261022"
+  ],
+  "inputs_included": false
+}
