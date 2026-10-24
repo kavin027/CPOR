@@ -2,13 +2,15 @@
 
 **Cumulatively Protected Online Reconciliation**
 
-Code for *Online Forecast Reconciliation under Nodewise Cumulative Error Constraints*
+Code for *CPOR: A Framework for Online Forecast Reconciliation with Nodewise Cumulative Error Protection*
 by Lei Zhang, Capital Normal University.
 
 CPOR reconciles system and regional forecasts while enforcing a cumulative
-error limit for every node relative to a prescribed reference. It constructs
-protected candidates and learns shared combination weights from root-error
-increments. The protection guarantee does not imply accuracy dominance.
+error limit for every node relative to a prescribed reference. The framework
+supports Cov, ML and Root as alternative prediction selectors, each maintaining
+its own remaining allowance. The exact protection structure and its online
+maintenance are the shared contribution; the selectors are not three separate
+algorithmic novelty claims. The protection guarantee does not imply accuracy dominance.
 
 ## Quick start
 
@@ -39,7 +41,7 @@ The index distinguishes four commands runnable with included files from ledger r
 requiring archived NPZ inputs. No forecast/observation caches are published.
 
 Current aggregate reductions are 17.04% versus adapted ProCAST, 11.27% versus Ada-Y,
-and about 0.433% for root/full versus squared/full. CPOR has no aggregate advantage
+and about 0.433% for root/full versus squared/full. CPOR-Root has no aggregate advantage
 over protected Cov-only or ML-Pol; these are descriptive comparisons, not population
 generalization guarantees. The author-run ledger replay passed 431,568 node-date
 checks; it is not independent external replication.
@@ -52,7 +54,34 @@ refer to the original 500-update DLinear streams. Their 28.474332% ProCAST reduc
 and 0.357553% root/square reduction must not be substituted for current results.
 The prior code and results remain unchanged for provenance and budget sensitivity.
 
-## Using the algorithm
+## Framework names and implementation entry points
+
+**The public `CPOR` class implements the CPOR-Root selector in the current manuscript.**
+The class and numerical source are unchanged. Cov and ML are archived experiment
+paths, not additional classes with the same API.
+
+| Manuscript implementation | Existing result key | Entry points |
+|---|---|---|
+| CPOR-Cov | `CovFullFix` | [`method.targets`](output/rr_recap_error_dependence_20261003/method.py), then [`precision_release.release_repaired`](output/rr_recap_pooling_20261003/precision_release.py); the archived M5 path uses [`method.release`](output/rr_recap_error_dependence_20261003/method.py) instead |
+| CPOR-ML | `ProtectedMLPol` | [`common.controls`](output/c0_seed_validation_20261016/common.py) builds the ML-Pol target, reconciles it, and calls `common.protect` |
+| CPOR-Root | `CPOR` / `C0` | [`cpor.CPOR`](cpor.py), delegating to [`Actor`](output/paired_root_actual_credit_20261013/numerical_v2/run.py) |
+
+All three share a reference rule and allowance ratio, not a shared live balance.
+Root uses the pre-protection Cov target and protects it under Root's own state;
+it does not take CPOR-Cov's published forecast as its first candidate.
+Archived numerical paths and calibration conventions are preserved, including
+the M5 Cov path distinction. Do not substitute one wrapper and assume that its
+stored trajectory must remain identical.
+
+The current manuscript's E2 (`CPOR_Paired_Analysis_20261022_v2.zip`) and E3
+(`CPOR_Framework_Analysis_20261023.zip`) are submission attachments. E2 provides
+paired dataset-level analysis. E3 provides the three-implementation summaries,
+descriptor analysis, timing receipts and `SOURCE_MAP.json`. They are not claimed
+to be part of the historical E1 repository commit. The accompanying submission
+package's `CURRENT_RESOURCE_INDEX.md` and `EVIDENCE_TABLE_MAP.csv` map current
+table numbers to these retained files.
+
+## Using the Root implementation
 
 ```python
 from cpor import CPOR
@@ -104,7 +133,7 @@ coherent constructed inputs, not the paper's raw expert-generation pipeline.
 `cpor.py` is the public interface. `output/` contains the frozen numerical
 source dependencies under their original relative paths; despite the directory
 name, this release includes no prediction caches. The historical keys `C0`
-and `RootFull` refer to CPOR, and `RR-RECAP` is its previous public name.
+and `RootFull` refer to CPOR-Root, and `RR-RECAP` is its previous public name.
 The current four-arm actor and square-risk kernel are linked in the resource
 index; other two-step arms remain historical controls. Numerical sources are preserved byte for byte.
 `SOURCE_SHA256.json` identifies them.
