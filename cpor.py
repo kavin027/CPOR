@@ -1,4 +1,4 @@
-"""CPOR: Cumulatively Protected Online Reconciliation.
+"""CPOR: Cumulative Protection for Online Reconciliation.
 
 Public entry point for the unchanged protected root-risk procedure.
 Historical storage keys and frozen implementation files remain readable.
@@ -11,7 +11,7 @@ import runpy
 import sys
 
 METHOD_NAME = "CPOR"
-FULL_NAME = "Cumulatively Protected Online Reconciliation"
+FULL_NAME = "Cumulative Protection for Online Reconciliation"
 LEGACY_STORAGE_KEY = "C0"
 ALIASES = {"CPOR", "C0", "RootFull", "RR-RECAP"}
 _CORE = None

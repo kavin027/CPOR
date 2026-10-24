@@ -1,8 +1,8 @@
 # CPOR
 
-**Cumulatively Protected Online Reconciliation**
+**Cumulative Protection for Online Reconciliation**
 
-Code for *CPOR: A Framework for Online Forecast Reconciliation with Nodewise Cumulative Error Protection*
+Code for *CPOR: Cumulative Protection for Online Reconciliation with Nodewise Error Limits*
 by Lei Zhang, Capital Normal University.
 
 CPOR reconciles system and regional forecasts while enforcing a cumulative

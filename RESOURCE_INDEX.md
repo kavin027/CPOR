@@ -1,5 +1,7 @@
 # Resource navigation — 24 October 2026
 
+CPOR denotes **Cumulative Protection for Online Reconciliation**.
+
 The current increased-budget DLinear results are in
 [E1, version 20261022-v2](review_resources/20261022_v2/README.md).
 Use its four summary checkers for included data; ledger replay additionally
