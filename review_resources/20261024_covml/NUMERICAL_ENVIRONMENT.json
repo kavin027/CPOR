@@ -1,0 +1,62 @@
+{
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+  "python": "3.11.0 (main, Oct 24 2022, 18:26:48) [MSC v.1933 64 bit (AMD64)]",
+  "threads": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "filepath": "D:\\v311gpu\\Lib\\site-packages\\numpy\\.libs\\libopenblas64__v0.3.23-246-g3d31191b-gcc_10_3_0.dll",
+      "version": "0.3.23.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Cooperlake"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "D:\\v311gpu\\Lib\\site-packages\\torch\\lib\\libiomp5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "D:\\v311gpu\\Lib\\site-packages\\torch\\lib\\libiompstubs5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\v311gpu\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-48c358d105077551cc9cc3ba79387ed5.dll",
+      "version": "0.3.29.dev",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "D:\\v311gpu\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    }
+  ],
+  "repetitions": "One timed replay per archived training-run configuration",
+  "pid": 26952,
+  "packages": {
+    "numpy": "1.25.2",
+    "scipy": "1.16.3",
+    "cvxpy": "1.6.5",
+    "clarabel": "0.11.1",
+    "sklearn": "1.3.0"
+  },
+  "python_version": "3.11.0",
+  "scope": "Numerical environment used for the complete-grid timing replay; package versions inspected in the same project runtime during this editorial revision. Historical training environments are not asserted identical."
+}

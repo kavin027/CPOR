@@ -9,3 +9,5 @@ __pycache__/
 *.log
 evidence/AGGREGATE_CHECK.json
 examples/SYNTHETIC_CHECK.json
+
+/review_resources/20261024_covml/extracted/

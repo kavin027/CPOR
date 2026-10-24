@@ -1,0 +1,7 @@
+{
+  "version": "20261024-covml-minor",
+  "archive": "CPOR_CovML_Results_Minor_20261024.zip",
+  "sha256": "a75e6d4ee796925707886e51775275e42a10f5ccdc20ff5c68a754124c03a023",
+  "new_experiments": 0,
+  "scope": "Current two-implementation results; aggregate checker tested locally. Recorded full trajectory audits require additional archived inputs."
+}
