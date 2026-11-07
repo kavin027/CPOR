@@ -1,0 +1,76 @@
+{
+  "version": "aemo-three-runs-v9-20261107",
+  "numerical_version": "OR2 v9",
+  "numerical_archive": {
+    "name": "Numerical_Resources_20261107_v9.zip",
+    "sha256": "ce5459938a279e4696710c2cbb1d9166d35b9f380f48ed79c04d2e38dd32aa6a",
+    "bytes": 71578805
+  },
+  "manuscript_files": {
+    "CPOR_Manuscript_AEMO_ThreeRuns_Clean.pdf": {
+      "bytes": 603278,
+      "sha256": "f9d0147f18da99bb620f29e75552b546340b391064536cede5481238de0c5b50",
+      "pages": 30
+    },
+    "CPOR_Supplement_AEMO_ThreeRuns_Clean.pdf": {
+      "bytes": 348270,
+      "sha256": "ce512cc6c62ee09e8c26a5efd30979282ee483c7d3b2ad161674b56eb5e78b8a",
+      "pages": 21
+    },
+    "CPOR_Cover_Letter_AEMO_ThreeRuns.pdf": {
+      "bytes": 40461,
+      "sha256": "575e80c556fe0237d6b46bd83aaf5394d390eabb4dcdba1c0a96256aaf6dfea4",
+      "pages": 1
+    },
+    "CPOR_LaTeX_AEMO_ThreeRuns.zip": {
+      "bytes": 217119,
+      "sha256": "3166766639bdad79528090d547eae700c05650eb76e3d95102fa358ac08378b3"
+    },
+    "CPOR_OR2_v9.zip": {
+      "bytes": 71578805,
+      "sha256": "ce5459938a279e4696710c2cbb1d9166d35b9f380f48ed79c04d2e38dd32aa6a"
+    }
+  },
+  "previous_release": "../20261107_submission_final/README.md",
+  "experiments_added_in_manuscript_revision": 0,
+  "existing_evidence_extension": "Six same-month backbone streams, Cov/ML and applicable controls; no October tuning.",
+  "figure_1_unchanged": true,
+  "prior_frozen_version_unchanged": true,
+  "checks": {
+    "aggregate_rebuild": {
+      "passed": true,
+      "streams": 6,
+      "method_trajectories": 246,
+      "rmse_cells": 1968,
+      "weekly_rows": 72,
+      "timing_rows": 12,
+      "claims": {
+        "Cov_vs_common": 9.019117959304836,
+        "ML_vs_common": 9.098092251236993,
+        "Cov_vs_all_real": 14.045949450073351,
+        "ML_vs_all_real": 14.319790849926868,
+        "Cov_cost": 49.237579486567284,
+        "ML_cost": 51.14242453136816,
+        "PIR_vs_common": 3.496012032529961,
+        "PIR_vs_two_group": 1.7396530733799898,
+        "Cov_vs_ProCAST": 64.02158421760102,
+        "ML_vs_ProCAST": 64.43158724592497,
+        "Cov_vs_PIR": 55.78536158922884,
+        "ML_vs_PIR": 56.219809405224396,
+        "Cov_vs_CovMinT": 0.4256363012463145,
+        "ML_vs_CovMinT": 1.3483551717974496
+      },
+      "operations": "Aggregate arithmetic from stored forecasts and timing logs; no retraining, optimization or retiming."
+    },
+    "exact_saved_path_replay": {
+      "passed": true,
+      "hashed_results": 246,
+      "protected_trajectories": 138,
+      "exact_envelope_node_dates": 1232064,
+      "exact_prefix_node_dates": 1232064,
+      "resets_per_trajectory": 1,
+      "month_observations": 1488,
+      "self_test": true
+    }
+  }
+}

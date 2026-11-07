@@ -8,21 +8,16 @@ CPOR derives the exact one-step protection set for nodewise cumulative squared-e
 
 ## Current manuscript and numerical resources
 
-Use the [AEMO temporal-validation revision and OR2 v8](review_resources/20261107_submission_final/README.md). The main text has 29 pages; the supplement has 20. [Receipts](review_resources/20261107_submission_final/FINAL_RECEIPT.json) identify the current files. [The previous frozen manuscript resources](review_resources/20261107_pir/README.md) are retained unchanged.
+Use the [AEMO three-run revision and OR2 v9](review_resources/20261107_aemo_three_runs/README.md). The clean main text has 30 pages and the supplement 21 pages. [Receipts](review_resources/20261107_aemo_three_runs/FINAL_RECEIPT.json) pin all files. [The original frozen submission](review_resources/20261107_submission_final/README.md) remains unchanged.
 
     git clone https://github.com/kavin027/CPOR.git
     cd CPOR
-    python -m zipfile -e review_resources/20261107_submission_final/Numerical_Resources_20261107_v8.zip review_resources/20261107_submission_final/extracted
-    cd review_resources/20261107_submission_final/extracted
-    python aemo_october/check_current.py
-    python aemo_october/check_package.py
-    python pir_grouped/check_grouped.py
-    python pir_matched/check_pir.py
-    python projection_order/check_addendum.py
+    python -m zipfile -e review_resources/20261107_aemo_three_runs/Numerical_Resources_20261107_v9.zip review_resources/20261107_aemo_three_runs/extracted
+    cd review_resources/20261107_aemo_three_runs/extracted
+    python aemo_three_runs/check_current.py
+    python aemo_three_runs/check_results.py --self-test
 
-The first checker uses the standard library; exact AEMO stored-path replay needs NumPy. It verifies all 53,568 monthly node-date checks and archived rational allowances, and rejects corruption. These checks do not retrain forecasting models.
-
-On identical coherent PIR candidates across the original six datasets, full projection improves RMSE by 2.09% over common shrinkage and 1.88% over a two-group rule. A separate frozen new-outcome AEMO month gives 3.82% and 2.26% gains without allowance resets, with system and average regional gains on both backbones and retained regional/weekly reversals. The resource README states the variable, prior eligibility inspection, feedback and training-budget boundaries.
+The new archive distinguishes same-target protection gains from complete-procedure accuracy, retains protection costs and local reversals, and preserves all original six-benchmark records. See the fixed version's README for scope and exact commands.
 
 ## Current implementation sources
 

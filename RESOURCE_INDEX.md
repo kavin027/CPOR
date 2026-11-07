@@ -1,15 +1,18 @@
 # CPOR resource index
 
-## Current AEMO temporal-validation manuscript
+## Current AEMO three-run manuscript and OR2 v9
 
-Start with [OR2 v8 and the AEMO evidence map](review_resources/20261107_submission_final/README.md).
+Start with [the current evidence map](review_resources/20261107_aemo_three_runs/README.md) and [fixed file receipts](review_resources/20261107_aemo_three_runs/FINAL_RECEIPT.json).
 
-- Main Sections 5.6/6.7 and Table 14 map to Supplement S17 and Tables S24--S27.
-- Aggregate checking and exact stored-path checking have separate commands and scopes.
-- The replacement-variable freeze, prior TOTALDEMAND ineligibility, all five regions and negative accuracy findings are retained.
-- [Receipts](review_resources/20261107_submission_final/FINAL_RECEIPT.json) pin archive and manuscript hashes.
+- Main Sections 5.6/6.7 and Table 14 map to S17 and Tables S24--S28.
+- Three-run means/SDs and within-run paired gains have distinct records.
+- Aggregate rebuilding and exact saved-trajectory checks have separate commands.
+- Same-target protection, complete-procedure accuracy, protection costs, regional losses and the DLinear fixed-expert near tie are retained.
+- The added coverage is a retrospective extension of the original local-freeze study, not a new untouched confirmation.
 
 ## Previous frozen versions
+
+- [Original submission-final v8](review_resources/20261107_submission_final/README.md) remains unchanged.
 
 - [Reviewed v8 table-note revision](review_resources/20261107_table_notes/README.md) remains unchanged.
 
