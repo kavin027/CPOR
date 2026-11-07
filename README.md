@@ -8,12 +8,12 @@ CPOR derives the exact one-step protection set for nodewise cumulative squared-e
 
 ## Current manuscript and numerical resources
 
-Use the [AEMO temporal-validation revision and OR2 v6](review_resources/20261107_aemo/README.md). The main text has 28 pages; the supplement has 20. [Receipts](review_resources/20261107_aemo/RECEIPT.json) identify the current files. [The previous frozen manuscript resources](review_resources/20261107_pir/README.md) are retained unchanged.
+Use the [AEMO temporal-validation revision and OR2 v7](review_resources/20261107_aemo_minor/README.md). The main text has 29 pages; the supplement has 20. [Receipts](review_resources/20261107_aemo_minor/RECEIPT.json) identify the current files. [The previous frozen manuscript resources](review_resources/20261107_pir/README.md) are retained unchanged.
 
     git clone https://github.com/kavin027/CPOR.git
     cd CPOR
-    python -m zipfile -e review_resources/20261107_aemo/Numerical_Resources_20261107_v6.zip review_resources/20261107_aemo/extracted
-    cd review_resources/20261107_aemo/extracted
+    python -m zipfile -e review_resources/20261107_aemo_minor/Numerical_Resources_20261107_v7.zip review_resources/20261107_aemo_minor/extracted
+    cd review_resources/20261107_aemo_minor/extracted
     python aemo_october/check_current.py
     python aemo_october/check_package.py
     python pir_grouped/check_grouped.py
@@ -29,6 +29,9 @@ On identical coherent PIR candidates across the original six datasets, full proj
 The result archives preserve Cov/ML implementation source maps and drivers. Cov combines raw experts using error second moments; ML combines them using sequential weights. Both apply nonnegative reconciliation and nodewise cumulative protection. The addendum's direct-protection alternative preserves the same reference, target sequence, metric, allowance and feedback, with an independent allowance path.
 
 ## Historical resources
+
+- [Prior AEMO v6 resources](review_resources/20261107_aemo/README.md) preserve the original 28-page manuscript evidence.
+
 
 - [24 October Cov/ML resources](review_resources/20261024_covml/README.md) retain their original archive and table numbering.
 - [22 October resources](review_resources/20261022_v2/README.md) retain earlier Root results.

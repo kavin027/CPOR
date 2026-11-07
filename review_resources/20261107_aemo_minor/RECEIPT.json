@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-07",
+  "version": "v7",
+  "manuscript": "AEMO local-freeze and projection-objective minor revision; 29 main pages and 20 supplementary pages",
+  "artifacts": {
+    "Numerical_Resources_20261107_v7.zip": "9e513d9b7a6cd5a3cc75bb1719cb82e42bb56ad4da6bddd5ce0dcbc789caff62"
+  },
+  "manuscript_files": {
+    "Manuscript.pdf": {
+      "sha256": "fbf8c5d8634d72f37c9132ff795fa3d83cb3145dd2f0ac49a644e1d52f06133c",
+      "bytes": 600955,
+      "pages": 29
+    },
+    "Supplement.pdf": {
+      "sha256": "e2f8ed75d38c1d049c7bb3e485f00e629266dd74dc2b3b00295cd1d85bae5bef",
+      "bytes": 324117,
+      "pages": 20
+    },
+    "Cover_Letter.pdf": {
+      "sha256": "2c29e54ed820d3258070417f86e3ac09cb431f3f7f393bb3eadfdaa6575eaa86",
+      "bytes": 40417,
+      "pages": 1
+    },
+    "LaTeX_Source.zip": {
+      "sha256": "aaaf587b1ffd76778d8324596593ac71ef001e71fa515fe3d04abb79caa9ba6e",
+      "bytes": 214985
+    },
+    "Numerical_Resources.zip": {
+      "sha256": "9e513d9b7a6cd5a3cc75bb1719cb82e42bb56ad4da6bddd5ce0dcbc789caff62",
+      "bytes": 7488116
+    }
+  },
+  "previous_version": "../20261107_aemo/README.md",
+  "experiments_added": 0,
+  "numerical_files_changed": false,
+  "original_registration_changed": false,
+  "checks": "Twelve portable checks passed in clean extraction; all previous numerical files and scripts retained byte-for-byte",
+  "figure_1_unchanged": true
+}
