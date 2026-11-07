@@ -1,6 +1,12 @@
 # CPOR resource index
 
-## Current dataset-scope and source-link revision
+## Current Labour early-window update
+
+Start with [OR2 v10 and current table mapping](review_resources/20261108_labour_early/README.md), [numerical resources](review_resources/20261108_labour_early/Numerical_Resources_20261108_v10.zip) and [exact file receipts](review_resources/20261108_labour_early/FINAL_RECEIPT.json).
+
+The six benchmarks now each have two windows:24 configurations and72 streams. Labour early is retrospective. AEMO results, Figure1 and all previous frozen packages remain unchanged.
+
+## Previous dataset-scope and source-link revision
 
 Start with [the current document/evidence map](review_resources/20261107_scope_links/README.md) and [fixed file receipts](review_resources/20261107_scope_links/FINAL_RECEIPT.json).
 

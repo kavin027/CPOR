@@ -1,0 +1,58 @@
+{
+  "version": "OR2 v10",
+  "date": "2026-11-08",
+  "resource_file": "Numerical_Resources_20261108_v10.zip",
+  "resource_sha256": "e8395c05e868a23b1945652402d64dc0ce130457abdccf2c86de31224a476cd7",
+  "files": {
+    "CPOR_Manuscript_Labour_Early_Clean_20261108.pdf": {
+      "sha256": "24e88453dcbda1ac9dbda5dccb7b92ca0ff58a3be92e746a7d08bf939ce4ff40",
+      "bytes": 598300,
+      "pages": 29
+    },
+    "CPOR_Supplement_Labour_Early_Clean_20261108.pdf": {
+      "sha256": "0887e4c54bc534971079c9c71458e2b5794ec6c0e07516183ec465be6e75f7f5",
+      "bytes": 352387,
+      "pages": 22
+    },
+    "CPOR_Cover_Letter_Labour_Early_20261108.pdf": {
+      "sha256": "2ae67e36cdf0edf23d1cbc8e0438e9c5e46124ec19ae5edf0cc5abb729c4d5fe",
+      "bytes": 41167,
+      "pages": 1
+    },
+    "CPOR_LaTeX_Labour_Early_20261108.zip": {
+      "sha256": "9d0e4e0a2bdc883f4077c736211d5d0c9224add81167f6dd4a8f0aa8f43d2628",
+      "bytes": 215907
+    },
+    "CPOR_OR2_v10.zip": {
+      "sha256": "e8395c05e868a23b1945652402d64dc0ce130457abdccf2c86de31224a476cd7",
+      "bytes": 104558082
+    }
+  },
+  "submission_package_sha256": "b52025934f12b036fb3b9791dbd3292dadb89da10e44d4463d1b21de244393d5",
+  "pages": {
+    "main": 29,
+    "supplement": 22,
+    "cover_letter": 1
+  },
+  "original_package_preserved": true,
+  "figure_1_preserved": true,
+  "checks": [
+    {
+      "script": "benchmark_update/check_current.py",
+      "passed": true
+    },
+    {
+      "script": "labour_early/check_bundle.py",
+      "passed": true
+    },
+    {
+      "script": "aemo_three_runs/check_current.py",
+      "passed": true
+    },
+    {
+      "script": "aemo_three_runs/check_results.py",
+      "passed": true
+    }
+  ],
+  "new_experiments_in_revision": 0
+}

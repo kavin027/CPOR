@@ -8,11 +8,11 @@ CPOR derives the exact one-step protection set for nodewise cumulative squared-e
 
 ## Current manuscript and numerical resources
 
-Use the [dataset-scope and source-link revision](review_resources/20261107_scope_links/README.md) and [file receipts](review_resources/20261107_scope_links/FINAL_RECEIPT.json).
+Use the [Labour early-window update / OR2 v10](review_resources/20261108_labour_early/README.md) and [file receipts](review_resources/20261108_labour_early/FINAL_RECEIPT.json).
 
-The study uses seven datasets: six benchmarks with equal-weight aggregate results, plus AEMO with a separately summarized continuous month and three training runs per backbone. The four principal manuscript sections now state this scope consistently. References [28]/[29] display the official AEMO URLs. All experimental values, statistical scopes, Figure 1 and OR2 v9 are unchanged.
+The study uses seven datasets: six equally weighted benchmarks and a separately summarized AEMO month. The six benchmarks now have two windows each,24 configurations and72 streams. The Labour early addition is retrospective. AEMO, Figure1 and all prior frozen packages remain unchanged. Current matched-PIR gains are1.94% versus common shrinkage and1.75% versus two-group shrinkage, with heterogeneous protection costs and negative cases retained.
 
-The resource entry links the unchanged numerical archive and its check commands. Earlier frozen manuscripts remain preserved.
+The resource entry provides the numerical archive, exact table mapping and check commands. No experiment was added during manuscript revision.
 
 ## Current implementation sources
 

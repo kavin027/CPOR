@@ -1,0 +1,18 @@
+{
+  "configurations": 24,
+  "streams": 72,
+  "benchmarks": 6,
+  "datasets_total": 7,
+  "node_sequences_per_primary": 6336,
+  "node_dates_per_primary": 456192,
+  "early_window": "2008-12 through2014-11",
+  "historical_scopes": [
+    "DUET11windows",
+    "COSA/robust/MCGrad22configurations",
+    "projection-order66streams",
+    "same-state-domain66streams",
+    "dedicated-timing66streams"
+  ],
+  "AEMO_unchanged": true,
+  "experiments_added": 0
+}

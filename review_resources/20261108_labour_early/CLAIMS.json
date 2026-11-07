@@ -1,0 +1,120 @@
+{
+  "CovFullFix__Raw": {
+    "mean": 7.052692586395455,
+    "positive_groups": 12,
+    "positive_datasets": 6
+  },
+  "CovFullFix__NNLS": {
+    "mean": 7.054226057914449,
+    "positive_groups": 12,
+    "positive_datasets": 6
+  },
+  "CovFullFix__ProCAST": {
+    "mean": 17.68012588484818,
+    "positive_groups": 12,
+    "positive_datasets": 6
+  },
+  "CovFullFix__Ada-Y": {
+    "mean": 12.308148274837206,
+    "positive_groups": 12,
+    "positive_datasets": 6
+  },
+  "CovFullFix__PIR": {
+    "mean": 4.197391924961494,
+    "positive_groups": 9,
+    "positive_datasets": 4
+  },
+  "CovFullFix__MinTshrink": {
+    "mean": 6.827467737768638,
+    "positive_groups": 12,
+    "positive_datasets": 6
+  },
+  "CovFullFix__MinT_Cov": {
+    "mean": 0.027999432309096392,
+    "positive_groups": 5,
+    "positive_datasets": 2
+  },
+  "CovFullFix__ProtectedCalBest": {
+    "mean": 1.2745252130712765,
+    "positive_groups": 11,
+    "positive_datasets": 5
+  },
+  "ProtectedMLPol__Raw": {
+    "mean": 7.086439058167361,
+    "positive_groups": 12,
+    "positive_datasets": 6
+  },
+  "ProtectedMLPol__NNLS": {
+    "mean": 7.088251450802265,
+    "positive_groups": 12,
+    "positive_datasets": 6
+  },
+  "ProtectedMLPol__ProCAST": {
+    "mean": 17.73520763329541,
+    "positive_groups": 12,
+    "positive_datasets": 6
+  },
+  "ProtectedMLPol__Ada-Y": {
+    "mean": 12.341664275622911,
+    "positive_groups": 12,
+    "positive_datasets": 6
+  },
+  "ProtectedMLPol__PIR": {
+    "mean": 4.236328502468588,
+    "positive_groups": 8,
+    "positive_datasets": 4
+  },
+  "ProtectedMLPol__MinTshrink": {
+    "mean": 6.86115622129854,
+    "positive_groups": 12,
+    "positive_datasets": 6
+  },
+  "ProtectedMLPol__MinT_Cov": {
+    "mean": 0.061793014820086624,
+    "positive_groups": 5,
+    "positive_datasets": 3
+  },
+  "ProtectedMLPol__ProtectedCalBest": {
+    "mean": 1.3069243363001646,
+    "positive_groups": 11,
+    "positive_datasets": 5
+  },
+  "PIR__vs_common": 1.942900879482337,
+  "PIR__vs_two_group": 1.7473152163405705,
+  "PIR__two_vs_common": 0.19973767036454396,
+  "PIR__full_cost": -0.06638319829273416,
+  "PIR__common_cost": 1.9651753591646757,
+  "PIR__two_cost": 1.7477237871808837,
+  "PIR_common_positive_windows": 64,
+  "PIR_two_positive_windows": 65,
+  "Cov__domain": {
+    "mean": 1.9696752273051392,
+    "median": 0.5539334683611693,
+    "positive_groups": 11,
+    "rh_share": 67.41793992591819,
+    "other_mean": 0.7701129189898415,
+    "negative_group_runs": 3
+  },
+  "Cov__cost": {
+    "mean": 23.241748174661378,
+    "median": 0.8643833591254757,
+    "q25": -0.8986067261199937,
+    "q75": 47.12787124053498,
+    "trimmed": 16.74187399350649
+  },
+  "ML__domain": {
+    "mean": 1.9580345614965582,
+    "median": 0.5399141829687889,
+    "positive_groups": 11,
+    "rh_share": 67.96130915345861,
+    "other_mean": 0.7527943677915776,
+    "negative_group_runs": 3
+  },
+  "ML__cost": {
+    "mean": 19.840065698193314,
+    "median": 2.464006440175326,
+    "q25": -0.12272628936315644,
+    "q75": 49.31923529832046,
+    "trimmed": 15.598756337645831
+  }
+}
