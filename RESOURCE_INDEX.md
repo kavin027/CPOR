@@ -1,16 +1,18 @@
 # CPOR resource index
 
-## Current seven-dataset manuscript
+## Current dataset-scope and source-link revision
 
-Start with [the current document and evidence map](review_resources/20261107_seven_datasets/README.md) and [file receipts](review_resources/20261107_seven_datasets/FINAL_RECEIPT.json).
+Start with [the current document/evidence map](review_resources/20261107_scope_links/README.md) and [fixed file receipts](review_resources/20261107_scope_links/FINAL_RECEIPT.json).
 
-- Section 5.1: seven datasets and AEMO variable definition.
-- Section 5.2: common protocol and continuous-month AEMO evaluation; former 5.6 removed.
-- Main Table 14 and Supplement S17/S24--S28: unchanged results and records.
-- OR2 v9: same archive/hash; six-benchmark statistical scope and AEMO monthly scope unchanged.
-- No new experiment, model, numerical comparison or Figure 1 edit.
+- Seven datasets overall; six-benchmark summaries and the AEMO monthly summaries retain their original statistical scopes.
+- Main Section 5.1 defines all datasets; 5.2 contains the forecasting protocol.
+- References [28]/[29] display clickable official AEMO URLs.
+- Main Table 14, Supplement S24--S28 and OR2 v9 are numerically unchanged.
+- No experiment, parameter selection, model or Figure 1 change.
 
 ## Previous frozen versions
+
+- [Seven-dataset organization revision](review_resources/20261107_seven_datasets/README.md) remains unchanged.
 
 - [AEMO three-run revision](review_resources/20261107_aemo_three_runs/README.md) remains unchanged.
 

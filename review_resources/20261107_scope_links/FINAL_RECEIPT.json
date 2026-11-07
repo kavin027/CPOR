@@ -1,0 +1,123 @@
+{
+  "version": "dataset-scope-links-20261107",
+  "artifacts": {
+    "CPOR_Manuscript_Scope_Checked_Clean.pdf": {
+      "bytes": 603046,
+      "sha256": "679b17e6d431626f0c69504e7324189c30c3de79ba88ca9a7dbe30d4b1e8a056",
+      "pages": 29
+    },
+    "CPOR_Supplement_Scope_Checked_Clean.pdf": {
+      "bytes": 348329,
+      "sha256": "f03226180eb4761485da0235636dbd94c5e07e8d80989714453230e2f3f60aa9",
+      "pages": 21
+    },
+    "CPOR_Cover_Letter_Scope_Checked.pdf": {
+      "bytes": 40520,
+      "sha256": "58391d89bcd7a01f0ed092d23bf360133081aa9f2ee75bd6167ca15eebcdc38c",
+      "pages": 1
+    },
+    "CPOR_LaTeX_Scope_Checked.zip": {
+      "bytes": 217370,
+      "sha256": "4ca5013ea46a4b4a9e5352fb0b256d9f1e79d3131217aeac815da3234c0d6f0a"
+    },
+    "CPOR_OR2_v9.zip": {
+      "bytes": 71578805,
+      "sha256": "ce5459938a279e4696710c2cbb1d9166d35b9f380f48ed79c04d2e38dd32aa6a"
+    }
+  },
+  "numerical_archive": "../20261107_aemo_three_runs/Numerical_Resources_20261107_v9.zip",
+  "numerical_archive_sha256": "ce5459938a279e4696710c2cbb1d9166d35b9f380f48ed79c04d2e38dd32aa6a",
+  "numerical_values_and_statistical_scopes_unchanged": true,
+  "figure_1_unchanged": true,
+  "experiments_added": 0,
+  "total_datasets": 7,
+  "benchmark_summary_datasets": 6,
+  "aemo_summary": "One continuous month, three training runs per backbone, summarized separately.",
+  "aemo_reference_numbers": [
+    28,
+    29
+  ],
+  "official_urls_visible_and_clickable": true,
+  "checks": {
+    "Manuscript": {
+      "pages": 29,
+      "text_lengths": [
+        3394,
+        3881,
+        4239,
+        3266,
+        3139,
+        2607,
+        3141,
+        3421,
+        3426,
+        2972,
+        3457,
+        3528,
+        3249,
+        4164,
+        4109,
+        2880,
+        3503,
+        4096,
+        2805,
+        3477,
+        2852,
+        3783,
+        3400,
+        2871,
+        3355,
+        2958,
+        3544,
+        4562,
+        3998
+      ],
+      "pdf_sha256": "679b17e6d431626f0c69504e7324189c30c3de79ba88ca9a7dbe30d4b1e8a056"
+    },
+    "aemo_urls_visible_and_clickable": true,
+    "Supplement": {
+      "pages": 21,
+      "text_lengths": [
+        2416,
+        2541,
+        2901,
+        3135,
+        1982,
+        2892,
+        1959,
+        1804,
+        3739,
+        3788,
+        2349,
+        1517,
+        2685,
+        3471,
+        2325,
+        2341,
+        1882,
+        3788,
+        3227,
+        2110,
+        3135
+      ],
+      "pdf_sha256": "f03226180eb4761485da0235636dbd94c5e07e8d80989714453230e2f3f60aa9"
+    },
+    "Cover_Letter": {
+      "pages": 1,
+      "text_lengths": [
+        2921
+      ],
+      "pdf_sha256": "58391d89bcd7a01f0ed092d23bf360133081aa9f2ee75bd6167ca15eebcdc38c"
+    },
+    "all_table_cells_unchanged": true,
+    "numerical_claims_unchanged": true,
+    "methods_unchanged": true,
+    "statistical_scope_unchanged": true,
+    "figure_1_unchanged": true,
+    "or2_v9_bytewise_unchanged": true,
+    "prior_packages_preserved": true,
+    "all_four_sections_state_seven_datasets_and_six_benchmark_scope": true,
+    "reference_numbers_28_29_verified": true,
+    "first_citation_order_preserved": true
+  }
+}

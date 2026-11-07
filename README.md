@@ -8,11 +8,11 @@ CPOR derives the exact one-step protection set for nodewise cumulative squared-e
 
 ## Current manuscript and numerical resources
 
-Use the [seven-dataset organization revision](review_resources/20261107_seven_datasets/README.md): clean main text 29 pages, supplement 21 pages, one-page cover letter. [Receipts](review_resources/20261107_seven_datasets/FINAL_RECEIPT.json) pin the current files and unchanged OR2 v9.
+Use the [dataset-scope and source-link revision](review_resources/20261107_scope_links/README.md) and [file receipts](review_resources/20261107_scope_links/FINAL_RECEIPT.json).
 
-Datasets are introduced together in Section 5.1; forecasting protocols are in Section 5.2. Results, table cells, statistical scope and Figure 1 are unchanged. The earlier AEMO three-run and original frozen submissions remain available.
+The study uses seven datasets: six benchmarks with equal-weight aggregate results, plus AEMO with a separately summarized continuous month and three training runs per backbone. The four principal manuscript sections now state this scope consistently. References [28]/[29] display the official AEMO URLs. All experimental values, statistical scopes, Figure 1 and OR2 v9 are unchanged.
 
-The current resource entry links the bytewise-identical numerical archive and its aggregate/stored-trajectory check commands.
+The resource entry links the unchanged numerical archive and its check commands. Earlier frozen manuscripts remain preserved.
 
 ## Current implementation sources
 
