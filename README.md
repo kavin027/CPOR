@@ -4,23 +4,25 @@
 
 Code and results for CPOR: Cumulative Protection for Online Reconciliation with Nodewise Error Limits, Lei Zhang, Capital Normal University.
 
-CPOR derives the exact one-step protection set for nodewise cumulative squared-error limits relative to a causal coherent reference. Cov and ML supply two target-generation implementations.
+CPOR derives the exact one-step protection set for nodewise cumulative squared-error limits relative to a causal coherent reference. Cov and ML provide two target-generation implementations.
 
 ## Current manuscript and numerical resources
 
-Use the [7 November manuscript and OR2 v5 resources](review_resources/20261107_pir/README.md). This is the current entry point for Table 8 and Tables S20/S21. [File receipts](review_resources/20261107_pir/RECEIPT.json) identify the previous frozen OR2 v3, historical v4 addendum and current manuscript OR2 v5.
+Use the [AEMO temporal-validation revision and OR2 v6](review_resources/20261107_aemo/README.md). The main text has 28 pages; the supplement has 20. [Receipts](review_resources/20261107_aemo/RECEIPT.json) identify the current files. [The previous frozen manuscript resources](review_resources/20261107_pir/README.md) are retained unchanged.
 
     git clone https://github.com/kavin027/CPOR.git
     cd CPOR
-    python -m zipfile -e review_resources/20261107_pir/Numerical_Resources_20261107_v5.zip review_resources/20261107_pir/extracted
-    cd review_resources/20261107_pir/extracted
+    python -m zipfile -e review_resources/20261107_aemo/Numerical_Resources_20261107_v6.zip review_resources/20261107_aemo/extracted
+    cd review_resources/20261107_aemo/extracted
+    python aemo_october/check_current.py
+    python aemo_october/check_package.py
     python pir_grouped/check_grouped.py
     python pir_matched/check_pir.py
     python projection_order/check_addendum.py
 
-The checks reproduce numerical summaries. Input-level replay requires the archived prediction and observation arrays and the project environment. The resource index describes these levels.
+The first checker uses the standard library; exact AEMO stored-path replay needs NumPy. It verifies all 53,568 monthly node-date checks and archived rational allowances, and rejects corruption. These checks do not retrain forecasting models.
 
-The manuscript reports 2.09% lower RMSE for full projection versus common shrinkage and 1.88% versus a fixed two-group rule on identical PIR candidates. All three satisfy the cumulative limits. The current manuscript also reports direct versus two-stage protection of Cov/ML targets (S22) and dataset-cluster uncertainty for Table 8 (S23).
+On identical coherent PIR candidates across the original six datasets, full projection improves RMSE by 2.09% over common shrinkage and 1.88% over a two-group rule. A separate frozen new-outcome AEMO month gives 3.82% and 2.26% gains without allowance resets, with system and average regional gains on both backbones and retained regional/weekly reversals. The resource README states the variable, prior eligibility inspection, feedback and training-budget boundaries.
 
 ## Current implementation sources
 

@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-07",
+  "version": "v6",
+  "manuscript": "AEMO frozen continuous-month temporal validation; 28 main pages, 20 supplementary pages",
+  "artifacts": {
+    "Numerical_Resources_20261107_v6.zip": "816c34e404f7ee96def70fa5d5189b89e3bbca983885ce12fcae0b20fec5c11b"
+  },
+  "manuscript_files": {
+    "Manuscript.pdf": {
+      "sha256": "58d90dd1e5b28fec161f7096551cc0fcc8f1e12066ee92430ef5b1bbecf84de5",
+      "bytes": 598695,
+      "pages": 28
+    },
+    "Supplement.pdf": {
+      "sha256": "576dfb8a549407422f93ff9356a9b9b94bf1cab68aeb60794451969dd18dc0c8",
+      "bytes": 323632,
+      "pages": 20
+    },
+    "Cover_Letter.pdf": {
+      "sha256": "2cbc8ba6c4b68f89299481e4745d7e8bdbefb10ec3da7cfb7192078280a256ac",
+      "bytes": 65610,
+      "pages": 1
+    },
+    "LaTeX_Source.zip": {
+      "sha256": "f7d64e30c450271b2988063433bb579745ece5bedcfed8534cd3497c71bc1244",
+      "bytes": 214345
+    },
+    "Numerical_Resources.zip": {
+      "sha256": "816c34e404f7ee96def70fa5d5189b89e3bbca983885ce12fcae0b20fec5c11b",
+      "bytes": 7486044
+    }
+  },
+  "checks": "Twelve scripts passed after fresh extraction, including exact AEMO path and rational-allowance replay",
+  "source_registration_sha256": "08227dd13274a269bf2ed041fbe427ae9c765c424dbee6473bf5e16e572ce938",
+  "previous_frozen_version": "../20261107_pir/README.md",
+  "study_scope": "New-outcome temporal validation after related TOTALDEMAND domain inspection; finalized sequential-feedback data; one continuous month and one initialization per backbone; no new forecasting experiment during manuscript revision",
+  "old_submission_unchanged": true,
+  "figure_1_unchanged": true
+}
