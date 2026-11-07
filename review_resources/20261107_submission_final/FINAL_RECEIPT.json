@@ -1,0 +1,40 @@
+{
+  "version": "submission-final-20261107",
+  "numerical_version": "OR2 v8 unchanged",
+  "artifacts": {
+    "Numerical_Resources_20261107_v8.zip": "55c94055084df3d2151652ac4b793ac38353b35a3a90d144a0e7d45673a3b9be"
+  },
+  "manuscript_files": {
+    "CPOR_Manuscript_Submission_Final.pdf": {
+      "sha256": "04cf2c6ec334c5e931cf4326155a05eedff2f7befa90172ad9a10c9d87a5b899",
+      "bytes": 601582,
+      "pages": 29
+    },
+    "CPOR_Supplement_Submission_Final.pdf": {
+      "sha256": "295c254328910ddfe4329d9be94f4809af4c2089d3c6b2cea7d36e17cc79f335",
+      "bytes": 324706,
+      "pages": 20
+    },
+    "CPOR_Cover_Letter_Submission_Final.pdf": {
+      "sha256": "bb5052e460e146126ec8ef185c9e9a6c078ad6b37be4423f07452a4e0906bc0c",
+      "bytes": 40638,
+      "pages": 1
+    },
+    "CPOR_LaTeX_Submission_Final.zip": {
+      "sha256": "a8b4a4298618d6a4088de7fd8486245200ab0cf5dfe7e68baa1e6891cd6567ea",
+      "bytes": 215132
+    },
+    "CPOR_OR2_v8.zip": {
+      "sha256": "55c94055084df3d2151652ac4b793ac38353b35a3a90d144a0e7d45673a3b9be",
+      "bytes": 7489027
+    }
+  },
+  "previous_proofread_basis": "../20261107_table_notes/README.md",
+  "scientific_text_change": "S17.3: immutable registration -> archived local freeze record",
+  "administrative_changes": "final fixed resource entry and PDF subject metadata",
+  "official_references_32_33": "Existing active official AEMO hyperlinks verified in exported main PDF",
+  "experiments_added": 0,
+  "numerical_results_changed": false,
+  "figure_1_unchanged": true,
+  "checks": "Final PDF compilation, layout, reference links, file hashes and archive integrity checked. Earlier numerical checks apply to bytewise-identical OR2 v8; no claim of a new numerical rerun."
+}
