@@ -1,16 +1,18 @@
 # CPOR resource index
 
-## Current AEMO three-run manuscript and OR2 v9
+## Current seven-dataset manuscript
 
-Start with [the current evidence map](review_resources/20261107_aemo_three_runs/README.md) and [fixed file receipts](review_resources/20261107_aemo_three_runs/FINAL_RECEIPT.json).
+Start with [the current document and evidence map](review_resources/20261107_seven_datasets/README.md) and [file receipts](review_resources/20261107_seven_datasets/FINAL_RECEIPT.json).
 
-- Main Sections 5.6/6.7 and Table 14 map to S17 and Tables S24--S28.
-- Three-run means/SDs and within-run paired gains have distinct records.
-- Aggregate rebuilding and exact saved-trajectory checks have separate commands.
-- Same-target protection, complete-procedure accuracy, protection costs, regional losses and the DLinear fixed-expert near tie are retained.
-- The added coverage is a retrospective extension of the original local-freeze study, not a new untouched confirmation.
+- Section 5.1: seven datasets and AEMO variable definition.
+- Section 5.2: common protocol and continuous-month AEMO evaluation; former 5.6 removed.
+- Main Table 14 and Supplement S17/S24--S28: unchanged results and records.
+- OR2 v9: same archive/hash; six-benchmark statistical scope and AEMO monthly scope unchanged.
+- No new experiment, model, numerical comparison or Figure 1 edit.
 
 ## Previous frozen versions
+
+- [AEMO three-run revision](review_resources/20261107_aemo_three_runs/README.md) remains unchanged.
 
 - [Original submission-final v8](review_resources/20261107_submission_final/README.md) remains unchanged.
 

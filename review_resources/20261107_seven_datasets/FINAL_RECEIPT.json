@@ -1,0 +1,53 @@
+{
+  "version": "seven-datasets-layout-20261107",
+  "artifacts": {
+    "CPOR_Manuscript_Seven_Datasets_Clean.pdf": {
+      "bytes": 602248,
+      "sha256": "f71e1d9adb6dfabd68a14c8e18a36b8926220996caec0e52e26428318ffc3168",
+      "pages": 29
+    },
+    "CPOR_Supplement_Seven_Datasets_Clean.pdf": {
+      "bytes": 348262,
+      "sha256": "e8b4241d56d9921d62bd531482d13481671fac72fcab0fa3c2e9494cb5f4b192",
+      "pages": 21
+    },
+    "CPOR_Cover_Letter_Seven_Datasets.pdf": {
+      "bytes": 40457,
+      "sha256": "8cf7bd3ccb8e56255ee62ad03bb489a177ef108a8f8b1873200eece0838aa870",
+      "pages": 1
+    },
+    "CPOR_LaTeX_Seven_Datasets.zip": {
+      "bytes": 217254,
+      "sha256": "734f085f6e3eb97779d1e46f059d25aceb03b3acdb47cdd76f92b3bd0ff31daa"
+    },
+    "CPOR_OR2_v9.zip": {
+      "bytes": 71578805,
+      "sha256": "ce5459938a279e4696710c2cbb1d9166d35b9f380f48ed79c04d2e38dd32aa6a"
+    }
+  },
+  "numerical_archive_unchanged": true,
+  "numerical_archive_relative_path": "../20261107_aemo_three_runs/Numerical_Resources_20261107_v9.zip",
+  "numerical_archive_sha256": "ce5459938a279e4696710c2cbb1d9166d35b9f380f48ed79c04d2e38dd32aa6a",
+  "statistical_scope_unchanged": true,
+  "results_and_table_cells_unchanged": true,
+  "experiments_added": 0,
+  "figure_1_unchanged": true,
+  "previous_manuscript": "../20261107_aemo_three_runs/README.md",
+  "current_sections": {
+    "datasets": "5.1",
+    "forecasting_protocol": "5.2",
+    "evaluation_metrics": "5.5",
+    "aemo_results": "6.7"
+  },
+  "checks": {
+    "passed": true,
+    "package_sha256": "dee42648c65771d71d612c825bff430740f1a2241a781a26046db8bd4fc73305",
+    "bytes": 72618371,
+    "all_extracted_hashes_match": true,
+    "source_and_or2_crc_passed": true,
+    "figure_1_preserved": true,
+    "numerical_archive_unchanged": true,
+    "prior_packages_unchanged": true,
+    "experiments_added": 0
+  }
+}

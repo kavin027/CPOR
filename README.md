@@ -8,16 +8,11 @@ CPOR derives the exact one-step protection set for nodewise cumulative squared-e
 
 ## Current manuscript and numerical resources
 
-Use the [AEMO three-run revision and OR2 v9](review_resources/20261107_aemo_three_runs/README.md). The clean main text has 30 pages and the supplement 21 pages. [Receipts](review_resources/20261107_aemo_three_runs/FINAL_RECEIPT.json) pin all files. [The original frozen submission](review_resources/20261107_submission_final/README.md) remains unchanged.
+Use the [seven-dataset organization revision](review_resources/20261107_seven_datasets/README.md): clean main text 29 pages, supplement 21 pages, one-page cover letter. [Receipts](review_resources/20261107_seven_datasets/FINAL_RECEIPT.json) pin the current files and unchanged OR2 v9.
 
-    git clone https://github.com/kavin027/CPOR.git
-    cd CPOR
-    python -m zipfile -e review_resources/20261107_aemo_three_runs/Numerical_Resources_20261107_v9.zip review_resources/20261107_aemo_three_runs/extracted
-    cd review_resources/20261107_aemo_three_runs/extracted
-    python aemo_three_runs/check_current.py
-    python aemo_three_runs/check_results.py --self-test
+Datasets are introduced together in Section 5.1; forecasting protocols are in Section 5.2. Results, table cells, statistical scope and Figure 1 are unchanged. The earlier AEMO three-run and original frozen submissions remain available.
 
-The new archive distinguishes same-target protection gains from complete-procedure accuracy, retains protection costs and local reversals, and preserves all original six-benchmark records. See the fixed version's README for scope and exact commands.
+The current resource entry links the bytewise-identical numerical archive and its aggregate/stored-trajectory check commands.
 
 ## Current implementation sources
 
