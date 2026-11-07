@@ -2,13 +2,13 @@
 
 ## Current grouped-PIR manuscript
 
-Start with [6 November manuscript resources and the 7 November evidence addendum](review_resources/20261107_pir/README.md).
+Start with [7 November manuscript resources and OR2 v5](review_resources/20261107_pir/README.md).
 
 - Frozen manuscript OR2 v3 is retained byte-for-byte.
-- OR2 v4 adds projection-order evidence and uncertainty estimates in projection_order/.
+- OR2 v5 incorporates the projection-order evidence and uncertainty in projection_order/ as the source of Tables S22/S23; v4 retains its historical addendum status.
 - The versioned README maps Table 8, S20, S21 and Li S19 to full-precision records and checks.
 - Receipt hashes identify each archive.
-- The addendum has not yet been inserted into the frozen manuscript.
+- The 7 November manuscript includes these results in Sections 6.2/6.4 and Tables S22/S23.
 
 ## Historical resources
 

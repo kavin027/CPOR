@@ -1,11 +1,19 @@
 {
   "date": "2026-11-07",
-  "manuscript": "Frozen 6 November 2026 grouped-PIR manuscript, unchanged",
+  "manuscript": "7 November 2026 projection-order and matched-PIR uncertainty revision; original 6 November version retained",
   "artifacts": {
     "Numerical_Resources_20261106_v3.zip": "1470f4f67c7a6b80f88836e9b1342b730f2c74dbc18a5d5397af0be4de07d0fc",
     "Numerical_Resources_20261107_v4.zip": "2ef361b86d9bb38dbdd2bd3f54d1be1d6b4fc6eb7e32f4f2dbe0a33e0451281e",
-    "Projection_Order_Addendum_20261107.zip": "824c6e1c9360f155cacb2d5a799b192383f61ca2a5f5b809f5a784e88ad3a445"
+    "Projection_Order_Addendum_20261107.zip": "824c6e1c9360f155cacb2d5a799b192383f61ca2a5f5b809f5a784e88ad3a445",
+    "Numerical_Resources_20261107_v5.zip": "2a0a1ead25874f052861b182f9789a2c6ec18f1bf1b5e309be95729dba32a78e"
   },
   "checks": "ten portable scripts passed in a fresh extraction",
-  "new_evidence": "Retrospective projection-order comparison and dataset-cluster uncertainty; manuscript not revised"
+  "new_evidence": "Tables S22/S23 and Sections 6.2/6.4 now include projection-order and uncertainty results",
+  "manuscript_files": {
+    "Manuscript.pdf": "f012a00f3bbf5584aeb8aaf106c654fccada24b05454a3f7d9e568df2eb25f50",
+    "Supplement.pdf": "227c6299c091f87d1536e6d01b22135dd5545fd25b2ea38a0a62b2d604ceba88",
+    "Cover_Letter.pdf": "e133535990058d3f25e1951dc767a065d5c8077a59bc28d53e1bb63390e2ddee",
+    "LaTeX_Source.zip": "2cfd8878119f9ba3e7c1ff721fd4bb978bd6a198b7df6fbba6c1f7d9f8f7afa6",
+    "Numerical_Resources.zip": "2a0a1ead25874f052861b182f9789a2c6ec18f1bf1b5e309be95729dba32a78e"
+  }
 }

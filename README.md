@@ -8,11 +8,11 @@ CPOR derives the exact one-step protection set for nodewise cumulative squared-e
 
 ## Current manuscript and numerical resources
 
-Use the [6 November grouped-PIR manuscript resources and 7 November evidence addendum](review_resources/20261107_pir/README.md). This is the current entry point for Table 8 and Tables S20/S21. [File receipts](review_resources/20261107_pir/RECEIPT.json) identify both the frozen OR2 v3 and the v4 resource containing the separate addendum.
+Use the [7 November manuscript and OR2 v5 resources](review_resources/20261107_pir/README.md). This is the current entry point for Table 8 and Tables S20/S21. [File receipts](review_resources/20261107_pir/RECEIPT.json) identify the previous frozen OR2 v3, historical v4 addendum and current manuscript OR2 v5.
 
     git clone https://github.com/kavin027/CPOR.git
     cd CPOR
-    python -m zipfile -e review_resources/20261107_pir/Numerical_Resources_20261107_v4.zip review_resources/20261107_pir/extracted
+    python -m zipfile -e review_resources/20261107_pir/Numerical_Resources_20261107_v5.zip review_resources/20261107_pir/extracted
     cd review_resources/20261107_pir/extracted
     python pir_grouped/check_grouped.py
     python pir_matched/check_pir.py
@@ -20,7 +20,7 @@ Use the [6 November grouped-PIR manuscript resources and 7 November evidence add
 
 The checks reproduce numerical summaries. Input-level replay requires the archived prediction and observation arrays and the project environment. The resource index describes these levels.
 
-The frozen manuscript reports 2.09% lower RMSE for full projection versus common shrinkage and 1.88% versus a fixed two-group rule on identical PIR candidates. All three satisfy the cumulative limits. The new addendum evaluates direct versus two-stage protection of Cov/ML targets and adds dataset-cluster uncertainty for Table 8. It is available for review before any manuscript revision.
+The manuscript reports 2.09% lower RMSE for full projection versus common shrinkage and 1.88% versus a fixed two-group rule on identical PIR candidates. All three satisfy the cumulative limits. The current manuscript also reports direct versus two-stage protection of Cov/ML targets (S22) and dataset-cluster uncertainty for Table 8 (S23).
 
 ## Current implementation sources
 

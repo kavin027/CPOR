@@ -1,6 +1,6 @@
 # Projection order and matched-PIR uncertainty, 7 November 2026
 
-This retrospective addendum reuses the six datasets, both backbones, three stored runs and all 66 streams. It accompanies the 6 November grouped-PIR manuscript; no manuscript has been changed.
+This retrospective analysis reuses the six datasets, both backbones, three stored runs and all 66 streams. It is incorporated in the 7 November 2026 manuscript, Section 6.4 and Tables S22/S23. The previous manuscript is archived separately.
 
 ## Projection order
 
