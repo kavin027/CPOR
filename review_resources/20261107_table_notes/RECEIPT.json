@@ -1,0 +1,42 @@
+{
+  "version": "v8",
+  "date": "2026-11-07",
+  "manuscript": "Table-note revision; main29/supplement20/letter1 pages",
+  "artifacts": {
+    "Numerical_Resources_20261107_v8.zip": "55c94055084df3d2151652ac4b793ac38353b35a3a90d144a0e7d45673a3b9be"
+  },
+  "manuscript_files": {
+    "CPOR_Manuscript_v8_Clean.pdf": {
+      "sha256": "b49607502690de65de76911a93c67bbe5449b5f110424d41cd6721a98bd6ed91",
+      "bytes": 601650,
+      "pages": 29
+    },
+    "CPOR_Supplement_v8_Clean.pdf": {
+      "sha256": "0980bb7078a456a16f2de3751c9e376c0f2d6e9a7ce9bebe8eee7ed17398ade2",
+      "bytes": 324716,
+      "pages": 20
+    },
+    "CPOR_Cover_Letter_v8.pdf": {
+      "sha256": "ab4b212d4f1fa9e32f585c06aebbcb119f3bc9630af1d5641f01a275624d7f3a",
+      "bytes": 40666,
+      "pages": 1
+    },
+    "CPOR_OR2_v8.zip": {
+      "sha256": "55c94055084df3d2151652ac4b793ac38353b35a3a90d144a0e7d45673a3b9be",
+      "bytes": 7489027
+    },
+    "CPOR_LaTeX_Source_v8.zip": {
+      "sha256": "130bce31c1cb592ded71e0ef39022a3a4f00046f63f29f9549e9154eed91bdb0",
+      "bytes": 215142
+    }
+  },
+  "experiments_added": 0,
+  "numerical_results_changed": false,
+  "changes": [
+    "Main Table 14: one month, one initialization per backbone, within-backbone paired percentage averaging",
+    "Supplement S23: analysis unit and unadjusted intervals/Holm family",
+    "Supplement S26: sign directions of reductions and costs"
+  ],
+  "checks": "Twelve portable scripts passed in a fresh extraction; all previous numerical files and scripts retained byte-for-byte",
+  "previous_version": "../20261107_aemo_minor/README.md"
+}
