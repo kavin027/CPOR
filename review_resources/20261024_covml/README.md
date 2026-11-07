@@ -1,4 +1,6 @@
-# Current Cov/ML manuscript resources — 24 October 2026
+[Current grouped-PIR resources](../20261107_pir/README.md) use the updated Table 8/S20/S21 mapping.
+
+# Archived Cov/ML manuscript resources — 24 October 2026
 
 Download [CPOR_CovML_Results_Minor_20261024.zip](CPOR_CovML_Results_Minor_20261024.zip), extract it, and run `python check_results.py` in the extracted directory. Only Python's standard library is needed for this aggregate check.
 

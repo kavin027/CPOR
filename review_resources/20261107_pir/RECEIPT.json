@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-07",
+  "manuscript": "Frozen 6 November 2026 grouped-PIR manuscript, unchanged",
+  "artifacts": {
+    "Numerical_Resources_20261106_v3.zip": "1470f4f67c7a6b80f88836e9b1342b730f2c74dbc18a5d5397af0be4de07d0fc",
+    "Numerical_Resources_20261107_v4.zip": "2ef361b86d9bb38dbdd2bd3f54d1be1d6b4fc6eb7e32f4f2dbe0a33e0451281e",
+    "Projection_Order_Addendum_20261107.zip": "824c6e1c9360f155cacb2d5a799b192383f61ca2a5f5b809f5a784e88ad3a445"
+  },
+  "checks": "ten portable scripts passed in a fresh extraction",
+  "new_evidence": "Retrospective projection-order comparison and dataset-cluster uncertainty; manuscript not revised"
+}
