@@ -1,0 +1,36 @@
+{
+  "version": "unified-v11-20261108",
+  "date": "2026-11-08",
+  "files": {
+    "CPOR_Manuscript_Unified_Clean_20261108.pdf": {
+      "bytes": 570778,
+      "sha256": "78331eea27e86bbdf9ae5933b5aa2ac9d7d54d21ef9b66ae685cfe690c665434",
+      "pages": 24
+    },
+    "CPOR_Supplement_Unified_Clean_20261108.pdf": {
+      "bytes": 327365,
+      "sha256": "9f5cc0003baaace50b0a7671ed517609ffdf91d68eb754e39cd4573c66854830",
+      "pages": 16
+    },
+    "CPOR_Cover_Letter_Unified_20261108.pdf": {
+      "bytes": 39059,
+      "sha256": "f318593463ca43a4b215595fb23ec7b70459ee0bd8cb4e290cd2ab213220c845",
+      "pages": 1
+    },
+    "CPOR_LaTeX_Unified_20261108.zip": {
+      "bytes": 210286,
+      "sha256": "f39f5280d2a8cf5e029f4b5d27bfc177456be9204c951bfc0fda7e3da32a2773"
+    },
+    "CPOR_OR2_v11.zip": {
+      "bytes": 957956873,
+      "sha256": "33663316f5d3d8490f2ac955bc2966c4a25224cd0404b39ae56c8eda659accfd"
+    },
+    "Numerical_Resources_20261108_v11.zip": {
+      "bytes": 2777388,
+      "sha256": "89938dd839016c56bad1d680fad647b8e1a7c066d06fa58a1b29ab65997e08c3"
+    }
+  },
+  "numeric_payload_sha256": "7a47f95fe173d45b57cac3816dc7248d83d8566a4b126e86256b683aa9ef7361",
+  "scope": "The public archive contains current aggregate records and checks. Full stored prediction payload and historical archive accompany OR2 v11 in the submission. No cached observations uploaded here.",
+  "new_experiments_in_document_revision": 0
+}

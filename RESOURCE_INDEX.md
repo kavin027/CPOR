@@ -1,6 +1,12 @@
 # CPOR resource index
 
-## Current Labour early-window update
+## Current unified seven-dataset update
+
+Start with [OR2 v11](review_resources/20261108_unified/README.md), [aggregate records/checker](review_resources/20261108_unified/Numerical_Resources_20261108_v11.zip), [version map](review_resources/20261108_unified/CURRENT_VERSION.json) and [submission receipts](review_resources/20261108_unified/FINAL_RECEIPT.json).
+
+Seven datasets,three backbones and three training runs. Window and continuous comparisons share inputs within each test; the AEMO whole month remains a separate duration extension. Current table8 compares the same candidate at equal protection. The public aggregate archive and larger cache-bearing submission payload are distinct.
+
+## Previous Labour early-window update
 
 Start with [OR2 v10 and current table mapping](review_resources/20261108_labour_early/README.md), [numerical resources](review_resources/20261108_labour_early/Numerical_Resources_20261108_v10.zip) and [exact file receipts](review_resources/20261108_labour_early/FINAL_RECEIPT.json).
 

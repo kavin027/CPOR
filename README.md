@@ -8,11 +8,13 @@ CPOR derives the exact one-step protection set for nodewise cumulative squared-e
 
 ## Current manuscript and numerical resources
 
-Use the [Labour early-window update / OR2 v10](review_resources/20261108_labour_early/README.md) and [file receipts](review_resources/20261108_labour_early/FINAL_RECEIPT.json).
+Use the [seven-dataset,three-backbone update / OR2 v11](review_resources/20261108_unified/README.md), [aggregate numeric archive](review_resources/20261108_unified/Numerical_Resources_20261108_v11.zip) and [file receipts](review_resources/20261108_unified/FINAL_RECEIPT.json).
 
-The study uses seven datasets: six equally weighted benchmarks and a separately summarized AEMO month. The six benchmarks now have two windows each,24 configurations and72 streams. The Labour early addition is retrospective. AEMO, Figure1 and all prior frozen packages remain unchanged. Current matched-PIR gains are1.94% versus common shrinkage and1.75% versus two-group shrinkage, with heterogeneous protection costs and negative cases retained.
+PatchTST,DLinear and DUET each have three training runs on seven datasets. Uniform72-step early/late windows and144-step continuous tests use common forecasts,dates and feedback within each comparison. The primary grid has42 configurations,126 window streams and63 continuous streams. AEMO's1488-step month is separate and covers all three backbones.
 
-The resource entry provides the numerical archive, exact table mapping and check commands. No experiment was added during manuscript revision.
+On identical coherent PIR candidates,full projection improves RMSE over common shrinkage by3.57% in windows and4.34% continuously; gains over two-group shrinkage are2.72% and3.28%. Complete-procedure rankings against unprotected PIR vary: DUET losses,system-level reversals and protection costs are retained. All protected paths satisfy their cumulative limits. The extension is retrospective; no new experiment was run during manuscript revision.
+
+The public archive checks aggregate arithmetic. Full stored-release replay inputs accompany the complete OR2 v11 submission package. [The previous v10](review_resources/20261108_labour_early/README.md) remains unchanged.
 
 ## Current implementation sources
 

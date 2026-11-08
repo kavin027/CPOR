@@ -1,0 +1,45 @@
+{
+  "version": "OR2 v11",
+  "date": "2026-11-08",
+  "datasets": 7,
+  "backbones": [
+    "PatchTST",
+    "DLinear",
+    "DUET"
+  ],
+  "training_runs": 3,
+  "window_configurations": 42,
+  "window_prediction_streams": 126,
+  "continuous_prediction_streams": 63,
+  "continuous_score_length": 144,
+  "window_score_length": 72,
+  "calibration_length": 36,
+  "aemo_month_streams": 9,
+  "aemo_month_score_length": 1488,
+  "primary_groups": 21,
+  "retrospective_extension": true,
+  "forecast_experiments_during_manuscript_revision": 0,
+  "numeric_payload": "CPOR_Unified_Seven_Datasets_Three_Backbones_20261108.zip",
+  "numeric_payload_sha256": "7a47f95fe173d45b57cac3816dc7248d83d8566a4b126e86256b683aa9ef7361",
+  "historical_payload": "historical/CPOR_OR2_v10.zip",
+  "historical_payload_sha256": "e8395c05e868a23b1945652402d64dc0ce130457abdccf2c86de31224a476cd7",
+  "current_entry": "current/check_tables.py",
+  "checks": [
+    "python current/check_tables.py",
+    "python current/check_tables.py --trajectories"
+  ],
+  "main_tables": {
+    "3": "Dataset definitions; REGISTRATION windows and stored matrices",
+    "4": "current/provenance/REGISTRATION.json",
+    "6": "current/data/three_run_rmse.csv:protocol=window,level=all",
+    "7": "current/data/three_run_rmse.csv:protocol=continuous_carry,level=all",
+    "8": "current/derived/TABLE8_SUMMARY.csv and current/data/run_group_rmse.csv",
+    "9": "current/derived/COMPLIANCE.csv",
+    "10": "current/data/three_run_rmse.csv:window protected controls",
+    "11": "current/data/three_run_rmse.csv:system/region",
+    "12": "current/data/aemo_month_three_run_rmse.csv"
+  },
+  "figure_2": "current/derived/FIGURE2_DATA.csv",
+  "historical_scope": "Domain/order controls,extra recent baselines and dedicated timing retain original scopes; v10 preserved unchanged. Month comparisons are outside uniform144 summaries.",
+  "scope": "Aggregate checks reproduce reported arithmetic. --trajectories replays exact checks on cached predictions; no neural training or new publication optimization."
+}
