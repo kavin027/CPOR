@@ -8,6 +8,12 @@ CPOR derives the exact one-step protection set for nodewise cumulative squared-e
 
 ## Current manuscript and numerical resources
 
+The [Scientific Review document index](review_resources/20261109_scientific_review/README.md)
+maps the latest PDFs and the preceding Scientific Main PDFs to unchanged OR2 v11
+records. The [fixed experiment specifications](docs/README.md) cover raw experts,
+training boundaries and numerical acceptance. Historical archive labels are
+preserved; the Li-level mapping note identifies the middle-node aggregation.
+
 Use the [seven-dataset,three-backbone update / OR2 v11](review_resources/20261108_unified/README.md), [aggregate numeric archive](review_resources/20261108_unified/Numerical_Resources_20261108_v11.zip) and [file receipts](review_resources/20261108_unified/FINAL_RECEIPT.json).
 
 PatchTST,DLinear and DUET each have three training runs on seven datasets. Uniform72-step early/late windows and144-step continuous tests use common forecasts,dates and feedback within each comparison. The primary grid has42 configurations,126 window streams and63 continuous streams. AEMO's1488-step month is separate and covers all three backbones.

@@ -1,0 +1,92 @@
+{
+  "document_version": "scientific-review-20261109",
+  "date": "2026-11-09",
+  "fixed_tag": "scientific-review-20261109",
+  "numerical_input_version": "unified-v11-20261108",
+  "files": {
+    "CPOR_Manuscript_Scientific_Review_Clean_20261109.pdf": {
+      "pdf": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_kais_unified_three_backbones_20261108\\delivery\\CPOR_Manuscript_Scientific_Review_Clean_20261109.pdf",
+      "sha256": "fe61001fe5ccb55d8dd13edfabc6c4c1c750461eb1948720c6c85738151f071c",
+      "bytes": 580876,
+      "pages": 24,
+      "source": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_kais_unified_three_backbones_20261108\\source\\main.tex",
+      "source_sha256": "0934f6f08ea701f65a3a053fd69e8175dfd2a097f39d2f65466dfb6899c5dc4e",
+      "enlarged_pages": [
+        10,
+        12,
+        14,
+        22
+      ],
+      "role": "Manuscript"
+    },
+    "CPOR_Supplement_Scientific_Review_Clean_20261109.pdf": {
+      "pdf": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_kais_unified_three_backbones_20261108\\delivery\\CPOR_Supplement_Scientific_Review_Clean_20261109.pdf",
+      "sha256": "96deb7e7bb1e524f591c38e99768c55af4dbc1642f9b50715f87af3b9c51dff6",
+      "bytes": 226751,
+      "pages": 13,
+      "source": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_kais_unified_three_backbones_20261108\\source\\supplement\\main.tex",
+      "source_sha256": "7ae15f38ed6373e64161662e57eed9f2e8ef21839a217f972dbb5d3531ecbfcc",
+      "enlarged_pages": [
+        13
+      ],
+      "role": "Supplement"
+    },
+    "CPOR_LaTeX_Scientific_Review_20261109.zip": {
+      "role": "editable sources",
+      "sha256": "d3c79c7e00bf673dfd12ca2d3be5f9937d177dfb49dcb5a56fb3f642793ae14a",
+      "bytes": 276662
+    },
+    "CPOR_OR2_v11_Scientific_Review_Addendum_20261109.zip": {
+      "role": "current result checks and code documentation",
+      "sha256": "557cec1f77c4aa89ca74d9a29af1a0d5ad7ff30d9237e5aa8d30153f8eb4209d",
+      "bytes": 229492
+    },
+    "CPOR_Cover_Letter_PIR_Consistent_Clean_20261108.pdf": {
+      "role": "unchanged cover letter",
+      "sha256": "702adfc0ba37bfdcd5a57f7891c2726460b89795791841404509642d71c03c0c",
+      "bytes": 39702
+    },
+    "CPOR_OR2_v11.zip": {
+      "role": "unchanged full numerical archive",
+      "sha256": "33663316f5d3d8490f2ac955bc2966c4a25224cd0404b39ae56c8eda659accfd",
+      "bytes": 957956873
+    },
+    "Numerical_Resources_20261108_v11.zip": {
+      "role": "unchanged aggregate archive",
+      "sha256": "89938dd839016c56bad1d680fad647b8e1a7c066d06fa58a1b29ab65997e08c3",
+      "bytes": 2777388
+    }
+  },
+  "new_experiments": 0,
+  "measurement_values_changed": false,
+  "figure1_preserved": true,
+  "previous_scientific_main_documents": {
+    "CPOR_Manuscript_Scientific_Main_Clean_20261109.pdf": {
+      "pdf": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_kais_unified_three_backbones_20261108\\delivery\\CPOR_Manuscript_Scientific_Main_Clean_20261109.pdf",
+      "sha256": "78daa82b67744cb1537908d1fedca1f99ec1d7aa8a6484e64a4ea57628b74ddb",
+      "bytes": 579523,
+      "pages": 24,
+      "source": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_kais_unified_three_backbones_20261108\\source\\main.tex",
+      "source_sha256": "e2c2578f552b68b69ae9df97aea0fa867e41e4c8fd5d929b3552ac39a33a5d1c",
+      "enlarged_pages": [
+        10,
+        12,
+        14,
+        22
+      ],
+      "role": "Manuscript"
+    },
+    "CPOR_Supplement_Scientific_Main_Clean_20261109.pdf": {
+      "pdf": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_kais_unified_three_backbones_20261108\\delivery\\CPOR_Supplement_Scientific_Main_Clean_20261109.pdf",
+      "sha256": "e5448b4d0fde1d17b8d84c44070653b4ebcb5fb8a4d0af43babbd5ca8d7443fa",
+      "bytes": 226819,
+      "pages": 13,
+      "source": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_kais_unified_three_backbones_20261108\\source\\supplement\\main.tex",
+      "source_sha256": "64c188796d37fd572a1e2fae9ec2092fcace56a58204d21be450408fb8bec8b6",
+      "enlarged_pages": [],
+      "role": "Supplement"
+    }
+  },
+  "Li_aggregation_scope": "all nonsystem nonbottom nodes, Labour includes regional and sex-region series",
+  "settings_index": "docs/README.md"
+}

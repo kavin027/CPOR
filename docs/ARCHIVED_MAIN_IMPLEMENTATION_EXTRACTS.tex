@@ -1,0 +1,59 @@
+% Main-paper implementation passages moved to code documentation, 9 November 2026.
+% Historical extracts only; not compiled as a paper.
+
+% Give the general positive floor; keep its executed value in code documentation
+$\gamma_{t,i}=\max\{\operatorname{tr}(G_{t,i})/K,10^{-12}\}$ a positive
+scale.
+
+% Keep numerical-vs-ideal scope and failure behavior; move repair implementation to code
+Cov and ML each submit one protected target for numerical acceptance.
+The solver slightly narrows each interval toward the reference to reduce
+rounding errors. The resulting stored forecast is then checked against
+the original envelope using exact rational arithmetic. Aggregation consistency is checked separately
+within numerical tolerance; projection optimality is assessed by numerical
+diagnostics. If needed, a release guard contracts the
+forecast and its underlying representation toward the anchor and checks
+them again. The accepted stored forecast is denoted by $p_t$.
+
+Cov and ML differ in their numerical repair checks. If no projection
+attempt is accepted, the procedure stops. The release guard can return
+the anchor; only an accepted forecast is released.
+
+% Retain the certification invariant; move binary-to-rational storage recipe to code
+This statement permits any causal protection reference in $\C$.
+For numerical certification, let $A_{t,i}^*$ be the exact remaining
+allowance computed from the stored reference, release and observation
+values, and let $A_{t,i}^{\rm cert}$ be the allowance used by the guard.
+Each implementation converts each stored binary floating-point value
+exactly to a rational number and accumulates
+Eq.~\eqref{eq:settlement} in rational arithmetic, starting from zero.
+Thus the maintained invariant is
+
+% Remove repeated numerical guarantee explanation and storage operations
+The factor $R_i$ is formed from the specified decimal allowance using
+rational arithmetic.
+Interval construction and optimization use floating-point arithmetic.
+For stored forecasts, the exact check gives
+$\Gamma_{R_i}(b_{t,i},p_{t,i})\le A_{t,i}^*$. The observed excess loss
+cannot exceed this envelope. Updating the allowance in rational arithmetic
+therefore leaves $A_{t+1,i}^*\ge0$, which gives
+Eq.~\eqref{eq:protection}.
+\edit{Aggregation consistency is checked separately at the stated tolerance.}
+
+% Preserve chronology and within-stream fairness; move fold recipe and backbone-specific fit bookkeeping to code
+For PatchTST and DLinear, the 36 calibration forecasts on RH, ECommerce,
+Traffic, Wiki2 and Labour are generated in three 12-observation folds,
+each fitted using only earlier data. M5 and AEMO use models fitted before
+the historical support period, which supplies earlier forecast--observation
+pairs for fitting the postprocessors. DUET uses the authors' implementation
+and fixed configuration, with a chronological 80/20 training/validation
+split preceding the forecasts it generates. Labour uses a separate DUET
+fit before its late-window calibration.
+
+% Move Cov tuning constants and rational encoding out of the shared protocol table
+Cov shrinkage $\rho$ / ridge $\tau$ & $0.1$ / $10^{-6}$\\
+Nodewise allowance $\epsilon_i$ & $0.005$; exact $R_i=40401/40000$\\
+
+% Keep the bibliographic source; move data version hash to code documentation
+Accessed 18 October 2026. Source archive pinned to Git blob
+\path{925e92ee03cdb83c54a1dbbc12260a3b1939753c}.

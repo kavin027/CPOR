@@ -1,0 +1,260 @@
+% Archival extracts moved out of the scientific supplement. Not a standalone manuscript.
+\section{\edit{Candidate settings and numerical protection}}\label{sec:implementation}
+
+\subsection{Raw forecast rules}
+\edit{In Table~\ref{tab:expertconfig}, $f_{t,i}$ denotes the supplied forecast.
+Windows and lags count observation steps; settings are fixed across datasets and runs.
+SD denotes standard deviation.}
+We estimate $v_i$ from observations strictly before calibration, using
+the population-variance definition. To keep it positive, we apply a floor
+equal to the larger of $10^{-12}$ and $10^{-6}$ times the median variance
+above $10^{-12}$. If no variance exceeds $10^{-12}$, the floor is
+$10^{-12}$.
+Lagged observations may precede calibration. Raw-error and feature
+histories start at calibration and continue through scoring.
+
+\begin{table}[htbp]\centering\color{red}\small
+\caption{Raw forecast candidate settings.}\label{tab:expertconfig}
+\begin{tabular}{@{}p{.20\linewidth}p{.75\linewidth}@{}}\toprule
+Rule (columns) & Definition and fixed settings\\\midrule
+Raw (1) & The supplied forecast $f_{t,i}$.\\
+Bias correction (4) & Four candidates, with windows of 3, 7, 14 and 28 observation steps. Each subtracts the mean returned base-forecast error $f_{s,i}-y_{s,i}$ over its window. Use all available errors when fewer have returned; use zero correction initially.\\
+Persistence (1) & The most recent observation, $y_{t-1,i}$.\\
+Recent mean (1) & Mean of the preceding 7 observations, smoothing recent level fluctuations.\\
+Lagged value (1) & The observation 7 steps earlier, $y_{t-7,i}$.\\
+Ridge correction (1) & Estimate normalized base-forecast error $(f_{s,i}-y_{s,i})/\sqrt{v_i}$ from up to 36 returned observations; start fitting after 12 errors have returned. Features: current base forecast, most recent observation, preceding 7-observation mean, position within the 12-step prediction block divided by 12, and sine/cosine of the timestamp's calendar weekday. Standardize each feature within the node's fitting window using its mean and population SD (scale one for a constant feature); apply those same statistics to the current feature vector. Use ridge penalty 10 and an unpenalized intercept. Subtract the estimated error multiplied by $\sqrt{v_i}$; before fitting starts, use the raw forecast.\\\bottomrule
+\end{tabular}\end{table}
+
+\subsection{Projection and release acceptance}\label{sec:acceptance}
+\edit{To reduce rounding errors at the boundary, projection uses intervals
+slightly contracted toward the reference:}
+\begin{equation}
+L^{\rm num}_{t,i}=b_{t,i}+(1-10^{-6})(L_{t,i}-b_{t,i}),\qquad
+U^{\rm num}_{t,i}=b_{t,i}+(1-10^{-6})(U_{t,i}-b_{t,i}).
+\label{eq:intervalinset}
+\end{equation}
+\edit{The $10^{-6}$ margin is a fixed numerical setting. Every released
+forecast is checked against the original protection envelope. Where coordinate
+repair is used, we clip to the contracted intervals and move any entry
+that fails the exact envelope test toward the reference, one representable
+floating-point step at a time, for at most 16 steps per entry.
+We retain the underlying representation only if the repaired forecast
+passes both coherence and envelope checks. Otherwise, the release guard
+contracts the forecast and its representation jointly toward the reference,
+with the reference as the final fallback.}
+
+Clarabel solves the projection quadratic program. Sequential
+least-squares programming (SLSQP) supplies fallback solutions when needed.
+
+\begin{table}[H]\centering\small
+\caption{Projection and publication settings.}\label{tab:numerics}
+\begin{tabular}{@{}p{.23\linewidth}p{.72\linewidth}@{}}\toprule
+Operation & Acceptance criteria\\\midrule
+\edit{Projection QP} & \edit{Up to five Clarabel attempts, each with at most
+500 iterations. For primal objective $F$ and numerical dual bound $D$,
+require $-10^{-7}(1+F)\le F-D\le2\times10^{-6}(1+F)$.}\\
+\edit{Coherence} & \edit{Require $u\ge0$ and
+$|p_i-(Su)_i|\le2\times10^{-6}+10^{-8}|(Su)_i|$.}\\
+\edit{Nodewise protection} & \edit{Require $\Gamma_{R_i}(b_i,p_i)\le A_i$.
+The stored binary values are converted exactly to rational numbers for
+this test and allowance updates.}\\
+\edit{Failure handling} & \edit{Unaccepted QP solutions use an SLSQP fallback;
+projection exhaustion halts the trajectory. A failed release check triggers
+contraction toward the reference.}\\\bottomrule
+\end{tabular}\end{table}
+
+\edit{The tolerances in Table~\ref{tab:numerics} are fixed numerical
+settings. The objective gap checks how closely the solver approaches the projection
+minimum. The separate rational-envelope test checks whether the forecast
+satisfies each node's protection limit.}
+
+\subsection{\edit{Release rules and state reset}}\label{sec:statepaths}
+\edit{Cov and ML update their own allowances from their released predictions.
+After repairing coordinates, Cov records the objective gap, while ML
+also requires it to pass the acceptance threshold. On M5, Cov shrinks the
+forecast and its representation together instead of clipping coordinates.
+Section~\ref{sec:m5path} evaluates this numerical difference.}
+
+Before the observation returns, Cov temporarily deducts the certified
+amount $r_{t,i}=\Gamma_{R_i}(b_{t,i},p_{t,i})$ from the available allowance.
+It restores this amount when it updates the allowance using the observed
+error. With feedback before the next release,
+\begin{equation}
+(A_{t,i}-r_{t,i})+r_{t,i}+R_i(b_{t,i}-y_{t,i})^2-(p_{t,i}-y_{t,i})^2
+=A_{t+1,i}.
+\label{eq:reservation}
+\end{equation}
+The temporary deduction and restoration cancel, giving the same next
+allowance as a direct update from the observed error. Cov and ML can
+still have different allowances because they release different forecasts.
+
+\begin{table}[htbp]\centering\small
+\caption{State at the start of scoring.}\label{tab:reset}
+\begin{tabular}{@{}p{.31\linewidth}p{.64\linewidth}@{}}\toprule
+Quantity & Action\\\midrule
+Protection allowance & Zero at the agreed start. Window tests restart for each window; the continuous path retains it for all 144 releases. The paired reset control clears only this allowance at release 73.\\
+Expert histories & Retain returned raw errors, observations and ridge features.\\
+Combination states & Retain Cov's recent expert errors and ML's sequential gain accumulators.\\
+Variance weights and reference rule & Fixed before the corresponding calibration period. Continuous and reset-control paths share the early-window weights and each current reference.\\\bottomrule
+\end{tabular}\end{table}
+
+\FloatBarrier
+\subsection{Backbone training and reuse}\label{sec:training}
+Three independently initialized training runs use the same chronological
+selection rules within each backbone. Table~\ref{tab:backbone_settings}
+lists the fixed settings. Each PatchTST/DLinear calibration forecast is generated by a model
+fitted and validated on earlier dates. DUET is fitted
+before the earliest calibration period, except Labour's separately fitted
+late stage. All postprocessors receive the same stored predictions from a given
+backbone run. Continuous evaluation uses the early calibration period,
+followed by both scoring windows. It does not repeat the late-window
+calibration records, which already lie in the first scored half.
+
+\begin{table}[htbp]\centering\footnotesize
+\caption{Backbone settings.}\label{tab:backbone_settings}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llll}\toprule
+Setting & PatchTST & DLinear & DUET\\
+\midrule
+Input / horizon & 24 / 12 & 24 / 12 & 24 / 12\\
+Learning rate & $10^{-4}$ & $10^{-4}$ & $5\times10^{-4}$\\
+Training loss & MAE & MAE & MAE + balancing loss\\
+Training cap & 500 updates & 10,000 updates & 100 epochs\\
+Early stopping & 50 checks & 50 checks & 5 epochs\\
+Validation & 36 observations & 36 observations & 20\% prefix holdout\\
+Normalization & RevIN & Identity & Author normalization\\
+\bottomrule\end{tabular}
+\end{table}
+DUET adds the authors' expert-balancing loss to MAE with coefficient 1;
+validation uses MAE alone. It uses one encoder layer, model width 64, feed-forward width 128,
+two experts, one selected expert, one attention head and batch size 16.
+Its configuration is fixed across datasets. Eleven original DUET windows are reused unchanged; the additional runs
+cover the remaining initializations, Labour's early window and AEMO.
+Separate fits on earlier dates supply forecast errors for training the
+external adapters. Validation selects models using only pre-scoring
+observations. Online Resource~2 (OR2) v11 lists the fitting dates and saved
+training records.
+
+The new AEMO short-window adapters use 216 historical forecast errors and
+36 calibration observations at each window's boundary. The whole-month
+adapters retain 108 support forecasts and 36 calibration observations.
+On other datasets with shorter histories, adapter training uses only
+the available earlier forecasts.
+
+\FloatBarrier
+
+\subsection{Observation definition and frozen boundaries}
+The outcome is AEMO's estimated underlying demand: the sum of its
+unadjusted half-hourly operational demand and measurement-based rooftop
+PV generation estimate, in MW. Operational demand is read from
+\texttt{OPERATIONAL\_DEMAND/ACTUAL}, field
+\texttt{OPERATIONAL\_DEMAND}; PV is read from
+\texttt{ROOFTOP/ACTUAL}, field \texttt{POWER}, with
+\texttt{TYPE=MEASUREMENT}. AEMO defines this sum as estimated total
+regional electricity consumption. The official sources are cited in
+\MainSec{sec:datasets}. The resulting demand series estimates total regional consumption from
+operational-demand measurements and estimated rooftop PV generation.
+
+All five regions are retained in the order NSW, QLD, SA, TAS, VIC,
+preceded by their system sum. The 2,928 half-hourly timestamps cover
+1 September 2026 00:30 through 1 November 2026 00:00 in fixed AEST
+(UTC+10). Both components contain every required region and timestamp. When
+reports revise the same value, we use the latest \texttt{LASTCHANGED}
+record; conflicting values tied at that time fail the completeness
+check. We retain all observations without interpolation or deletion,
+including both PV quality indicators, 0.7 and 1.
+
+The original \texttt{TOTALDEMAND} registration is retained as an
+ineligible signed-outcome attempt: 34 October half-hour values in SA
+were negative. No forecasting method was scored on that attempt.
+The replacement outcome was chosen from AEMO's physical definition.
+Before acquiring these component data, the author saved the evaluation
+protocol and 86 file hashes locally on 7 November 2026 at
+03:26:17.918634 UTC. The hashes cover 84 Python implementation and
+dependency files, one directory inventory and one protocol file.
+The separate source manifest records the URLs and post-download hashes
+of 520 original data ZIPs. These local timestamps, hashes and amendment records document when the
+protocol was fixed. Related electricity fields had already been inspected;
+the replacement outcome and its data acquisition followed this recorded
+amendment.
+The original registration and protocols remain in the historical v10 payload of Online Resource~2 v11.
+
+The 520 raw ZIP files contain 3,594 CSV reports. The August trading-day archive supplies the records needed at the
+September boundary, completing both component series. The operational-demand component retains
+37 negative values (30 in October); adding the original PV estimate
+yields nonnegative underlying demand at every region--time point.
+October minima are 6,206, 5,445, 1,072, 910 and 4,313 MW in the five
+regions, respectively. The system is their sum.
+
+\begin{table}[htbp]\centering\footnotesize
+\caption{AEMO boundaries and training runs.}\label{tab:aemoboundaries}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{ll}\toprule
+Stage & Setting\\\midrule
+Backbone training / validation & Before 28 September 00:30\\
+Support forecasts & 28 September 00:30--30 September 06:00 (108)\\
+Calibration forecasts & 30 September 06:30--1 October 00:00 (36)\\
+Scored month & 1 October 00:30--1 November 00:00 (1,488)\\
+Training runs & Three per backbone; common validation-MAE rule\\
+Input / base forecast horizon & 24 / 12 half-hours\\
+Reference / allowance & NNLS / 0.5\%, $R=40401/40000$\\
+Allowance reset & Zero only at the start of October\\
+\bottomrule\end{tabular}
+\end{table}
+\subsection{Three backbones and three training runs}
+PatchTST and DLinear whole-month predictions and release results are reused
+unchanged. DUET adds three independently trained streams using the same
+pre-support cutoff, 24/12 input/horizon and validation-MAE selection.
+The shared monthly comparison contains 23 methods available on all three
+backbones. Each protected method starts with zero once at October's first
+release and settles all 1,488 outcomes without resetting.
+
+All training runs are evaluated on the same finalized October
+observations, so they measure sensitivity to initialization. The expanded
+comparisons and short windows were added after the original new-outcome
+study. Evaluation assumes feedback before the next release and uses
+finalized data; it does not recreate historical reporting delays or
+revisions.
+
+
+\subsection{M5 publication-path sensitivity}\label{sec:m5path}
+\edit{This sensitivity comparison changes only M5 Cov's numerical release
+rule: joint contraction is replaced by the coordinate-repair rule used
+on the other datasets. The two backbones, two windows and three runs
+give twelve paired trajectories. Targets, reference, variance weights
+and feedback order are fixed; each rule starts with zero allowance and
+updates it from its own predictions.}
+
+\edit{We compute RMSE from each trajectory's predictions and observations,
+average the two windows within each backbone--run pair, and calculate
+the relative reduction from joint contraction to coordinate repair.
+Across the six resulting pairs, the mean reduction is
+$4.62\times10^{-6}\%$ and the largest absolute change is
+$2.93\times10^{-5}\%$. Both rules satisfy the cumulative limits.
+The numerical release-rule difference has negligible aggregate accuracy
+effect in this M5 comparison.}
+
+\FloatBarrier
+\Needspace{22\baselineskip}
+\FloatBarrier
+
+\section{Version map and numerical resources}\label{sec:resources}
+OR2 v11 supplies the current unrounded per-run and grouped RMSEs,
+paired percentages, dataset effects, training receipts and table checker.
+Its numerical payload contains the stored contexts and releases for the
+seven-dataset extension. The v10 archive preserves earlier analyses,
+Labour provenance and original AEMO registrations unchanged.
+The accompanying supplement-check addendum provides verified table
+records and the corrected historical Li level summaries.
+
+From the OR2 root, the aggregate command is
+\begin{quote}\footnotesize\ttfamily
+python current/check\_tables.py
+\end{quote}
+The optional stored-trajectory command extracts the supplied numerical
+payload and checks its saved releases:
+\begin{quote}\footnotesize\ttfamily
+python current/check\_tables.py --trajectories
+\end{quote}
+The first command recomputes reported tables; the second also checks
+the stored forecast sequences. Both use recorded predictions.

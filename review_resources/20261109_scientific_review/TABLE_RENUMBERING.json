@@ -1,0 +1,117 @@
+[
+  {
+    "label": "tab:variation",
+    "old_number": "S5",
+    "new_number": "S1"
+  },
+  {
+    "label": "tab:sd_window_DLinear",
+    "old_number": "S6",
+    "new_number": "S2"
+  },
+  {
+    "label": "tab:sd_window_DUET",
+    "old_number": "S7",
+    "new_number": "S3"
+  },
+  {
+    "label": "tab:sd_continuous_carry_PatchTST",
+    "old_number": "S8",
+    "new_number": "S4"
+  },
+  {
+    "label": "tab:sd_continuous_carry_DLinear",
+    "old_number": "S9",
+    "new_number": "S5"
+  },
+  {
+    "label": "tab:current_sd_last",
+    "old_number": "S10",
+    "new_number": "S6"
+  },
+  {
+    "label": "tab:pirpaired",
+    "old_number": "S11",
+    "new_number": "S7"
+  },
+  {
+    "label": "tab:pir_continuous",
+    "old_number": "S12",
+    "new_number": "S8"
+  },
+  {
+    "label": "tab:carry_details",
+    "old_number": "S13",
+    "new_number": "S9"
+  },
+  {
+    "label": "tab:layer_details",
+    "old_number": "S14",
+    "new_number": "S10"
+  },
+  {
+    "label": "tab:layer_continuous",
+    "old_number": "S15",
+    "new_number": "S11"
+  },
+  {
+    "label": "tab:uncertainty",
+    "old_number": "S16",
+    "new_number": "S12"
+  },
+  {
+    "label": "tab:piruncertainty",
+    "old_number": "S17",
+    "new_number": "S13"
+  },
+  {
+    "label": "tab:aemocomplete",
+    "old_number": "S19",
+    "new_number": "S14"
+  },
+  {
+    "label": "tab:aemonodes",
+    "old_number": "S20",
+    "new_number": "S15"
+  },
+  {
+    "label": "tab:envelope_sd",
+    "old_number": "S21",
+    "new_number": "S16"
+  },
+  {
+    "label": "tab:order",
+    "old_number": "S22",
+    "new_number": "S17"
+  },
+  {
+    "label": "tab:events",
+    "old_number": "S23",
+    "new_number": "S18"
+  },
+  {
+    "label": "tab:historical_time",
+    "old_number": "S24",
+    "new_number": "S19"
+  },
+  {
+    "label": "tab:ext",
+    "old_number": "S25",
+    "new_number": "S20"
+  },
+  {
+    "label": "tab:kddres",
+    "old_number": "S26",
+    "new_number": "S21"
+  },
+  {
+    "label": "tab:mcgrad",
+    "old_number": "S27",
+    "new_number": "S22"
+  },
+  {
+    "label": "tab:li",
+    "old_number": "S28",
+    "new_number": "S23"
+  }
+]

@@ -1,0 +1,2189 @@
+table,position,row,column,displayed,recomputed,table_label
+S1,1,RH/PatchTST/all,ProCAST:mean,1080.38,1080.3798919464396,tab:variation
+S1,2,RH/PatchTST/all,ProCAST:sample_sd,27.08,27.08123976182544,tab:variation
+S1,3,RH/PatchTST/all,Ada-Y:mean,1307.15,1307.1521514352962,tab:variation
+S1,4,RH/PatchTST/all,Ada-Y:sample_sd,40.97,40.968031892792766,tab:variation
+S1,5,RH/PatchTST/all,PIR:mean,1076.05,1076.045065683552,tab:variation
+S1,6,RH/PatchTST/all,PIR:sample_sd,55.04,55.03647468335554,tab:variation
+S1,7,RH/PatchTST/all,CPOR-Cov:mean,948.66,948.66337342194,tab:variation
+S1,8,RH/PatchTST/all,CPOR-Cov:sample_sd,23.19,23.18874522352308,tab:variation
+S1,9,RH/PatchTST/all,CPOR-ML:mean,947.27,947.2683371922336,tab:variation
+S1,10,RH/PatchTST/all,CPOR-ML:sample_sd,23.82,23.815209718128013,tab:variation
+S1,11,ECommerce/PatchTST/all,ProCAST:mean,1509.91,1509.9070180582528,tab:variation
+S1,12,ECommerce/PatchTST/all,ProCAST:sample_sd,1.86,1.8636347906779451,tab:variation
+S1,13,ECommerce/PatchTST/all,Ada-Y:mean,1500.53,1500.5335984266374,tab:variation
+S1,14,ECommerce/PatchTST/all,Ada-Y:sample_sd,7.82,7.823189904090883,tab:variation
+S1,15,ECommerce/PatchTST/all,PIR:mean,1582.66,1582.6592026673352,tab:variation
+S1,16,ECommerce/PatchTST/all,PIR:sample_sd,15.89,15.891988077868096,tab:variation
+S1,17,ECommerce/PatchTST/all,CPOR-Cov:mean,1476.19,1476.1943781005873,tab:variation
+S1,18,ECommerce/PatchTST/all,CPOR-Cov:sample_sd,4.58,4.579131707243081,tab:variation
+S1,19,ECommerce/PatchTST/all,CPOR-ML:mean,1470.64,1470.6424394726243,tab:variation
+S1,20,ECommerce/PatchTST/all,CPOR-ML:sample_sd,3.52,3.515654663770922,tab:variation
+S1,21,Traffic/PatchTST/all,ProCAST:mean,5.296,5.296325819012131,tab:variation
+S1,22,Traffic/PatchTST/all,ProCAST:sample_sd,0.143,0.1426895835451267,tab:variation
+S1,23,Traffic/PatchTST/all,Ada-Y:mean,3.841,3.841348240767557,tab:variation
+S1,24,Traffic/PatchTST/all,Ada-Y:sample_sd,0.017,0.0168811233366898,tab:variation
+S1,25,Traffic/PatchTST/all,PIR:mean,3.748,3.7476063449030974,tab:variation
+S1,26,Traffic/PatchTST/all,PIR:sample_sd,0.162,0.1618914041183287,tab:variation
+S1,27,Traffic/PatchTST/all,CPOR-Cov:mean,3.739,3.739371431136251,tab:variation
+S1,28,Traffic/PatchTST/all,CPOR-Cov:sample_sd,0.030,0.0298785486518469,tab:variation
+S1,29,Traffic/PatchTST/all,CPOR-ML:mean,3.743,3.743495007539449,tab:variation
+S1,30,Traffic/PatchTST/all,CPOR-ML:sample_sd,0.032,0.032015765034478,tab:variation
+S1,31,Wiki2/PatchTST/all,ProCAST:mean,3172.20,3172.200782186415,tab:variation
+S1,32,Wiki2/PatchTST/all,ProCAST:sample_sd,62.32,62.315336520188175,tab:variation
+S1,33,Wiki2/PatchTST/all,Ada-Y:mean,2546.76,2546.764691786886,tab:variation
+S1,34,Wiki2/PatchTST/all,Ada-Y:sample_sd,13.36,13.356826381949135,tab:variation
+S1,35,Wiki2/PatchTST/all,PIR:mean,2772.26,2772.25680131937,tab:variation
+S1,36,Wiki2/PatchTST/all,PIR:sample_sd,31.21,31.20824911149283,tab:variation
+S1,37,Wiki2/PatchTST/all,CPOR-Cov:mean,2465.83,2465.831176796151,tab:variation
+S1,38,Wiki2/PatchTST/all,CPOR-Cov:sample_sd,5.55,5.545612744075692,tab:variation
+S1,39,Wiki2/PatchTST/all,CPOR-ML:mean,2483.48,2483.48479240004,tab:variation
+S1,40,Wiki2/PatchTST/all,CPOR-ML:sample_sd,8.02,8.01850930054604,tab:variation
+S1,41,Labour/PatchTST/all,ProCAST:mean,23.43,23.42980645998056,tab:variation
+S1,42,Labour/PatchTST/all,ProCAST:sample_sd,0.43,0.4322916295950501,tab:variation
+S1,43,Labour/PatchTST/all,Ada-Y:mean,21.07,21.070407999158007,tab:variation
+S1,44,Labour/PatchTST/all,Ada-Y:sample_sd,0.69,0.6861982355920325,tab:variation
+S1,45,Labour/PatchTST/all,PIR:mean,15.19,15.189927725379633,tab:variation
+S1,46,Labour/PatchTST/all,PIR:sample_sd,0.36,0.3635244360096267,tab:variation
+S1,47,Labour/PatchTST/all,CPOR-Cov:mean,14.81,14.808355467211102,tab:variation
+S1,48,Labour/PatchTST/all,CPOR-Cov:sample_sd,0.06,0.0564728540594995,tab:variation
+S1,49,Labour/PatchTST/all,CPOR-ML:mean,14.81,14.812297910369532,tab:variation
+S1,50,Labour/PatchTST/all,CPOR-ML:sample_sd,0.06,0.0587275862812589,tab:variation
+S1,51,M5/PatchTST/all,ProCAST:mean,429.56,429.5581515748305,tab:variation
+S1,52,M5/PatchTST/all,ProCAST:sample_sd,2.64,2.6361818981277843,tab:variation
+S1,53,M5/PatchTST/all,Ada-Y:mean,437.70,437.7020250322125,tab:variation
+S1,54,M5/PatchTST/all,Ada-Y:sample_sd,3.91,3.912094344273941,tab:variation
+S1,55,M5/PatchTST/all,PIR:mean,417.04,417.0441075744572,tab:variation
+S1,56,M5/PatchTST/all,PIR:sample_sd,28.87,28.87217975198081,tab:variation
+S1,57,M5/PatchTST/all,CPOR-Cov:mean,421.62,421.62416801849423,tab:variation
+S1,58,M5/PatchTST/all,CPOR-Cov:sample_sd,0.57,0.5707171540108615,tab:variation
+S1,59,M5/PatchTST/all,CPOR-ML:mean,420.12,420.116725623318,tab:variation
+S1,60,M5/PatchTST/all,CPOR-ML:sample_sd,0.46,0.4632689487340717,tab:variation
+S1,61,AEMO/PatchTST/all,ProCAST:mean,647.72,647.7199712597561,tab:variation
+S1,62,AEMO/PatchTST/all,ProCAST:sample_sd,62.65,62.648903171660194,tab:variation
+S1,63,AEMO/PatchTST/all,Ada-Y:mean,668.35,668.3495463537888,tab:variation
+S1,64,AEMO/PatchTST/all,Ada-Y:sample_sd,62.06,62.057534552012434,tab:variation
+S1,65,AEMO/PatchTST/all,PIR:mean,474.21,474.2117176378789,tab:variation
+S1,66,AEMO/PatchTST/all,PIR:sample_sd,25.35,25.35153607301493,tab:variation
+S1,67,AEMO/PatchTST/all,CPOR-Cov:mean,628.19,628.1920325348786,tab:variation
+S1,68,AEMO/PatchTST/all,CPOR-Cov:sample_sd,61.00,60.9979260507162,tab:variation
+S1,69,AEMO/PatchTST/all,CPOR-ML:mean,629.02,629.0189702492664,tab:variation
+S1,70,AEMO/PatchTST/all,CPOR-ML:sample_sd,61.42,61.4195290217048,tab:variation
+S2,1,RH/DLinear/all,ProCAST:mean,1459.30,1459.299181568819,tab:sd_window_DLinear
+S2,2,RH/DLinear/all,ProCAST:sample_sd,28.28,28.279539248497283,tab:sd_window_DLinear
+S2,3,RH/DLinear/all,Ada-Y:mean,1901.25,1901.252880121664,tab:sd_window_DLinear
+S2,4,RH/DLinear/all,Ada-Y:sample_sd,21.37,21.373938384303763,tab:sd_window_DLinear
+S2,5,RH/DLinear/all,PIR:mean,1238.61,1238.6147833943262,tab:sd_window_DLinear
+S2,6,RH/DLinear/all,PIR:sample_sd,107.06,107.06326302260356,tab:sd_window_DLinear
+S2,7,RH/DLinear/all,CPOR-Cov:mean,1192.97,1192.9687817083852,tab:sd_window_DLinear
+S2,8,RH/DLinear/all,CPOR-Cov:sample_sd,5.59,5.593274977220482,tab:sd_window_DLinear
+S2,9,RH/DLinear/all,CPOR-ML:mean,1193.89,1193.8921621592635,tab:sd_window_DLinear
+S2,10,RH/DLinear/all,CPOR-ML:sample_sd,8.11,8.110655725494446,tab:sd_window_DLinear
+S2,11,ECommerce/DLinear/all,ProCAST:mean,1562.45,1562.4502394739184,tab:sd_window_DLinear
+S2,12,ECommerce/DLinear/all,ProCAST:sample_sd,6.09,6.090696199279243,tab:sd_window_DLinear
+S2,13,ECommerce/DLinear/all,Ada-Y:mean,1541.79,1541.7894809344853,tab:sd_window_DLinear
+S2,14,ECommerce/DLinear/all,Ada-Y:sample_sd,5.87,5.874729834987043,tab:sd_window_DLinear
+S2,15,ECommerce/DLinear/all,PIR:mean,1617.31,1617.3061328762076,tab:sd_window_DLinear
+S2,16,ECommerce/DLinear/all,PIR:sample_sd,41.77,41.76751959836431,tab:sd_window_DLinear
+S2,17,ECommerce/DLinear/all,CPOR-Cov:mean,1494.24,1494.238040662009,tab:sd_window_DLinear
+S2,18,ECommerce/DLinear/all,CPOR-Cov:sample_sd,3.46,3.464815836931864,tab:sd_window_DLinear
+S2,19,ECommerce/DLinear/all,CPOR-ML:mean,1484.68,1484.680632986965,tab:sd_window_DLinear
+S2,20,ECommerce/DLinear/all,CPOR-ML:sample_sd,2.45,2.453020479579511,tab:sd_window_DLinear
+S2,21,Traffic/DLinear/all,ProCAST:mean,5.365,5.364542581573179,tab:sd_window_DLinear
+S2,22,Traffic/DLinear/all,ProCAST:sample_sd,0.075,0.0750589768534881,tab:sd_window_DLinear
+S2,23,Traffic/DLinear/all,Ada-Y:mean,4.131,4.131216793605284,tab:sd_window_DLinear
+S2,24,Traffic/DLinear/all,Ada-Y:sample_sd,0.055,0.0548230650156778,tab:sd_window_DLinear
+S2,25,Traffic/DLinear/all,PIR:mean,3.864,3.864152526869148,tab:sd_window_DLinear
+S2,26,Traffic/DLinear/all,PIR:sample_sd,0.153,0.1531935236008889,tab:sd_window_DLinear
+S2,27,Traffic/DLinear/all,CPOR-Cov:mean,3.977,3.976833179839269,tab:sd_window_DLinear
+S2,28,Traffic/DLinear/all,CPOR-Cov:sample_sd,0.037,0.0369766077734333,tab:sd_window_DLinear
+S2,29,Traffic/DLinear/all,CPOR-ML:mean,3.981,3.981477771905869,tab:sd_window_DLinear
+S2,30,Traffic/DLinear/all,CPOR-ML:sample_sd,0.040,0.0401651951963491,tab:sd_window_DLinear
+S2,31,Wiki2/DLinear/all,ProCAST:mean,3363.83,3363.8298545435123,tab:sd_window_DLinear
+S2,32,Wiki2/DLinear/all,ProCAST:sample_sd,60.72,60.71824822923027,tab:sd_window_DLinear
+S2,33,Wiki2/DLinear/all,Ada-Y:mean,2708.30,2708.2990220852903,tab:sd_window_DLinear
+S2,34,Wiki2/DLinear/all,Ada-Y:sample_sd,17.60,17.603896462812777,tab:sd_window_DLinear
+S2,35,Wiki2/DLinear/all,PIR:mean,2899.81,2899.8075074575354,tab:sd_window_DLinear
+S2,36,Wiki2/DLinear/all,PIR:sample_sd,60.41,60.41454944380701,tab:sd_window_DLinear
+S2,37,Wiki2/DLinear/all,CPOR-Cov:mean,2548.73,2548.729797837495,tab:sd_window_DLinear
+S2,38,Wiki2/DLinear/all,CPOR-Cov:sample_sd,4.70,4.697868603293056,tab:sd_window_DLinear
+S2,39,Wiki2/DLinear/all,CPOR-ML:mean,2557.01,2557.0087393974354,tab:sd_window_DLinear
+S2,40,Wiki2/DLinear/all,CPOR-ML:sample_sd,9.66,9.661426642981509,tab:sd_window_DLinear
+S2,41,Labour/DLinear/all,ProCAST:mean,25.61,25.611929138890986,tab:sd_window_DLinear
+S2,42,Labour/DLinear/all,ProCAST:sample_sd,0.18,0.1755229377127486,tab:sd_window_DLinear
+S2,43,Labour/DLinear/all,Ada-Y:mean,23.58,23.582911990580907,tab:sd_window_DLinear
+S2,44,Labour/DLinear/all,Ada-Y:sample_sd,0.58,0.5758725440868213,tab:sd_window_DLinear
+S2,45,Labour/DLinear/all,PIR:mean,18.57,18.57270037272237,tab:sd_window_DLinear
+S2,46,Labour/DLinear/all,PIR:sample_sd,0.55,0.5542927084976926,tab:sd_window_DLinear
+S2,47,Labour/DLinear/all,CPOR-Cov:mean,17.68,17.678241833306057,tab:sd_window_DLinear
+S2,48,Labour/DLinear/all,CPOR-Cov:sample_sd,0.36,0.3555094972104196,tab:sd_window_DLinear
+S2,49,Labour/DLinear/all,CPOR-ML:mean,17.69,17.685266852078257,tab:sd_window_DLinear
+S2,50,Labour/DLinear/all,CPOR-ML:sample_sd,0.36,0.3589034224922975,tab:sd_window_DLinear
+S2,51,M5/DLinear/all,ProCAST:mean,465.32,465.3185017204694,tab:sd_window_DLinear
+S2,52,M5/DLinear/all,ProCAST:sample_sd,16.89,16.888640116951454,tab:sd_window_DLinear
+S2,53,M5/DLinear/all,Ada-Y:mean,468.52,468.52050605689806,tab:sd_window_DLinear
+S2,54,M5/DLinear/all,Ada-Y:sample_sd,12.62,12.623388968083477,tab:sd_window_DLinear
+S2,55,M5/DLinear/all,PIR:mean,427.30,427.30125867365126,tab:sd_window_DLinear
+S2,56,M5/DLinear/all,PIR:sample_sd,30.02,30.0179553966598,tab:sd_window_DLinear
+S2,57,M5/DLinear/all,CPOR-Cov:mean,447.25,447.2541159338218,tab:sd_window_DLinear
+S2,58,M5/DLinear/all,CPOR-Cov:sample_sd,10.57,10.572515221638897,tab:sd_window_DLinear
+S2,59,M5/DLinear/all,CPOR-ML:mean,445.95,445.9532769347165,tab:sd_window_DLinear
+S2,60,M5/DLinear/all,CPOR-ML:sample_sd,10.23,10.234955149935027,tab:sd_window_DLinear
+S2,61,AEMO/DLinear/all,ProCAST:mean,1177.44,1177.4422673788386,tab:sd_window_DLinear
+S2,62,AEMO/DLinear/all,ProCAST:sample_sd,12.12,12.11553516576805,tab:sd_window_DLinear
+S2,63,AEMO/DLinear/all,Ada-Y:mean,1181.48,1181.4821771051256,tab:sd_window_DLinear
+S2,64,AEMO/DLinear/all,Ada-Y:sample_sd,17.04,17.03708764812699,tab:sd_window_DLinear
+S2,65,AEMO/DLinear/all,PIR:mean,646.44,646.436338388641,tab:sd_window_DLinear
+S2,66,AEMO/DLinear/all,PIR:sample_sd,18.17,18.16741341566138,tab:sd_window_DLinear
+S2,67,AEMO/DLinear/all,CPOR-Cov:mean,806.56,806.5575722094403,tab:sd_window_DLinear
+S2,68,AEMO/DLinear/all,CPOR-Cov:sample_sd,5.35,5.347846729197477,tab:sd_window_DLinear
+S2,69,AEMO/DLinear/all,CPOR-ML:mean,806.52,806.5205510035154,tab:sd_window_DLinear
+S2,70,AEMO/DLinear/all,CPOR-ML:sample_sd,5.39,5.389145566459107,tab:sd_window_DLinear
+S3,1,RH/DUET/all,ProCAST:mean,1142.72,1142.7162188368218,tab:sd_window_DUET
+S3,2,RH/DUET/all,ProCAST:sample_sd,11.18,11.182768155847574,tab:sd_window_DUET
+S3,3,RH/DUET/all,Ada-Y:mean,1529.48,1529.4841323701482,tab:sd_window_DUET
+S3,4,RH/DUET/all,Ada-Y:sample_sd,36.50,36.50132121202827,tab:sd_window_DUET
+S3,5,RH/DUET/all,PIR:mean,947.28,947.2807795922846,tab:sd_window_DUET
+S3,6,RH/DUET/all,PIR:sample_sd,36.74,36.74139214975117,tab:sd_window_DUET
+S3,7,RH/DUET/all,CPOR-Cov:mean,953.06,953.0573643301786,tab:sd_window_DUET
+S3,8,RH/DUET/all,CPOR-Cov:sample_sd,11.55,11.553540541635147,tab:sd_window_DUET
+S3,9,RH/DUET/all,CPOR-ML:mean,948.90,948.9035602852651,tab:sd_window_DUET
+S3,10,RH/DUET/all,CPOR-ML:sample_sd,11.71,11.710081862853126,tab:sd_window_DUET
+S3,11,ECommerce/DUET/all,ProCAST:mean,1505.86,1505.8606449185693,tab:sd_window_DUET
+S3,12,ECommerce/DUET/all,ProCAST:sample_sd,4.41,4.413475708368112,tab:sd_window_DUET
+S3,13,ECommerce/DUET/all,Ada-Y:mean,1513.19,1513.185302659701,tab:sd_window_DUET
+S3,14,ECommerce/DUET/all,Ada-Y:sample_sd,4.87,4.865843197075823,tab:sd_window_DUET
+S3,15,ECommerce/DUET/all,PIR:mean,1598.01,1598.008579698856,tab:sd_window_DUET
+S3,16,ECommerce/DUET/all,PIR:sample_sd,9.89,9.89341899477197,tab:sd_window_DUET
+S3,17,ECommerce/DUET/all,CPOR-Cov:mean,1484.18,1484.184593017845,tab:sd_window_DUET
+S3,18,ECommerce/DUET/all,CPOR-Cov:sample_sd,6.84,6.835694742002527,tab:sd_window_DUET
+S3,19,ECommerce/DUET/all,CPOR-ML:mean,1479.74,1479.7434104608244,tab:sd_window_DUET
+S3,20,ECommerce/DUET/all,CPOR-ML:sample_sd,6.35,6.346293504965392,tab:sd_window_DUET
+S3,21,Traffic/DUET/all,ProCAST:mean,5.389,5.389435914805181,tab:sd_window_DUET
+S3,22,Traffic/DUET/all,ProCAST:sample_sd,0.165,0.1653216366605565,tab:sd_window_DUET
+S3,23,Traffic/DUET/all,Ada-Y:mean,4.316,4.315995021000288,tab:sd_window_DUET
+S3,24,Traffic/DUET/all,Ada-Y:sample_sd,0.071,0.0711180814641054,tab:sd_window_DUET
+S3,25,Traffic/DUET/all,PIR:mean,3.627,3.6274109286646095,tab:sd_window_DUET
+S3,26,Traffic/DUET/all,PIR:sample_sd,0.026,0.0257803506725514,tab:sd_window_DUET
+S3,27,Traffic/DUET/all,CPOR-Cov:mean,4.117,4.116724250339838,tab:sd_window_DUET
+S3,28,Traffic/DUET/all,CPOR-Cov:sample_sd,0.053,0.0526891571945295,tab:sd_window_DUET
+S3,29,Traffic/DUET/all,CPOR-ML:mean,4.136,4.135597944782215,tab:sd_window_DUET
+S3,30,Traffic/DUET/all,CPOR-ML:sample_sd,0.058,0.0576568034543958,tab:sd_window_DUET
+S3,31,Wiki2/DUET/all,ProCAST:mean,3187.99,3187.9931686483937,tab:sd_window_DUET
+S3,32,Wiki2/DUET/all,ProCAST:sample_sd,43.73,43.72583880589091,tab:sd_window_DUET
+S3,33,Wiki2/DUET/all,Ada-Y:mean,2551.86,2551.857802639069,tab:sd_window_DUET
+S3,34,Wiki2/DUET/all,Ada-Y:sample_sd,8.65,8.649537991079393,tab:sd_window_DUET
+S3,35,Wiki2/DUET/all,PIR:mean,2799.51,2799.5068345169007,tab:sd_window_DUET
+S3,36,Wiki2/DUET/all,PIR:sample_sd,6.55,6.546487709269432,tab:sd_window_DUET
+S3,37,Wiki2/DUET/all,CPOR-Cov:mean,2465.16,2465.15545082323,tab:sd_window_DUET
+S3,38,Wiki2/DUET/all,CPOR-Cov:sample_sd,2.57,2.569616201193873,tab:sd_window_DUET
+S3,39,Wiki2/DUET/all,CPOR-ML:mean,2484.33,2484.3315340760887,tab:sd_window_DUET
+S3,40,Wiki2/DUET/all,CPOR-ML:sample_sd,7.77,7.768017843298979,tab:sd_window_DUET
+S3,41,Labour/DUET/all,ProCAST:mean,22.73,22.729367297710592,tab:sd_window_DUET
+S3,42,Labour/DUET/all,ProCAST:sample_sd,0.26,0.257437261401496,tab:sd_window_DUET
+S3,43,Labour/DUET/all,Ada-Y:mean,23.38,23.38495583140136,tab:sd_window_DUET
+S3,44,Labour/DUET/all,Ada-Y:sample_sd,0.13,0.1260557236225097,tab:sd_window_DUET
+S3,45,Labour/DUET/all,PIR:mean,12.77,12.765735402346545,tab:sd_window_DUET
+S3,46,Labour/DUET/all,PIR:sample_sd,0.26,0.2605080852625551,tab:sd_window_DUET
+S3,47,Labour/DUET/all,CPOR-Cov:mean,15.03,15.025999391332952,tab:sd_window_DUET
+S3,48,Labour/DUET/all,CPOR-Cov:sample_sd,0.06,0.064620737915238,tab:sd_window_DUET
+S3,49,Labour/DUET/all,CPOR-ML:mean,14.98,14.98205863897949,tab:sd_window_DUET
+S3,50,Labour/DUET/all,CPOR-ML:sample_sd,0.06,0.0620499502561933,tab:sd_window_DUET
+S3,51,M5/DUET/all,ProCAST:mean,452.22,452.22124643386616,tab:sd_window_DUET
+S3,52,M5/DUET/all,ProCAST:sample_sd,2.62,2.6185051153821126,tab:sd_window_DUET
+S3,53,M5/DUET/all,Ada-Y:mean,442.05,442.0468032522672,tab:sd_window_DUET
+S3,54,M5/DUET/all,Ada-Y:sample_sd,3.43,3.427293026134401,tab:sd_window_DUET
+S3,55,M5/DUET/all,PIR:mean,395.39,395.3908877235581,tab:sd_window_DUET
+S3,56,M5/DUET/all,PIR:sample_sd,8.18,8.183242842022937,tab:sd_window_DUET
+S3,57,M5/DUET/all,CPOR-Cov:mean,443.35,443.3514649248944,tab:sd_window_DUET
+S3,58,M5/DUET/all,CPOR-Cov:sample_sd,2.45,2.4524184434887184,tab:sd_window_DUET
+S3,59,M5/DUET/all,CPOR-ML:mean,442.25,442.2484355427624,tab:sd_window_DUET
+S3,60,M5/DUET/all,CPOR-ML:sample_sd,2.46,2.4627526962057127,tab:sd_window_DUET
+S3,61,AEMO/DUET/all,ProCAST:mean,730.73,730.7276457710068,tab:sd_window_DUET
+S3,62,AEMO/DUET/all,ProCAST:sample_sd,12.72,12.719194787865638,tab:sd_window_DUET
+S3,63,AEMO/DUET/all,Ada-Y:mean,750.55,750.5536156159811,tab:sd_window_DUET
+S3,64,AEMO/DUET/all,Ada-Y:sample_sd,10.24,10.240109432735869,tab:sd_window_DUET
+S3,65,AEMO/DUET/all,PIR:mean,469.56,469.5645712099165,tab:sd_window_DUET
+S3,66,AEMO/DUET/all,PIR:sample_sd,19.43,19.432774424877216,tab:sd_window_DUET
+S3,67,AEMO/DUET/all,CPOR-Cov:mean,635.85,635.8504295200621,tab:sd_window_DUET
+S3,68,AEMO/DUET/all,CPOR-Cov:sample_sd,5.02,5.0211402956106745,tab:sd_window_DUET
+S3,69,AEMO/DUET/all,CPOR-ML:mean,636.05,636.051704483713,tab:sd_window_DUET
+S3,70,AEMO/DUET/all,CPOR-ML:sample_sd,5.22,5.220901974596425,tab:sd_window_DUET
+S4,1,RH/PatchTST/all,ProCAST:mean,1147.15,1147.1458194222816,tab:sd_continuous_carry_PatchTST
+S4,2,RH/PatchTST/all,ProCAST:sample_sd,33.43,33.4282407097855,tab:sd_continuous_carry_PatchTST
+S4,3,RH/PatchTST/all,Ada-Y:mean,1378.98,1378.975081611832,tab:sd_continuous_carry_PatchTST
+S4,4,RH/PatchTST/all,Ada-Y:sample_sd,43.07,43.07075220731426,tab:sd_continuous_carry_PatchTST
+S4,5,RH/PatchTST/all,PIR:mean,1187.81,1187.8148452470589,tab:sd_continuous_carry_PatchTST
+S4,6,RH/PatchTST/all,PIR:sample_sd,84.33,84.32963038294847,tab:sd_continuous_carry_PatchTST
+S4,7,RH/PatchTST/all,CPOR-Cov:mean,944.70,944.6971423247828,tab:sd_continuous_carry_PatchTST
+S4,8,RH/PatchTST/all,CPOR-Cov:sample_sd,34.42,34.41596838208488,tab:sd_continuous_carry_PatchTST
+S4,9,RH/PatchTST/all,CPOR-ML:mean,942.76,942.7598312525948,tab:sd_continuous_carry_PatchTST
+S4,10,RH/PatchTST/all,CPOR-ML:sample_sd,34.94,34.9425461816974,tab:sd_continuous_carry_PatchTST
+S4,11,ECommerce/PatchTST/all,ProCAST:mean,1621.20,1621.2026771407857,tab:sd_continuous_carry_PatchTST
+S4,12,ECommerce/PatchTST/all,ProCAST:sample_sd,1.61,1.6065229072168234,tab:sd_continuous_carry_PatchTST
+S4,13,ECommerce/PatchTST/all,Ada-Y:mean,1613.68,1613.6842608921943,tab:sd_continuous_carry_PatchTST
+S4,14,ECommerce/PatchTST/all,Ada-Y:sample_sd,8.27,8.2735020016706,tab:sd_continuous_carry_PatchTST
+S4,15,ECommerce/PatchTST/all,PIR:mean,1695.95,1695.950705601559,tab:sd_continuous_carry_PatchTST
+S4,16,ECommerce/PatchTST/all,PIR:sample_sd,18.74,18.7445783564133,tab:sd_continuous_carry_PatchTST
+S4,17,ECommerce/PatchTST/all,CPOR-Cov:mean,1580.75,1580.7505803314,tab:sd_continuous_carry_PatchTST
+S4,18,ECommerce/PatchTST/all,CPOR-Cov:sample_sd,4.06,4.057734150835112,tab:sd_continuous_carry_PatchTST
+S4,19,ECommerce/PatchTST/all,CPOR-ML:mean,1574.55,1574.5532585571823,tab:sd_continuous_carry_PatchTST
+S4,20,ECommerce/PatchTST/all,CPOR-ML:sample_sd,3.64,3.644491678649116,tab:sd_continuous_carry_PatchTST
+S4,21,Traffic/PatchTST/all,ProCAST:mean,5.398,5.398455085546224,tab:sd_continuous_carry_PatchTST
+S4,22,Traffic/PatchTST/all,ProCAST:sample_sd,0.147,0.1471315969274519,tab:sd_continuous_carry_PatchTST
+S4,23,Traffic/PatchTST/all,Ada-Y:mean,3.911,3.910527084555186,tab:sd_continuous_carry_PatchTST
+S4,24,Traffic/PatchTST/all,Ada-Y:sample_sd,0.017,0.0168165583855526,tab:sd_continuous_carry_PatchTST
+S4,25,Traffic/PatchTST/all,PIR:mean,3.819,3.819298065349013,tab:sd_continuous_carry_PatchTST
+S4,26,Traffic/PatchTST/all,PIR:sample_sd,0.164,0.1639487780108418,tab:sd_continuous_carry_PatchTST
+S4,27,Traffic/PatchTST/all,CPOR-Cov:mean,3.774,3.7736424514904336,tab:sd_continuous_carry_PatchTST
+S4,28,Traffic/PatchTST/all,CPOR-Cov:sample_sd,0.030,0.0300021317335221,tab:sd_continuous_carry_PatchTST
+S4,29,Traffic/PatchTST/all,CPOR-ML:mean,3.779,3.778558567200104,tab:sd_continuous_carry_PatchTST
+S4,30,Traffic/PatchTST/all,CPOR-ML:sample_sd,0.030,0.0298051085696941,tab:sd_continuous_carry_PatchTST
+S4,31,Wiki2/PatchTST/all,ProCAST:mean,3734.39,3734.39038649259,tab:sd_continuous_carry_PatchTST
+S4,32,Wiki2/PatchTST/all,ProCAST:sample_sd,56.08,56.0823163914933,tab:sd_continuous_carry_PatchTST
+S4,33,Wiki2/PatchTST/all,Ada-Y:mean,3114.65,3114.651645225665,tab:sd_continuous_carry_PatchTST
+S4,34,Wiki2/PatchTST/all,Ada-Y:sample_sd,18.45,18.45157637366752,tab:sd_continuous_carry_PatchTST
+S4,35,Wiki2/PatchTST/all,PIR:mean,3422.72,3422.723831441883,tab:sd_continuous_carry_PatchTST
+S4,36,Wiki2/PatchTST/all,PIR:sample_sd,38.18,38.17570815982521,tab:sd_continuous_carry_PatchTST
+S4,37,Wiki2/PatchTST/all,CPOR-Cov:mean,2938.79,2938.788415053657,tab:sd_continuous_carry_PatchTST
+S4,38,Wiki2/PatchTST/all,CPOR-Cov:sample_sd,9.03,9.027110776121171,tab:sd_continuous_carry_PatchTST
+S4,39,Wiki2/PatchTST/all,CPOR-ML:mean,2979.91,2979.9122631723217,tab:sd_continuous_carry_PatchTST
+S4,40,Wiki2/PatchTST/all,CPOR-ML:sample_sd,24.03,24.032922062877184,tab:sd_continuous_carry_PatchTST
+S4,41,Labour/PatchTST/all,ProCAST:mean,24.55,24.554225046543205,tab:sd_continuous_carry_PatchTST
+S4,42,Labour/PatchTST/all,ProCAST:sample_sd,0.53,0.5291453868654381,tab:sd_continuous_carry_PatchTST
+S4,43,Labour/PatchTST/all,Ada-Y:mean,21.82,21.817252443234924,tab:sd_continuous_carry_PatchTST
+S4,44,Labour/PatchTST/all,Ada-Y:sample_sd,0.84,0.8356741819696878,tab:sd_continuous_carry_PatchTST
+S4,45,Labour/PatchTST/all,PIR:mean,15.56,15.563736562103731,tab:sd_continuous_carry_PatchTST
+S4,46,Labour/PatchTST/all,PIR:sample_sd,0.39,0.3890879204546933,tab:sd_continuous_carry_PatchTST
+S4,47,Labour/PatchTST/all,CPOR-Cov:mean,15.17,15.169772299419265,tab:sd_continuous_carry_PatchTST
+S4,48,Labour/PatchTST/all,CPOR-Cov:sample_sd,0.04,0.0444125701951462,tab:sd_continuous_carry_PatchTST
+S4,49,Labour/PatchTST/all,CPOR-ML:mean,15.18,15.182735133561993,tab:sd_continuous_carry_PatchTST
+S4,50,Labour/PatchTST/all,CPOR-ML:sample_sd,0.04,0.0435184770787677,tab:sd_continuous_carry_PatchTST
+S4,51,M5/PatchTST/all,ProCAST:mean,436.31,436.31105442535767,tab:sd_continuous_carry_PatchTST
+S4,52,M5/PatchTST/all,ProCAST:sample_sd,2.45,2.4458024271416656,tab:sd_continuous_carry_PatchTST
+S4,53,M5/PatchTST/all,Ada-Y:mean,443.77,443.77041753736216,tab:sd_continuous_carry_PatchTST
+S4,54,M5/PatchTST/all,Ada-Y:sample_sd,3.05,3.0459396885520813,tab:sd_continuous_carry_PatchTST
+S4,55,M5/PatchTST/all,PIR:mean,421.49,421.4907341551906,tab:sd_continuous_carry_PatchTST
+S4,56,M5/PatchTST/all,PIR:sample_sd,27.55,27.554344044661665,tab:sd_continuous_carry_PatchTST
+S4,57,M5/PatchTST/all,CPOR-Cov:mean,425.75,425.74921842007024,tab:sd_continuous_carry_PatchTST
+S4,58,M5/PatchTST/all,CPOR-Cov:sample_sd,0.96,0.9591691519510992,tab:sd_continuous_carry_PatchTST
+S4,59,M5/PatchTST/all,CPOR-ML:mean,423.21,423.2102239723872,tab:sd_continuous_carry_PatchTST
+S4,60,M5/PatchTST/all,CPOR-ML:sample_sd,0.95,0.9520877115244666,tab:sd_continuous_carry_PatchTST
+S4,61,AEMO/PatchTST/all,ProCAST:mean,649.84,649.8425031758865,tab:sd_continuous_carry_PatchTST
+S4,62,AEMO/PatchTST/all,ProCAST:sample_sd,63.09,63.09151220090846,tab:sd_continuous_carry_PatchTST
+S4,63,AEMO/PatchTST/all,Ada-Y:mean,670.59,670.5850383094916,tab:sd_continuous_carry_PatchTST
+S4,64,AEMO/PatchTST/all,Ada-Y:sample_sd,62.21,62.21021804453501,tab:sd_continuous_carry_PatchTST
+S4,65,AEMO/PatchTST/all,PIR:mean,476.70,476.7009713558394,tab:sd_continuous_carry_PatchTST
+S4,66,AEMO/PatchTST/all,PIR:sample_sd,26.28,26.283983351552436,tab:sd_continuous_carry_PatchTST
+S4,67,AEMO/PatchTST/all,CPOR-Cov:mean,582.29,582.2923365254627,tab:sd_continuous_carry_PatchTST
+S4,68,AEMO/PatchTST/all,CPOR-Cov:sample_sd,57.32,57.324331305347954,tab:sd_continuous_carry_PatchTST
+S4,69,AEMO/PatchTST/all,CPOR-ML:mean,582.99,582.9855587870487,tab:sd_continuous_carry_PatchTST
+S4,70,AEMO/PatchTST/all,CPOR-ML:sample_sd,57.93,57.92738364405212,tab:sd_continuous_carry_PatchTST
+S5,1,RH/DLinear/all,ProCAST:mean,1543.30,1543.2978367319265,tab:sd_continuous_carry_DLinear
+S5,2,RH/DLinear/all,ProCAST:sample_sd,34.15,34.14520790514957,tab:sd_continuous_carry_DLinear
+S5,3,RH/DLinear/all,Ada-Y:mean,1930.36,1930.358201414525,tab:sd_continuous_carry_DLinear
+S5,4,RH/DLinear/all,Ada-Y:sample_sd,17.26,17.262723872527264,tab:sd_continuous_carry_DLinear
+S5,5,RH/DLinear/all,PIR:mean,1342.15,1342.1525037809254,tab:sd_continuous_carry_DLinear
+S5,6,RH/DLinear/all,PIR:sample_sd,122.72,122.72461062784448,tab:sd_continuous_carry_DLinear
+S5,7,RH/DLinear/all,CPOR-Cov:mean,1111.47,1111.4703010764058,tab:sd_continuous_carry_DLinear
+S5,8,RH/DLinear/all,CPOR-Cov:sample_sd,19.09,19.090997580521787,tab:sd_continuous_carry_DLinear
+S5,9,RH/DLinear/all,CPOR-ML:mean,1115.17,1115.1707139666005,tab:sd_continuous_carry_DLinear
+S5,10,RH/DLinear/all,CPOR-ML:sample_sd,22.23,22.230262177715364,tab:sd_continuous_carry_DLinear
+S5,11,ECommerce/DLinear/all,ProCAST:mean,1676.50,1676.5027801519063,tab:sd_continuous_carry_DLinear
+S5,12,ECommerce/DLinear/all,ProCAST:sample_sd,5.92,5.923378911748547,tab:sd_continuous_carry_DLinear
+S5,13,ECommerce/DLinear/all,Ada-Y:mean,1656.00,1655.9982902181328,tab:sd_continuous_carry_DLinear
+S5,14,ECommerce/DLinear/all,Ada-Y:sample_sd,6.57,6.568354795835967,tab:sd_continuous_carry_DLinear
+S5,15,ECommerce/DLinear/all,PIR:mean,1731.23,1731.2312441240822,tab:sd_continuous_carry_DLinear
+S5,16,ECommerce/DLinear/all,PIR:sample_sd,46.59,46.594280662010966,tab:sd_continuous_carry_DLinear
+S5,17,ECommerce/DLinear/all,CPOR-Cov:mean,1594.12,1594.1165654597164,tab:sd_continuous_carry_DLinear
+S5,18,ECommerce/DLinear/all,CPOR-Cov:sample_sd,2.48,2.4787298960279665,tab:sd_continuous_carry_DLinear
+S5,19,ECommerce/DLinear/all,CPOR-ML:mean,1586.34,1586.338454908684,tab:sd_continuous_carry_DLinear
+S5,20,ECommerce/DLinear/all,CPOR-ML:sample_sd,2.54,2.5366999622865114,tab:sd_continuous_carry_DLinear
+S5,21,Traffic/DLinear/all,ProCAST:mean,5.464,5.463684661893713,tab:sd_continuous_carry_DLinear
+S5,22,Traffic/DLinear/all,ProCAST:sample_sd,0.078,0.077710905750031,tab:sd_continuous_carry_DLinear
+S5,23,Traffic/DLinear/all,Ada-Y:mean,4.195,4.195132984945654,tab:sd_continuous_carry_DLinear
+S5,24,Traffic/DLinear/all,Ada-Y:sample_sd,0.054,0.0540772997381652,tab:sd_continuous_carry_DLinear
+S5,25,Traffic/DLinear/all,PIR:mean,3.925,3.925473199615548,tab:sd_continuous_carry_DLinear
+S5,26,Traffic/DLinear/all,PIR:sample_sd,0.155,0.1554048614935307,tab:sd_continuous_carry_DLinear
+S5,27,Traffic/DLinear/all,CPOR-Cov:mean,3.969,3.969170066918386,tab:sd_continuous_carry_DLinear
+S5,28,Traffic/DLinear/all,CPOR-Cov:sample_sd,0.042,0.0423827118324642,tab:sd_continuous_carry_DLinear
+S5,29,Traffic/DLinear/all,CPOR-ML:mean,3.974,3.973607746921908,tab:sd_continuous_carry_DLinear
+S5,30,Traffic/DLinear/all,CPOR-ML:sample_sd,0.043,0.0428926655505903,tab:sd_continuous_carry_DLinear
+S5,31,Wiki2/DLinear/all,ProCAST:mean,3988.23,3988.22952946272,tab:sd_continuous_carry_DLinear
+S5,32,Wiki2/DLinear/all,ProCAST:sample_sd,68.02,68.01713106262986,tab:sd_continuous_carry_DLinear
+S5,33,Wiki2/DLinear/all,Ada-Y:mean,3296.17,3296.173888108992,tab:sd_continuous_carry_DLinear
+S5,34,Wiki2/DLinear/all,Ada-Y:sample_sd,19.19,19.18519840217234,tab:sd_continuous_carry_DLinear
+S5,35,Wiki2/DLinear/all,PIR:mean,3572.01,3572.012575960397,tab:sd_continuous_carry_DLinear
+S5,36,Wiki2/DLinear/all,PIR:sample_sd,73.84,73.83883488216763,tab:sd_continuous_carry_DLinear
+S5,37,Wiki2/DLinear/all,CPOR-Cov:mean,3026.51,3026.506506119286,tab:sd_continuous_carry_DLinear
+S5,38,Wiki2/DLinear/all,CPOR-Cov:sample_sd,10.59,10.586206409568156,tab:sd_continuous_carry_DLinear
+S5,39,Wiki2/DLinear/all,CPOR-ML:mean,3077.44,3077.441047654651,tab:sd_continuous_carry_DLinear
+S5,40,Wiki2/DLinear/all,CPOR-ML:sample_sd,6.35,6.352614598841233,tab:sd_continuous_carry_DLinear
+S5,41,Labour/DLinear/all,ProCAST:mean,26.18,26.17701142252988,tab:sd_continuous_carry_DLinear
+S5,42,Labour/DLinear/all,ProCAST:sample_sd,0.13,0.1267639861392513,tab:sd_continuous_carry_DLinear
+S5,43,Labour/DLinear/all,Ada-Y:mean,24.31,24.30598884769752,tab:sd_continuous_carry_DLinear
+S5,44,Labour/DLinear/all,Ada-Y:sample_sd,0.60,0.5963513717829773,tab:sd_continuous_carry_DLinear
+S5,45,Labour/DLinear/all,PIR:mean,18.76,18.759981307054,tab:sd_continuous_carry_DLinear
+S5,46,Labour/DLinear/all,PIR:sample_sd,0.54,0.5387902176916278,tab:sd_continuous_carry_DLinear
+S5,47,Labour/DLinear/all,CPOR-Cov:mean,16.90,16.903887139960677,tab:sd_continuous_carry_DLinear
+S5,48,Labour/DLinear/all,CPOR-Cov:sample_sd,0.20,0.1963046374568285,tab:sd_continuous_carry_DLinear
+S5,49,Labour/DLinear/all,CPOR-ML:mean,16.90,16.904769850160434,tab:sd_continuous_carry_DLinear
+S5,50,Labour/DLinear/all,CPOR-ML:sample_sd,0.19,0.1887565878705309,tab:sd_continuous_carry_DLinear
+S5,51,M5/DLinear/all,ProCAST:mean,474.85,474.8459264629146,tab:sd_continuous_carry_DLinear
+S5,52,M5/DLinear/all,ProCAST:sample_sd,18.05,18.054827447953738,tab:sd_continuous_carry_DLinear
+S5,53,M5/DLinear/all,Ada-Y:mean,476.06,476.06356935777967,tab:sd_continuous_carry_DLinear
+S5,54,M5/DLinear/all,Ada-Y:sample_sd,11.93,11.934107059173655,tab:sd_continuous_carry_DLinear
+S5,55,M5/DLinear/all,PIR:mean,433.42,433.4178098892088,tab:sd_continuous_carry_DLinear
+S5,56,M5/DLinear/all,PIR:sample_sd,29.15,29.145798748350487,tab:sd_continuous_carry_DLinear
+S5,57,M5/DLinear/all,CPOR-Cov:mean,451.99,451.9921858424314,tab:sd_continuous_carry_DLinear
+S5,58,M5/DLinear/all,CPOR-Cov:sample_sd,10.45,10.446178032873336,tab:sd_continuous_carry_DLinear
+S5,59,M5/DLinear/all,CPOR-ML:mean,450.34,450.3417513216696,tab:sd_continuous_carry_DLinear
+S5,60,M5/DLinear/all,CPOR-ML:sample_sd,9.78,9.781028009146702,tab:sd_continuous_carry_DLinear
+S5,61,AEMO/DLinear/all,ProCAST:mean,1194.62,1194.6162177705949,tab:sd_continuous_carry_DLinear
+S5,62,AEMO/DLinear/all,ProCAST:sample_sd,13.64,13.639312861834645,tab:sd_continuous_carry_DLinear
+S5,63,AEMO/DLinear/all,Ada-Y:mean,1205.63,1205.6309253058107,tab:sd_continuous_carry_DLinear
+S5,64,AEMO/DLinear/all,Ada-Y:sample_sd,17.42,17.419849221343323,tab:sd_continuous_carry_DLinear
+S5,65,AEMO/DLinear/all,PIR:mean,651.77,651.7681605109652,tab:sd_continuous_carry_DLinear
+S5,66,AEMO/DLinear/all,PIR:sample_sd,19.69,19.68746972566393,tab:sd_continuous_carry_DLinear
+S5,67,AEMO/DLinear/all,CPOR-Cov:mean,667.00,667.0034623871211,tab:sd_continuous_carry_DLinear
+S5,68,AEMO/DLinear/all,CPOR-Cov:sample_sd,5.75,5.746779324017851,tab:sd_continuous_carry_DLinear
+S5,69,AEMO/DLinear/all,CPOR-ML:mean,666.93,666.9285834228659,tab:sd_continuous_carry_DLinear
+S5,70,AEMO/DLinear/all,CPOR-ML:sample_sd,5.77,5.766997716069029,tab:sd_continuous_carry_DLinear
+S6,1,RH/DUET/all,ProCAST:mean,1222.17,1222.169282854863,tab:current_sd_last
+S6,2,RH/DUET/all,ProCAST:sample_sd,13.95,13.95031147760298,tab:current_sd_last
+S6,3,RH/DUET/all,Ada-Y:mean,1556.44,1556.440044023944,tab:current_sd_last
+S6,4,RH/DUET/all,Ada-Y:sample_sd,35.57,35.56689722437674,tab:current_sd_last
+S6,5,RH/DUET/all,PIR:mean,992.27,992.2655271102705,tab:current_sd_last
+S6,6,RH/DUET/all,PIR:sample_sd,51.91,51.9122094235878,tab:current_sd_last
+S6,7,RH/DUET/all,CPOR-Cov:mean,911.36,911.3629893397256,tab:current_sd_last
+S6,8,RH/DUET/all,CPOR-Cov:sample_sd,14.45,14.449326186768111,tab:current_sd_last
+S6,9,RH/DUET/all,CPOR-ML:mean,910.77,910.769127813341,tab:current_sd_last
+S6,10,RH/DUET/all,CPOR-ML:sample_sd,14.93,14.93323211954957,tab:current_sd_last
+S6,11,ECommerce/DUET/all,ProCAST:mean,1617.80,1617.7955694472523,tab:current_sd_last
+S6,12,ECommerce/DUET/all,ProCAST:sample_sd,2.40,2.400379601672382,tab:current_sd_last
+S6,13,ECommerce/DUET/all,Ada-Y:mean,1627.06,1627.0640591347249,tab:current_sd_last
+S6,14,ECommerce/DUET/all,Ada-Y:sample_sd,3.36,3.359029322730982,tab:current_sd_last
+S6,15,ECommerce/DUET/all,PIR:mean,1713.47,1713.4714610179374,tab:current_sd_last
+S6,16,ECommerce/DUET/all,PIR:sample_sd,11.59,11.589408458481222,tab:current_sd_last
+S6,17,ECommerce/DUET/all,CPOR-Cov:mean,1588.26,1588.257304233195,tab:current_sd_last
+S6,18,ECommerce/DUET/all,CPOR-Cov:sample_sd,5.99,5.993519480301038,tab:current_sd_last
+S6,19,ECommerce/DUET/all,CPOR-ML:mean,1582.03,1582.0325799311397,tab:current_sd_last
+S6,20,ECommerce/DUET/all,CPOR-ML:sample_sd,4.18,4.177386393696188,tab:current_sd_last
+S6,21,Traffic/DUET/all,ProCAST:mean,5.483,5.482815381079178,tab:current_sd_last
+S6,22,Traffic/DUET/all,ProCAST:sample_sd,0.159,0.1590285874623801,tab:current_sd_last
+S6,23,Traffic/DUET/all,Ada-Y:mean,4.379,4.378655145370189,tab:current_sd_last
+S6,24,Traffic/DUET/all,Ada-Y:sample_sd,0.071,0.0711903851342086,tab:current_sd_last
+S6,25,Traffic/DUET/all,PIR:mean,3.695,3.694565245478937,tab:current_sd_last
+S6,26,Traffic/DUET/all,PIR:sample_sd,0.029,0.0286135076354796,tab:current_sd_last
+S6,27,Traffic/DUET/all,CPOR-Cov:mean,4.105,4.105117719325898,tab:current_sd_last
+S6,28,Traffic/DUET/all,CPOR-Cov:sample_sd,0.046,0.0462059310574675,tab:current_sd_last
+S6,29,Traffic/DUET/all,CPOR-ML:mean,4.121,4.121292436562039,tab:current_sd_last
+S6,30,Traffic/DUET/all,CPOR-ML:sample_sd,0.053,0.0529793098804471,tab:current_sd_last
+S6,31,Wiki2/DUET/all,ProCAST:mean,3759.16,3759.163225867052,tab:current_sd_last
+S6,32,Wiki2/DUET/all,ProCAST:sample_sd,49.87,49.87046137904461,tab:current_sd_last
+S6,33,Wiki2/DUET/all,Ada-Y:mean,3122.88,3122.876379145592,tab:current_sd_last
+S6,34,Wiki2/DUET/all,Ada-Y:sample_sd,10.45,10.448894542097468,tab:current_sd_last
+S6,35,Wiki2/DUET/all,PIR:mean,3458.26,3458.258898589218,tab:current_sd_last
+S6,36,Wiki2/DUET/all,PIR:sample_sd,6.25,6.247240070725727,tab:current_sd_last
+S6,37,Wiki2/DUET/all,CPOR-Cov:mean,2935.18,2935.1838001492183,tab:current_sd_last
+S6,38,Wiki2/DUET/all,CPOR-Cov:sample_sd,2.32,2.321185388428575,tab:current_sd_last
+S6,39,Wiki2/DUET/all,CPOR-ML:mean,2968.11,2968.1118758307643,tab:current_sd_last
+S6,40,Wiki2/DUET/all,CPOR-ML:sample_sd,1.07,1.073296589769065,tab:current_sd_last
+S6,41,Labour/DUET/all,ProCAST:mean,23.75,23.745144399171835,tab:current_sd_last
+S6,42,Labour/DUET/all,ProCAST:sample_sd,0.22,0.2206368063724678,tab:current_sd_last
+S6,43,Labour/DUET/all,Ada-Y:mean,23.86,23.861466285600475,tab:current_sd_last
+S6,44,Labour/DUET/all,Ada-Y:sample_sd,0.14,0.1386106499469568,tab:current_sd_last
+S6,45,Labour/DUET/all,PIR:mean,13.37,13.373866118365592,tab:current_sd_last
+S6,46,Labour/DUET/all,PIR:sample_sd,0.23,0.2311497636505025,tab:current_sd_last
+S6,47,Labour/DUET/all,CPOR-Cov:mean,14.90,14.901442036910629,tab:current_sd_last
+S6,48,Labour/DUET/all,CPOR-Cov:sample_sd,0.06,0.0556888314914427,tab:current_sd_last
+S6,49,Labour/DUET/all,CPOR-ML:mean,14.81,14.813250631088051,tab:current_sd_last
+S6,50,Labour/DUET/all,CPOR-ML:sample_sd,0.05,0.0539074208531188,tab:current_sd_last
+S6,51,M5/DUET/all,ProCAST:mean,458.64,458.6424049641244,tab:current_sd_last
+S6,52,M5/DUET/all,ProCAST:sample_sd,2.49,2.4908638246411985,tab:current_sd_last
+S6,53,M5/DUET/all,Ada-Y:mean,449.06,449.055673446814,tab:current_sd_last
+S6,54,M5/DUET/all,Ada-Y:sample_sd,3.53,3.5254787930749205,tab:current_sd_last
+S6,55,M5/DUET/all,PIR:mean,400.87,400.8707822732534,tab:current_sd_last
+S6,56,M5/DUET/all,PIR:sample_sd,9.39,9.38805715077199,tab:current_sd_last
+S6,57,M5/DUET/all,CPOR-Cov:mean,442.69,442.6909176914244,tab:current_sd_last
+S6,58,M5/DUET/all,CPOR-Cov:sample_sd,2.04,2.035274150914238,tab:current_sd_last
+S6,59,M5/DUET/all,CPOR-ML:mean,441.68,441.6758919581849,tab:current_sd_last
+S6,60,M5/DUET/all,CPOR-ML:sample_sd,2.03,2.03283928136,tab:current_sd_last
+S6,61,AEMO/DUET/all,ProCAST:mean,732.08,732.0844124422847,tab:current_sd_last
+S6,62,AEMO/DUET/all,ProCAST:sample_sd,13.04,13.036346586023312,tab:current_sd_last
+S6,63,AEMO/DUET/all,Ada-Y:mean,751.69,751.6914666500335,tab:current_sd_last
+S6,64,AEMO/DUET/all,Ada-Y:sample_sd,10.20,10.203911508291538,tab:current_sd_last
+S6,65,AEMO/DUET/all,PIR:mean,473.61,473.6100120537372,tab:current_sd_last
+S6,66,AEMO/DUET/all,PIR:sample_sd,21.97,21.974956853992897,tab:current_sd_last
+S6,67,AEMO/DUET/all,CPOR-Cov:mean,556.12,556.1209612835777,tab:current_sd_last
+S6,68,AEMO/DUET/all,CPOR-Cov:sample_sd,8.32,8.322712793678642,tab:current_sd_last
+S6,69,AEMO/DUET/all,CPOR-ML:mean,555.46,555.4570022393222,tab:current_sd_last
+S6,70,AEMO/DUET/all,CPOR-ML:sample_sd,8.56,8.556675693024486,tab:current_sd_last
+S7,1,RH/PatchTST/all,PIRCoherent:mean,1077.37,1077.3699099148926,tab:pirpaired
+S7,2,RH/PatchTST/all,PIRCoherent:sample_sd,55.71,55.71385184628341,tab:pirpaired
+S7,3,RH/PatchTST/all,PIRCommon:mean,1152.43,1152.4320436569235,tab:pirpaired
+S7,4,RH/PatchTST/all,PIRCommon:sample_sd,26.70,26.698164830025163,tab:pirpaired
+S7,5,RH/PatchTST/all,PIRTwoGroup:mean,1149.13,1149.1336889469592,tab:pirpaired
+S7,6,RH/PatchTST/all,PIRTwoGroup:sample_sd,27.46,27.45919964007284,tab:pirpaired
+S7,7,RH/PatchTST/all,PIRFull:mean,1116.47,1116.4675675541862,tab:pirpaired
+S7,8,RH/PatchTST/all,PIRFull:sample_sd,28.09,28.08901210405888,tab:pirpaired
+S7,9,RH/DLinear/all,PIRCoherent:mean,1241.07,1241.0703266762364,tab:pirpaired
+S7,10,RH/DLinear/all,PIRCoherent:sample_sd,107.86,107.8625073404252,tab:pirpaired
+S7,11,RH/DLinear/all,PIRCommon:mean,1459.72,1459.717376745631,tab:pirpaired
+S7,12,RH/DLinear/all,PIRCommon:sample_sd,40.63,40.626080899337815,tab:pirpaired
+S7,13,RH/DLinear/all,PIRTwoGroup:mean,1453.81,1453.8131831499843,tab:pirpaired
+S7,14,RH/DLinear/all,PIRTwoGroup:sample_sd,39.20,39.197944381517225,tab:pirpaired
+S7,15,RH/DLinear/all,PIRFull:mean,1421.91,1421.9144883689842,tab:pirpaired
+S7,16,RH/DLinear/all,PIRFull:sample_sd,50.33,50.33380052129769,tab:pirpaired
+S7,17,RH/DUET/all,PIRCoherent:mean,948.40,948.4030018419834,tab:pirpaired
+S7,18,RH/DUET/all,PIRCoherent:sample_sd,38.12,38.12479921986006,tab:pirpaired
+S7,19,RH/DUET/all,PIRCommon:mean,1152.64,1152.641068552376,tab:pirpaired
+S7,20,RH/DUET/all,PIRCommon:sample_sd,14.43,14.430132835505733,tab:pirpaired
+S7,21,RH/DUET/all,PIRTwoGroup:mean,1126.11,1126.112728494454,tab:pirpaired
+S7,22,RH/DUET/all,PIRTwoGroup:sample_sd,19.91,19.912768978732625,tab:pirpaired
+S7,23,RH/DUET/all,PIRFull:mean,1089.05,1089.0528204615157,tab:pirpaired
+S7,24,RH/DUET/all,PIRFull:sample_sd,38.41,38.41474201495855,tab:pirpaired
+S7,25,ECommerce/PatchTST/all,PIRCoherent:mean,1582.66,1582.6592026673352,tab:pirpaired
+S7,26,ECommerce/PatchTST/all,PIRCoherent:sample_sd,15.89,15.89198807786813,tab:pirpaired
+S7,27,ECommerce/PatchTST/all,PIRCommon:mean,1497.77,1497.765259727974,tab:pirpaired
+S7,28,ECommerce/PatchTST/all,PIRCommon:sample_sd,6.36,6.359409830316571,tab:pirpaired
+S7,29,ECommerce/PatchTST/all,PIRTwoGroup:mean,1497.85,1497.845378000566,tab:pirpaired
+S7,30,ECommerce/PatchTST/all,PIRTwoGroup:sample_sd,5.49,5.493799105304547,tab:pirpaired
+S7,31,ECommerce/PatchTST/all,PIRFull:mean,1498.49,1498.4915922636349,tab:pirpaired
+S7,32,ECommerce/PatchTST/all,PIRFull:sample_sd,5.97,5.966220741024794,tab:pirpaired
+S7,33,ECommerce/DLinear/all,PIRCoherent:mean,1617.31,1617.3061328762076,tab:pirpaired
+S7,34,ECommerce/DLinear/all,PIRCoherent:sample_sd,41.77,41.76751959836431,tab:pirpaired
+S7,35,ECommerce/DLinear/all,PIRCommon:mean,1541.91,1541.9072019262603,tab:pirpaired
+S7,36,ECommerce/DLinear/all,PIRCommon:sample_sd,11.61,11.609098919530627,tab:pirpaired
+S7,37,ECommerce/DLinear/all,PIRTwoGroup:mean,1541.55,1541.547865918478,tab:pirpaired
+S7,38,ECommerce/DLinear/all,PIRTwoGroup:sample_sd,12.78,12.779651803216796,tab:pirpaired
+S7,39,ECommerce/DLinear/all,PIRFull:mean,1537.69,1537.693330270059,tab:pirpaired
+S7,40,ECommerce/DLinear/all,PIRFull:sample_sd,17.46,17.45856126885623,tab:pirpaired
+S7,41,ECommerce/DUET/all,PIRCoherent:mean,1598.00,1598.0022800496963,tab:pirpaired
+S7,42,ECommerce/DUET/all,PIRCoherent:sample_sd,9.90,9.904051176880111,tab:pirpaired
+S7,43,ECommerce/DUET/all,PIRCommon:mean,1507.72,1507.7221665579273,tab:pirpaired
+S7,44,ECommerce/DUET/all,PIRCommon:sample_sd,4.57,4.56880780856034,tab:pirpaired
+S7,45,ECommerce/DUET/all,PIRTwoGroup:mean,1507.56,1507.5621673178705,tab:pirpaired
+S7,46,ECommerce/DUET/all,PIRTwoGroup:sample_sd,4.36,4.359345148345283,tab:pirpaired
+S7,47,ECommerce/DUET/all,PIRFull:mean,1508.94,1508.935134361718,tab:pirpaired
+S7,48,ECommerce/DUET/all,PIRFull:sample_sd,4.00,3.9957242899449024,tab:pirpaired
+S7,49,Traffic/PatchTST/all,PIRCoherent:mean,3.660,3.659864139362912,tab:pirpaired
+S7,50,Traffic/PatchTST/all,PIRCoherent:sample_sd,0.114,0.1143593671325082,tab:pirpaired
+S7,51,Traffic/PatchTST/all,PIRCommon:mean,3.807,3.806924039177453,tab:pirpaired
+S7,52,Traffic/PatchTST/all,PIRCommon:sample_sd,0.033,0.0329682988895854,tab:pirpaired
+S7,53,Traffic/PatchTST/all,PIRTwoGroup:mean,3.801,3.801341617329909,tab:pirpaired
+S7,54,Traffic/PatchTST/all,PIRTwoGroup:sample_sd,0.033,0.033264266178342,tab:pirpaired
+S7,55,Traffic/PatchTST/all,PIRFull:mean,3.749,3.749340913660845,tab:pirpaired
+S7,56,Traffic/PatchTST/all,PIRFull:sample_sd,0.035,0.0350409714556464,tab:pirpaired
+S7,57,Traffic/DLinear/all,PIRCoherent:mean,3.855,3.854903017834328,tab:pirpaired
+S7,58,Traffic/DLinear/all,PIRCoherent:sample_sd,0.120,0.1203148303035973,tab:pirpaired
+S7,59,Traffic/DLinear/all,PIRCommon:mean,4.086,4.085954731501577,tab:pirpaired
+S7,60,Traffic/DLinear/all,PIRCommon:sample_sd,0.043,0.0434158004594995,tab:pirpaired
+S7,61,Traffic/DLinear/all,PIRTwoGroup:mean,4.078,4.078260990647935,tab:pirpaired
+S7,62,Traffic/DLinear/all,PIRTwoGroup:sample_sd,0.043,0.0434306647047384,tab:pirpaired
+S7,63,Traffic/DLinear/all,PIRFull:mean,3.988,3.987794869582977,tab:pirpaired
+S7,64,Traffic/DLinear/all,PIRFull:sample_sd,0.040,0.0395155220237557,tab:pirpaired
+S7,65,Traffic/DUET/all,PIRCoherent:mean,3.673,3.6729115259466014,tab:pirpaired
+S7,66,Traffic/DUET/all,PIRCoherent:sample_sd,0.018,0.0183906751992137,tab:pirpaired
+S7,67,Traffic/DUET/all,PIRCommon:mean,4.239,4.239141360824676,tab:pirpaired
+S7,68,Traffic/DUET/all,PIRCommon:sample_sd,0.065,0.0654888520191705,tab:pirpaired
+S7,69,Traffic/DUET/all,PIRTwoGroup:mean,4.229,4.228851527328071,tab:pirpaired
+S7,70,Traffic/DUET/all,PIRTwoGroup:sample_sd,0.065,0.0651735409838579,tab:pirpaired
+S7,71,Traffic/DUET/all,PIRFull:mean,4.038,4.0384100866319015,tab:pirpaired
+S7,72,Traffic/DUET/all,PIRFull:sample_sd,0.049,0.0486974488772072,tab:pirpaired
+S7,73,Wiki2/PatchTST/all,PIRCoherent:mean,2872.75,2872.7523069652525,tab:pirpaired
+S7,74,Wiki2/PatchTST/all,PIRCoherent:sample_sd,37.17,37.17455498806572,tab:pirpaired
+S7,75,Wiki2/PatchTST/all,PIRCommon:mean,2553.17,2553.1652538338053,tab:pirpaired
+S7,76,Wiki2/PatchTST/all,PIRCommon:sample_sd,8.27,8.267989886920718,tab:pirpaired
+S7,77,Wiki2/PatchTST/all,PIRTwoGroup:mean,2552.53,2552.528529745246,tab:pirpaired
+S7,78,Wiki2/PatchTST/all,PIRTwoGroup:sample_sd,8.16,8.16215848231412,tab:pirpaired
+S7,79,Wiki2/PatchTST/all,PIRFull:mean,2512.58,2512.5845112848056,tab:pirpaired
+S7,80,Wiki2/PatchTST/all,PIRFull:sample_sd,6.73,6.729785992715345,tab:pirpaired
+S7,81,Wiki2/DLinear/all,PIRCoherent:mean,3004.38,3004.3767431677225,tab:pirpaired
+S7,82,Wiki2/DLinear/all,PIRCoherent:sample_sd,51.77,51.77239905933481,tab:pirpaired
+S7,83,Wiki2/DLinear/all,PIRCommon:mean,2705.11,2705.11405334548,tab:pirpaired
+S7,84,Wiki2/DLinear/all,PIRCommon:sample_sd,15.14,15.138098696354598,tab:pirpaired
+S7,85,Wiki2/DLinear/all,PIRTwoGroup:mean,2704.52,2704.5245617010405,tab:pirpaired
+S7,86,Wiki2/DLinear/all,PIRTwoGroup:sample_sd,15.18,15.178371440936264,tab:pirpaired
+S7,87,Wiki2/DLinear/all,PIRFull:mean,2643.44,2643.443583082797,tab:pirpaired
+S7,88,Wiki2/DLinear/all,PIRFull:sample_sd,15.58,15.576082538818318,tab:pirpaired
+S7,89,Wiki2/DUET/all,PIRCoherent:mean,2897.82,2897.8225268081483,tab:pirpaired
+S7,90,Wiki2/DUET/all,PIRCoherent:sample_sd,16.20,16.198569814287502,tab:pirpaired
+S7,91,Wiki2/DUET/all,PIRCommon:mean,2558.81,2558.809276270495,tab:pirpaired
+S7,92,Wiki2/DUET/all,PIRCommon:sample_sd,6.50,6.50102196605009,tab:pirpaired
+S7,93,Wiki2/DUET/all,PIRTwoGroup:mean,2558.23,2558.2327665845337,tab:pirpaired
+S7,94,Wiki2/DUET/all,PIRTwoGroup:sample_sd,6.19,6.1912749493561225,tab:pirpaired
+S7,95,Wiki2/DUET/all,PIRFull:mean,2522.99,2522.9864073345816,tab:pirpaired
+S7,96,Wiki2/DUET/all,PIRFull:sample_sd,1.21,1.2110084852966922,tab:pirpaired
+S7,97,Labour/PatchTST/all,PIRCoherent:mean,15.46,15.463119081557432,tab:pirpaired
+S7,98,Labour/PatchTST/all,PIRCoherent:sample_sd,0.42,0.4183037987919368,tab:pirpaired
+S7,99,Labour/PatchTST/all,PIRCommon:mean,15.70,15.703619956659082,tab:pirpaired
+S7,100,Labour/PatchTST/all,PIRCommon:sample_sd,0.07,0.0712518639384208,tab:pirpaired
+S7,101,Labour/PatchTST/all,PIRTwoGroup:mean,15.67,15.668917907205762,tab:pirpaired
+S7,102,Labour/PatchTST/all,PIRTwoGroup:sample_sd,0.09,0.0883047959152589,tab:pirpaired
+S7,103,Labour/PatchTST/all,PIRFull:mean,15.36,15.359523019909384,tab:pirpaired
+S7,104,Labour/PatchTST/all,PIRFull:sample_sd,0.11,0.114246449774978,tab:pirpaired
+S7,105,Labour/DLinear/all,PIRCoherent:mean,18.37,18.368547042187995,tab:pirpaired
+S7,106,Labour/DLinear/all,PIRCoherent:sample_sd,0.56,0.5558636358852734,tab:pirpaired
+S7,107,Labour/DLinear/all,PIRCommon:mean,19.22,19.22494794744561,tab:pirpaired
+S7,108,Labour/DLinear/all,PIRCommon:sample_sd,0.55,0.5458531905613471,tab:pirpaired
+S7,109,Labour/DLinear/all,PIRTwoGroup:mean,19.17,19.173151041391687,tab:pirpaired
+S7,110,Labour/DLinear/all,PIRTwoGroup:sample_sd,0.54,0.5401364832324365,tab:pirpaired
+S7,111,Labour/DLinear/all,PIRFull:mean,18.75,18.750198363053745,tab:pirpaired
+S7,112,Labour/DLinear/all,PIRFull:sample_sd,0.45,0.4519899545216574,tab:pirpaired
+S7,113,Labour/DUET/all,PIRCoherent:mean,12.93,12.929219081048188,tab:pirpaired
+S7,114,Labour/DUET/all,PIRCoherent:sample_sd,0.38,0.3779072441053647,tab:pirpaired
+S7,115,Labour/DUET/all,PIRCommon:mean,16.27,16.272061074155047,tab:pirpaired
+S7,116,Labour/DUET/all,PIRCommon:sample_sd,0.08,0.0812708793707935,tab:pirpaired
+S7,117,Labour/DUET/all,PIRTwoGroup:mean,16.18,16.181561892990292,tab:pirpaired
+S7,118,Labour/DUET/all,PIRTwoGroup:sample_sd,0.09,0.0933860187048853,tab:pirpaired
+S7,119,Labour/DUET/all,PIRFull:mean,15.32,15.321606000115588,tab:pirpaired
+S7,120,Labour/DUET/all,PIRFull:sample_sd,0.07,0.0717230034104358,tab:pirpaired
+S7,121,M5/PatchTST/all,PIRCoherent:mean,408.00,407.9990920852203,tab:pirpaired
+S7,122,M5/PatchTST/all,PIRCoherent:sample_sd,26.94,26.94400314517857,tab:pirpaired
+S7,123,M5/PatchTST/all,PIRCommon:mean,426.31,426.308921363792,tab:pirpaired
+S7,124,M5/PatchTST/all,PIRCommon:sample_sd,2.19,2.188119505752238,tab:pirpaired
+S7,125,M5/PatchTST/all,PIRTwoGroup:mean,425.16,425.1637155203746,tab:pirpaired
+S7,126,M5/PatchTST/all,PIRTwoGroup:sample_sd,2.78,2.7838496123304224,tab:pirpaired
+S7,127,M5/PatchTST/all,PIRFull:mean,417.60,417.5988020832715,tab:pirpaired
+S7,128,M5/PatchTST/all,PIRFull:sample_sd,4.49,4.48783060379689,tab:pirpaired
+S7,129,M5/DLinear/all,PIRCoherent:mean,419.79,419.7876412528726,tab:pirpaired
+S7,130,M5/DLinear/all,PIRCoherent:sample_sd,27.30,27.296075641581808,tab:pirpaired
+S7,131,M5/DLinear/all,PIRCommon:mean,453.94,453.9396903634459,tab:pirpaired
+S7,132,M5/DLinear/all,PIRCommon:sample_sd,11.67,11.6693524131942,tab:pirpaired
+S7,133,M5/DLinear/all,PIRTwoGroup:mean,452.35,452.3543664138262,tab:pirpaired
+S7,134,M5/DLinear/all,PIRTwoGroup:sample_sd,11.21,11.205485494914038,tab:pirpaired
+S7,135,M5/DLinear/all,PIRFull:mean,440.85,440.8543898043856,tab:pirpaired
+S7,136,M5/DLinear/all,PIRFull:sample_sd,11.32,11.324559101316254,tab:pirpaired
+S7,137,M5/DUET/all,PIRCoherent:mean,388.56,388.564969371253,tab:pirpaired
+S7,138,M5/DUET/all,PIRCoherent:sample_sd,8.14,8.138155230029197,tab:pirpaired
+S7,139,M5/DUET/all,PIRCommon:mean,447.90,447.9036477662403,tab:pirpaired
+S7,140,M5/DUET/all,PIRCommon:sample_sd,3.30,3.299395667841837,tab:pirpaired
+S7,141,M5/DUET/all,PIRTwoGroup:mean,446.18,446.1845880169039,tab:pirpaired
+S7,142,M5/DUET/all,PIRTwoGroup:sample_sd,3.66,3.6560430580073247,tab:pirpaired
+S7,143,M5/DUET/all,PIRFull:mean,428.49,428.48642669852615,tab:pirpaired
+S7,144,M5/DUET/all,PIRFull:sample_sd,5.83,5.830179912575921,tab:pirpaired
+S7,145,AEMO/PatchTST/all,PIRCoherent:mean,481.64,481.6443737452973,tab:pirpaired
+S7,146,AEMO/PatchTST/all,PIRCoherent:sample_sd,25.94,25.935131770871568,tab:pirpaired
+S7,147,AEMO/PatchTST/all,PIRCommon:mean,693.34,693.3445312640973,tab:pirpaired
+S7,148,AEMO/PatchTST/all,PIRCommon:sample_sd,63.13,63.13022638552598,tab:pirpaired
+S7,149,AEMO/PatchTST/all,PIRTwoGroup:mean,680.09,680.0918579272301,tab:pirpaired
+S7,150,AEMO/PatchTST/all,PIRTwoGroup:sample_sd,62.58,62.58361815629072,tab:pirpaired
+S7,151,AEMO/PatchTST/all,PIRFull:mean,654.12,654.1157435771096,tab:pirpaired
+S7,152,AEMO/PatchTST/all,PIRFull:sample_sd,60.88,60.876928000266126,tab:pirpaired
+S7,153,AEMO/DLinear/all,PIRCoherent:mean,645.09,645.0918514945319,tab:pirpaired
+S7,154,AEMO/DLinear/all,PIRCoherent:sample_sd,18.42,18.422300116802997,tab:pirpaired
+S7,155,AEMO/DLinear/all,PIRCommon:mean,995.27,995.2650782904476,tab:pirpaired
+S7,156,AEMO/DLinear/all,PIRCommon:sample_sd,12.99,12.993407272119114,tab:pirpaired
+S7,157,AEMO/DLinear/all,PIRTwoGroup:mean,923.19,923.1920193266114,tab:pirpaired
+S7,158,AEMO/DLinear/all,PIRTwoGroup:sample_sd,9.39,9.38539057789056,tab:pirpaired
+S7,159,AEMO/DLinear/all,PIRFull:mean,866.66,866.656378040153,tab:pirpaired
+S7,160,AEMO/DLinear/all,PIRFull:sample_sd,11.74,11.740861069964511,tab:pirpaired
+S7,161,AEMO/DUET/all,PIRCoherent:mean,472.43,472.4282881174698,tab:pirpaired
+S7,162,AEMO/DUET/all,PIRCoherent:sample_sd,17.76,17.755144496947345,tab:pirpaired
+S7,163,AEMO/DUET/all,PIRCommon:mean,738.35,738.3503338611603,tab:pirpaired
+S7,164,AEMO/DUET/all,PIRCommon:sample_sd,3.89,3.889285215989188,tab:pirpaired
+S7,165,AEMO/DUET/all,PIRTwoGroup:mean,708.51,708.506945734062,tab:pirpaired
+S7,166,AEMO/DUET/all,PIRTwoGroup:sample_sd,4.86,4.859855917800583,tab:pirpaired
+S7,167,AEMO/DUET/all,PIRFull:mean,655.00,655.001102228404,tab:pirpaired
+S7,168,AEMO/DUET/all,PIRFull:sample_sd,4.94,4.942151375798046,tab:pirpaired
+S8,1,RH/PatchTST/all,PIRCoherent:mean,1189.75,1189.746642669809,tab:pir_continuous
+S8,2,RH/PatchTST/all,PIRCoherent:sample_sd,85.24,85.23911105417491,tab:pir_continuous
+S8,3,RH/PatchTST/all,PIRCommon:mean,1227.26,1227.259331676363,tab:pir_continuous
+S8,4,RH/PatchTST/all,PIRCommon:sample_sd,36.86,36.85543435411384,tab:pir_continuous
+S8,5,RH/PatchTST/all,PIRTwoGroup:mean,1220.17,1220.1728595898014,tab:pir_continuous
+S8,6,RH/PatchTST/all,PIRTwoGroup:sample_sd,37.00,36.99717919088373,tab:pir_continuous
+S8,7,RH/PatchTST/all,PIRFull:mean,1187.20,1187.19785533052,tab:pir_continuous
+S8,8,RH/PatchTST/all,PIRFull:sample_sd,39.78,39.77862386935789,tab:pir_continuous
+S8,9,RH/DLinear/all,PIRCoherent:mean,1345.52,1345.520688820099,tab:pir_continuous
+S8,10,RH/DLinear/all,PIRCoherent:sample_sd,123.83,123.83254849784136,tab:pir_continuous
+S8,11,RH/DLinear/all,PIRCommon:mean,1502.63,1502.6287452278928,tab:pir_continuous
+S8,12,RH/DLinear/all,PIRCommon:sample_sd,73.13,73.12651985826129,tab:pir_continuous
+S8,13,RH/DLinear/all,PIRTwoGroup:mean,1495.85,1495.8489422438113,tab:pir_continuous
+S8,14,RH/DLinear/all,PIRTwoGroup:sample_sd,70.83,70.82706182764733,tab:pir_continuous
+S8,15,RH/DLinear/all,PIRFull:mean,1464.08,1464.0818806900104,tab:pir_continuous
+S8,16,RH/DLinear/all,PIRFull:sample_sd,83.25,83.24617068610773,tab:pir_continuous
+S8,17,RH/DUET/all,PIRCoherent:mean,994.56,994.5620647177852,tab:pir_continuous
+S8,18,RH/DUET/all,PIRCoherent:sample_sd,53.74,53.74182709880477,tab:pir_continuous
+S8,19,RH/DUET/all,PIRCommon:mean,1195.81,1195.8053196183791,tab:pir_continuous
+S8,20,RH/DUET/all,PIRCommon:sample_sd,18.22,18.21804019512041,tab:pir_continuous
+S8,21,RH/DUET/all,PIRTwoGroup:mean,1165.87,1165.868909604166,tab:pir_continuous
+S8,22,RH/DUET/all,PIRTwoGroup:sample_sd,26.64,26.63545662270877,tab:pir_continuous
+S8,23,RH/DUET/all,PIRFull:mean,1130.04,1130.038298175021,tab:pir_continuous
+S8,24,RH/DUET/all,PIRFull:sample_sd,49.52,49.52410892595995,tab:pir_continuous
+S8,25,ECommerce/PatchTST/all,PIRCoherent:mean,1695.95,1695.950705601559,tab:pir_continuous
+S8,26,ECommerce/PatchTST/all,PIRCoherent:sample_sd,18.74,18.744578356413488,tab:pir_continuous
+S8,27,ECommerce/PatchTST/all,PIRCommon:mean,1610.14,1610.1374505649408,tab:pir_continuous
+S8,28,ECommerce/PatchTST/all,PIRCommon:sample_sd,6.70,6.699553820915371,tab:pir_continuous
+S8,29,ECommerce/PatchTST/all,PIRTwoGroup:mean,1610.38,1610.3802410854994,tab:pir_continuous
+S8,30,ECommerce/PatchTST/all,PIRTwoGroup:sample_sd,6.85,6.853382694328665,tab:pir_continuous
+S8,31,ECommerce/PatchTST/all,PIRFull:mean,1610.79,1610.7863167499545,tab:pir_continuous
+S8,32,ECommerce/PatchTST/all,PIRFull:sample_sd,7.87,7.867977692698427,tab:pir_continuous
+S8,33,ECommerce/DLinear/all,PIRCoherent:mean,1731.23,1731.231244124082,tab:pir_continuous
+S8,34,ECommerce/DLinear/all,PIRCoherent:sample_sd,46.59,46.59428066201087,tab:pir_continuous
+S8,35,ECommerce/DLinear/all,PIRCommon:mean,1652.88,1652.88363032125,tab:pir_continuous
+S8,36,ECommerce/DLinear/all,PIRCommon:sample_sd,17.42,17.419923156296512,tab:pir_continuous
+S8,37,ECommerce/DLinear/all,PIRTwoGroup:mean,1652.57,1652.5714851249588,tab:pir_continuous
+S8,38,ECommerce/DLinear/all,PIRTwoGroup:sample_sd,16.66,16.663083988729397,tab:pir_continuous
+S8,39,ECommerce/DLinear/all,PIRFull:mean,1649.37,1649.3652787092751,tab:pir_continuous
+S8,40,ECommerce/DLinear/all,PIRFull:sample_sd,22.22,22.21856627092546,tab:pir_continuous
+S8,41,ECommerce/DUET/all,PIRCoherent:mean,1713.46,1713.4635830771942,tab:pir_continuous
+S8,42,ECommerce/DUET/all,PIRCoherent:sample_sd,11.60,11.602974177231468,tab:pir_continuous
+S8,43,ECommerce/DUET/all,PIRCommon:mean,1620.57,1620.5691750502035,tab:pir_continuous
+S8,44,ECommerce/DUET/all,PIRCommon:sample_sd,3.96,3.9592597050509153,tab:pir_continuous
+S8,45,ECommerce/DUET/all,PIRTwoGroup:mean,1621.28,1621.2801192587513,tab:pir_continuous
+S8,46,ECommerce/DUET/all,PIRTwoGroup:sample_sd,3.39,3.389489117192966,tab:pir_continuous
+S8,47,ECommerce/DUET/all,PIRFull:mean,1623.08,1623.083965648332,tab:pir_continuous
+S8,48,ECommerce/DUET/all,PIRFull:sample_sd,2.77,2.769804435182753,tab:pir_continuous
+S8,49,Traffic/PatchTST/all,PIRCoherent:mean,3.733,3.7326599667975606,tab:pir_continuous
+S8,50,Traffic/PatchTST/all,PIRCoherent:sample_sd,0.116,0.1163135593116906,tab:pir_continuous
+S8,51,Traffic/PatchTST/all,PIRCommon:mean,3.858,3.85830067377791,tab:pir_continuous
+S8,52,Traffic/PatchTST/all,PIRCommon:sample_sd,0.033,0.0325494468275772,tab:pir_continuous
+S8,53,Traffic/PatchTST/all,PIRTwoGroup:mean,3.848,3.847715779496328,tab:pir_continuous
+S8,54,Traffic/PatchTST/all,PIRTwoGroup:sample_sd,0.033,0.0328584801313062,tab:pir_continuous
+S8,55,Traffic/PatchTST/all,PIRFull:mean,3.769,3.7694266606896094,tab:pir_continuous
+S8,56,Traffic/PatchTST/all,PIRFull:sample_sd,0.038,0.0377830192421642,tab:pir_continuous
+S8,57,Traffic/DLinear/all,PIRCoherent:mean,3.915,3.9154933784456873,tab:pir_continuous
+S8,58,Traffic/DLinear/all,PIRCoherent:sample_sd,0.122,0.1221761508928926,tab:pir_continuous
+S8,59,Traffic/DLinear/all,PIRCommon:mean,4.126,4.126380248186542,tab:pir_continuous
+S8,60,Traffic/DLinear/all,PIRCommon:sample_sd,0.049,0.0491365071749436,tab:pir_continuous
+S8,61,Traffic/DLinear/all,PIRTwoGroup:mean,4.111,4.111415993310251,tab:pir_continuous
+S8,62,Traffic/DLinear/all,PIRTwoGroup:sample_sd,0.049,0.0493512937744792,tab:pir_continuous
+S8,63,Traffic/DLinear/all,PIRFull:mean,3.973,3.973286909154466,tab:pir_continuous
+S8,64,Traffic/DLinear/all,PIRFull:sample_sd,0.051,0.0509156619555773,tab:pir_continuous
+S8,65,Traffic/DUET/all,PIRCoherent:mean,3.740,3.7401962955224697,tab:pir_continuous
+S8,66,Traffic/DUET/all,PIRCoherent:sample_sd,0.021,0.0207495853724723,tab:pir_continuous
+S8,67,Traffic/DUET/all,PIRCommon:mean,4.257,4.256946118508032,tab:pir_continuous
+S8,68,Traffic/DUET/all,PIRCommon:sample_sd,0.061,0.0607007806372468,tab:pir_continuous
+S8,69,Traffic/DUET/all,PIRTwoGroup:mean,4.241,4.2407150785082575,tab:pir_continuous
+S8,70,Traffic/DUET/all,PIRTwoGroup:sample_sd,0.058,0.0577922287822441,tab:pir_continuous
+S8,71,Traffic/DUET/all,PIRFull:mean,3.974,3.974423094097153,tab:pir_continuous
+S8,72,Traffic/DUET/all,PIRFull:sample_sd,0.045,0.0446194730784905,tab:pir_continuous
+S8,73,Wiki2/PatchTST/all,PIRCoherent:mean,3479.11,3479.1132143537834,tab:pir_continuous
+S8,74,Wiki2/PatchTST/all,PIRCoherent:sample_sd,42.90,42.90429031148369,tab:pir_continuous
+S8,75,Wiki2/PatchTST/all,PIRCommon:mean,3115.94,3115.9372040361777,tab:pir_continuous
+S8,76,Wiki2/PatchTST/all,PIRCommon:sample_sd,12.55,12.54812821384894,tab:pir_continuous
+S8,77,Wiki2/PatchTST/all,PIRTwoGroup:mean,3115.17,3115.173560135416,tab:pir_continuous
+S8,78,Wiki2/PatchTST/all,PIRTwoGroup:sample_sd,12.35,12.345468446971452,tab:pir_continuous
+S8,79,Wiki2/PatchTST/all,PIRFull:mean,3054.27,3054.268588248608,tab:pir_continuous
+S8,80,Wiki2/PatchTST/all,PIRFull:sample_sd,7.23,7.232252768626719,tab:pir_continuous
+S8,81,Wiki2/DLinear/all,PIRCoherent:mean,3647.37,3647.374396715531,tab:pir_continuous
+S8,82,Wiki2/DLinear/all,PIRCoherent:sample_sd,64.29,64.29379842047524,tab:pir_continuous
+S8,83,Wiki2/DLinear/all,PIRCommon:mean,3293.52,3293.517583177796,tab:pir_continuous
+S8,84,Wiki2/DLinear/all,PIRCommon:sample_sd,14.32,14.315989667631976,tab:pir_continuous
+S8,85,Wiki2/DLinear/all,PIRTwoGroup:mean,3292.59,3292.592953635673,tab:pir_continuous
+S8,86,Wiki2/DLinear/all,PIRTwoGroup:sample_sd,14.13,14.13234122443584,tab:pir_continuous
+S8,87,Wiki2/DLinear/all,PIRFull:mean,3179.33,3179.3342912552675,tab:pir_continuous
+S8,88,Wiki2/DLinear/all,PIRFull:sample_sd,38.63,38.627535368581135,tab:pir_continuous
+S8,89,Wiki2/DUET/all,PIRCoherent:mean,3509.17,3509.172062219959,tab:pir_continuous
+S8,90,Wiki2/DUET/all,PIRCoherent:sample_sd,20.94,20.940686628053225,tab:pir_continuous
+S8,91,Wiki2/DUET/all,PIRCommon:mean,3125.98,3125.979481295875,tab:pir_continuous
+S8,92,Wiki2/DUET/all,PIRCommon:sample_sd,7.32,7.32161719061951,tab:pir_continuous
+S8,93,Wiki2/DUET/all,PIRTwoGroup:mean,3125.36,3125.35594478488,tab:pir_continuous
+S8,94,Wiki2/DUET/all,PIRTwoGroup:sample_sd,6.78,6.784332236259262,tab:pir_continuous
+S8,95,Wiki2/DUET/all,PIRFull:mean,3067.23,3067.229899208996,tab:pir_continuous
+S8,96,Wiki2/DUET/all,PIRFull:sample_sd,7.33,7.331019612511953,tab:pir_continuous
+S8,97,Labour/PatchTST/all,PIRCoherent:mean,15.81,15.809515023738877,tab:pir_continuous
+S8,98,Labour/PatchTST/all,PIRCoherent:sample_sd,0.44,0.4371235626720032,tab:pir_continuous
+S8,99,Labour/PatchTST/all,PIRCommon:mean,16.47,16.468214051691607,tab:pir_continuous
+S8,100,Labour/PatchTST/all,PIRCommon:sample_sd,0.08,0.0797603153414372,tab:pir_continuous
+S8,101,Labour/PatchTST/all,PIRTwoGroup:mean,16.43,16.42819465989351,tab:pir_continuous
+S8,102,Labour/PatchTST/all,PIRTwoGroup:sample_sd,0.09,0.0924265452708239,tab:pir_continuous
+S8,103,Labour/PatchTST/all,PIRFull:mean,16.08,16.075438296497115,tab:pir_continuous
+S8,104,Labour/PatchTST/all,PIRFull:sample_sd,0.15,0.1514902538503093,tab:pir_continuous
+S8,105,Labour/DLinear/all,PIRCoherent:mean,18.54,18.53983162907794,tab:pir_continuous
+S8,106,Labour/DLinear/all,PIRCoherent:sample_sd,0.54,0.5436661891891652,tab:pir_continuous
+S8,107,Labour/DLinear/all,PIRCommon:mean,19.52,19.51970906945615,tab:pir_continuous
+S8,108,Labour/DLinear/all,PIRCommon:sample_sd,0.49,0.4936806933715939,tab:pir_continuous
+S8,109,Labour/DLinear/all,PIRTwoGroup:mean,19.44,19.440610839811345,tab:pir_continuous
+S8,110,Labour/DLinear/all,PIRTwoGroup:sample_sd,0.50,0.4978431440581197,tab:pir_continuous
+S8,111,Labour/DLinear/all,PIRFull:mean,18.95,18.950129504049603,tab:pir_continuous
+S8,112,Labour/DLinear/all,PIRFull:sample_sd,0.38,0.3781154806215211,tab:pir_continuous
+S8,113,Labour/DUET/all,PIRCoherent:mean,13.55,13.545507488445107,tab:pir_continuous
+S8,114,Labour/DUET/all,PIRCoherent:sample_sd,0.30,0.3035617785798919,tab:pir_continuous
+S8,115,Labour/DUET/all,PIRCommon:mean,16.57,16.566482639802512,tab:pir_continuous
+S8,116,Labour/DUET/all,PIRCommon:sample_sd,0.07,0.0663301773839138,tab:pir_continuous
+S8,117,Labour/DUET/all,PIRTwoGroup:mean,16.42,16.42258016139687,tab:pir_continuous
+S8,118,Labour/DUET/all,PIRTwoGroup:sample_sd,0.10,0.1011139786041875,tab:pir_continuous
+S8,119,Labour/DUET/all,PIRFull:mean,15.42,15.419484131765229,tab:pir_continuous
+S8,120,Labour/DUET/all,PIRFull:sample_sd,0.04,0.0412022815558728,tab:pir_continuous
+S8,121,M5/PatchTST/all,PIRCoherent:mean,412.29,412.2947247635955,tab:pir_continuous
+S8,122,M5/PatchTST/all,PIRCoherent:sample_sd,25.76,25.76109996398983,tab:pir_continuous
+S8,123,M5/PatchTST/all,PIRCommon:mean,429.48,429.48038325292055,tab:pir_continuous
+S8,124,M5/PatchTST/all,PIRCommon:sample_sd,4.81,4.812152086893607,tab:pir_continuous
+S8,125,M5/PatchTST/all,PIRTwoGroup:mean,427.71,427.7050980699769,tab:pir_continuous
+S8,126,M5/PatchTST/all,PIRTwoGroup:sample_sd,5.91,5.910413170119635,tab:pir_continuous
+S8,127,M5/PatchTST/all,PIRFull:mean,417.60,417.5965792324473,tab:pir_continuous
+S8,128,M5/PatchTST/all,PIRFull:sample_sd,7.98,7.977854446451048,tab:pir_continuous
+S8,129,M5/DLinear/all,PIRCoherent:mean,425.61,425.6129581331881,tab:pir_continuous
+S8,130,M5/DLinear/all,PIRCoherent:sample_sd,26.70,26.699295250565523,tab:pir_continuous
+S8,131,M5/DLinear/all,PIRCommon:mean,457.45,457.449299726658,tab:pir_continuous
+S8,132,M5/DLinear/all,PIRCommon:sample_sd,14.18,14.182130204429056,tab:pir_continuous
+S8,133,M5/DLinear/all,PIRTwoGroup:mean,454.96,454.9615057879907,tab:pir_continuous
+S8,134,M5/DLinear/all,PIRTwoGroup:sample_sd,13.94,13.939762248794716,tab:pir_continuous
+S8,135,M5/DLinear/all,PIRFull:mean,440.90,440.89966543441534,tab:pir_continuous
+S8,136,M5/DLinear/all,PIRFull:sample_sd,13.39,13.391266125121742,tab:pir_continuous
+S8,137,M5/DUET/all,PIRCoherent:mean,393.70,393.70303014134487,tab:pir_continuous
+S8,138,M5/DUET/all,PIRCoherent:sample_sd,9.29,9.292103018770565,tab:pir_continuous
+S8,139,M5/DUET/all,PIRCommon:mean,446.78,446.77747282317887,tab:pir_continuous
+S8,140,M5/DUET/all,PIRCommon:sample_sd,4.53,4.534210807260392,tab:pir_continuous
+S8,141,M5/DUET/all,PIRTwoGroup:mean,444.53,444.5335119027105,tab:pir_continuous
+S8,142,M5/DUET/all,PIRTwoGroup:sample_sd,4.73,4.732600895717406,tab:pir_continuous
+S8,143,M5/DUET/all,PIRFull:mean,417.00,417.0024885949826,tab:pir_continuous
+S8,144,M5/DUET/all,PIRFull:sample_sd,6.11,6.111217680143255,tab:pir_continuous
+S8,145,AEMO/PatchTST/all,PIRCoherent:mean,484.32,484.3185247661284,tab:pir_continuous
+S8,146,AEMO/PatchTST/all,PIRCoherent:sample_sd,26.61,26.60791316259153,tab:pir_continuous
+S8,147,AEMO/PatchTST/all,PIRCommon:mean,682.55,682.5512040765644,tab:pir_continuous
+S8,148,AEMO/PatchTST/all,PIRCommon:sample_sd,64.78,64.7754481397628,tab:pir_continuous
+S8,149,AEMO/PatchTST/all,PIRTwoGroup:mean,661.38,661.3780297569482,tab:pir_continuous
+S8,150,AEMO/PatchTST/all,PIRTwoGroup:sample_sd,62.04,62.035943584317145,tab:pir_continuous
+S8,151,AEMO/PatchTST/all,PIRFull:mean,623.23,623.2347807656024,tab:pir_continuous
+S8,152,AEMO/PatchTST/all,PIRFull:sample_sd,58.26,58.26364602909802,tab:pir_continuous
+S8,153,AEMO/DLinear/all,PIRCoherent:mean,650.30,650.3013651272547,tab:pir_continuous
+S8,154,AEMO/DLinear/all,PIRCoherent:sample_sd,19.93,19.92609479295768,tab:pir_continuous
+S8,155,AEMO/DLinear/all,PIRCommon:mean,895.01,895.0112783828394,tab:pir_continuous
+S8,156,AEMO/DLinear/all,PIRCommon:sample_sd,7.28,7.282527843828876,tab:pir_continuous
+S8,157,AEMO/DLinear/all,PIRTwoGroup:mean,834.79,834.7857351704337,tab:pir_continuous
+S8,158,AEMO/DLinear/all,PIRTwoGroup:sample_sd,7.87,7.866405102003836,tab:pir_continuous
+S8,159,AEMO/DLinear/all,PIRFull:mean,802.87,802.8746526620283,tab:pir_continuous
+S8,160,AEMO/DLinear/all,PIRFull:sample_sd,13.55,13.548500631307691,tab:pir_continuous
+S8,161,AEMO/DUET/all,PIRCoherent:mean,476.27,476.2725970556841,tab:pir_continuous
+S8,162,AEMO/DUET/all,PIRCoherent:sample_sd,20.19,20.191250927897592,tab:pir_continuous
+S8,163,AEMO/DUET/all,PIRCommon:mean,700.52,700.5158208050537,tab:pir_continuous
+S8,164,AEMO/DUET/all,PIRCommon:sample_sd,3.95,3.954529282539277,tab:pir_continuous
+S8,165,AEMO/DUET/all,PIRTwoGroup:mean,656.92,656.924728139213,tab:pir_continuous
+S8,166,AEMO/DUET/all,PIRTwoGroup:sample_sd,2.62,2.62485075850955,tab:pir_continuous
+S8,167,AEMO/DUET/all,PIRFull:mean,591.43,591.4334573678509,tab:pir_continuous
+S8,168,AEMO/DUET/all,PIRFull:sample_sd,3.85,3.846589701346,tab:pir_continuous
+S9,1,RH/PatchTST/all,CPOR-Cov/reset:mean,1000.27,1000.2710391879097,tab:carry_details
+S9,2,RH/PatchTST/all,CPOR-Cov/reset:sample_sd,31.30,31.297312107783192,tab:carry_details
+S9,3,RH/PatchTST/all,CPOR-Cov:mean,944.70,944.6971423247828,tab:carry_details
+S9,4,RH/PatchTST/all,CPOR-Cov:sample_sd,34.42,34.41596838208488,tab:carry_details
+S9,5,RH/PatchTST/all,CPOR-ML/reset:mean,998.08,998.0820283962724,tab:carry_details
+S9,6,RH/PatchTST/all,CPOR-ML/reset:sample_sd,31.81,31.806504579670463,tab:carry_details
+S9,7,RH/PatchTST/all,CPOR-ML:mean,942.76,942.7598312525948,tab:carry_details
+S9,8,RH/PatchTST/all,CPOR-ML:sample_sd,34.94,34.9425461816974,tab:carry_details
+S9,9,RH/DLinear/all,CPOR-Cov/reset:mean,1234.00,1234.0047718063813,tab:carry_details
+S9,10,RH/DLinear/all,CPOR-Cov/reset:sample_sd,10.61,10.611563050547929,tab:carry_details
+S9,11,RH/DLinear/all,CPOR-Cov:mean,1111.47,1111.4703010764058,tab:carry_details
+S9,12,RH/DLinear/all,CPOR-Cov:sample_sd,19.09,19.090997580521787,tab:carry_details
+S9,13,RH/DLinear/all,CPOR-ML/reset:mean,1236.71,1236.7113559022011,tab:carry_details
+S9,14,RH/DLinear/all,CPOR-ML/reset:sample_sd,14.88,14.875627632604902,tab:carry_details
+S9,15,RH/DLinear/all,CPOR-ML:mean,1115.17,1115.1707139666005,tab:carry_details
+S9,16,RH/DLinear/all,CPOR-ML:sample_sd,22.23,22.230262177715364,tab:carry_details
+S9,17,RH/DUET/all,CPOR-Cov/reset:mean,990.12,990.1236167041552,tab:carry_details
+S9,18,RH/DUET/all,CPOR-Cov/reset:sample_sd,13.89,13.889107001365366,tab:carry_details
+S9,19,RH/DUET/all,CPOR-Cov:mean,911.36,911.3629893397256,tab:carry_details
+S9,20,RH/DUET/all,CPOR-Cov:sample_sd,14.45,14.449326186768111,tab:carry_details
+S9,21,RH/DUET/all,CPOR-ML/reset:mean,987.21,987.2112776837204,tab:carry_details
+S9,22,RH/DUET/all,CPOR-ML/reset:sample_sd,14.09,14.088520399302714,tab:carry_details
+S9,23,RH/DUET/all,CPOR-ML:mean,910.77,910.769127813341,tab:carry_details
+S9,24,RH/DUET/all,CPOR-ML:sample_sd,14.93,14.93323211954957,tab:carry_details
+S9,25,ECommerce/PatchTST/all,CPOR-Cov/reset:mean,1583.36,1583.3618011786557,tab:carry_details
+S9,26,ECommerce/PatchTST/all,CPOR-Cov/reset:sample_sd,4.46,4.461913036486262,tab:carry_details
+S9,27,ECommerce/PatchTST/all,CPOR-Cov:mean,1580.75,1580.7505803314,tab:carry_details
+S9,28,ECommerce/PatchTST/all,CPOR-Cov:sample_sd,4.06,4.057734150835112,tab:carry_details
+S9,29,ECommerce/PatchTST/all,CPOR-ML/reset:mean,1579.38,1579.3750557492556,tab:carry_details
+S9,30,ECommerce/PatchTST/all,CPOR-ML/reset:sample_sd,4.09,4.0909663477185285,tab:carry_details
+S9,31,ECommerce/PatchTST/all,CPOR-ML:mean,1574.55,1574.5532585571823,tab:carry_details
+S9,32,ECommerce/PatchTST/all,CPOR-ML:sample_sd,3.64,3.644491678649116,tab:carry_details
+S9,33,ECommerce/DLinear/all,CPOR-Cov/reset:mean,1600.00,1600.0033413176625,tab:carry_details
+S9,34,ECommerce/DLinear/all,CPOR-Cov/reset:sample_sd,2.82,2.824789100127043,tab:carry_details
+S9,35,ECommerce/DLinear/all,CPOR-Cov:mean,1594.12,1594.1165654597164,tab:carry_details
+S9,36,ECommerce/DLinear/all,CPOR-Cov:sample_sd,2.48,2.4787298960279665,tab:carry_details
+S9,37,ECommerce/DLinear/all,CPOR-ML/reset:mean,1593.85,1593.846313825313,tab:carry_details
+S9,38,ECommerce/DLinear/all,CPOR-ML/reset:sample_sd,3.83,3.8285656158621566,tab:carry_details
+S9,39,ECommerce/DLinear/all,CPOR-ML:mean,1586.34,1586.338454908684,tab:carry_details
+S9,40,ECommerce/DLinear/all,CPOR-ML:sample_sd,2.54,2.5366999622865114,tab:carry_details
+S9,41,ECommerce/DUET/all,CPOR-Cov/reset:mean,1591.55,1591.545096934737,tab:carry_details
+S9,42,ECommerce/DUET/all,CPOR-Cov/reset:sample_sd,6.18,6.181388118079901,tab:carry_details
+S9,43,ECommerce/DUET/all,CPOR-Cov:mean,1588.26,1588.257304233195,tab:carry_details
+S9,44,ECommerce/DUET/all,CPOR-Cov:sample_sd,5.99,5.993519480301038,tab:carry_details
+S9,45,ECommerce/DUET/all,CPOR-ML/reset:mean,1587.39,1587.3884624145574,tab:carry_details
+S9,46,ECommerce/DUET/all,CPOR-ML/reset:sample_sd,5.43,5.434605895563122,tab:carry_details
+S9,47,ECommerce/DUET/all,CPOR-ML:mean,1582.03,1582.0325799311397,tab:carry_details
+S9,48,ECommerce/DUET/all,CPOR-ML:sample_sd,4.18,4.177386393696188,tab:carry_details
+S9,49,Traffic/PatchTST/all,CPOR-Cov/reset:mean,3.802,3.801833916052212,tab:carry_details
+S9,50,Traffic/PatchTST/all,CPOR-Cov/reset:sample_sd,0.029,0.0289818597662959,tab:carry_details
+S9,51,Traffic/PatchTST/all,CPOR-Cov:mean,3.774,3.7736424514904336,tab:carry_details
+S9,52,Traffic/PatchTST/all,CPOR-Cov:sample_sd,0.030,0.0300021317335221,tab:carry_details
+S9,53,Traffic/PatchTST/all,CPOR-ML/reset:mean,3.807,3.8070550513247032,tab:carry_details
+S9,54,Traffic/PatchTST/all,CPOR-ML/reset:sample_sd,0.031,0.0309314234944681,tab:carry_details
+S9,55,Traffic/PatchTST/all,CPOR-ML:mean,3.779,3.778558567200104,tab:carry_details
+S9,56,Traffic/PatchTST/all,CPOR-ML:sample_sd,0.030,0.0298051085696941,tab:carry_details
+S9,57,Traffic/DLinear/all,CPOR-Cov/reset:mean,4.035,4.035345111198007,tab:carry_details
+S9,58,Traffic/DLinear/all,CPOR-Cov/reset:sample_sd,0.036,0.0359455788321473,tab:carry_details
+S9,59,Traffic/DLinear/all,CPOR-Cov:mean,3.969,3.969170066918386,tab:carry_details
+S9,60,Traffic/DLinear/all,CPOR-Cov:sample_sd,0.042,0.0423827118324642,tab:carry_details
+S9,61,Traffic/DLinear/all,CPOR-ML/reset:mean,4.039,4.0388771550632345,tab:carry_details
+S9,62,Traffic/DLinear/all,CPOR-ML/reset:sample_sd,0.039,0.0387543355502275,tab:carry_details
+S9,63,Traffic/DLinear/all,CPOR-ML:mean,3.974,3.973607746921908,tab:carry_details
+S9,64,Traffic/DLinear/all,CPOR-ML:sample_sd,0.043,0.0428926655505903,tab:carry_details
+S9,65,Traffic/DUET/all,CPOR-Cov/reset:mean,4.173,4.173197690767368,tab:carry_details
+S9,66,Traffic/DUET/all,CPOR-Cov/reset:sample_sd,0.053,0.0532138669770846,tab:carry_details
+S9,67,Traffic/DUET/all,CPOR-Cov:mean,4.105,4.105117719325898,tab:carry_details
+S9,68,Traffic/DUET/all,CPOR-Cov:sample_sd,0.046,0.0462059310574675,tab:carry_details
+S9,69,Traffic/DUET/all,CPOR-ML/reset:mean,4.187,4.1874603470809335,tab:carry_details
+S9,70,Traffic/DUET/all,CPOR-ML/reset:sample_sd,0.059,0.0585241386366547,tab:carry_details
+S9,71,Traffic/DUET/all,CPOR-ML:mean,4.121,4.121292436562039,tab:carry_details
+S9,72,Traffic/DUET/all,CPOR-ML:sample_sd,0.053,0.0529793098804471,tab:carry_details
+S9,73,Wiki2/PatchTST/all,CPOR-Cov/reset:mean,3010.17,3010.1710094708283,tab:carry_details
+S9,74,Wiki2/PatchTST/all,CPOR-Cov/reset:sample_sd,8.69,8.687812548967646,tab:carry_details
+S9,75,Wiki2/PatchTST/all,CPOR-Cov:mean,2938.79,2938.788415053657,tab:carry_details
+S9,76,Wiki2/PatchTST/all,CPOR-Cov:sample_sd,9.03,9.027110776121171,tab:carry_details
+S9,77,Wiki2/PatchTST/all,CPOR-ML/reset:mean,3032.58,3032.578599263665,tab:carry_details
+S9,78,Wiki2/PatchTST/all,CPOR-ML/reset:sample_sd,17.40,17.398177019244503,tab:carry_details
+S9,79,Wiki2/PatchTST/all,CPOR-ML:mean,2979.91,2979.9122631723217,tab:carry_details
+S9,80,Wiki2/PatchTST/all,CPOR-ML:sample_sd,24.03,24.032922062877184,tab:carry_details
+S9,81,Wiki2/DLinear/all,CPOR-Cov/reset:mean,3119.61,3119.6141021918843,tab:carry_details
+S9,82,Wiki2/DLinear/all,CPOR-Cov/reset:sample_sd,7.57,7.565896962119114,tab:carry_details
+S9,83,Wiki2/DLinear/all,CPOR-Cov:mean,3026.51,3026.506506119286,tab:carry_details
+S9,84,Wiki2/DLinear/all,CPOR-Cov:sample_sd,10.59,10.586206409568156,tab:carry_details
+S9,85,Wiki2/DLinear/all,CPOR-ML/reset:mean,3143.58,3143.584290422318,tab:carry_details
+S9,86,Wiki2/DLinear/all,CPOR-ML/reset:sample_sd,5.52,5.51771745892079,tab:carry_details
+S9,87,Wiki2/DLinear/all,CPOR-ML:mean,3077.44,3077.441047654651,tab:carry_details
+S9,88,Wiki2/DLinear/all,CPOR-ML:sample_sd,6.35,6.352614598841233,tab:carry_details
+S9,89,Wiki2/DUET/all,CPOR-Cov/reset:mean,3013.03,3013.027497819438,tab:carry_details
+S9,90,Wiki2/DUET/all,CPOR-Cov/reset:sample_sd,3.17,3.1749860996438013,tab:carry_details
+S9,91,Wiki2/DUET/all,CPOR-Cov:mean,2935.18,2935.1838001492183,tab:carry_details
+S9,92,Wiki2/DUET/all,CPOR-Cov:sample_sd,2.32,2.321185388428575,tab:carry_details
+S9,93,Wiki2/DUET/all,CPOR-ML/reset:mean,3041.48,3041.479853871764,tab:carry_details
+S9,94,Wiki2/DUET/all,CPOR-ML/reset:sample_sd,1.54,1.5408578388865275,tab:carry_details
+S9,95,Wiki2/DUET/all,CPOR-ML:mean,2968.11,2968.1118758307643,tab:carry_details
+S9,96,Wiki2/DUET/all,CPOR-ML:sample_sd,1.07,1.073296589769065,tab:carry_details
+S9,97,Labour/PatchTST/all,CPOR-Cov/reset:mean,15.67,15.67261723755719,tab:carry_details
+S9,98,Labour/PatchTST/all,CPOR-Cov/reset:sample_sd,0.05,0.0463688323960389,tab:carry_details
+S9,99,Labour/PatchTST/all,CPOR-Cov:mean,15.17,15.169772299419265,tab:carry_details
+S9,100,Labour/PatchTST/all,CPOR-Cov:sample_sd,0.04,0.0444125701951462,tab:carry_details
+S9,101,Labour/PatchTST/all,CPOR-ML/reset:mean,15.68,15.67967302269056,tab:carry_details
+S9,102,Labour/PatchTST/all,CPOR-ML/reset:sample_sd,0.05,0.0498845526888321,tab:carry_details
+S9,103,Labour/PatchTST/all,CPOR-ML:mean,15.18,15.182735133561993,tab:carry_details
+S9,104,Labour/PatchTST/all,CPOR-ML:sample_sd,0.04,0.0435184770787677,tab:carry_details
+S9,105,Labour/DLinear/all,CPOR-Cov/reset:mean,18.19,18.18696088806067,tab:carry_details
+S9,106,Labour/DLinear/all,CPOR-Cov/reset:sample_sd,0.30,0.300524295269044,tab:carry_details
+S9,107,Labour/DLinear/all,CPOR-Cov:mean,16.90,16.903887139960677,tab:carry_details
+S9,108,Labour/DLinear/all,CPOR-Cov:sample_sd,0.20,0.1963046374568285,tab:carry_details
+S9,109,Labour/DLinear/all,CPOR-ML/reset:mean,18.18,18.17885166055486,tab:carry_details
+S9,110,Labour/DLinear/all,CPOR-ML/reset:sample_sd,0.31,0.3134024275624206,tab:carry_details
+S9,111,Labour/DLinear/all,CPOR-ML:mean,16.90,16.904769850160434,tab:carry_details
+S9,112,Labour/DLinear/all,CPOR-ML:sample_sd,0.19,0.1887565878705309,tab:carry_details
+S9,113,Labour/DUET/all,CPOR-Cov/reset:mean,15.66,15.65762640081178,tab:carry_details
+S9,114,Labour/DUET/all,CPOR-Cov/reset:sample_sd,0.06,0.0555075529947664,tab:carry_details
+S9,115,Labour/DUET/all,CPOR-Cov:mean,14.90,14.901442036910629,tab:carry_details
+S9,116,Labour/DUET/all,CPOR-Cov:sample_sd,0.06,0.0556888314914427,tab:carry_details
+S9,117,Labour/DUET/all,CPOR-ML/reset:mean,15.59,15.585714875008316,tab:carry_details
+S9,118,Labour/DUET/all,CPOR-ML/reset:sample_sd,0.06,0.0571388114841558,tab:carry_details
+S9,119,Labour/DUET/all,CPOR-ML:mean,14.81,14.813250631088051,tab:carry_details
+S9,120,Labour/DUET/all,CPOR-ML:sample_sd,0.05,0.0539074208531188,tab:carry_details
+S9,121,M5/PatchTST/all,CPOR-Cov/reset:mean,427.44,427.4406658600408,tab:carry_details
+S9,122,M5/PatchTST/all,CPOR-Cov/reset:sample_sd,0.96,0.955601084869922,tab:carry_details
+S9,123,M5/PatchTST/all,CPOR-Cov:mean,425.75,425.74921842007024,tab:carry_details
+S9,124,M5/PatchTST/all,CPOR-Cov:sample_sd,0.96,0.9591691519510992,tab:carry_details
+S9,125,M5/PatchTST/all,CPOR-ML/reset:mean,425.72,425.71639636271857,tab:carry_details
+S9,126,M5/PatchTST/all,CPOR-ML/reset:sample_sd,0.70,0.696777504791335,tab:carry_details
+S9,127,M5/PatchTST/all,CPOR-ML:mean,423.21,423.2102239723872,tab:carry_details
+S9,128,M5/PatchTST/all,CPOR-ML:sample_sd,0.95,0.9520877115244666,tab:carry_details
+S9,129,M5/DLinear/all,CPOR-Cov/reset:mean,454.85,454.8494341194903,tab:carry_details
+S9,130,M5/DLinear/all,CPOR-Cov/reset:sample_sd,10.68,10.682290809823808,tab:carry_details
+S9,131,M5/DLinear/all,CPOR-Cov:mean,451.99,451.9921858424314,tab:carry_details
+S9,132,M5/DLinear/all,CPOR-Cov:sample_sd,10.45,10.446178032873336,tab:carry_details
+S9,133,M5/DLinear/all,CPOR-ML/reset:mean,453.70,453.7008986467524,tab:carry_details
+S9,134,M5/DLinear/all,CPOR-ML/reset:sample_sd,10.42,10.420519589932292,tab:carry_details
+S9,135,M5/DLinear/all,CPOR-ML:mean,450.34,450.3417513216696,tab:carry_details
+S9,136,M5/DLinear/all,CPOR-ML:sample_sd,9.78,9.781028009146702,tab:carry_details
+S9,137,M5/DUET/all,CPOR-Cov/reset:mean,448.53,448.5319809519553,tab:carry_details
+S9,138,M5/DUET/all,CPOR-Cov/reset:sample_sd,2.47,2.472767432507199,tab:carry_details
+S9,139,M5/DUET/all,CPOR-Cov:mean,442.69,442.6909176914244,tab:carry_details
+S9,140,M5/DUET/all,CPOR-Cov:sample_sd,2.04,2.035274150914238,tab:carry_details
+S9,141,M5/DUET/all,CPOR-ML/reset:mean,447.47,447.46592814694753,tab:carry_details
+S9,142,M5/DUET/all,CPOR-ML/reset:sample_sd,2.40,2.4021171615702523,tab:carry_details
+S9,143,M5/DUET/all,CPOR-ML:mean,441.68,441.6758919581849,tab:carry_details
+S9,144,M5/DUET/all,CPOR-ML:sample_sd,2.03,2.03283928136,tab:carry_details
+S9,145,AEMO/PatchTST/all,CPOR-Cov/reset:mean,631.80,631.8048670265309,tab:carry_details
+S9,146,AEMO/PatchTST/all,CPOR-Cov/reset:sample_sd,61.64,61.63608340165069,tab:carry_details
+S9,147,AEMO/PatchTST/all,CPOR-Cov:mean,582.29,582.2923365254627,tab:carry_details
+S9,148,AEMO/PatchTST/all,CPOR-Cov:sample_sd,57.32,57.324331305347954,tab:carry_details
+S9,149,AEMO/PatchTST/all,CPOR-ML/reset:mean,632.46,632.4595740463722,tab:carry_details
+S9,150,AEMO/PatchTST/all,CPOR-ML/reset:sample_sd,62.15,62.14794680179877,tab:carry_details
+S9,151,AEMO/PatchTST/all,CPOR-ML:mean,582.99,582.9855587870487,tab:carry_details
+S9,152,AEMO/PatchTST/all,CPOR-ML:sample_sd,57.93,57.92738364405212,tab:carry_details
+S9,153,AEMO/DLinear/all,CPOR-Cov/reset:mean,811.19,811.1852984553913,tab:carry_details
+S9,154,AEMO/DLinear/all,CPOR-Cov/reset:sample_sd,5.66,5.659318643848504,tab:carry_details
+S9,155,AEMO/DLinear/all,CPOR-Cov:mean,667.00,667.0034623871211,tab:carry_details
+S9,156,AEMO/DLinear/all,CPOR-Cov:sample_sd,5.75,5.746779324017851,tab:carry_details
+S9,157,AEMO/DLinear/all,CPOR-ML/reset:mean,811.13,811.1307426899922,tab:carry_details
+S9,158,AEMO/DLinear/all,CPOR-ML/reset:sample_sd,5.71,5.7147980370891,tab:carry_details
+S9,159,AEMO/DLinear/all,CPOR-ML:mean,666.93,666.9285834228659,tab:carry_details
+S9,160,AEMO/DLinear/all,CPOR-ML:sample_sd,5.77,5.766997716069029,tab:carry_details
+S9,161,AEMO/DUET/all,CPOR-Cov/reset:mean,637.49,637.4854597543958,tab:carry_details
+S9,162,AEMO/DUET/all,CPOR-Cov/reset:sample_sd,5.29,5.291414292917451,tab:carry_details
+S9,163,AEMO/DUET/all,CPOR-Cov:mean,556.12,556.1209612835777,tab:carry_details
+S9,164,AEMO/DUET/all,CPOR-Cov:sample_sd,8.32,8.322712793678642,tab:carry_details
+S9,165,AEMO/DUET/all,CPOR-ML/reset:mean,637.59,637.5882232420444,tab:carry_details
+S9,166,AEMO/DUET/all,CPOR-ML/reset:sample_sd,5.38,5.376694945855416,tab:carry_details
+S9,167,AEMO/DUET/all,CPOR-ML:mean,555.46,555.4570022393222,tab:carry_details
+S9,168,AEMO/DUET/all,CPOR-ML:sample_sd,8.56,8.556675693024486,tab:carry_details
+S10,1,Labour/PatchTST/region,NNLS:mean,23.08,23.080681492350024,tab:layer_details
+S10,2,Labour/PatchTST/region,NNLS:sample_sd,0.11,0.1095972843598724,tab:layer_details
+S10,3,Labour/PatchTST/region,PIRFull:mean,22.34,22.34240200003049,tab:layer_details
+S10,4,Labour/PatchTST/region,PIRFull:sample_sd,0.12,0.1211260990056749,tab:layer_details
+S10,5,Labour/PatchTST/region,CPOR-Cov:mean,21.71,21.708578786566463,tab:layer_details
+S10,6,Labour/PatchTST/region,CPOR-Cov:sample_sd,0.11,0.1144748353767404,tab:layer_details
+S10,7,Labour/PatchTST/region,CPOR-ML:mean,21.74,21.74000306790465,tab:layer_details
+S10,8,Labour/PatchTST/region,CPOR-ML:sample_sd,0.12,0.1155686071445086,tab:layer_details
+S10,9,Labour/DLinear/region,NNLS:mean,30.62,30.623195541467798,tab:layer_details
+S10,10,Labour/DLinear/region,NNLS:sample_sd,1.01,1.0123536025564597,tab:layer_details
+S10,11,Labour/DLinear/region,PIRFull:mean,29.43,29.433282199668863,tab:layer_details
+S10,12,Labour/DLinear/region,PIRFull:sample_sd,0.81,0.8114516335861753,tab:layer_details
+S10,13,Labour/DLinear/region,CPOR-Cov:mean,27.67,27.673274188969696,tab:layer_details
+S10,14,Labour/DLinear/region,CPOR-Cov:sample_sd,0.61,0.6050485703589458,tab:layer_details
+S10,15,Labour/DLinear/region,CPOR-ML:mean,27.68,27.678514232360246,tab:layer_details
+S10,16,Labour/DLinear/region,CPOR-ML:sample_sd,0.61,0.6078578568366724,tab:layer_details
+S10,17,Labour/DUET/region,NNLS:mean,25.61,25.60597097013692,tab:layer_details
+S10,18,Labour/DUET/region,NNLS:sample_sd,0.19,0.1897113360899645,tab:layer_details
+S10,19,Labour/DUET/region,PIRFull:mean,23.31,23.309052424281177,tab:layer_details
+S10,20,Labour/DUET/region,PIRFull:sample_sd,0.13,0.1275542831529089,tab:layer_details
+S10,21,Labour/DUET/region,CPOR-Cov:mean,22.95,22.948504470949302,tab:layer_details
+S10,22,Labour/DUET/region,CPOR-Cov:sample_sd,0.12,0.1243325045901838,tab:layer_details
+S10,23,Labour/DUET/region,CPOR-ML:mean,22.86,22.858543763050537,tab:layer_details
+S10,24,Labour/DUET/region,CPOR-ML:sample_sd,0.11,0.1124361315965195,tab:layer_details
+S10,25,AEMO/PatchTST/region,NNLS:mean,454.23,454.2298427319898,tab:layer_details
+S10,26,AEMO/PatchTST/region,NNLS:sample_sd,34.62,34.62133777943817,tab:layer_details
+S10,27,AEMO/PatchTST/region,PIRFull:mean,422.24,422.2373450663388,tab:layer_details
+S10,28,AEMO/PatchTST/region,PIRFull:sample_sd,32.64,32.63868371593372,tab:layer_details
+S10,29,AEMO/PatchTST/region,CPOR-Cov:mean,399.79,399.789148133656,tab:layer_details
+S10,30,AEMO/PatchTST/region,CPOR-Cov:sample_sd,33.15,33.14898454472266,tab:layer_details
+S10,31,AEMO/PatchTST/region,CPOR-ML:mean,399.78,399.78157082756655,tab:layer_details
+S10,32,AEMO/PatchTST/region,CPOR-ML:sample_sd,33.61,33.61488910951707,tab:layer_details
+S10,33,AEMO/DLinear/region,NNLS:mean,746.41,746.4076730048728,tab:layer_details
+S10,34,AEMO/DLinear/region,NNLS:sample_sd,11.40,11.399393182404223,tab:layer_details
+S10,35,AEMO/DLinear/region,PIRFull:mean,530.80,530.7954335646332,tab:layer_details
+S10,36,AEMO/DLinear/region,PIRFull:sample_sd,7.17,7.168771530413891,tab:layer_details
+S10,37,AEMO/DLinear/region,CPOR-Cov:mean,492.53,492.52901042293024,tab:layer_details
+S10,38,AEMO/DLinear/region,CPOR-Cov:sample_sd,3.13,3.1274525605696804,tab:layer_details
+S10,39,AEMO/DLinear/region,CPOR-ML:mean,492.51,492.51349873237183,tab:layer_details
+S10,40,AEMO/DLinear/region,CPOR-ML:sample_sd,3.16,3.1591772164292253,tab:layer_details
+S10,41,AEMO/DUET/region,NNLS:mean,489.15,489.1487766518853,tab:layer_details
+S10,42,AEMO/DUET/region,NNLS:sample_sd,3.98,3.979048988876948,tab:layer_details
+S10,43,AEMO/DUET/region,PIRFull:mean,410.18,410.1832819250685,tab:layer_details
+S10,44,AEMO/DUET/region,PIRFull:sample_sd,3.98,3.9763474572950974,tab:layer_details
+S10,45,AEMO/DUET/region,CPOR-Cov:mean,396.37,396.37461327999546,tab:layer_details
+S10,46,AEMO/DUET/region,CPOR-Cov:sample_sd,3.51,3.507106061916407,tab:layer_details
+S10,47,AEMO/DUET/region,CPOR-ML:mean,396.41,396.40606408450384,tab:layer_details
+S10,48,AEMO/DUET/region,CPOR-ML:sample_sd,3.65,3.650948857433891,tab:layer_details
+S10,49,Traffic/PatchTST/bottom,NNLS:mean,1.951,1.9507595399801043,tab:layer_details
+S10,50,Traffic/PatchTST/bottom,NNLS:sample_sd,0.003,0.0028242652316591,tab:layer_details
+S10,51,Traffic/PatchTST/bottom,PIRFull:mean,1.891,1.8914671724214875,tab:layer_details
+S10,52,Traffic/PatchTST/bottom,PIRFull:sample_sd,0.012,0.0119035878796899,tab:layer_details
+S10,53,Traffic/PatchTST/bottom,CPOR-Cov:mean,1.862,1.8618619937665717,tab:layer_details
+S10,54,Traffic/PatchTST/bottom,CPOR-Cov:sample_sd,0.003,0.0030599402622208,tab:layer_details
+S10,55,Traffic/PatchTST/bottom,CPOR-ML:mean,1.865,1.864881097621276,tab:layer_details
+S10,56,Traffic/PatchTST/bottom,CPOR-ML:sample_sd,0.005,0.0045388181846307,tab:layer_details
+S10,57,Traffic/DLinear/bottom,NNLS:mean,2.145,2.1445144121861386,tab:layer_details
+S10,58,Traffic/DLinear/bottom,NNLS:sample_sd,0.007,0.0070199148279208,tab:layer_details
+S10,59,Traffic/DLinear/bottom,PIRFull:mean,2.040,2.0398615053163924,tab:layer_details
+S10,60,Traffic/DLinear/bottom,PIRFull:sample_sd,0.016,0.0155844246495845,tab:layer_details
+S10,61,Traffic/DLinear/bottom,CPOR-Cov:mean,2.004,2.0036416703151216,tab:layer_details
+S10,62,Traffic/DLinear/bottom,CPOR-Cov:sample_sd,0.007,0.0067120006379415,tab:layer_details
+S10,63,Traffic/DLinear/bottom,CPOR-ML:mean,2.007,2.0070399133757904,tab:layer_details
+S10,64,Traffic/DLinear/bottom,CPOR-ML:sample_sd,0.008,0.0081187959386402,tab:layer_details
+S10,65,Traffic/DUET/bottom,NNLS:mean,2.019,2.0188627204819443,tab:layer_details
+S10,66,Traffic/DUET/bottom,NNLS:sample_sd,0.021,0.0213727557413557,tab:layer_details
+S10,67,Traffic/DUET/bottom,PIRFull:mean,1.918,1.918080045128189,tab:layer_details
+S10,68,Traffic/DUET/bottom,PIRFull:sample_sd,0.005,0.0050875042042721,tab:layer_details
+S10,69,Traffic/DUET/bottom,CPOR-Cov:mean,1.888,1.888123943165872,tab:layer_details
+S10,70,Traffic/DUET/bottom,CPOR-Cov:sample_sd,0.012,0.0122794773546013,tab:layer_details
+S10,71,Traffic/DUET/bottom,CPOR-ML:mean,1.896,1.8960988290946328,tab:layer_details
+S10,72,Traffic/DUET/bottom,CPOR-ML:sample_sd,0.012,0.0122121143704276,tab:layer_details
+S10,73,Wiki2/PatchTST/bottom,NNLS:mean,1042.84,1042.8394628719705,tab:layer_details
+S10,74,Wiki2/PatchTST/bottom,NNLS:sample_sd,3.41,3.408418503454428,tab:layer_details
+S10,75,Wiki2/PatchTST/bottom,PIRFull:mean,1021.87,1021.8737288829196,tab:layer_details
+S10,76,Wiki2/PatchTST/bottom,PIRFull:sample_sd,3.35,3.348162090583937,tab:layer_details
+S10,77,Wiki2/PatchTST/bottom,CPOR-Cov:mean,998.77,998.7737932267304,tab:layer_details
+S10,78,Wiki2/PatchTST/bottom,CPOR-Cov:sample_sd,2.12,2.117324727765826,tab:layer_details
+S10,79,Wiki2/PatchTST/bottom,CPOR-ML:mean,1003.51,1003.5093408254676,tab:layer_details
+S10,80,Wiki2/PatchTST/bottom,CPOR-ML:sample_sd,2.52,2.5230032966924023,tab:layer_details
+S10,81,Wiki2/DLinear/bottom,NNLS:mean,1074.76,1074.759721859709,tab:layer_details
+S10,82,Wiki2/DLinear/bottom,NNLS:sample_sd,7.91,7.914179646140684,tab:layer_details
+S10,83,Wiki2/DLinear/bottom,PIRFull:mean,1049.54,1049.539410875077,tab:layer_details
+S10,84,Wiki2/DLinear/bottom,PIRFull:sample_sd,6.82,6.819273166366944,tab:layer_details
+S10,85,Wiki2/DLinear/bottom,CPOR-Cov:mean,1007.13,1007.1332111879524,tab:layer_details
+S10,86,Wiki2/DLinear/bottom,CPOR-Cov:sample_sd,3.14,3.139965268774891,tab:layer_details
+S10,87,Wiki2/DLinear/bottom,CPOR-ML:mean,1009.64,1009.6377290147756,tab:layer_details
+S10,88,Wiki2/DLinear/bottom,CPOR-ML:sample_sd,5.62,5.616105800073597,tab:layer_details
+S10,89,Wiki2/DUET/bottom,NNLS:mean,1038.73,1038.7286263935418,tab:layer_details
+S10,90,Wiki2/DUET/bottom,NNLS:sample_sd,2.72,2.724453929126834,tab:layer_details
+S10,91,Wiki2/DUET/bottom,PIRFull:mean,1020.54,1020.5395764504356,tab:layer_details
+S10,92,Wiki2/DUET/bottom,PIRFull:sample_sd,1.87,1.8681362024748775,tab:layer_details
+S10,93,Wiki2/DUET/bottom,CPOR-Cov:mean,993.10,993.1047683732112,tab:layer_details
+S10,94,Wiki2/DUET/bottom,CPOR-Cov:sample_sd,1.41,1.4100865604232693,tab:layer_details
+S10,95,Wiki2/DUET/bottom,CPOR-ML:mean,999.14,999.1447874824124,tab:layer_details
+S10,96,Wiki2/DUET/bottom,CPOR-ML:sample_sd,3.49,3.4897317083996566,tab:layer_details
+S10,97,Labour/PatchTST/bottom,NNLS:mean,11.34,11.337248513073533,tab:layer_details
+S10,98,Labour/PatchTST/bottom,NNLS:sample_sd,0.02,0.0187330571003618,tab:layer_details
+S10,99,Labour/PatchTST/bottom,PIRFull:mean,11.00,10.996733781281629,tab:layer_details
+S10,100,Labour/PatchTST/bottom,PIRFull:sample_sd,0.11,0.1065855676931133,tab:layer_details
+S10,101,Labour/PatchTST/bottom,CPOR-Cov:mean,10.45,10.452984148976329,tab:layer_details
+S10,102,Labour/PatchTST/bottom,CPOR-Cov:sample_sd,0.01,0.0071063313898161,tab:layer_details
+S10,103,Labour/PatchTST/bottom,CPOR-ML:mean,10.43,10.433069008837082,tab:layer_details
+S10,104,Labour/PatchTST/bottom,CPOR-ML:sample_sd,0.01,0.007086416282742,tab:layer_details
+S10,105,Labour/DLinear/bottom,NNLS:mean,12.60,12.603391663069958,tab:layer_details
+S10,106,Labour/DLinear/bottom,NNLS:sample_sd,0.28,0.2832584336040541,tab:layer_details
+S10,107,Labour/DLinear/bottom,PIRFull:mean,12.09,12.09207038982622,tab:layer_details
+S10,108,Labour/DLinear/bottom,PIRFull:sample_sd,0.20,0.1994053927272871,tab:layer_details
+S10,109,Labour/DLinear/bottom,CPOR-Cov:mean,11.45,11.449507805535594,tab:layer_details
+S10,110,Labour/DLinear/bottom,CPOR-Cov:sample_sd,0.18,0.1791058307021308,tab:layer_details
+S10,111,Labour/DLinear/bottom,CPOR-ML:mean,11.45,11.45311069351436,tab:layer_details
+S10,112,Labour/DLinear/bottom,CPOR-ML:sample_sd,0.19,0.1858695961579708,tab:layer_details
+S10,113,Labour/DUET/bottom,NNLS:mean,10.79,10.790579789588143,tab:layer_details
+S10,114,Labour/DUET/bottom,NNLS:sample_sd,0.03,0.0338285403968172,tab:layer_details
+S10,115,Labour/DUET/bottom,PIRFull:mean,10.18,10.177393696213498,tab:layer_details
+S10,116,Labour/DUET/bottom,PIRFull:sample_sd,0.06,0.0606827254342663,tab:layer_details
+S10,117,Labour/DUET/bottom,CPOR-Cov:mean,9.89,9.886753664132096,tab:layer_details
+S10,118,Labour/DUET/bottom,CPOR-Cov:sample_sd,0.02,0.0201031600340252,tab:layer_details
+S10,119,Labour/DUET/bottom,CPOR-ML:mean,9.88,9.875217835676295,tab:layer_details
+S10,120,Labour/DUET/bottom,CPOR-ML:sample_sd,0.02,0.0226971436734854,tab:layer_details
+S10,121,M5/PatchTST/bottom,NNLS:mean,192.69,192.6913203387993,tab:layer_details
+S10,122,M5/PatchTST/bottom,NNLS:sample_sd,0.26,0.2553014034271527,tab:layer_details
+S10,123,M5/PatchTST/bottom,PIRFull:mean,187.14,187.13719089131504,tab:layer_details
+S10,124,M5/PatchTST/bottom,PIRFull:sample_sd,1.58,1.5849270759467258,tab:layer_details
+S10,125,M5/PatchTST/bottom,CPOR-Cov:mean,189.37,189.3700408951445,tab:layer_details
+S10,126,M5/PatchTST/bottom,CPOR-Cov:sample_sd,0.21,0.2124874703647609,tab:layer_details
+S10,127,M5/PatchTST/bottom,CPOR-ML:mean,188.70,188.70359541676044,tab:layer_details
+S10,128,M5/PatchTST/bottom,CPOR-ML:sample_sd,0.17,0.1743439307835209,tab:layer_details
+S10,129,M5/DLinear/bottom,NNLS:mean,203.64,203.6371028920821,tab:layer_details
+S10,130,M5/DLinear/bottom,NNLS:sample_sd,3.69,3.685872920384226,tab:layer_details
+S10,131,M5/DLinear/bottom,PIRFull:mean,195.68,195.68007964230333,tab:layer_details
+S10,132,M5/DLinear/bottom,PIRFull:sample_sd,3.61,3.6058071997446186,tab:layer_details
+S10,133,M5/DLinear/bottom,CPOR-Cov:mean,198.82,198.823951173622,tab:layer_details
+S10,134,M5/DLinear/bottom,CPOR-Cov:sample_sd,3.63,3.6261310550632015,tab:layer_details
+S10,135,M5/DLinear/bottom,CPOR-ML:mean,198.19,198.19217278398992,tab:layer_details
+S10,136,M5/DLinear/bottom,CPOR-ML:sample_sd,3.49,3.4888197884748755,tab:layer_details
+S10,137,M5/DUET/bottom,NNLS:mean,200.30,200.2987179001532,tab:layer_details
+S10,138,M5/DUET/bottom,NNLS:sample_sd,1.05,1.0484344739503773,tab:layer_details
+S10,139,M5/DUET/bottom,PIRFull:mean,188.94,188.9431801956028,tab:layer_details
+S10,140,M5/DUET/bottom,PIRFull:sample_sd,2.05,2.051615231803373,tab:layer_details
+S10,141,M5/DUET/bottom,CPOR-Cov:mean,195.01,195.01354158162115,tab:layer_details
+S10,142,M5/DUET/bottom,CPOR-Cov:sample_sd,0.82,0.818488519267674,tab:layer_details
+S10,143,M5/DUET/bottom,CPOR-ML:mean,194.38,194.3795207670881,tab:layer_details
+S10,144,M5/DUET/bottom,CPOR-ML:sample_sd,0.80,0.7977593337020148,tab:layer_details
+S11,1,Labour/PatchTST/region,NNLS:mean,24.99,24.994142255574875,tab:layer_continuous
+S11,2,Labour/PatchTST/region,NNLS:sample_sd,0.08,0.0827161754792253,tab:layer_continuous
+S11,3,Labour/PatchTST/region,PIRFull:mean,23.86,23.864425788535424,tab:layer_continuous
+S11,4,Labour/PatchTST/region,PIRFull:sample_sd,0.12,0.1238679397502647,tab:layer_continuous
+S11,5,Labour/PatchTST/region,CPOR-Cov:mean,22.90,22.89836765640321,tab:layer_continuous
+S11,6,Labour/PatchTST/region,CPOR-Cov:sample_sd,0.08,0.0793331135140808,tab:layer_continuous
+S11,7,Labour/PatchTST/region,CPOR-ML:mean,22.99,22.98653492763351,tab:layer_continuous
+S11,8,Labour/PatchTST/region,CPOR-ML:sample_sd,0.07,0.0741784754363305,tab:layer_continuous
+S11,9,Labour/DLinear/region,NNLS:mean,31.56,31.561601331265468,tab:layer_continuous
+S11,10,Labour/DLinear/region,NNLS:sample_sd,0.91,0.9052635100139323,tab:layer_continuous
+S11,11,Labour/DLinear/region,PIRFull:mean,29.99,29.98764556077376,tab:layer_continuous
+S11,12,Labour/DLinear/region,PIRFull:sample_sd,0.67,0.6703783634503476,tab:layer_continuous
+S11,13,Labour/DLinear/region,CPOR-Cov:mean,26.57,26.57465393720557,tab:layer_continuous
+S11,14,Labour/DLinear/region,CPOR-Cov:sample_sd,0.26,0.2584529182427738,tab:layer_continuous
+S11,15,Labour/DLinear/region,CPOR-ML:mean,26.60,26.598387867105007,tab:layer_continuous
+S11,16,Labour/DLinear/region,CPOR-ML:sample_sd,0.24,0.2369072706533344,tab:layer_continuous
+S11,17,Labour/DUET/region,NNLS:mean,27.43,27.43496743329705,tab:layer_continuous
+S11,18,Labour/DUET/region,NNLS:sample_sd,0.17,0.1749898311423776,tab:layer_continuous
+S11,19,Labour/DUET/region,PIRFull:mean,23.76,23.762968358537645,tab:layer_continuous
+S11,20,Labour/DUET/region,PIRFull:sample_sd,0.07,0.0698095920915963,tab:layer_continuous
+S11,21,Labour/DUET/region,CPOR-Cov:mean,23.05,23.05230145275119,tab:layer_continuous
+S11,22,Labour/DUET/region,CPOR-Cov:sample_sd,0.09,0.0933845022343907,tab:layer_continuous
+S11,23,Labour/DUET/region,CPOR-ML:mean,22.91,22.911919241338023,tab:layer_continuous
+S11,24,Labour/DUET/region,CPOR-ML:sample_sd,0.09,0.0900932268418457,tab:layer_continuous
+S11,25,AEMO/PatchTST/region,NNLS:mean,455.73,455.7261694683537,tab:layer_continuous
+S11,26,AEMO/PatchTST/region,NNLS:sample_sd,34.41,34.41396422901109,tab:layer_continuous
+S11,27,AEMO/PatchTST/region,PIRFull:mean,405.13,405.1303402664316,tab:layer_continuous
+S11,28,AEMO/PatchTST/region,PIRFull:sample_sd,30.77,30.774886021021462,tab:layer_continuous
+S11,29,AEMO/PatchTST/region,CPOR-Cov:mean,371.26,371.25512772753854,tab:layer_continuous
+S11,30,AEMO/PatchTST/region,CPOR-Cov:sample_sd,31.04,31.037854821019952,tab:layer_continuous
+S11,31,AEMO/PatchTST/region,CPOR-ML:mean,370.88,370.8765340796499,tab:layer_continuous
+S11,32,AEMO/PatchTST/region,CPOR-ML:sample_sd,31.73,31.729354114417955,tab:layer_continuous
+S11,33,AEMO/DLinear/region,NNLS:mean,761.38,761.3805172626522,tab:layer_continuous
+S11,34,AEMO/DLinear/region,NNLS:sample_sd,11.62,11.6201641054253,tab:layer_continuous
+S11,35,AEMO/DLinear/region,PIRFull:mean,492.72,492.72403771746457,tab:layer_continuous
+S11,36,AEMO/DLinear/region,PIRFull:sample_sd,8.20,8.200785512975349,tab:layer_continuous
+S11,37,AEMO/DLinear/region,CPOR-Cov:mean,407.65,407.6515690565048,tab:layer_continuous
+S11,38,AEMO/DLinear/region,CPOR-Cov:sample_sd,3.07,3.065315153271208,tab:layer_continuous
+S11,39,AEMO/DLinear/region,CPOR-ML:mean,407.61,407.61113546354494,tab:layer_continuous
+S11,40,AEMO/DLinear/region,CPOR-ML:sample_sd,3.08,3.079173890131124,tab:layer_continuous
+S11,41,AEMO/DUET/region,NNLS:mean,491.12,491.12073581229697,tab:layer_continuous
+S11,42,AEMO/DUET/region,NNLS:sample_sd,3.99,3.990255004678938,tab:layer_continuous
+S11,43,AEMO/DUET/region,PIRFull:mean,375.53,375.53280265104576,tab:layer_continuous
+S11,44,AEMO/DUET/region,PIRFull:sample_sd,3.56,3.563505047014205,tab:layer_continuous
+S11,45,AEMO/DUET/region,CPOR-Cov:mean,349.46,349.4576819641067,tab:layer_continuous
+S11,46,AEMO/DUET/region,CPOR-Cov:sample_sd,5.26,5.256203377446473,tab:layer_continuous
+S11,47,AEMO/DUET/region,CPOR-ML:mean,348.89,348.8909873509635,tab:layer_continuous
+S11,48,AEMO/DUET/region,CPOR-ML:sample_sd,5.52,5.51805397417799,tab:layer_continuous
+S11,49,Traffic/PatchTST/bottom,NNLS:mean,2.022,2.022357525899482,tab:layer_continuous
+S11,50,Traffic/PatchTST/bottom,NNLS:sample_sd,0.002,0.0022648564739099,tab:layer_continuous
+S11,51,Traffic/PatchTST/bottom,PIRFull:mean,1.935,1.934608361542531,tab:layer_continuous
+S11,52,Traffic/PatchTST/bottom,PIRFull:sample_sd,0.018,0.0177781283688084,tab:layer_continuous
+S11,53,Traffic/PatchTST/bottom,CPOR-Cov:mean,1.897,1.8966317643396104,tab:layer_continuous
+S11,54,Traffic/PatchTST/bottom,CPOR-Cov:sample_sd,0.004,0.0040183454211719,tab:layer_continuous
+S11,55,Traffic/PatchTST/bottom,CPOR-ML:mean,1.900,1.8997788852220772,tab:layer_continuous
+S11,56,Traffic/PatchTST/bottom,CPOR-ML:sample_sd,0.004,0.0041633872126409,tab:layer_continuous
+S11,57,Traffic/DLinear/bottom,NNLS:mean,2.208,2.2076002938158408,tab:layer_continuous
+S11,58,Traffic/DLinear/bottom,NNLS:sample_sd,0.007,0.0068353566053323,tab:layer_continuous
+S11,59,Traffic/DLinear/bottom,PIRFull:mean,2.055,2.055041778063004,tab:layer_continuous
+S11,60,Traffic/DLinear/bottom,PIRFull:sample_sd,0.028,0.0283822209575477,tab:layer_continuous
+S11,61,Traffic/DLinear/bottom,CPOR-Cov:mean,1.988,1.9877955826838047,tab:layer_continuous
+S11,62,Traffic/DLinear/bottom,CPOR-Cov:sample_sd,0.008,0.0080491229883202,tab:layer_continuous
+S11,63,Traffic/DLinear/bottom,CPOR-ML:mean,1.991,1.991397980736881,tab:layer_continuous
+S11,64,Traffic/DLinear/bottom,CPOR-ML:sample_sd,0.008,0.0083344097129349,tab:layer_continuous
+S11,65,Traffic/DUET/bottom,NNLS:mean,2.083,2.083331822842872,tab:layer_continuous
+S11,66,Traffic/DUET/bottom,NNLS:sample_sd,0.020,0.0203369438951222,tab:layer_continuous
+S11,67,Traffic/DUET/bottom,PIRFull:mean,1.939,1.9389034941753345,tab:layer_continuous
+S11,68,Traffic/DUET/bottom,PIRFull:sample_sd,0.003,0.0028700583415352,tab:layer_continuous
+S11,69,Traffic/DUET/bottom,CPOR-Cov:mean,1.895,1.8951886018100008,tab:layer_continuous
+S11,70,Traffic/DUET/bottom,CPOR-Cov:sample_sd,0.004,0.0042133315254274,tab:layer_continuous
+S11,71,Traffic/DUET/bottom,CPOR-ML:mean,1.902,1.901591579078542,tab:layer_continuous
+S11,72,Traffic/DUET/bottom,CPOR-ML:sample_sd,0.006,0.0058923839814636,tab:layer_continuous
+S11,73,Wiki2/PatchTST/bottom,NNLS:mean,1324.59,1324.5892889033232,tab:layer_continuous
+S11,74,Wiki2/PatchTST/bottom,NNLS:sample_sd,5.26,5.261509343650265,tab:layer_continuous
+S11,75,Wiki2/PatchTST/bottom,PIRFull:mean,1292.20,1292.198947245767,tab:layer_continuous
+S11,76,Wiki2/PatchTST/bottom,PIRFull:sample_sd,4.73,4.733105844562567,tab:layer_continuous
+S11,77,Wiki2/PatchTST/bottom,CPOR-Cov:mean,1238.92,1238.916626564683,tab:layer_continuous
+S11,78,Wiki2/PatchTST/bottom,CPOR-Cov:sample_sd,3.88,3.8849140053028943,tab:layer_continuous
+S11,79,Wiki2/PatchTST/bottom,CPOR-ML:mean,1250.42,1250.4202644490622,tab:layer_continuous
+S11,80,Wiki2/PatchTST/bottom,CPOR-ML:sample_sd,8.28,8.282021766268283,tab:layer_continuous
+S11,81,Wiki2/DLinear/bottom,NNLS:mean,1370.25,1370.2534671362737,tab:layer_continuous
+S11,82,Wiki2/DLinear/bottom,NNLS:sample_sd,8.54,8.537838077534808,tab:layer_continuous
+S11,83,Wiki2/DLinear/bottom,PIRFull:mean,1324.92,1324.9179873872092,tab:layer_continuous
+S11,84,Wiki2/DLinear/bottom,PIRFull:sample_sd,13.71,13.707388264673153,tab:layer_continuous
+S11,85,Wiki2/DLinear/bottom,CPOR-Cov:mean,1256.14,1256.1414987760895,tab:layer_continuous
+S11,86,Wiki2/DLinear/bottom,CPOR-Cov:sample_sd,4.57,4.569216116048739,tab:layer_continuous
+S11,87,Wiki2/DLinear/bottom,CPOR-ML:mean,1278.26,1278.2572402858318,tab:layer_continuous
+S11,88,Wiki2/DLinear/bottom,CPOR-ML:sample_sd,2.98,2.9805300438256777,tab:layer_continuous
+S11,89,Wiki2/DUET/bottom,NNLS:mean,1320.90,1320.9047423369457,tab:layer_continuous
+S11,90,Wiki2/DUET/bottom,NNLS:sample_sd,2.89,2.889637111738103,tab:layer_continuous
+S11,91,Wiki2/DUET/bottom,PIRFull:mean,1292.04,1292.0429238836714,tab:layer_continuous
+S11,92,Wiki2/DUET/bottom,PIRFull:sample_sd,0.92,0.9166956087261212,tab:layer_continuous
+S11,93,Wiki2/DUET/bottom,CPOR-Cov:mean,1234.09,1234.0899738895637,tab:layer_continuous
+S11,94,Wiki2/DUET/bottom,CPOR-Cov:sample_sd,0.75,0.7510531164410923,tab:layer_continuous
+S11,95,Wiki2/DUET/bottom,CPOR-ML:mean,1244.78,1244.7785200277456,tab:layer_continuous
+S11,96,Wiki2/DUET/bottom,CPOR-ML:sample_sd,0.86,0.8612953720380507,tab:layer_continuous
+S11,97,Labour/PatchTST/bottom,NNLS:mean,11.66,11.657157544496846,tab:layer_continuous
+S11,98,Labour/PatchTST/bottom,NNLS:sample_sd,0.01,0.0111665890569867,tab:layer_continuous
+S11,99,Labour/PatchTST/bottom,PIRFull:mean,11.20,11.201427276058135,tab:layer_continuous
+S11,100,Labour/PatchTST/bottom,PIRFull:sample_sd,0.15,0.1523406265409322,tab:layer_continuous
+S11,101,Labour/PatchTST/bottom,CPOR-Cov:mean,10.25,10.251490116791944,tab:layer_continuous
+S11,102,Labour/PatchTST/bottom,CPOR-Cov:sample_sd,0.01,0.0076450162484949,tab:layer_continuous
+S11,103,Labour/PatchTST/bottom,CPOR-ML:mean,10.21,10.21070213290573,tab:layer_continuous
+S11,104,Labour/PatchTST/bottom,CPOR-ML:sample_sd,0.01,0.0068853964562166,tab:layer_continuous
+S11,105,Labour/DLinear/bottom,NNLS:mean,12.80,12.79812421195321,tab:layer_continuous
+S11,106,Labour/DLinear/bottom,NNLS:sample_sd,0.28,0.2787479881317349,tab:layer_continuous
+S11,107,Labour/DLinear/bottom,PIRFull:mean,12.08,12.077798759517114,tab:layer_continuous
+S11,108,Labour/DLinear/bottom,PIRFull:sample_sd,0.19,0.1860398846162331,tab:layer_continuous
+S11,109,Labour/DLinear/bottom,CPOR-Cov:mean,10.81,10.812301452718163,tab:layer_continuous
+S11,110,Labour/DLinear/bottom,CPOR-Cov:sample_sd,0.13,0.13274044283721,tab:layer_continuous
+S11,111,Labour/DLinear/bottom,CPOR-ML:mean,10.80,10.797179688622306,tab:layer_continuous
+S11,112,Labour/DLinear/bottom,CPOR-ML:sample_sd,0.13,0.1315730966233002,tab:layer_continuous
+S11,113,Labour/DUET/bottom,NNLS:mean,11.03,11.034997934763014,tab:layer_continuous
+S11,114,Labour/DUET/bottom,NNLS:sample_sd,0.03,0.0315106795268137,tab:layer_continuous
+S11,115,Labour/DUET/bottom,PIRFull:mean,10.08,10.08215714951143,tab:layer_continuous
+S11,116,Labour/DUET/bottom,PIRFull:sample_sd,0.08,0.078602777329621,tab:layer_continuous
+S11,117,Labour/DUET/bottom,CPOR-Cov:mean,9.62,9.621617587256496,tab:layer_continuous
+S11,118,Labour/DUET/bottom,CPOR-Cov:sample_sd,0.03,0.0270387387867666,tab:layer_continuous
+S11,119,Labour/DUET/bottom,CPOR-ML:mean,9.58,9.577076484829748,tab:layer_continuous
+S11,120,Labour/DUET/bottom,CPOR-ML:sample_sd,0.03,0.0275013021957433,tab:layer_continuous
+S11,121,M5/PatchTST/bottom,NNLS:mean,194.79,194.7878821369467,tab:layer_continuous
+S11,122,M5/PatchTST/bottom,NNLS:sample_sd,0.28,0.2766697375915966,tab:layer_continuous
+S11,123,M5/PatchTST/bottom,PIRFull:mean,186.29,186.28923460915144,tab:layer_continuous
+S11,124,M5/PatchTST/bottom,PIRFull:sample_sd,2.91,2.914306657597659,tab:layer_continuous
+S11,125,M5/PatchTST/bottom,CPOR-Cov:mean,190.65,190.6522981339865,tab:layer_continuous
+S11,126,M5/PatchTST/bottom,CPOR-Cov:sample_sd,0.25,0.2490764233589829,tab:layer_continuous
+S11,127,M5/PatchTST/bottom,CPOR-ML:mean,189.06,189.060074094166,tab:layer_continuous
+S11,128,M5/PatchTST/bottom,CPOR-ML:sample_sd,0.19,0.1896089225385561,tab:layer_continuous
+S11,129,M5/DLinear/bottom,NNLS:mean,206.01,206.0085674519784,tab:layer_continuous
+S11,130,M5/DLinear/bottom,NNLS:sample_sd,3.58,3.5806622859136303,tab:layer_continuous
+S11,131,M5/DLinear/bottom,PIRFull:mean,194.23,194.23077704946377,tab:layer_continuous
+S11,132,M5/DLinear/bottom,PIRFull:sample_sd,4.51,4.507541255177399,tab:layer_continuous
+S11,133,M5/DLinear/bottom,CPOR-Cov:mean,199.48,199.4826213144389,tab:layer_continuous
+S11,134,M5/DLinear/bottom,CPOR-Cov:sample_sd,3.52,3.524134946600537,tab:layer_continuous
+S11,135,M5/DLinear/bottom,CPOR-ML:mean,198.29,198.2866485891699,tab:layer_continuous
+S11,136,M5/DLinear/bottom,CPOR-ML:sample_sd,3.12,3.116990089779701,tab:layer_continuous
+S11,137,M5/DUET/bottom,NNLS:mean,202.17,202.16950367834315,tab:layer_continuous
+S11,138,M5/DUET/bottom,NNLS:sample_sd,1.08,1.0768301361882413,tab:layer_continuous
+S11,139,M5/DUET/bottom,PIRFull:mean,184.45,184.44911342270743,tab:layer_continuous
+S11,140,M5/DUET/bottom,PIRFull:sample_sd,2.12,2.1186002172834457,tab:layer_continuous
+S11,141,M5/DUET/bottom,CPOR-Cov:mean,194.77,194.7732447556807,tab:layer_continuous
+S11,142,M5/DUET/bottom,CPOR-Cov:sample_sd,0.71,0.7119006042225808,tab:layer_continuous
+S11,143,M5/DUET/bottom,CPOR-ML:mean,193.71,193.7118393495304,tab:layer_continuous
+S11,144,M5/DUET/bottom,CPOR-ML:sample_sd,0.70,0.7034691584856326,tab:layer_continuous
+S12,1,window/CPOR-Cov/NNLS,gain,9.32,9.320244471343624,tab:uncertainty
+S12,2,window/CPOR-Cov/NNLS,lower,3.57,3.5678040113423144,tab:uncertainty
+S12,3,window/CPOR-Cov/NNLS,upper,15.82,15.819221585907902,tab:uncertainty
+S12,4,window/CPOR-Cov/NNLS,p,0.0156,0.015625,tab:uncertainty
+S12,5,window/CPOR-Cov/NNLS,holm,0.0938,0.09375,tab:uncertainty
+S12,6,window/CPOR-Cov/ProCAST,gain,17.13,17.132190178950008,tab:uncertainty
+S12,7,window/CPOR-Cov/ProCAST,lower,9.26,9.263563972397964,tab:uncertainty
+S12,8,window/CPOR-Cov/ProCAST,upper,25.01,25.0131000801156,tab:uncertainty
+S12,9,window/CPOR-Cov/ProCAST,p,0.0156,0.015625,tab:uncertainty
+S12,10,window/CPOR-Cov/ProCAST,holm,0.0938,0.09375,tab:uncertainty
+S12,11,window/CPOR-Cov/PIR,gain,-3.21,-3.208975405784624,tab:uncertainty
+S12,12,window/CPOR-Cov/PIR,lower,-13.73,-13.733181201361033,tab:uncertainty
+S12,13,window/CPOR-Cov/PIR,upper,5.20,5.201330702046438,tab:uncertainty
+S12,14,window/CPOR-Cov/PIR,p,0.7031,0.703125,tab:uncertainty
+S12,15,window/CPOR-Cov/PIR,holm,1.0000,1.0,tab:uncertainty
+S12,16,window/CPOR-ML/NNLS,gain,9.33,9.330411709027858,tab:uncertainty
+S12,17,window/CPOR-ML/NNLS,lower,3.66,3.659864086966988,tab:uncertainty
+S12,18,window/CPOR-ML/NNLS,upper,15.86,15.856902772720376,tab:uncertainty
+S12,19,window/CPOR-ML/NNLS,p,0.0156,0.015625,tab:uncertainty
+S12,20,window/CPOR-ML/NNLS,holm,0.0938,0.09375,tab:uncertainty
+S12,21,window/CPOR-ML/ProCAST,gain,17.16,17.16359102503183,tab:uncertainty
+S12,22,window/CPOR-ML/ProCAST,lower,9.40,9.399762003755512,tab:uncertainty
+S12,23,window/CPOR-ML/ProCAST,upper,25.02,25.01517963473923,tab:uncertainty
+S12,24,window/CPOR-ML/ProCAST,p,0.0156,0.015625,tab:uncertainty
+S12,25,window/CPOR-ML/ProCAST,holm,0.0938,0.09375,tab:uncertainty
+S12,26,window/CPOR-ML/PIR,gain,-3.19,-3.190322717137284,tab:uncertainty
+S12,27,window/CPOR-ML/PIR,lower,-13.82,-13.816965527320164,tab:uncertainty
+S12,28,window/CPOR-ML/PIR,upper,5.24,5.236450925080722,tab:uncertainty
+S12,29,window/CPOR-ML/PIR,p,0.6875,0.6875,tab:uncertainty
+S12,30,window/CPOR-ML/PIR,holm,1.0000,1.0,tab:uncertainty
+S12,31,continuous_carry/CPOR-Cov/NNLS,gain,13.20,13.195361593715864,tab:uncertainty
+S12,32,continuous_carry/CPOR-Cov/NNLS,lower,5.12,5.12171178906205,tab:uncertainty
+S12,33,continuous_carry/CPOR-Cov/NNLS,upper,22.38,22.37996961440852,tab:uncertainty
+S12,34,continuous_carry/CPOR-Cov/NNLS,p,0.0156,0.015625,tab:uncertainty
+S12,35,continuous_carry/CPOR-Cov/NNLS,holm,0.0938,0.09375,tab:uncertainty
+S12,36,continuous_carry/CPOR-Cov/ProCAST,gain,20.49,20.486207295863444,tab:uncertainty
+S12,37,continuous_carry/CPOR-Cov/ProCAST,lower,11.76,11.75606806007627,tab:uncertainty
+S12,38,continuous_carry/CPOR-Cov/ProCAST,upper,28.74,28.738003535865147,tab:uncertainty
+S12,39,continuous_carry/CPOR-Cov/ProCAST,p,0.0156,0.015625,tab:uncertainty
+S12,40,continuous_carry/CPOR-Cov/ProCAST,holm,0.0938,0.09375,tab:uncertainty
+S12,41,continuous_carry/CPOR-Cov/PIR,gain,2.04,2.042059321597081,tab:uncertainty
+S12,42,continuous_carry/CPOR-Cov/PIR,lower,-5.39,-5.388472065444403,tab:uncertainty
+S12,43,continuous_carry/CPOR-Cov/PIR,upper,9.56,9.56427149460997,tab:uncertainty
+S12,44,continuous_carry/CPOR-Cov/PIR,p,0.6406,0.640625,tab:uncertainty
+S12,45,continuous_carry/CPOR-Cov/PIR,holm,1.0000,1.0,tab:uncertainty
+S12,46,continuous_carry/CPOR-ML/NNLS,gain,13.11,13.11338238911732,tab:uncertainty
+S12,47,continuous_carry/CPOR-ML/NNLS,lower,5.16,5.155514211777777,tab:uncertainty
+S12,48,continuous_carry/CPOR-ML/NNLS,upper,22.24,22.235237515691548,tab:uncertainty
+S12,49,continuous_carry/CPOR-ML/NNLS,p,0.0156,0.015625,tab:uncertainty
+S12,50,continuous_carry/CPOR-ML/NNLS,holm,0.0938,0.09375,tab:uncertainty
+S12,51,continuous_carry/CPOR-ML/ProCAST,gain,20.44,20.43595414684273,tab:uncertainty
+S12,52,continuous_carry/CPOR-ML/ProCAST,lower,11.87,11.870207295016678,tab:uncertainty
+S12,53,continuous_carry/CPOR-ML/ProCAST,upper,28.58,28.576147628893125,tab:uncertainty
+S12,54,continuous_carry/CPOR-ML/ProCAST,p,0.0156,0.015625,tab:uncertainty
+S12,55,continuous_carry/CPOR-ML/ProCAST,holm,0.0938,0.09375,tab:uncertainty
+S12,56,continuous_carry/CPOR-ML/PIR,gain,1.98,1.980523558735528,tab:uncertainty
+S12,57,continuous_carry/CPOR-ML/PIR,lower,-5.32,-5.318386526864111,tab:uncertainty
+S12,58,continuous_carry/CPOR-ML/PIR,upper,9.19,9.191181917443318,tab:uncertainty
+S12,59,continuous_carry/CPOR-ML/PIR,p,0.6406,0.640625,tab:uncertainty
+S12,60,continuous_carry/CPOR-ML/PIR,holm,1.0000,1.0,tab:uncertainty
+S13,1,window/PIRFull/PIRCommon,gain,3.57,3.566805083234133,tab:piruncertainty
+S13,2,window/PIRFull/PIRCommon,lower,1.77,1.770822797843122,tab:piruncertainty
+S13,3,window/PIRFull/PIRCommon,upper,5.96,5.9642635909735535,tab:piruncertainty
+S13,4,window/PIRFull/PIRCommon,p,0.0156,0.015625,tab:piruncertainty
+S13,5,window/PIRFull/PIRCommon,holm,0.0312,0.03125,tab:piruncertainty
+S13,6,window/PIRFull/PIRTwoGroup,gain,2.72,2.7162780859686477,tab:piruncertainty
+S13,7,window/PIRFull/PIRTwoGroup,lower,1.56,1.562857389027123,tab:piruncertainty
+S13,8,window/PIRFull/PIRTwoGroup,upper,3.98,3.979038531757845,tab:piruncertainty
+S13,9,window/PIRFull/PIRTwoGroup,p,0.0156,0.015625,tab:piruncertainty
+S13,10,window/PIRFull/PIRTwoGroup,holm,0.0312,0.03125,tab:piruncertainty
+S13,11,continuous_carry/PIRFull/PIRCommon,gain,4.34,4.338888207539756,tab:piruncertainty
+S13,12,continuous_carry/PIRFull/PIRCommon,lower,2.23,2.23211175510364,tab:piruncertainty
+S13,13,continuous_carry/PIRFull/PIRCommon,upper,7.07,7.0656612046240825,tab:piruncertainty
+S13,14,continuous_carry/PIRFull/PIRCommon,p,0.0156,0.015625,tab:piruncertainty
+S13,15,continuous_carry/PIRFull/PIRCommon,holm,0.0312,0.03125,tab:piruncertainty
+S13,16,continuous_carry/PIRFull/PIRTwoGroup,gain,3.28,3.281969562595548,tab:piruncertainty
+S13,17,continuous_carry/PIRFull/PIRTwoGroup,lower,1.94,1.9353129320119908,tab:piruncertainty
+S13,18,continuous_carry/PIRFull/PIRTwoGroup,upper,4.62,4.620091570484552,tab:piruncertainty
+S13,19,continuous_carry/PIRFull/PIRTwoGroup,p,0.0156,0.015625,tab:piruncertainty
+S13,20,continuous_carry/PIRFull/PIRTwoGroup,holm,0.0312,0.03125,tab:piruncertainty
+S14,1,AEMO/PatchTST/all,Ada-Y:mean,672.74,672.736229067059,tab:aemocomplete
+S14,2,AEMO/PatchTST/all,Ada-Y:sample_sd,34.59,34.58525332225141,tab:aemocomplete
+S14,3,AEMO/DLinear/all,Ada-Y:mean,1198.84,1198.8382603263929,tab:aemocomplete
+S14,4,AEMO/DLinear/all,Ada-Y:sample_sd,14.54,14.53800789573666,tab:aemocomplete
+S14,5,AEMO/DUET/all,Ada-Y:mean,743.40,743.3987002610653,tab:aemocomplete
+S14,6,AEMO/DUET/all,Ada-Y:sample_sd,18.94,18.93707658066224,tab:aemocomplete
+S14,7,AEMO/PatchTST/all,CPOR-Cov:mean,291.10,291.09500831964965,tab:aemocomplete
+S14,8,AEMO/PatchTST/all,CPOR-Cov:sample_sd,13.19,13.185758351502756,tab:aemocomplete
+S14,9,AEMO/DLinear/all,CPOR-Cov:mean,288.59,288.5916577340133,tab:aemocomplete
+S14,10,AEMO/DLinear/all,CPOR-Cov:sample_sd,2.53,2.5309252798112425,tab:aemocomplete
+S14,11,AEMO/DUET/all,CPOR-Cov:mean,252.37,252.3734467319507,tab:aemocomplete
+S14,12,AEMO/DUET/all,CPOR-Cov:sample_sd,2.33,2.332180847636874,tab:aemocomplete
+S14,13,AEMO/PatchTST/all,CPOR-ML:mean,286.47,286.4729698589616,tab:aemocomplete
+S14,14,AEMO/PatchTST/all,CPOR-ML:sample_sd,13.27,13.271677573483371,tab:aemocomplete
+S14,15,AEMO/DLinear/all,CPOR-ML:mean,287.82,287.8153997869511,tab:aemocomplete
+S14,16,AEMO/DLinear/all,CPOR-ML:sample_sd,2.23,2.2287389538346734,tab:aemocomplete
+S14,17,AEMO/DUET/all,CPOR-ML:mean,248.10,248.098493390397,tab:aemocomplete
+S14,18,AEMO/DUET/all,CPOR-ML:sample_sd,2.04,2.0366601723219837,tab:aemocomplete
+S14,19,AEMO/PatchTST/all,CalBest:mean,412.91,412.9147681506813,tab:aemocomplete
+S14,20,AEMO/PatchTST/all,CalBest:sample_sd,20.01,20.012934545179267,tab:aemocomplete
+S14,21,AEMO/DLinear/all,CalBest:mean,197.22,197.2190912646328,tab:aemocomplete
+S14,22,AEMO/DLinear/all,CalBest:sample_sd,0.00,0.0,tab:aemocomplete
+S14,23,AEMO/DUET/all,CalBest:mean,331.62,331.6175984604585,tab:aemocomplete
+S14,24,AEMO/DUET/all,CalBest:sample_sd,116.39,116.39402177839348,tab:aemocomplete
+S14,25,AEMO/PatchTST/all,CovCommon:mean,318.09,318.0915017194686,tab:aemocomplete
+S14,26,AEMO/PatchTST/all,CovCommon:sample_sd,14.53,14.52909955823433,tab:aemocomplete
+S14,27,AEMO/DLinear/all,CovCommon:mean,319.11,319.11356690493085,tab:aemocomplete
+S14,28,AEMO/DLinear/all,CovCommon:sample_sd,6.15,6.154480863828227,tab:aemocomplete
+S14,29,AEMO/DUET/all,CovCommon:mean,276.13,276.1330470057442,tab:aemocomplete
+S14,30,AEMO/DUET/all,CovCommon:sample_sd,1.75,1.7492946113813028,tab:aemocomplete
+S14,31,AEMO/PatchTST/all,CovTarget:mean,190.23,190.2337150906513,tab:aemocomplete
+S14,32,AEMO/PatchTST/all,CovTarget:sample_sd,0.48,0.4797078438058813,tab:aemocomplete
+S14,33,AEMO/DLinear/all,CovTarget:mean,198.40,198.39600906579207,tab:aemocomplete
+S14,34,AEMO/DLinear/all,CovTarget:sample_sd,0.47,0.4674083788024793,tab:aemocomplete
+S14,35,AEMO/DUET/all,CovTarget:mean,200.82,200.8160375215066,tab:aemocomplete
+S14,36,AEMO/DUET/all,CovTarget:sample_sd,0.58,0.5755052750456752,tab:aemocomplete
+S14,37,AEMO/PatchTST/all,MLCommon:mean,313.24,313.24142570951426,tab:aemocomplete
+S14,38,AEMO/PatchTST/all,MLCommon:sample_sd,14.49,14.488968912983085,tab:aemocomplete
+S14,39,AEMO/DLinear/all,MLCommon:mean,318.61,318.6052797395239,tab:aemocomplete
+S14,40,AEMO/DLinear/all,MLCommon:sample_sd,6.15,6.152694179439293,tab:aemocomplete
+S14,41,AEMO/DUET/all,MLCommon:mean,271.22,271.2248862205428,tab:aemocomplete
+S14,42,AEMO/DUET/all,MLCommon:sample_sd,1.60,1.5993625692765818,tab:aemocomplete
+S14,43,AEMO/PatchTST/all,MLTarget:mean,183.22,183.21868496399145,tab:aemocomplete
+S14,44,AEMO/PatchTST/all,MLTarget:sample_sd,0.63,0.6339061352588119,tab:aemocomplete
+S14,45,AEMO/DLinear/all,MLTarget:mean,197.22,197.2203959948215,tab:aemocomplete
+S14,46,AEMO/DLinear/all,MLTarget:sample_sd,0.00,0.0022598589770587,tab:aemocomplete
+S14,47,AEMO/DUET/all,MLTarget:mean,195.53,195.5250823221685,tab:aemocomplete
+S14,48,AEMO/DUET/all,MLTarget:sample_sd,0.93,0.9309584063606036,tab:aemocomplete
+S14,49,AEMO/PatchTST/all,NNLS:mean,667.19,667.1892539080003,tab:aemocomplete
+S14,50,AEMO/PatchTST/all,NNLS:sample_sd,29.72,29.71510938506471,tab:aemocomplete
+S14,51,AEMO/DLinear/all,NNLS:mean,1234.14,1234.13821351951,tab:aemocomplete
+S14,52,AEMO/DLinear/all,NNLS:sample_sd,17.39,17.38954261839951,tab:aemocomplete
+S14,53,AEMO/DUET/all,NNLS:mean,757.24,757.2433652532465,tab:aemocomplete
+S14,54,AEMO/DUET/all,NNLS:sample_sd,16.46,16.463566650316793,tab:aemocomplete
+S14,55,AEMO/PatchTST/all,PIR:mean,609.65,609.6484517470863,tab:aemocomplete
+S14,56,AEMO/PatchTST/all,PIR:sample_sd,26.68,26.679735989717937,tab:aemocomplete
+S14,57,AEMO/DLinear/all,PIR:mean,709.37,709.3732973263847,tab:aemocomplete
+S14,58,AEMO/DLinear/all,PIR:sample_sd,4.78,4.782798913381009,tab:aemocomplete
+S14,59,AEMO/DUET/all,PIR:mean,480.91,480.90623206280605,tab:aemocomplete
+S14,60,AEMO/DUET/all,PIR:sample_sd,4.97,4.969989891587913,tab:aemocomplete
+S14,61,AEMO/PatchTST/all,PIRCoherent:mean,601.08,601.0806085388272,tab:aemocomplete
+S14,62,AEMO/PatchTST/all,PIRCoherent:sample_sd,27.74,27.73594375793929,tab:aemocomplete
+S14,63,AEMO/DLinear/all,PIRCoherent:mean,707.74,707.7434481818242,tab:aemocomplete
+S14,64,AEMO/DLinear/all,PIRCoherent:sample_sd,4.44,4.441422154146281,tab:aemocomplete
+S14,65,AEMO/DUET/all,PIRCoherent:mean,469.39,469.3931028667333,tab:aemocomplete
+S14,66,AEMO/DUET/all,PIRCoherent:sample_sd,5.45,5.447884937931407,tab:aemocomplete
+S14,67,AEMO/PatchTST/all,PIRCommon:mean,604.94,604.9425230672326,tab:aemocomplete
+S14,68,AEMO/PatchTST/all,PIRCommon:sample_sd,31.89,31.89003999277507,tab:aemocomplete
+S14,69,AEMO/DLinear/all,PIRCommon:mean,728.34,728.3414751148849,tab:aemocomplete
+S14,70,AEMO/DLinear/all,PIRCommon:sample_sd,4.14,4.140279062735903,tab:aemocomplete
+S14,71,AEMO/DUET/all,PIRCommon:mean,489.66,489.6644082029636,tab:aemocomplete
+S14,72,AEMO/DUET/all,PIRCommon:sample_sd,3.27,3.2718698123909555,tab:aemocomplete
+S14,73,AEMO/PatchTST/all,PIRFull:mean,569.58,569.5843378830763,tab:aemocomplete
+S14,74,AEMO/PatchTST/all,PIRFull:sample_sd,30.11,30.11208917809119,tab:aemocomplete
+S14,75,AEMO/DLinear/all,PIRFull:mean,719.98,719.9814571005237,tab:aemocomplete
+S14,76,AEMO/DLinear/all,PIRFull:sample_sd,4.08,4.079399715500808,tab:aemocomplete
+S14,77,AEMO/DUET/all,PIRFull:mean,477.74,477.736528197657,tab:aemocomplete
+S14,78,AEMO/DUET/all,PIRFull:sample_sd,6.06,6.056033451807277,tab:aemocomplete
+S14,79,AEMO/PatchTST/all,PIRTwoGroup:mean,585.69,585.693858618171,tab:aemocomplete
+S14,80,AEMO/PatchTST/all,PIRTwoGroup:sample_sd,29.25,29.25153619980393,tab:aemocomplete
+S14,81,AEMO/DLinear/all,PIRTwoGroup:mean,725.22,725.218332380905,tab:aemocomplete
+S14,82,AEMO/DLinear/all,PIRTwoGroup:sample_sd,4.29,4.292037493962048,tab:aemocomplete
+S14,83,AEMO/DUET/all,PIRTwoGroup:mean,482.16,482.16463057765696,tab:aemocomplete
+S14,84,AEMO/DUET/all,PIRTwoGroup:sample_sd,4.93,4.933319329043402,tab:aemocomplete
+S14,85,AEMO/PatchTST/all,ProCAST:mean,614.34,614.3446086099534,tab:aemocomplete
+S14,86,AEMO/PatchTST/all,ProCAST:sample_sd,29.16,29.15800381099603,tab:aemocomplete
+S14,87,AEMO/DLinear/all,ProCAST:mean,1174.72,1174.7159692364014,tab:aemocomplete
+S14,88,AEMO/DLinear/all,ProCAST:sample_sd,14.22,14.21617308601019,tab:aemocomplete
+S14,89,AEMO/DUET/all,ProCAST:mean,698.82,698.823540585856,tab:aemocomplete
+S14,90,AEMO/DUET/all,ProCAST:sample_sd,12.89,12.886946160231515,tab:aemocomplete
+S14,91,AEMO/PatchTST/all,ProtectedAda-Y:mean,661.11,661.1102273231177,tab:aemocomplete
+S14,92,AEMO/PatchTST/all,ProtectedAda-Y:sample_sd,31.69,31.68965324385756,tab:aemocomplete
+S14,93,AEMO/DLinear/all,ProtectedAda-Y:mean,1198.15,1198.146922499099,tab:aemocomplete
+S14,94,AEMO/DLinear/all,ProtectedAda-Y:sample_sd,15.08,15.078413437542736,tab:aemocomplete
+S14,95,AEMO/DUET/all,ProtectedAda-Y:mean,739.26,739.255666683057,tab:aemocomplete
+S14,96,AEMO/DUET/all,ProtectedAda-Y:sample_sd,19.99,19.990842337100396,tab:aemocomplete
+S14,97,AEMO/PatchTST/all,ProtectedCalBest:mean,425.74,425.7387329371911,tab:aemocomplete
+S14,98,AEMO/PatchTST/all,ProtectedCalBest:sample_sd,21.32,21.32246479239988,tab:aemocomplete
+S14,99,AEMO/DLinear/all,ProtectedCalBest:mean,287.82,287.8151738832135,tab:aemocomplete
+S14,100,AEMO/DLinear/all,ProtectedCalBest:sample_sd,2.23,2.228592765812538,tab:aemocomplete
+S14,101,AEMO/DUET/all,ProtectedCalBest:mean,352.84,352.83645521539125,tab:aemocomplete
+S14,102,AEMO/DUET/all,ProtectedCalBest:sample_sd,91.79,91.7890313038754,tab:aemocomplete
+S14,103,AEMO/PatchTST/all,ProtectedMinT_Cov:mean,293.54,293.5376777540728,tab:aemocomplete
+S14,104,AEMO/PatchTST/all,ProtectedMinT_Cov:sample_sd,12.11,12.10636119766501,tab:aemocomplete
+S14,105,AEMO/DLinear/all,ProtectedMinT_Cov:mean,288.62,288.6157230487154,tab:aemocomplete
+S14,106,AEMO/DLinear/all,ProtectedMinT_Cov:sample_sd,2.54,2.540731261104473,tab:aemocomplete
+S14,107,AEMO/DUET/all,ProtectedMinT_Cov:mean,252.15,252.1527357576545,tab:aemocomplete
+S14,108,AEMO/DUET/all,ProtectedMinT_Cov:sample_sd,2.33,2.32595715290805,tab:aemocomplete
+S14,109,AEMO/PatchTST/all,ProtectedMinTshrink:mean,658.38,658.3818287001641,tab:aemocomplete
+S14,110,AEMO/PatchTST/all,ProtectedMinTshrink:sample_sd,27.45,27.45056637238723,tab:aemocomplete
+S14,111,AEMO/DLinear/all,ProtectedMinTshrink:mean,1234.13,1234.1334264898285,tab:aemocomplete
+S14,112,AEMO/DLinear/all,ProtectedMinTshrink:sample_sd,17.39,17.39395468775663,tab:aemocomplete
+S14,113,AEMO/DUET/all,ProtectedMinTshrink:mean,752.16,752.1628467033219,tab:aemocomplete
+S14,114,AEMO/DUET/all,ProtectedMinTshrink:sample_sd,16.53,16.53482273639532,tab:aemocomplete
+S14,115,AEMO/PatchTST/all,ProtectedProCAST:mean,614.63,614.6339812023595,tab:aemocomplete
+S14,116,AEMO/PatchTST/all,ProtectedProCAST:sample_sd,29.16,29.15614856404297,tab:aemocomplete
+S14,117,AEMO/DLinear/all,ProtectedProCAST:mean,1172.26,1172.2605228539137,tab:aemocomplete
+S14,118,AEMO/DLinear/all,ProtectedProCAST:sample_sd,13.70,13.701180160165844,tab:aemocomplete
+S14,119,AEMO/DUET/all,ProtectedProCAST:mean,698.89,698.8941663846762,tab:aemocomplete
+S14,120,AEMO/DUET/all,ProtectedProCAST:sample_sd,12.88,12.88387043828278,tab:aemocomplete
+S14,121,AEMO/PatchTST/all,ProtectedRollingMinT:mean,648.19,648.1920835326432,tab:aemocomplete
+S14,122,AEMO/PatchTST/all,ProtectedRollingMinT:sample_sd,30.74,30.74407595530332,tab:aemocomplete
+S14,123,AEMO/DLinear/all,ProtectedRollingMinT:mean,1234.13,1234.133489376194,tab:aemocomplete
+S14,124,AEMO/DLinear/all,ProtectedRollingMinT:sample_sd,17.39,17.394009563125877,tab:aemocomplete
+S14,125,AEMO/DUET/all,ProtectedRollingMinT:mean,726.51,726.5107123577018,tab:aemocomplete
+S14,126,AEMO/DUET/all,ProtectedRollingMinT:sample_sd,21.99,21.987080567865192,tab:aemocomplete
+S14,127,AEMO/PatchTST/all,ProtectedWLSvar:mean,663.58,663.5759149679861,tab:aemocomplete
+S14,128,AEMO/PatchTST/all,ProtectedWLSvar:sample_sd,29.92,29.922993808349304,tab:aemocomplete
+S14,129,AEMO/DLinear/all,ProtectedWLSvar:mean,1234.13,1234.1334265363812,tab:aemocomplete
+S14,130,AEMO/DLinear/all,ProtectedWLSvar:sample_sd,17.39,17.39395472368545,tab:aemocomplete
+S14,131,AEMO/DUET/all,ProtectedWLSvar:mean,751.07,751.071672808017,tab:aemocomplete
+S14,132,AEMO/DUET/all,ProtectedWLSvar:sample_sd,17.92,17.920173164402975,tab:aemocomplete
+S14,133,AEMO/PatchTST/all,Raw:mean,669.44,669.4425627252809,tab:aemocomplete
+S14,134,AEMO/PatchTST/all,Raw:sample_sd,30.40,30.40114897753191,tab:aemocomplete
+S14,135,AEMO/DLinear/all,Raw:mean,1234.14,1234.135256393923,tab:aemocomplete
+S14,136,AEMO/DLinear/all,Raw:sample_sd,17.39,17.392112769423377,tab:aemocomplete
+S14,137,AEMO/DUET/all,Raw:mean,755.22,755.2249270070652,tab:aemocomplete
+S14,138,AEMO/DUET/all,Raw:sample_sd,18.11,18.111377481439774,tab:aemocomplete
+S15,1,AEMO/PatchTST/system,NNLS:mean,1704.85,1704.8470050155568,tab:aemonodes
+S15,2,AEMO/PatchTST/system,NNLS:sample_sd,104.71,104.70953617615676,tab:aemonodes
+S15,3,AEMO/PatchTST/system,PIRFull:mean,1343.59,1343.5914845400937,tab:aemonodes
+S15,4,AEMO/PatchTST/system,PIRFull:sample_sd,114.25,114.25266567399876,tab:aemonodes
+S15,5,AEMO/PatchTST/system,CovCommon:mean,807.61,807.6141393065772,tab:aemonodes
+S15,6,AEMO/PatchTST/system,CovCommon:sample_sd,50.60,50.60051590684198,tab:aemonodes
+S15,7,AEMO/PatchTST/system,CPOR-Cov:mean,733.06,733.0572578478477,tab:aemonodes
+S15,8,AEMO/PatchTST/system,CPOR-Cov:sample_sd,47.34,47.33795200253068,tab:aemonodes
+S15,9,AEMO/PatchTST/system,MLCommon:mean,797.33,797.3264336588144,tab:aemonodes
+S15,10,AEMO/PatchTST/system,MLCommon:sample_sd,50.40,50.3965830955119,tab:aemonodes
+S15,11,AEMO/PatchTST/system,CPOR-ML:mean,723.47,723.468998662131,tab:aemonodes
+S15,12,AEMO/PatchTST/system,CPOR-ML:sample_sd,47.59,47.590111021273096,tab:aemonodes
+S15,13,AEMO/PatchTST/NSW,NNLS:mean,588.06,588.0595908361445,tab:aemonodes
+S15,14,AEMO/PatchTST/NSW,NNLS:sample_sd,60.52,60.52441493920189,tab:aemonodes
+S15,15,AEMO/PatchTST/NSW,PIRFull:mean,558.95,558.9473336264862,tab:aemonodes
+S15,16,AEMO/PatchTST/NSW,PIRFull:sample_sd,54.47,54.47484022009815,tab:aemonodes
+S15,17,AEMO/PatchTST/NSW,CovCommon:mean,312.06,312.0566147818208,tab:aemonodes
+S15,18,AEMO/PatchTST/NSW,CovCommon:sample_sd,23.54,23.54006163953077,tab:aemonodes
+S15,19,AEMO/PatchTST/NSW,CPOR-Cov:mean,289.20,289.197434546097,tab:aemonodes
+S15,20,AEMO/PatchTST/NSW,CPOR-Cov:sample_sd,16.33,16.32513940424378,tab:aemonodes
+S15,21,AEMO/PatchTST/NSW,MLCommon:mean,304.51,304.51062623259514,tab:aemonodes
+S15,22,AEMO/PatchTST/NSW,MLCommon:sample_sd,23.72,23.72148415188776,tab:aemonodes
+S15,23,AEMO/PatchTST/NSW,CPOR-ML:mean,282.96,282.95524414853304,tab:aemonodes
+S15,24,AEMO/PatchTST/NSW,CPOR-ML:sample_sd,15.83,15.834129415295576,tab:aemonodes
+S15,25,AEMO/PatchTST/QLD,NNLS:mean,329.96,329.9574762120167,tab:aemonodes
+S15,26,AEMO/PatchTST/QLD,NNLS:sample_sd,7.35,7.350256024999049,tab:aemonodes
+S15,27,AEMO/PatchTST/QLD,PIRFull:mean,327.81,327.809715816893,tab:aemonodes
+S15,28,AEMO/PatchTST/QLD,PIRFull:sample_sd,7.53,7.525327943634448,tab:aemonodes
+S15,29,AEMO/PatchTST/QLD,CovCommon:mean,202.52,202.5231632653737,tab:aemonodes
+S15,30,AEMO/PatchTST/QLD,CovCommon:sample_sd,2.44,2.435110699586147,tab:aemonodes
+S15,31,AEMO/PatchTST/QLD,CPOR-Cov:mean,210.15,210.1492725645012,tab:aemonodes
+S15,32,AEMO/PatchTST/QLD,CPOR-Cov:sample_sd,13.17,13.166353533261724,tab:aemonodes
+S15,33,AEMO/PatchTST/QLD,MLCommon:mean,196.34,196.3421455371858,tab:aemonodes
+S15,34,AEMO/PatchTST/QLD,MLCommon:sample_sd,3.44,3.4350877529835517,tab:aemonodes
+S15,35,AEMO/PatchTST/QLD,CPOR-ML:mean,203.23,203.2255710173617,tab:aemonodes
+S15,36,AEMO/PatchTST/QLD,CPOR-ML:sample_sd,14.19,14.193311209372569,tab:aemonodes
+S15,37,AEMO/PatchTST/SA,NNLS:mean,327.98,327.98141827713386,tab:aemonodes
+S15,38,AEMO/PatchTST/SA,NNLS:sample_sd,3.97,3.969866814605711,tab:aemonodes
+S15,39,AEMO/PatchTST/SA,PIRFull:mean,282.03,282.0341739776574,tab:aemonodes
+S15,40,AEMO/PatchTST/SA,PIRFull:sample_sd,6.45,6.445097218177196,tab:aemonodes
+S15,41,AEMO/PatchTST/SA,CovCommon:mean,132.39,132.38587786824024,tab:aemonodes
+S15,42,AEMO/PatchTST/SA,CovCommon:sample_sd,3.67,3.673311453041207,tab:aemonodes
+S15,43,AEMO/PatchTST/SA,CPOR-Cov:mean,81.15,81.14928536643755,tab:aemonodes
+S15,44,AEMO/PatchTST/SA,CPOR-Cov:sample_sd,1.98,1.976903006908648,tab:aemonodes
+S15,45,AEMO/PatchTST/SA,MLCommon:mean,130.12,130.12305874912929,tab:aemonodes
+S15,46,AEMO/PatchTST/SA,MLCommon:sample_sd,3.09,3.0858754728892115,tab:aemonodes
+S15,47,AEMO/PatchTST/SA,CPOR-ML:mean,79.94,79.935883385696,tab:aemonodes
+S15,48,AEMO/PatchTST/SA,CPOR-ML:sample_sd,2.00,2.0036877313536587,tab:aemonodes
+S15,49,AEMO/PatchTST/TAS,NNLS:mean,95.72,95.72002395023851,tab:aemonodes
+S15,50,AEMO/PatchTST/TAS,NNLS:sample_sd,2.55,2.5542576128489167,tab:aemonodes
+S15,51,AEMO/PatchTST/TAS,PIRFull:mean,85.21,85.20907040322433,tab:aemonodes
+S15,52,AEMO/PatchTST/TAS,PIRFull:sample_sd,0.52,0.5208161344896749,tab:aemonodes
+S15,53,AEMO/PatchTST/TAS,CovCommon:mean,40.81,40.80834192359975,tab:aemonodes
+S15,54,AEMO/PatchTST/TAS,CovCommon:sample_sd,1.92,1.924386022826546,tab:aemonodes
+S15,55,AEMO/PatchTST/TAS,CPOR-Cov:mean,33.71,33.70576625314404,tab:aemonodes
+S15,56,AEMO/PatchTST/TAS,CPOR-Cov:sample_sd,1.42,1.4222656260754607,tab:aemonodes
+S15,57,AEMO/PatchTST/TAS,MLCommon:mean,39.69,39.69390902096192,tab:aemonodes
+S15,58,AEMO/PatchTST/TAS,MLCommon:sample_sd,1.85,1.8491376255095184,tab:aemonodes
+S15,59,AEMO/PatchTST/TAS,CPOR-ML:mean,32.81,32.81176369110162,tab:aemonodes
+S15,60,AEMO/PatchTST/TAS,CPOR-ML:sample_sd,1.35,1.352822011004411,tab:aemonodes
+S15,61,AEMO/PatchTST/VIC,NNLS:mean,956.57,956.5700091569116,tab:aemonodes
+S15,62,AEMO/PatchTST/VIC,NNLS:sample_sd,25.33,25.326891132305843,tab:aemonodes
+S15,63,AEMO/PatchTST/VIC,PIRFull:mean,819.91,819.9142489341016,tab:aemonodes
+S15,64,AEMO/PatchTST/VIC,PIRFull:sample_sd,24.69,24.694896727957456,tab:aemonodes
+S15,65,AEMO/PatchTST/VIC,CovCommon:mean,413.16,413.1608731711997,tab:aemonodes
+S15,66,AEMO/PatchTST/VIC,CovCommon:sample_sd,13.28,13.279527136801184,tab:aemonodes
+S15,67,AEMO/PatchTST/VIC,CPOR-Cov:mean,399.31,399.3110333398702,tab:aemonodes
+S15,68,AEMO/PatchTST/VIC,CPOR-Cov:sample_sd,10.52,10.517041895441391,tab:aemonodes
+S15,69,AEMO/PatchTST/VIC,MLCommon:mean,411.45,411.4523810583991,tab:aemonodes
+S15,70,AEMO/PatchTST/VIC,MLCommon:sample_sd,13.09,13.089621402078464,tab:aemonodes
+S15,71,AEMO/PatchTST/VIC,CPOR-ML:mean,396.44,396.440358248946,tab:aemonodes
+S15,72,AEMO/PatchTST/VIC,CPOR-ML:sample_sd,10.70,10.700343841004008,tab:aemonodes
+S15,73,AEMO/DLinear/system,NNLS:mean,3636.33,3636.3278287227454,tab:aemonodes
+S15,74,AEMO/DLinear/system,NNLS:sample_sd,49.70,49.701286231918445,tab:aemonodes
+S15,75,AEMO/DLinear/system,PIRFull:mean,2078.95,2078.9525076099176,tab:aemonodes
+S15,76,AEMO/DLinear/system,PIRFull:sample_sd,15.44,15.443218395623209,tab:aemonodes
+S15,77,AEMO/DLinear/system,CovCommon:mean,927.54,927.5443180012408,tab:aemonodes
+S15,78,AEMO/DLinear/system,CovCommon:sample_sd,18.89,18.892628611450878,tab:aemonodes
+S15,79,AEMO/DLinear/system,CPOR-Cov:mean,832.63,832.6280143820223,tab:aemonodes
+S15,80,AEMO/DLinear/system,CPOR-Cov:sample_sd,7.65,7.652691362274294,tab:aemonodes
+S15,81,AEMO/DLinear/system,MLCommon:mean,926.35,926.3535639175096,tab:aemonodes
+S15,82,AEMO/DLinear/system,MLCommon:sample_sd,19.03,19.03435670395792,tab:aemonodes
+S15,83,AEMO/DLinear/system,CPOR-ML:mean,830.59,830.5874743706545,tab:aemonodes
+S15,84,AEMO/DLinear/system,CPOR-ML:sample_sd,6.86,6.861150480965373,tab:aemonodes
+S15,85,AEMO/DLinear/NSW,NNLS:mean,1336.18,1336.178461998289,tab:aemonodes
+S15,86,AEMO/DLinear/NSW,NNLS:sample_sd,18.24,18.23691847283334,tab:aemonodes
+S15,87,AEMO/DLinear/NSW,PIRFull:mean,790.96,790.9570593012504,tab:aemonodes
+S15,88,AEMO/DLinear/NSW,PIRFull:sample_sd,3.98,3.98179502372428,tab:aemonodes
+S15,89,AEMO/DLinear/NSW,CovCommon:mean,354.41,354.4143671468735,tab:aemonodes
+S15,90,AEMO/DLinear/NSW,CovCommon:sample_sd,7.08,7.084751258206447,tab:aemonodes
+S15,91,AEMO/DLinear/NSW,CPOR-Cov:mean,313.79,313.7875064246823,tab:aemonodes
+S15,92,AEMO/DLinear/NSW,CPOR-Cov:sample_sd,2.63,2.629425401018047,tab:aemonodes
+S15,93,AEMO/DLinear/NSW,MLCommon:mean,354.11,354.1053200446166,tab:aemonodes
+S15,94,AEMO/DLinear/NSW,MLCommon:sample_sd,7.15,7.148958904196527,tab:aemonodes
+S15,95,AEMO/DLinear/NSW,CPOR-ML:mean,313.11,313.1081399972913,tab:aemonodes
+S15,96,AEMO/DLinear/NSW,CPOR-ML:sample_sd,2.28,2.2791860457988187,tab:aemonodes
+S15,97,AEMO/DLinear/QLD,NNLS:mean,1136.70,1136.7025876293774,tab:aemonodes
+S15,98,AEMO/DLinear/QLD,NNLS:sample_sd,17.22,17.218598352292215,tab:aemonodes
+S15,99,AEMO/DLinear/QLD,PIRFull:mean,668.26,668.2558067297238,tab:aemonodes
+S15,100,AEMO/DLinear/QLD,PIRFull:sample_sd,4.06,4.058515018080074,tab:aemonodes
+S15,101,AEMO/DLinear/QLD,CovCommon:mean,285.16,285.1635908309364,tab:aemonodes
+S15,102,AEMO/DLinear/QLD,CovCommon:sample_sd,3.83,3.8297728678681806,tab:aemonodes
+S15,103,AEMO/DLinear/QLD,CPOR-Cov:mean,258.69,258.6884383389585,tab:aemonodes
+S15,104,AEMO/DLinear/QLD,CPOR-Cov:sample_sd,1.09,1.0860098072940274,tab:aemonodes
+S15,105,AEMO/DLinear/QLD,MLCommon:mean,284.80,284.7998446663237,tab:aemonodes
+S15,106,AEMO/DLinear/QLD,MLCommon:sample_sd,3.72,3.715215257439847,tab:aemonodes
+S15,107,AEMO/DLinear/QLD,CPOR-ML:mean,258.22,258.2235742312968,tab:aemonodes
+S15,108,AEMO/DLinear/QLD,CPOR-ML:sample_sd,1.45,1.4463728176031492,tab:aemonodes
+S15,109,AEMO/DLinear/SA,NNLS:mean,304.07,304.0678007780868,tab:aemonodes
+S15,110,AEMO/DLinear/SA,NNLS:sample_sd,4.84,4.839555022466037,tab:aemonodes
+S15,111,AEMO/DLinear/SA,PIRFull:mean,199.86,199.85510181607185,tab:aemonodes
+S15,112,AEMO/DLinear/SA,PIRFull:sample_sd,0.60,0.5960665965213532,tab:aemonodes
+S15,113,AEMO/DLinear/SA,CovCommon:mean,77.50,77.49694671004916,tab:aemonodes
+S15,114,AEMO/DLinear/SA,CovCommon:sample_sd,0.70,0.7024027363179077,tab:aemonodes
+S15,115,AEMO/DLinear/SA,CPOR-Cov:mean,73.78,73.77958338765178,tab:aemonodes
+S15,116,AEMO/DLinear/SA,CPOR-Cov:sample_sd,0.50,0.4994088998381319,tab:aemonodes
+S15,117,AEMO/DLinear/SA,MLCommon:mean,77.29,77.29484173934581,tab:aemonodes
+S15,118,AEMO/DLinear/SA,MLCommon:sample_sd,0.84,0.8439100316161315,tab:aemonodes
+S15,119,AEMO/DLinear/SA,CPOR-ML:mean,73.55,73.55491089471822,tab:aemonodes
+S15,120,AEMO/DLinear/SA,CPOR-ML:sample_sd,0.59,0.5885716327156885,tab:aemonodes
+S15,121,AEMO/DLinear/TAS,NNLS:mean,80.44,80.43896959003534,tab:aemonodes
+S15,122,AEMO/DLinear/TAS,NNLS:sample_sd,1.25,1.2503970551250492,tab:aemonodes
+S15,123,AEMO/DLinear/TAS,PIRFull:mean,55.46,55.457115785820896,tab:aemonodes
+S15,124,AEMO/DLinear/TAS,PIRFull:sample_sd,0.69,0.6910131381867849,tab:aemonodes
+S15,125,AEMO/DLinear/TAS,CovCommon:mean,27.80,27.80180322963437,tab:aemonodes
+S15,126,AEMO/DLinear/TAS,CovCommon:sample_sd,0.22,0.2155319263401602,tab:aemonodes
+S15,127,AEMO/DLinear/TAS,CPOR-Cov:mean,27.15,27.15457625565217,tab:aemonodes
+S15,128,AEMO/DLinear/TAS,CPOR-Cov:sample_sd,0.21,0.2100448053526356,tab:aemonodes
+S15,129,AEMO/DLinear/TAS,MLCommon:mean,27.24,27.2445280378514,tab:aemonodes
+S15,130,AEMO/DLinear/TAS,MLCommon:sample_sd,0.22,0.2163218560371863,tab:aemonodes
+S15,131,AEMO/DLinear/TAS,CPOR-ML:mean,26.58,26.581179365758413,tab:aemonodes
+S15,132,AEMO/DLinear/TAS,CPOR-ML:sample_sd,0.21,0.2065730589785354,tab:aemonodes
+S15,133,AEMO/DLinear/VIC,NNLS:mean,911.11,911.1136323985268,tab:aemonodes
+S15,134,AEMO/DLinear/VIC,NNLS:sample_sd,15.73,15.72590800651128,tab:aemonodes
+S15,135,AEMO/DLinear/VIC,PIRFull:mean,526.41,526.4111513603574,tab:aemonodes
+S15,136,AEMO/DLinear/VIC,PIRFull:sample_sd,7.70,7.695443148465771,tab:aemonodes
+S15,137,AEMO/DLinear/VIC,CovCommon:mean,242.26,242.26037551085088,tab:aemonodes
+S15,138,AEMO/DLinear/VIC,CovCommon:sample_sd,6.22,6.222977109628461,tab:aemonodes
+S15,139,AEMO/DLinear/VIC,CPOR-Cov:mean,225.51,225.5118276151128,tab:aemonodes
+S15,140,AEMO/DLinear/VIC,CPOR-Cov:sample_sd,4.51,4.51317952086031,tab:aemonodes
+S15,141,AEMO/DLinear/VIC,MLCommon:mean,241.83,241.8335800314958,tab:aemonodes
+S15,142,AEMO/DLinear/VIC,MLCommon:sample_sd,6.07,6.067172498912449,tab:aemonodes
+S15,143,AEMO/DLinear/VIC,CPOR-ML:mean,224.84,224.837119861989,tab:aemonodes
+S15,144,AEMO/DLinear/VIC,CPOR-ML:sample_sd,4.17,4.170209008886687,tab:aemonodes
+S15,145,AEMO/DUET/system,NNLS:mean,2122.64,2122.644310713363,tab:aemonodes
+S15,146,AEMO/DUET/system,NNLS:sample_sd,55.12,55.118214313686885,tab:aemonodes
+S15,147,AEMO/DUET/system,PIRFull:mean,1205.00,1204.9954741056872,tab:aemonodes
+S15,148,AEMO/DUET/system,PIRFull:sample_sd,25.66,25.664466187377297,tab:aemonodes
+S15,149,AEMO/DUET/system,CovCommon:mean,763.57,763.5731913905443,tab:aemonodes
+S15,150,AEMO/DUET/system,CovCommon:sample_sd,6.90,6.902379384452359,tab:aemonodes
+S15,151,AEMO/DUET/system,CPOR-Cov:mean,688.80,688.8009621400485,tab:aemonodes
+S15,152,AEMO/DUET/system,CPOR-Cov:sample_sd,6.54,6.541348074085208,tab:aemonodes
+S15,153,AEMO/DUET/system,MLCommon:mean,751.15,751.1451957170617,tab:aemonodes
+S15,154,AEMO/DUET/system,MLCommon:sample_sd,7.11,7.114219657827671,tab:aemonodes
+S15,155,AEMO/DUET/system,CPOR-ML:mean,678.44,678.438721162,tab:aemonodes
+S15,156,AEMO/DUET/system,CPOR-ML:sample_sd,6.25,6.248886270481182,tab:aemonodes
+S15,157,AEMO/DUET/NSW,NNLS:mean,777.71,777.7132998483113,tab:aemonodes
+S15,158,AEMO/DUET/NSW,NNLS:sample_sd,27.81,27.80842507273772,tab:aemonodes
+S15,159,AEMO/DUET/NSW,PIRFull:mean,458.34,458.34496905472656,tab:aemonodes
+S15,160,AEMO/DUET/NSW,PIRFull:sample_sd,17.55,17.554005357179093,tab:aemonodes
+S15,161,AEMO/DUET/NSW,CovCommon:mean,305.33,305.32847488587885,tab:aemonodes
+S15,162,AEMO/DUET/NSW,CovCommon:sample_sd,6.46,6.464217199478351,tab:aemonodes
+S15,163,AEMO/DUET/NSW,CPOR-Cov:mean,278.44,278.43860096105726,tab:aemonodes
+S15,164,AEMO/DUET/NSW,CPOR-Cov:sample_sd,6.25,6.248277448967556,tab:aemonodes
+S15,165,AEMO/DUET/NSW,MLCommon:mean,297.48,297.48016298619046,tab:aemonodes
+S15,166,AEMO/DUET/NSW,MLCommon:sample_sd,6.93,6.928549816429744,tab:aemonodes
+S15,167,AEMO/DUET/NSW,CPOR-ML:mean,271.79,271.7900685652807,tab:aemonodes
+S15,168,AEMO/DUET/NSW,CPOR-ML:sample_sd,6.42,6.415427302004951,tab:aemonodes
+S15,169,AEMO/DUET/QLD,NNLS:mean,488.85,488.8505857248155,tab:aemonodes
+S15,170,AEMO/DUET/QLD,NNLS:sample_sd,27.30,27.303605848237048,tab:aemonodes
+S15,171,AEMO/DUET/QLD,PIRFull:mean,348.20,348.197609744559,tab:aemonodes
+S15,172,AEMO/DUET/QLD,PIRFull:sample_sd,2.63,2.628945195509721,tab:aemonodes
+S15,173,AEMO/DUET/QLD,CovCommon:mean,220.69,220.6911852863991,tab:aemonodes
+S15,174,AEMO/DUET/QLD,CovCommon:sample_sd,3.04,3.0380125767184136,tab:aemonodes
+S15,175,AEMO/DUET/QLD,CPOR-Cov:mean,212.67,212.66630307812383,tab:aemonodes
+S15,176,AEMO/DUET/QLD,CPOR-Cov:sample_sd,0.64,0.6364370504723352,tab:aemonodes
+S15,177,AEMO/DUET/QLD,MLCommon:mean,214.88,214.8795463100446,tab:aemonodes
+S15,178,AEMO/DUET/QLD,MLCommon:sample_sd,2.79,2.793147709787726,tab:aemonodes
+S15,179,AEMO/DUET/QLD,CPOR-ML:mean,207.67,207.67072600434813,tab:aemonodes
+S15,180,AEMO/DUET/QLD,CPOR-ML:sample_sd,0.66,0.6612864647441902,tab:aemonodes
+S15,181,AEMO/DUET/SA,NNLS:mean,273.47,273.4679225681716,tab:aemonodes
+S15,182,AEMO/DUET/SA,NNLS:sample_sd,4.60,4.597252003166106,tab:aemonodes
+S15,183,AEMO/DUET/SA,PIRFull:mean,198.58,198.57919339742227,tab:aemonodes
+S15,184,AEMO/DUET/SA,PIRFull:sample_sd,5.48,5.483199215226007,tab:aemonodes
+S15,185,AEMO/DUET/SA,CovCommon:mean,91.69,91.69297311862188,tab:aemonodes
+S15,186,AEMO/DUET/SA,CovCommon:sample_sd,2.61,2.6053534399267178,tab:aemonodes
+S15,187,AEMO/DUET/SA,CPOR-Cov:mean,72.42,72.41797472150277,tab:aemonodes
+S15,188,AEMO/DUET/SA,CPOR-Cov:sample_sd,0.70,0.7005904613128536,tab:aemonodes
+S15,189,AEMO/DUET/SA,MLCommon:mean,90.42,90.41617311336648,tab:aemonodes
+S15,190,AEMO/DUET/SA,MLCommon:sample_sd,2.56,2.56190114709572,tab:aemonodes
+S15,191,AEMO/DUET/SA,CPOR-ML:mean,71.88,71.8761745656294,tab:aemonodes
+S15,192,AEMO/DUET/SA,CPOR-ML:sample_sd,0.66,0.662156416577915,tab:aemonodes
+S15,193,AEMO/DUET/TAS,NNLS:mean,80.58,80.57689134860603,tab:aemonodes
+S15,194,AEMO/DUET/TAS,NNLS:sample_sd,2.70,2.7016643874769297,tab:aemonodes
+S15,195,AEMO/DUET/TAS,PIRFull:mean,52.37,52.36971384482541,tab:aemonodes
+S15,196,AEMO/DUET/TAS,PIRFull:sample_sd,0.65,0.6457731020667243,tab:aemonodes
+S15,197,AEMO/DUET/TAS,CovCommon:mean,32.10,32.101780912203644,tab:aemonodes
+S15,198,AEMO/DUET/TAS,CovCommon:sample_sd,0.62,0.6200758475122091,tab:aemonodes
+S15,199,AEMO/DUET/TAS,CPOR-Cov:mean,29.51,29.50815818071461,tab:aemonodes
+S15,200,AEMO/DUET/TAS,CPOR-Cov:sample_sd,0.58,0.5750028975351269,tab:aemonodes
+S15,201,AEMO/DUET/TAS,MLCommon:mean,31.22,31.21603657194168,tab:aemonodes
+S15,202,AEMO/DUET/TAS,MLCommon:sample_sd,0.58,0.583885493537835,tab:aemonodes
+S15,203,AEMO/DUET/TAS,CPOR-ML:mean,28.61,28.612478361137445,tab:aemonodes
+S15,204,AEMO/DUET/TAS,CPOR-ML:sample_sd,0.55,0.5515372074283242,tab:aemonodes
+S15,205,AEMO/DUET/VIC,NNLS:mean,800.21,800.2071813162115,tab:aemonodes
+S15,206,AEMO/DUET/VIC,NNLS:sample_sd,9.17,9.17239768426267,tab:aemonodes
+S15,207,AEMO/DUET/VIC,PIRFull:mean,603.93,603.9322090387217,tab:aemonodes
+S15,208,AEMO/DUET/VIC,PIRFull:sample_sd,19.90,19.90010743103742,tab:aemonodes
+S15,209,AEMO/DUET/VIC,CovCommon:mean,243.41,243.41067644081716,tab:aemonodes
+S15,210,AEMO/DUET/VIC,CovCommon:sample_sd,11.74,11.742759888340467,tab:aemonodes
+S15,211,AEMO/DUET/VIC,CPOR-Cov:mean,232.41,232.40868131025755,tab:aemonodes
+S15,212,AEMO/DUET/VIC,CPOR-Cov:sample_sd,9.69,9.693173614311092,tab:aemonodes
+S15,213,AEMO/DUET/VIC,MLCommon:mean,242.21,242.212202624652,tab:aemonodes
+S15,214,AEMO/DUET/VIC,MLCommon:sample_sd,12.32,12.324635680120853,tab:aemonodes
+S15,215,AEMO/DUET/VIC,CPOR-ML:mean,230.20,230.20279168398665,tab:aemonodes
+S15,216,AEMO/DUET/VIC,CPOR-ML:sample_sd,9.73,9.7281745793677,tab:aemonodes
+S16,1,"('RH', 'PatchTST')",0,948.663,948.6633734219398,tab:envelope_sd
+S16,2,"('RH', 'PatchTST')",0sd,23.189,23.188745223523124,tab:envelope_sd
+S16,3,"('RH', 'PatchTST')",1,987.649,987.6487372168608,tab:envelope_sd
+S16,4,"('RH', 'PatchTST')",1sd,24.719,24.719357316154035,tab:envelope_sd
+S16,5,"('RH', 'PatchTST')",2,947.268,947.2683371922336,tab:envelope_sd
+S16,6,"('RH', 'PatchTST')",2sd,23.815,23.815209718128013,tab:envelope_sd
+S16,7,"('RH', 'PatchTST')",3,987.162,987.1619947354036,tab:envelope_sd
+S16,8,"('RH', 'PatchTST')",3sd,25.333,25.33274536861273,tab:envelope_sd
+S16,9,"('RH', 'DLinear')",0,1192.969,1192.9687817083852,tab:envelope_sd
+S16,10,"('RH', 'DLinear')",0sd,5.593,5.593274977220492,tab:envelope_sd
+S16,11,"('RH', 'DLinear')",1,1355.521,1355.5208625716737,tab:envelope_sd
+S16,12,"('RH', 'DLinear')",1sd,7.602,7.602069840740071,tab:envelope_sd
+S16,13,"('RH', 'DLinear')",2,1193.892,1193.8921621592635,tab:envelope_sd
+S16,14,"('RH', 'DLinear')",2sd,8.111,8.110655725494421,tab:envelope_sd
+S16,15,"('RH', 'DLinear')",3,1355.632,1355.6319463483833,tab:envelope_sd
+S16,16,"('RH', 'DLinear')",3sd,7.944,7.944338941164823,tab:envelope_sd
+S16,17,"('ECommerce', 'PatchTST')",0,1476.194,1476.1943781005873,tab:envelope_sd
+S16,18,"('ECommerce', 'PatchTST')",0sd,4.579,4.579131707243104,tab:envelope_sd
+S16,19,"('ECommerce', 'PatchTST')",1,1480.250,1480.2499609185306,tab:envelope_sd
+S16,20,"('ECommerce', 'PatchTST')",1sd,4.981,4.980649212553192,tab:envelope_sd
+S16,21,"('ECommerce', 'PatchTST')",2,1470.642,1470.6424394726243,tab:envelope_sd
+S16,22,"('ECommerce', 'PatchTST')",2sd,3.516,3.515654663770948,tab:envelope_sd
+S16,23,"('ECommerce', 'PatchTST')",3,1477.222,1477.2220785297268,tab:envelope_sd
+S16,24,"('ECommerce', 'PatchTST')",3sd,4.626,4.626467863998958,tab:envelope_sd
+S16,25,"('ECommerce', 'DLinear')",0,1494.238,1494.238040662009,tab:envelope_sd
+S16,26,"('ECommerce', 'DLinear')",0sd,3.465,3.46481583693181,tab:envelope_sd
+S16,27,"('ECommerce', 'DLinear')",1,1510.508,1510.5077765691983,tab:envelope_sd
+S16,28,"('ECommerce', 'DLinear')",1sd,3.592,3.592069211807621,tab:envelope_sd
+S16,29,"('ECommerce', 'DLinear')",2,1484.681,1484.680632986965,tab:envelope_sd
+S16,30,"('ECommerce', 'DLinear')",2sd,2.453,2.453020479579487,tab:envelope_sd
+S16,31,"('ECommerce', 'DLinear')",3,1507.059,1507.0586631243275,tab:envelope_sd
+S16,32,"('ECommerce', 'DLinear')",3sd,3.104,3.10383648759083,tab:envelope_sd
+S16,33,"('Traffic', 'PatchTST')",0,3.739,3.7393714311362505,tab:envelope_sd
+S16,34,"('Traffic', 'PatchTST')",0sd,0.030,0.0298785486518471,tab:envelope_sd
+S16,35,"('Traffic', 'PatchTST')",1,3.764,3.764377248791947,tab:envelope_sd
+S16,36,"('Traffic', 'PatchTST')",1sd,0.029,0.0289180760955306,tab:envelope_sd
+S16,37,"('Traffic', 'PatchTST')",2,3.743,3.743495007539449,tab:envelope_sd
+S16,38,"('Traffic', 'PatchTST')",2sd,0.032,0.0320157650344778,tab:envelope_sd
+S16,39,"('Traffic', 'PatchTST')",3,3.765,3.765340719791295,tab:envelope_sd
+S16,40,"('Traffic', 'PatchTST')",3sd,0.029,0.0292014069134131,tab:envelope_sd
+S16,41,"('Traffic', 'DLinear')",0,3.977,3.976833179839269,tab:envelope_sd
+S16,42,"('Traffic', 'DLinear')",0sd,0.037,0.0369766077734333,tab:envelope_sd
+S16,43,"('Traffic', 'DLinear')",1,3.995,3.994544454262392,tab:envelope_sd
+S16,44,"('Traffic', 'DLinear')",1sd,0.037,0.0367313928081681,tab:envelope_sd
+S16,45,"('Traffic', 'DLinear')",2,3.981,3.981477771905868,tab:envelope_sd
+S16,46,"('Traffic', 'DLinear')",2sd,0.040,0.0401651951963486,tab:envelope_sd
+S16,47,"('Traffic', 'DLinear')",3,4.001,4.001458069183705,tab:envelope_sd
+S16,48,"('Traffic', 'DLinear')",3sd,0.041,0.040832605214499,tab:envelope_sd
+S16,49,"('Wiki2', 'PatchTST')",0,2465.831,2465.831176796151,tab:envelope_sd
+S16,50,"('Wiki2', 'PatchTST')",0sd,5.546,5.545612744075718,tab:envelope_sd
+S16,51,"('Wiki2', 'PatchTST')",1,2506.700,2506.700307200357,tab:envelope_sd
+S16,52,"('Wiki2', 'PatchTST')",1sd,8.077,8.07673478261286,tab:envelope_sd
+S16,53,"('Wiki2', 'PatchTST')",2,2483.485,2483.48479240004,tab:envelope_sd
+S16,54,"('Wiki2', 'PatchTST')",2sd,8.019,8.018509300546432,tab:envelope_sd
+S16,55,"('Wiki2', 'PatchTST')",3,2509.814,2509.814222156376,tab:envelope_sd
+S16,56,"('Wiki2', 'PatchTST')",3sd,8.806,8.806213191592539,tab:envelope_sd
+S16,57,"('Wiki2', 'DLinear')",0,2548.730,2548.729797837495,tab:envelope_sd
+S16,58,"('Wiki2', 'DLinear')",0sd,4.698,4.697868603293119,tab:envelope_sd
+S16,59,"('Wiki2', 'DLinear')",1,2625.325,2625.325352370141,tab:envelope_sd
+S16,60,"('Wiki2', 'DLinear')",1sd,11.335,11.334930438807527,tab:envelope_sd
+S16,61,"('Wiki2', 'DLinear')",2,2557.009,2557.0087393974354,tab:envelope_sd
+S16,62,"('Wiki2', 'DLinear')",2sd,9.661,9.661426642981509,tab:envelope_sd
+S16,63,"('Wiki2', 'DLinear')",3,2629.790,2629.790067137075,tab:envelope_sd
+S16,64,"('Wiki2', 'DLinear')",3sd,11.225,11.22488500817973,tab:envelope_sd
+S16,65,"('Labour', 'PatchTST')",0,14.808,14.808355467211102,tab:envelope_sd
+S16,66,"('Labour', 'PatchTST')",0sd,0.056,0.0564728540595002,tab:envelope_sd
+S16,67,"('Labour', 'PatchTST')",1,14.813,14.813016911566768,tab:envelope_sd
+S16,68,"('Labour', 'PatchTST')",1sd,0.058,0.0578303179783529,tab:envelope_sd
+S16,69,"('Labour', 'PatchTST')",2,14.812,14.812297910369535,tab:envelope_sd
+S16,70,"('Labour', 'PatchTST')",2sd,0.059,0.0587275862812591,tab:envelope_sd
+S16,71,"('Labour', 'PatchTST')",3,14.819,14.818798800972374,tab:envelope_sd
+S16,72,"('Labour', 'PatchTST')",3sd,0.059,0.0586973150202253,tab:envelope_sd
+S16,73,"('Labour', 'DLinear')",0,17.678,17.678241833306057,tab:envelope_sd
+S16,74,"('Labour', 'DLinear')",0sd,0.356,0.3555094972104182,tab:envelope_sd
+S16,75,"('Labour', 'DLinear')",1,17.676,17.67641471492297,tab:envelope_sd
+S16,76,"('Labour', 'DLinear')",1sd,0.357,0.3566596101649115,tab:envelope_sd
+S16,77,"('Labour', 'DLinear')",2,17.685,17.685266852078257,tab:envelope_sd
+S16,78,"('Labour', 'DLinear')",2sd,0.359,0.3589034224922979,tab:envelope_sd
+S16,79,"('Labour', 'DLinear')",3,17.684,17.683971102666842,tab:envelope_sd
+S16,80,"('Labour', 'DLinear')",3sd,0.360,0.3596665797381662,tab:envelope_sd
+S16,81,"('M5', 'PatchTST')",0,421.624,421.62416801849423,tab:envelope_sd
+S16,82,"('M5', 'PatchTST')",0sd,0.571,0.5707171540108615,tab:envelope_sd
+S16,83,"('M5', 'PatchTST')",1,422.660,422.6604887677554,tab:envelope_sd
+S16,84,"('M5', 'PatchTST')",1sd,0.539,0.5394361304981052,tab:envelope_sd
+S16,85,"('M5', 'PatchTST')",2,420.117,420.1167256233179,tab:envelope_sd
+S16,86,"('M5', 'PatchTST')",2sd,0.463,0.4632689487340661,tab:envelope_sd
+S16,87,"('M5', 'PatchTST')",3,421.200,421.1998409589808,tab:envelope_sd
+S16,88,"('M5', 'PatchTST')",3sd,0.486,0.4858785178797165,tab:envelope_sd
+S16,89,"('M5', 'DLinear')",0,447.254,447.2541159338218,tab:envelope_sd
+S16,90,"('M5', 'DLinear')",0sd,10.573,10.572515221638891,tab:envelope_sd
+S16,91,"('M5', 'DLinear')",1,449.185,449.18498503395057,tab:envelope_sd
+S16,92,"('M5', 'DLinear')",1sd,10.833,10.832588159393431,tab:envelope_sd
+S16,93,"('M5', 'DLinear')",2,445.953,445.9532769347165,tab:envelope_sd
+S16,94,"('M5', 'DLinear')",2sd,10.235,10.234955149935036,tab:envelope_sd
+S16,95,"('M5', 'DLinear')",3,447.784,447.78352470541085,tab:envelope_sd
+S16,96,"('M5', 'DLinear')",3sd,10.481,10.481000758532128,tab:envelope_sd
+S17,1,ECommerce,0,0.000000,1.7946755193065655e-11,tab:order
+S17,2,ECommerce,1,0.000000,-1.4081328695662405e-12,tab:order
+S17,3,Labour,0,0.000000,1.2876921751114874e-09,tab:order
+S17,4,Labour,1,0.000000,-1.4930318092964967e-08,tab:order
+S17,5,M5,0,0.000000,1.4297778331654834e-07,tab:order
+S17,6,M5,1,0.000000,-9.744760554042387e-10,tab:order
+S17,7,RH,0,-0.035494,-0.0354938611782743,tab:order
+S17,8,RH,1,-0.017580,-0.0175804887172466,tab:order
+S17,9,Traffic,0,-0.000336,-0.0003364618446114,tab:order
+S17,10,Traffic,1,0.000000,-2.6838716434459302e-09,tab:order
+S17,11,Wiki2,0,+0.052765,0.0527649000574503,tab:order
+S17,12,Wiki2,1,+0.083512,0.083511754881201,tab:order
+S17,13,Equal-weight mean,0,+0.002822,0.0028224535529977,tab:order
+S17,14,Equal-weight mean,1,+0.010989,0.0109885412623134,tab:order
+S17,15,Labour System,0,0.000000,-1.8204511971949462e-09,tab:order
+S17,16,Labour System,1,0.000000,-1.6451876897842037e-08,tab:order
+S17,17,M5 System,0,0.000000,1.8192094682530546e-07,tab:order
+S17,18,M5 System,1,0.000000,-8.459510869585072e-10,tab:order
+S17,19,RH System,0,-0.008824,-0.0088244612595841,tab:order
+S17,20,RH System,1,-0.029121,-0.0291214427578253,tab:order
+S17,21,Traffic System,0,-0.000014,-1.428916904244737e-05,tab:order
+S17,22,Traffic System,1,0.000000,-1.221983625399048e-09,tab:order
+S17,23,Wiki2 System,0,-0.059153,-0.0591529993488992,tab:order
+S17,24,Wiki2 System,1,-0.190450,-0.1904498271372771,tab:order
+S17,25,Labour Bottom,0,0.000000,5.873929120880916e-09,tab:order
+S17,26,Labour Bottom,1,0.000000,-2.2253754394796488e-08,tab:order
+S17,27,M5 Bottom,0,0.000000,1.0252060126762313e-07,tab:order
+S17,28,M5 Bottom,1,0.000000,-5.872117606979067e-10,tab:order
+S17,29,Traffic Bottom,0,-0.000655,-0.0006545766146633,tab:order
+S17,30,Traffic Bottom,1,0.000000,-3.988365193663412e-09,tab:order
+S17,31,Wiki2 Bottom,0,+0.046886,0.0468858549739918,tab:order
+S17,32,Wiki2 Bottom,1,+0.110741,0.1107406553573812,tab:order
+S17,33,Labour Region,0,0.000000,-1.6570337694569541e-09,tab:order
+S17,34,Labour Region,1,0.000000,-1.1518880294048016e-08,tab:order
+S17,35,M5 State,0,0.000000,1.3736777456270965e-07,tab:order
+S17,36,M5 State,1,0.000000,-1.160001724305933e-09,tab:order
+S18,1,"('RH', 'Cov')",0,864,864.0,tab:events
+S18,2,"('RH', 'Cov')",1,0,0.0,tab:events
+S18,3,"('RH', 'Cov')",2,156,156.0,tab:events
+S18,4,"('RH', 'Cov')",3,0,0.0,tab:events
+S18,5,"('RH', 'Cov')",4,2.91e-11,2.9103830456733704e-11,tab:events
+S18,6,"('RH', 'Cov')",5,1.46e-08,1.4599208952859044e-08,tab:events
+S18,7,"('RH', 'ML')",0,864,864.0,tab:events
+S18,8,"('RH', 'ML')",1,0,0.0,tab:events
+S18,9,"('RH', 'ML')",2,160,160.0,tab:events
+S18,10,"('RH', 'ML')",3,0,0.0,tab:events
+S18,11,"('RH', 'ML')",4,3.27e-11,3.2741809263825417e-11,tab:events
+S18,12,"('RH', 'ML')",5,1.33e-07,1.3277895050123334e-07,tab:events
+S18,13,"('ECommerce', 'Cov')",0,864,864.0,tab:events
+S18,14,"('ECommerce', 'Cov')",1,0,0.0,tab:events
+S18,15,"('ECommerce', 'Cov')",2,40,40.0,tab:events
+S18,16,"('ECommerce', 'Cov')",3,0,0.0,tab:events
+S18,17,"('ECommerce', 'Cov')",4,2.27e-13,2.273736754432321e-13,tab:events
+S18,18,"('ECommerce', 'Cov')",5,6.32e-11,6.320988177321851e-11,tab:events
+S18,19,"('ECommerce', 'ML')",0,864,864.0,tab:events
+S18,20,"('ECommerce', 'ML')",1,0,0.0,tab:events
+S18,21,"('ECommerce', 'ML')",2,28,28.0,tab:events
+S18,22,"('ECommerce', 'ML')",3,0,0.0,tab:events
+S18,23,"('ECommerce', 'ML')",4,0.00e+00,0.0,tab:events
+S18,24,"('ECommerce', 'ML')",5,1.32e-11,1.318767317570746e-11,tab:events
+S18,25,"('Traffic', 'Cov')",0,864,864.0,tab:events
+S18,26,"('Traffic', 'Cov')",1,0,0.0,tab:events
+S18,27,"('Traffic', 'Cov')",2,533,533.0,tab:events
+S18,28,"('Traffic', 'Cov')",3,0,0.0,tab:events
+S18,29,"('Traffic', 'Cov')",4,3.33e-11,3.3293190426775244e-11,tab:events
+S18,30,"('Traffic', 'Cov')",5,2.17e-08,2.1718619791499805e-08,tab:events
+S18,31,"('Traffic', 'ML')",0,864,864.0,tab:events
+S18,32,"('Traffic', 'ML')",1,0,0.0,tab:events
+S18,33,"('Traffic', 'ML')",2,540,540.0,tab:events
+S18,34,"('Traffic', 'ML')",3,0,0.0,tab:events
+S18,35,"('Traffic', 'ML')",4,2.97e-11,2.973479240608864e-11,tab:events
+S18,36,"('Traffic', 'ML')",5,7.85e-09,7.845528671168722e-09,tab:events
+S18,37,"('Wiki2', 'Cov')",0,864,864.0,tab:events
+S18,38,"('Wiki2', 'Cov')",1,136,136.0,tab:events
+S18,39,"('Wiki2', 'Cov')",2,606,606.0,tab:events
+S18,40,"('Wiki2', 'Cov')",3,0,0.0,tab:events
+S18,41,"('Wiki2', 'Cov')",4,7.69e-08,7.691008150345593e-08,tab:events
+S18,42,"('Wiki2', 'Cov')",5,1.51e-06,1.507938577560708e-06,tab:events
+S18,43,"('Wiki2', 'ML')",0,864,864.0,tab:events
+S18,44,"('Wiki2', 'ML')",1,141,141.0,tab:events
+S18,45,"('Wiki2', 'ML')",2,641,641.0,tab:events
+S18,46,"('Wiki2', 'ML')",3,0,0.0,tab:events
+S18,47,"('Wiki2', 'ML')",4,5.76e-08,5.755551626407394e-08,tab:events
+S18,48,"('Wiki2', 'ML')",5,2.05e-06,2.0507613953668624e-06,tab:events
+S18,49,"('Labour', 'Cov')",0,432,432.0,tab:events
+S18,50,"('Labour', 'Cov')",1,0,0.0,tab:events
+S18,51,"('Labour', 'Cov')",2,139,139.0,tab:events
+S18,52,"('Labour', 'Cov')",3,0,0.0,tab:events
+S18,53,"('Labour', 'Cov')",4,3.21e-08,3.205526013516646e-08,tab:events
+S18,54,"('Labour', 'Cov')",5,2.89e-07,2.889210009016097e-07,tab:events
+S18,55,"('Labour', 'ML')",0,432,432.0,tab:events
+S18,56,"('Labour', 'ML')",1,0,0.0,tab:events
+S18,57,"('Labour', 'ML')",2,151,151.0,tab:events
+S18,58,"('Labour', 'ML')",3,0,0.0,tab:events
+S18,59,"('Labour', 'ML')",4,3.96e-08,3.955669853894505e-08,tab:events
+S18,60,"('Labour', 'ML')",5,1.62e-07,1.6179546946659684e-07,tab:events
+S18,61,"('M5', 'Cov')",0,864,864.0,tab:events
+S18,62,"('M5', 'Cov')",1,0,0.0,tab:events
+S18,63,"('M5', 'Cov')",2,0,0.0,tab:events
+S18,64,"('M5', 'Cov')",3,106,106.0,tab:events
+S18,65,"('M5', 'Cov')",4,0.00e+00,0.0,tab:events
+S18,66,"('M5', 'Cov')",5,2.91e-11,2.9103830456733704e-11,tab:events
+S18,67,"('M5', 'ML')",0,864,864.0,tab:events
+S18,68,"('M5', 'ML')",1,0,0.0,tab:events
+S18,69,"('M5', 'ML')",2,79,79.0,tab:events
+S18,70,"('M5', 'ML')",3,0,0.0,tab:events
+S18,71,"('M5', 'ML')",4,1.46e-11,1.4551915228366852e-11,tab:events
+S18,72,"('M5', 'ML')",5,2.60e-07,2.601991582196206e-07,tab:events
+S19,1,"('RH', 'PatchTST', 'Cov')",0,17.08,17.0832337186575,tab:historical_time
+S19,2,"('RH', 'PatchTST', 'Cov')",1,19.63,19.6337751139826,tab:historical_time
+S19,3,"('RH', 'PatchTST', 'Cov')",2,2.79,2.78656435235726,tab:historical_time
+S19,4,"('RH', 'PatchTST', 'Cov')",3,3.11,3.114754823844865,tab:historical_time
+S19,5,"('RH', 'PatchTST', 'Cov')",4,19.87,19.86979807101481,tab:historical_time
+S19,6,"('RH', 'PatchTST', 'Cov')",5,22.74,22.73744355781534,tab:historical_time
+S19,7,"('RH', 'PatchTST', 'ML')",0,3.09,3.088314429156857,tab:historical_time
+S19,8,"('RH', 'PatchTST', 'ML')",1,3.75,3.7494735794434697,tab:historical_time
+S19,9,"('RH', 'PatchTST', 'ML')",2,1.49,1.487073379663563,tab:historical_time
+S19,10,"('RH', 'PatchTST', 'ML')",3,1.59,1.5936969194928998,tab:historical_time
+S19,11,"('RH', 'PatchTST', 'ML')",4,4.58,4.575387808820472,tab:historical_time
+S19,12,"('RH', 'PatchTST', 'ML')",5,5.25,5.246811035343514,tab:historical_time
+S19,13,"('RH', 'DLinear', 'Cov')",0,20.38,20.376154321750988,tab:historical_time
+S19,14,"('RH', 'DLinear', 'Cov')",1,24.46,24.45508988398445,tab:historical_time
+S19,15,"('RH', 'DLinear', 'Cov')",2,3.22,3.222035879540828,tab:historical_time
+S19,16,"('RH', 'DLinear', 'Cov')",3,4.19,4.1949894660824505,tab:historical_time
+S19,17,"('RH', 'DLinear', 'Cov')",4,23.60,23.59819020129186,tab:historical_time
+S19,18,"('RH', 'DLinear', 'Cov')",5,28.82,28.81643880822656,tab:historical_time
+S19,19,"('RH', 'DLinear', 'ML')",0,3.81,3.809895988300042,tab:historical_time
+S19,20,"('RH', 'DLinear', 'ML')",1,4.63,4.63199942346866,tab:historical_time
+S19,21,"('RH', 'DLinear', 'ML')",2,1.78,1.7820136574165475,tab:historical_time
+S19,22,"('RH', 'DLinear', 'ML')",3,2.27,2.26671476549297,tab:historical_time
+S19,23,"('RH', 'DLinear', 'ML')",4,5.59,5.591909645716638,tab:historical_time
+S19,24,"('RH', 'DLinear', 'ML')",5,6.57,6.56723256801745,tab:historical_time
+S19,25,"('ECommerce', 'PatchTST', 'Cov')",0,23.97,23.966846297107686,tab:historical_time
+S19,26,"('ECommerce', 'PatchTST', 'Cov')",1,25.66,25.65780891282307,tab:historical_time
+S19,27,"('ECommerce', 'PatchTST', 'Cov')",2,3.54,3.541508333270251,tab:historical_time
+S19,28,"('ECommerce', 'PatchTST', 'Cov')",3,3.68,3.68244641318187,tab:historical_time
+S19,29,"('ECommerce', 'PatchTST', 'Cov')",4,27.51,27.508354630377987,tab:historical_time
+S19,30,"('ECommerce', 'PatchTST', 'Cov')",5,29.22,29.21734487290781,tab:historical_time
+S19,31,"('ECommerce', 'PatchTST', 'ML')",0,5.93,5.9289809417541,tab:historical_time
+S19,32,"('ECommerce', 'PatchTST', 'ML')",1,6.56,6.55991476841903,tab:historical_time
+S19,33,"('ECommerce', 'PatchTST', 'ML')",2,2.04,2.0438451387302417,tab:historical_time
+S19,34,"('ECommerce', 'PatchTST', 'ML')",3,2.22,2.218015849616085,tab:historical_time
+S19,35,"('ECommerce', 'PatchTST', 'ML')",4,7.97,7.972826080484388,tab:historical_time
+S19,36,"('ECommerce', 'PatchTST', 'ML')",5,8.77,8.769836837449494,tab:historical_time
+S19,37,"('ECommerce', 'DLinear', 'Cov')",0,25.17,25.167790894848565,tab:historical_time
+S19,38,"('ECommerce', 'DLinear', 'Cov')",1,29.87,29.87294051002843,tab:historical_time
+S19,39,"('ECommerce', 'DLinear', 'Cov')",2,3.72,3.718637036702859,tab:historical_time
+S19,40,"('ECommerce', 'DLinear', 'Cov')",3,5.17,5.169264641396345,tab:historical_time
+S19,41,"('ECommerce', 'DLinear', 'Cov')",4,28.89,28.88642793155147,tab:historical_time
+S19,42,"('ECommerce', 'DLinear', 'Cov')",5,34.54,34.535653935475835,tab:historical_time
+S19,43,"('ECommerce', 'DLinear', 'ML')",0,6.13,6.128641048426125,tab:historical_time
+S19,44,"('ECommerce', 'DLinear', 'ML')",1,7.92,7.92219819446063,tab:historical_time
+S19,45,"('ECommerce', 'DLinear', 'ML')",2,2.14,2.1389277778022104,tab:historical_time
+S19,46,"('ECommerce', 'DLinear', 'ML')",3,2.68,2.681798676268075,tab:historical_time
+S19,47,"('ECommerce', 'DLinear', 'ML')",4,8.27,8.267568826228388,tab:historical_time
+S19,48,"('ECommerce', 'DLinear', 'ML')",5,10.64,10.64438240080353,tab:historical_time
+S19,49,"('Traffic', 'PatchTST', 'Cov')",0,197.64,197.6376448307556,tab:historical_time
+S19,50,"('Traffic', 'PatchTST', 'Cov')",1,240.50,240.498733392424,tab:historical_time
+S19,51,"('Traffic', 'PatchTST', 'Cov')",2,15.94,15.937722454071684,tab:historical_time
+S19,52,"('Traffic', 'PatchTST', 'Cov')",3,19.61,19.6076230957664,tab:historical_time
+S19,53,"('Traffic', 'PatchTST', 'Cov')",4,213.58,213.57536728482725,tab:historical_time
+S19,54,"('Traffic', 'PatchTST', 'Cov')",5,256.96,256.96383192628633,tab:historical_time
+S19,55,"('Traffic', 'PatchTST', 'ML')",0,99.66,99.65949112881418,tab:historical_time
+S19,56,"('Traffic', 'PatchTST', 'ML')",1,130.44,130.44270725524115,tab:historical_time
+S19,57,"('Traffic', 'PatchTST', 'ML')",2,12.10,12.100998843110256,tab:historical_time
+S19,58,"('Traffic', 'PatchTST', 'ML')",3,17.04,17.03528305418626,tab:historical_time
+S19,59,"('Traffic', 'PatchTST', 'ML')",4,111.76,111.7604899719245,tab:historical_time
+S19,60,"('Traffic', 'PatchTST', 'ML')",5,144.92,144.9156302375302,tab:historical_time
+S19,61,"('Traffic', 'DLinear', 'Cov')",0,221.20,221.20260678899663,tab:historical_time
+S19,62,"('Traffic', 'DLinear', 'Cov')",1,260.64,260.6396429163093,tab:historical_time
+S19,63,"('Traffic', 'DLinear', 'Cov')",2,17.31,17.305950694544954,tab:historical_time
+S19,64,"('Traffic', 'DLinear', 'Cov')",3,22.67,22.66984447131912,tab:historical_time
+S19,65,"('Traffic', 'DLinear', 'Cov')",4,238.51,238.5085574835417,tab:historical_time
+S19,66,"('Traffic', 'DLinear', 'Cov')",5,277.94,277.9356834979909,tab:historical_time
+S19,67,"('Traffic', 'DLinear', 'ML')",0,110.29,110.29301234556898,tab:historical_time
+S19,68,"('Traffic', 'DLinear', 'ML')",1,127.06,127.05997665406252,tab:historical_time
+S19,69,"('Traffic', 'DLinear', 'ML')",2,12.71,12.708531249599067,tab:historical_time
+S19,70,"('Traffic', 'DLinear', 'ML')",3,16.51,16.510532971086704,tab:historical_time
+S19,71,"('Traffic', 'DLinear', 'ML')",4,123.00,123.00154359516807,tab:historical_time
+S19,72,"('Traffic', 'DLinear', 'ML')",5,139.69,139.69093160550173,tab:historical_time
+S19,73,"('Wiki2', 'PatchTST', 'Cov')",0,214.28,214.2799341054791,tab:historical_time
+S19,74,"('Wiki2', 'PatchTST', 'Cov')",1,242.06,242.0551982761632,tab:historical_time
+S19,75,"('Wiki2', 'PatchTST', 'Cov')",2,22.80,22.802932870776896,tab:historical_time
+S19,76,"('Wiki2', 'PatchTST', 'Cov')",3,56.55,56.55490089201414,tab:historical_time
+S19,77,"('Wiki2', 'PatchTST', 'Cov')",4,237.08,237.082866976256,tab:historical_time
+S19,78,"('Wiki2', 'PatchTST', 'Cov')",5,273.89,273.8902285859188,tab:historical_time
+S19,79,"('Wiki2', 'PatchTST', 'ML')",0,104.58,104.58257121964924,tab:historical_time
+S19,80,"('Wiki2', 'PatchTST', 'ML')",1,121.12,121.1216345012265,tab:historical_time
+S19,81,"('Wiki2', 'PatchTST', 'ML')",2,19.24,19.24120092654544,tab:historical_time
+S19,82,"('Wiki2', 'PatchTST', 'ML')",3,51.76,51.75706612030293,tab:historical_time
+S19,83,"('Wiki2', 'PatchTST', 'ML')",4,123.82,123.82377214619476,tab:historical_time
+S19,84,"('Wiki2', 'PatchTST', 'ML')",5,156.21,156.21447551675368,tab:historical_time
+S19,85,"('Wiki2', 'DLinear', 'Cov')",0,213.26,213.25987299263213,tab:historical_time
+S19,86,"('Wiki2', 'DLinear', 'Cov')",1,238.86,238.85678585173548,tab:historical_time
+S19,87,"('Wiki2', 'DLinear', 'Cov')",2,19.45,19.446580092200566,tab:historical_time
+S19,88,"('Wiki2', 'DLinear', 'Cov')",3,42.99,42.9940033914235,tab:historical_time
+S19,89,"('Wiki2', 'DLinear', 'Cov')",4,232.71,232.70645308483284,tab:historical_time
+S19,90,"('Wiki2', 'DLinear', 'Cov')",5,264.37,264.3691217192369,tab:historical_time
+S19,91,"('Wiki2', 'DLinear', 'ML')",0,106.54,106.54081257495288,tab:historical_time
+S19,92,"('Wiki2', 'DLinear', 'ML')",1,129.01,129.01317996530216,tab:historical_time
+S19,93,"('Wiki2', 'DLinear', 'ML')",2,15.63,15.634533101681969,tab:historical_time
+S19,94,"('Wiki2', 'DLinear', 'ML')",3,46.53,46.53313921646455,tab:historical_time
+S19,95,"('Wiki2', 'DLinear', 'ML')",4,122.18,122.17534567663488,tab:historical_time
+S19,96,"('Wiki2', 'DLinear', 'ML')",5,155.42,155.4235831462493,tab:historical_time
+S19,97,"('Labour', 'PatchTST', 'Cov')",0,65.36,65.35836172873655,tab:historical_time
+S19,98,"('Labour', 'PatchTST', 'Cov')",1,77.12,77.11530702430596,tab:historical_time
+S19,99,"('Labour', 'PatchTST', 'Cov')",2,5.78,5.783653240844866,tab:historical_time
+S19,100,"('Labour', 'PatchTST', 'Cov')",3,7.53,7.527874997726426,tab:historical_time
+S19,101,"('Labour', 'PatchTST', 'Cov')",4,71.14,71.14201496958148,tab:historical_time
+S19,102,"('Labour', 'PatchTST', 'Cov')",5,83.81,83.80897027921115,tab:historical_time
+S19,103,"('Labour', 'PatchTST', 'ML')",0,28.88,28.87649321138141,tab:historical_time
+S19,104,"('Labour', 'PatchTST', 'ML')",1,39.18,39.1847061880441,tab:historical_time
+S19,105,"('Labour', 'PatchTST', 'ML')",2,4.29,4.2926870373775685,tab:historical_time
+S19,106,"('Labour', 'PatchTST', 'ML')",3,5.36,5.355662546612026,tab:historical_time
+S19,107,"('Labour', 'PatchTST', 'ML')",4,33.17,33.16918024875903,tab:historical_time
+S19,108,"('Labour', 'PatchTST', 'ML')",5,42.96,42.9556460984275,tab:historical_time
+S19,109,"('Labour', 'DLinear', 'Cov')",0,69.91,69.90540987721432,tab:historical_time
+S19,110,"('Labour', 'DLinear', 'Cov')",1,82.62,82.61962762184399,tab:historical_time
+S19,111,"('Labour', 'DLinear', 'Cov')",2,5.83,5.825896759267361,tab:historical_time
+S19,112,"('Labour', 'DLinear', 'Cov')",3,7.66,7.662473673311324,tab:historical_time
+S19,113,"('Labour', 'DLinear', 'Cov')",4,75.73,75.73130663648175,tab:historical_time
+S19,114,"('Labour', 'DLinear', 'Cov')",5,88.63,88.62902625157767,tab:historical_time
+S19,115,"('Labour', 'DLinear', 'ML')",0,30.59,30.588714970005512,tab:historical_time
+S19,116,"('Labour', 'DLinear', 'ML')",1,35.38,35.38343420223097,tab:historical_time
+S19,117,"('Labour', 'DLinear', 'ML')",2,4.08,4.078750927065866,tab:historical_time
+S19,118,"('Labour', 'DLinear', 'ML')",3,5.24,5.24265417576915,tab:historical_time
+S19,119,"('Labour', 'DLinear', 'ML')",4,34.67,34.66746589707142,tab:historical_time
+S19,120,"('Labour', 'DLinear', 'ML')",5,39.54,39.538259736555375,tab:historical_time
+S19,121,"('M5', 'PatchTST', 'Cov')",0,55.99,55.99355354826435,tab:historical_time
+S19,122,"('M5', 'PatchTST', 'Cov')",1,64.90,64.89697517724746,tab:historical_time
+S19,123,"('M5', 'PatchTST', 'Cov')",2,3.42,3.4227011573319315,tab:historical_time
+S19,124,"('M5', 'PatchTST', 'Cov')",3,4.61,4.610228893579885,tab:historical_time
+S19,125,"('M5', 'PatchTST', 'Cov')",4,59.42,59.41625470559634,tab:historical_time
+S19,126,"('M5', 'PatchTST', 'Cov')",5,68.25,68.2484279650789,tab:historical_time
+S19,127,"('M5', 'PatchTST', 'ML')",0,21.72,21.71603047786948,tab:historical_time
+S19,128,"('M5', 'PatchTST', 'ML')",1,26.73,26.73336608115476,tab:historical_time
+S19,129,"('M5', 'PatchTST', 'ML')",2,3.31,3.3128726858261435,tab:historical_time
+S19,130,"('M5', 'PatchTST', 'ML')",3,4.57,4.56526473280965,tab:historical_time
+S19,131,"('M5', 'PatchTST', 'ML')",4,25.03,25.02890316369568,tab:historical_time
+S19,132,"('M5', 'PatchTST', 'ML')",5,30.53,30.534488233065,tab:historical_time
+S19,133,"('M5', 'DLinear', 'Cov')",0,54.89,54.885595523282255,tab:historical_time
+S19,134,"('M5', 'DLinear', 'Cov')",1,63.32,63.321990836832086,tab:historical_time
+S19,135,"('M5', 'DLinear', 'Cov')",2,3.49,3.48647222239778,tab:historical_time
+S19,136,"('M5', 'DLinear', 'Cov')",3,4.25,4.25200346976952,tab:historical_time
+S19,137,"('M5', 'DLinear', 'Cov')",4,58.37,58.37206774568008,tab:historical_time
+S19,138,"('M5', 'DLinear', 'Cov')",5,67.07,67.07160944853156,tab:historical_time
+S19,139,"('M5', 'DLinear', 'ML')",0,21.53,21.53414482808449,tab:historical_time
+S19,140,"('M5', 'DLinear', 'ML')",1,23.64,23.64312677657124,tab:historical_time
+S19,141,"('M5', 'DLinear', 'ML')",2,3.19,3.185182407765637,tab:historical_time
+S19,142,"('M5', 'DLinear', 'ML')",3,3.58,3.58101191062203,tab:historical_time
+S19,143,"('M5', 'DLinear', 'ML')",4,24.72,24.719327235850173,tab:historical_time
+S19,144,"('M5', 'DLinear', 'ML')",5,27.71,27.71026279329408,tab:historical_time
+S20,1,"('ECommerce', 'DLinear')",0,"1,547.28",1547.2796284506976,tab:ext
+S20,2,"('ECommerce', 'DLinear')",1,"1,546.72",1546.7225892303622,tab:ext
+S20,3,"('ECommerce', 'DLinear')",2,"7,805.10",7805.0968482616145,tab:ext
+S20,4,"('ECommerce', 'DLinear')",3,"1,541.78",1541.7767586777877,tab:ext
+S20,5,"('ECommerce', 'DLinear')",4,"1,496.66",1496.6619274025113,tab:ext
+S20,6,"('ECommerce', 'DLinear')",5,"1,486.73",1486.7294889620805,tab:ext
+S20,7,"('ECommerce', 'PatchTST')",0,"1,505.86",1505.8598567903834,tab:ext
+S20,8,"('ECommerce', 'PatchTST')",1,"1,503.09",1503.091952824702,tab:ext
+S20,9,"('ECommerce', 'PatchTST')",2,"6,408.82",6408.822067178226,tab:ext
+S20,10,"('ECommerce', 'PatchTST')",3,"1,505.74",1505.7434692988572,tab:ext
+S20,11,"('ECommerce', 'PatchTST')",4,"1,479.70",1479.697103114121,tab:ext
+S20,12,"('ECommerce', 'PatchTST')",5,"1,473.83",1473.8293731745284,tab:ext
+S20,13,"('Labour', 'DLinear')",0,23.15,23.150406419974367,tab:ext
+S20,14,"('Labour', 'DLinear')",1,22.06,22.058416491930608,tab:ext
+S20,15,"('Labour', 'DLinear')",2,"1,033.60",1033.60404619206,tab:ext
+S20,16,"('Labour', 'DLinear')",3,22.25,22.250790758542564,tab:ext
+S20,17,"('Labour', 'DLinear')",4,21.07,21.074982780990084,tab:ext
+S20,18,"('Labour', 'DLinear')",5,21.08,21.08438573991261,tab:ext
+S20,19,"('Labour', 'PatchTST')",0,20.91,20.9117470090166,tab:ext
+S20,20,"('Labour', 'PatchTST')",1,20.08,20.082034323471547,tab:ext
+S20,21,"('Labour', 'PatchTST')",2,230.08,230.0831934061748,tab:ext
+S20,22,"('Labour', 'PatchTST')",3,19.92,19.91660881416569,tab:ext
+S20,23,"('Labour', 'PatchTST')",4,18.86,18.859104229250526,tab:ext
+S20,24,"('Labour', 'PatchTST')",5,18.89,18.888473837670187,tab:ext
+S20,25,"('M5', 'DLinear')",0,458.03,458.0266301203038,tab:ext
+S20,26,"('M5', 'DLinear')",1,457.00,456.99578711854576,tab:ext
+S20,27,"('M5', 'DLinear')",2,"4,981.35",4981.351296849987,tab:ext
+S20,28,"('M5', 'DLinear')",3,454.54,454.5392626615861,tab:ext
+S20,29,"('M5', 'DLinear')",4,443.00,443.0025253185802,tab:ext
+S20,30,"('M5', 'DLinear')",5,441.99,441.9943246255413,tab:ext
+S20,31,"('M5', 'PatchTST')",0,431.80,431.7998154724721,tab:ext
+S20,32,"('M5', 'PatchTST')",1,430.72,430.7210430876466,tab:ext
+S20,33,"('M5', 'PatchTST')",2,"10,821.92",10821.92187593281,tab:ext
+S20,34,"('M5', 'PatchTST')",3,422.75,422.7468191791121,tab:ext
+S20,35,"('M5', 'PatchTST')",4,422.15,422.1477971297609,tab:ext
+S20,36,"('M5', 'PatchTST')",5,420.64,420.64352235107424,tab:ext
+S20,37,"('RH', 'DLinear')",0,"1,630.78",1630.7765103113425,tab:ext
+S20,38,"('RH', 'DLinear')",1,"1,620.79",1620.7909421598442,tab:ext
+S20,39,"('RH', 'DLinear')",2,"4,260.55",4260.54502540905,tab:ext
+S20,40,"('RH', 'DLinear')",3,"1,622.45",1622.4479689301402,tab:ext
+S20,41,"('RH', 'DLinear')",4,"1,194.92",1194.9245360573714,tab:ext
+S20,42,"('RH', 'DLinear')",5,"1,200.63",1200.6322080099678,tab:ext
+S20,43,"('RH', 'PatchTST')",0,"1,128.94",1128.9424654194077,tab:ext
+S20,44,"('RH', 'PatchTST')",1,"1,127.73",1127.728026793712,tab:ext
+S20,45,"('RH', 'PatchTST')",2,"1,670.92",1670.9219792049191,tab:ext
+S20,46,"('RH', 'PatchTST')",3,"1,084.53",1084.529267936529,tab:ext
+S20,47,"('RH', 'PatchTST')",4,925.54,925.543853574681,tab:ext
+S20,48,"('RH', 'PatchTST')",5,923.33,923.32900264899,tab:ext
+S20,49,"('Traffic', 'DLinear')",0,4.11,4.114071250105042,tab:ext
+S20,50,"('Traffic', 'DLinear')",1,4.11,4.114579080952365,tab:ext
+S20,51,"('Traffic', 'DLinear')",2,21.09,21.08614967062605,tab:ext
+S20,52,"('Traffic', 'DLinear')",3,4.10,4.10490131343867,tab:ext
+S20,53,"('Traffic', 'DLinear')",4,3.98,3.9826680668642505,tab:ext
+S20,54,"('Traffic', 'DLinear')",5,3.99,3.987104029698609,tab:ext
+S20,55,"('Traffic', 'PatchTST')",0,3.85,3.8460102759440433,tab:ext
+S20,56,"('Traffic', 'PatchTST')",1,3.86,3.858136392040551,tab:ext
+S20,57,"('Traffic', 'PatchTST')",2,39.41,39.40990406280851,tab:ext
+S20,58,"('Traffic', 'PatchTST')",3,3.84,3.8385692398829137,tab:ext
+S20,59,"('Traffic', 'PatchTST')",4,3.77,3.766878943785384,tab:ext
+S20,60,"('Traffic', 'PatchTST')",5,3.77,3.772543518104901,tab:ext
+S20,61,"('Wiki2', 'DLinear')",0,"2,696.01",2696.007670339791,tab:ext
+S20,62,"('Wiki2', 'DLinear')",1,"2,697.48",2697.478129452444,tab:ext
+S20,63,"('Wiki2', 'DLinear')",2,"34,258.51",34258.50891558366,tab:ext
+S20,64,"('Wiki2', 'DLinear')",3,"2,662.73",2662.733778326852,tab:ext
+S20,65,"('Wiki2', 'DLinear')",4,"2,551.53",2551.527215575722,tab:ext
+S20,66,"('Wiki2', 'DLinear')",5,"2,556.24",2556.2352734178694,tab:ext
+S20,67,"('Wiki2', 'PatchTST')",0,"2,535.14",2535.14188400331,tab:ext
+S20,68,"('Wiki2', 'PatchTST')",1,"2,537.27",2537.268624557154,tab:ext
+S20,69,"('Wiki2', 'PatchTST')",2,"28,929.90",28929.89741511777,tab:ext
+S20,70,"('Wiki2', 'PatchTST')",3,"2,539.14",2539.1379720335995,tab:ext
+S20,71,"('Wiki2', 'PatchTST')",4,"2,463.29",2463.291527832768,tab:ext
+S20,72,"('Wiki2', 'PatchTST')",5,"2,478.90",2478.9033634987168,tab:ext
+S21,1,"('ECommerce', 'DLinear')",0,"1,547.704",1547.703786940708,tab:kddres
+S21,2,"('ECommerce', 'DLinear')",1,"1,541.747",1541.7469444686683,tab:kddres
+S21,3,"('ECommerce', 'DLinear')",2,"1,541.747",1541.7469444686683,tab:kddres
+S21,4,"('ECommerce', 'DLinear')",3,"1,541.914",1541.913529267418,tab:kddres
+S21,5,"('ECommerce', 'DLinear')",4,"1,496.662",1496.6619274025113,tab:kddres
+S21,6,"('ECommerce', 'DLinear')",5,"1,486.729",1486.7294889620805,tab:kddres
+S21,7,"('ECommerce', 'PatchTST')",0,"1,501.689",1501.6893176451465,tab:kddres
+S21,8,"('ECommerce', 'PatchTST')",1,"1,497.877",1497.8765417491663,tab:kddres
+S21,9,"('ECommerce', 'PatchTST')",2,"1,497.877",1497.8765417491663,tab:kddres
+S21,10,"('ECommerce', 'PatchTST')",3,"1,498.007",1498.0066611663196,tab:kddres
+S21,11,"('ECommerce', 'PatchTST')",4,"1,479.697",1479.697103114121,tab:kddres
+S21,12,"('ECommerce', 'PatchTST')",5,"1,473.829",1473.8293731745284,tab:kddres
+S21,13,"('Labour', 'DLinear')",0,22.354,22.353722780789063,tab:kddres
+S21,14,"('Labour', 'DLinear')",1,22.215,22.214751081657496,tab:kddres
+S21,15,"('Labour', 'DLinear')",2,22.202,22.201979186096523,tab:kddres
+S21,16,"('Labour', 'DLinear')",3,22.224,22.22414799965649,tab:kddres
+S21,17,"('Labour', 'DLinear')",4,21.075,21.074982780990084,tab:kddres
+S21,18,"('Labour', 'DLinear')",5,21.084,21.08438573991261,tab:kddres
+S21,19,"('Labour', 'PatchTST')",0,20.174,20.173645560314487,tab:kddres
+S21,20,"('Labour', 'PatchTST')",1,20.209,20.20903512261224,tab:kddres
+S21,21,"('Labour', 'PatchTST')",2,20.264,20.26435852379895,tab:kddres
+S21,22,"('Labour', 'PatchTST')",3,20.111,20.11054499317661,tab:kddres
+S21,23,"('Labour', 'PatchTST')",4,18.859,18.859104229250526,tab:kddres
+S21,24,"('Labour', 'PatchTST')",5,18.888,18.888473837670187,tab:kddres
+S21,25,"('M5', 'DLinear')",0,456.043,456.0426476028009,tab:kddres
+S21,26,"('M5', 'DLinear')",1,456.355,456.3545983726258,tab:kddres
+S21,27,"('M5', 'DLinear')",2,456.384,456.3836539071204,tab:kddres
+S21,28,"('M5', 'DLinear')",3,455.989,455.9888945794008,tab:kddres
+S21,29,"('M5', 'DLinear')",4,443.003,443.0025253185802,tab:kddres
+S21,30,"('M5', 'DLinear')",5,441.994,441.9943246255413,tab:kddres
+S21,31,"('M5', 'PatchTST')",0,430.087,430.08658646574366,tab:kddres
+S21,32,"('M5', 'PatchTST')",1,429.252,429.2515255037831,tab:kddres
+S21,33,"('M5', 'PatchTST')",2,429.084,429.084243278359,tab:kddres
+S21,34,"('M5', 'PatchTST')",3,428.946,428.9457109672026,tab:kddres
+S21,35,"('M5', 'PatchTST')",4,422.148,422.1477971297609,tab:kddres
+S21,36,"('M5', 'PatchTST')",5,420.644,420.64352235107424,tab:kddres
+S21,37,"('RH', 'DLinear')",0,"1,619.559",1619.5587221131814,tab:kddres
+S21,38,"('RH', 'DLinear')",1,"1,607.244",1607.243957155561,tab:kddres
+S21,39,"('RH', 'DLinear')",2,"1,610.874",1610.8737745233202,tab:kddres
+S21,40,"('RH', 'DLinear')",3,"1,605.058",1605.0575200330925,tab:kddres
+S21,41,"('RH', 'DLinear')",4,"1,194.925",1194.9245360573714,tab:kddres
+S21,42,"('RH', 'DLinear')",5,"1,200.632",1200.6322080099678,tab:kddres
+S21,43,"('RH', 'PatchTST')",0,"1,128.575",1128.5751831146315,tab:kddres
+S21,44,"('RH', 'PatchTST')",1,"1,140.044",1140.0439715366622,tab:kddres
+S21,45,"('RH', 'PatchTST')",2,"1,140.852",1140.8517132540535,tab:kddres
+S21,46,"('RH', 'PatchTST')",3,"1,127.655",1127.6547237630668,tab:kddres
+S21,47,"('RH', 'PatchTST')",4,925.544,925.543853574681,tab:kddres
+S21,48,"('RH', 'PatchTST')",5,923.329,923.32900264899,tab:kddres
+S21,49,"('Traffic', 'DLinear')",0,4.121,4.121221981605949,tab:kddres
+S21,50,"('Traffic', 'DLinear')",1,4.101,4.100921358577986,tab:kddres
+S21,51,"('Traffic', 'DLinear')",2,4.095,4.0949110597650895,tab:kddres
+S21,52,"('Traffic', 'DLinear')",3,4.098,4.098474480342479,tab:kddres
+S21,53,"('Traffic', 'DLinear')",4,3.983,3.9826680668642505,tab:kddres
+S21,54,"('Traffic', 'DLinear')",5,3.987,3.987104029698609,tab:kddres
+S21,55,"('Traffic', 'PatchTST')",0,3.851,3.851197368261711,tab:kddres
+S21,56,"('Traffic', 'PatchTST')",1,3.852,3.851859023054336,tab:kddres
+S21,57,"('Traffic', 'PatchTST')",2,3.838,3.8383509200063832,tab:kddres
+S21,58,"('Traffic', 'PatchTST')",3,3.859,3.8586915181742,tab:kddres
+S21,59,"('Traffic', 'PatchTST')",4,3.767,3.766878943785384,tab:kddres
+S21,60,"('Traffic', 'PatchTST')",5,3.773,3.772543518104901,tab:kddres
+S21,61,"('Wiki2', 'DLinear')",0,"2,700.155",2700.1547571480046,tab:kddres
+S21,62,"('Wiki2', 'DLinear')",1,"2,696.618",2696.618253367544,tab:kddres
+S21,63,"('Wiki2', 'DLinear')",2,"2,696.462",2696.462183815447,tab:kddres
+S21,64,"('Wiki2', 'DLinear')",3,"2,696.447",2696.447340108728,tab:kddres
+S21,65,"('Wiki2', 'DLinear')",4,"2,551.527",2551.527215575722,tab:kddres
+S21,66,"('Wiki2', 'DLinear')",5,"2,556.235",2556.2352734178694,tab:kddres
+S21,67,"('Wiki2', 'PatchTST')",0,"2,534.776",2534.7762613604154,tab:kddres
+S21,68,"('Wiki2', 'PatchTST')",1,"2,531.499",2531.49853734768,tab:kddres
+S21,69,"('Wiki2', 'PatchTST')",2,"2,561.951",2561.9505049415,tab:kddres
+S21,70,"('Wiki2', 'PatchTST')",3,"2,534.091",2534.091412488862,tab:kddres
+S21,71,"('Wiki2', 'PatchTST')",4,"2,463.292",2463.291527832768,tab:kddres
+S21,72,"('Wiki2', 'PatchTST')",5,"2,478.903",2478.9033634987168,tab:kddres
+S22,1,"Direct target: sequences ever over limit (of 1,998)",0,"1,385",1385.0,tab:mcgrad
+S22,2,"Direct target: sequences ever over limit (of 1,998)",1,"1,542",1542.0,tab:mcgrad
+S22,3,Common shrinkage: sequences ever over limit,0,0,0.0,tab:mcgrad
+S22,4,Common shrinkage: sequences ever over limit,1,0,0.0,tab:mcgrad
+S22,5,Full-set release: sequences ever over limit,0,0,0.0,tab:mcgrad
+S22,6,Full-set release: sequences ever over limit,1,0,0.0,tab:mcgrad
+S22,7,Full-set RMSE reduction vs.\ shrinkage (\%),0,0.71,0.7081490975419,tab:mcgrad
+S22,8,Full-set RMSE reduction vs.\ shrinkage (\%),1,0.59,0.5927021966921816,tab:mcgrad
+S22,9,Groups improving (of 12),0,9,9.0,tab:mcgrad
+S22,10,Groups improving (of 12),1,11,11.0,tab:mcgrad
+S23,1,"('RH', 'PatchTST')",2,925.544,925.543853574681,tab:li
+S23,2,"('RH', 'PatchTST')",3,923.329,923.32900264899,tab:li
+S23,3,"('RH', 'DLinear')",2,1194.925,1194.9245360573714,tab:li
+S23,4,"('RH', 'DLinear')",3,1200.632,1200.6322080099678,tab:li
+S23,5,"('ECommerce', 'PatchTST')",2,1479.697,1479.697103114121,tab:li
+S23,6,"('ECommerce', 'PatchTST')",3,1473.829,1473.8293731745284,tab:li
+S23,7,"('ECommerce', 'DLinear')",2,1496.662,1496.6619274025113,tab:li
+S23,8,"('ECommerce', 'DLinear')",3,1486.729,1486.7294889620805,tab:li
+S23,9,"('Traffic', 'PatchTST')",0,3.914,3.913745630199432,tab:li
+S23,10,"('Traffic', 'PatchTST')",1,3.901,3.901227051424712,tab:li
+S23,11,"('Traffic', 'PatchTST')",2,3.767,3.766878943785384,tab:li
+S23,12,"('Traffic', 'PatchTST')",3,3.773,3.772543518104901,tab:li
+S23,13,"('Traffic', 'DLinear')",0,4.111,4.111387803741385,tab:li
+S23,14,"('Traffic', 'DLinear')",1,4.120,4.119720762183441,tab:li
+S23,15,"('Traffic', 'DLinear')",2,3.983,3.9826680668642505,tab:li
+S23,16,"('Traffic', 'DLinear')",3,3.987,3.987104029698609,tab:li
+S23,17,"('Wiki2', 'PatchTST')",0,2543.930,2543.929711239846,tab:li
+S23,18,"('Wiki2', 'PatchTST')",1,2551.921,2551.921030654691,tab:li
+S23,19,"('Wiki2', 'PatchTST')",2,2463.292,2463.291527832768,tab:li
+S23,20,"('Wiki2', 'PatchTST')",3,2478.903,2478.9033634987168,tab:li
+S23,21,"('Wiki2', 'DLinear')",0,2700.139,2700.13869702521,tab:li
+S23,22,"('Wiki2', 'DLinear')",1,2700.164,2700.1644496763183,tab:li
+S23,23,"('Wiki2', 'DLinear')",2,2551.527,2551.527215575722,tab:li
+S23,24,"('Wiki2', 'DLinear')",3,2556.235,2556.2352734178694,tab:li
+S23,25,"('Labour', 'PatchTST')",0,16.097,16.09706626164696,tab:li
+S23,26,"('Labour', 'PatchTST')",1,16.473,16.473163672221183,tab:li
+S23,27,"('Labour', 'PatchTST')",2,14.865,14.864509578592363,tab:li
+S23,28,"('Labour', 'PatchTST')",3,14.871,14.870548038003538,tab:li
+S23,29,"('Labour', 'DLinear')",0,18.951,18.95143452337957,tab:li
+S23,30,"('Labour', 'DLinear')",1,18.960,18.96022163569698,tab:li
+S23,31,"('Labour', 'DLinear')",2,17.295,17.294705779119223,tab:li
+S23,32,"('Labour', 'DLinear')",3,17.299,17.298960791747472,tab:li
+S23,33,"('M5', 'PatchTST')",0,429.861,429.8614908689639,tab:li
+S23,34,"('M5', 'PatchTST')",1,433.889,433.8894114182156,tab:li
+S23,35,"('M5', 'PatchTST')",2,422.148,422.1477971297609,tab:li
+S23,36,"('M5', 'PatchTST')",3,420.644,420.64352235107424,tab:li
+S23,37,"('M5', 'DLinear')",0,456.024,456.0241272451832,tab:li
+S23,38,"('M5', 'DLinear')",1,456.072,456.071542748583,tab:li
+S23,39,"('M5', 'DLinear')",2,443.003,443.0025253185802,tab:li
+S23,40,"('M5', 'DLinear')",3,441.994,441.9943246255413,tab:li

@@ -1,0 +1,22 @@
+{
+  "verdict": "resolved evidence-scope ambiguity",
+  "paper_values_changed": false,
+  "raw_predictions_changed": false,
+  "new_experiments": 0,
+  "historical_archive_preserved": true,
+  "canonical_middle": "all observed nonsystem nonbottom nodes, Labour indices1:25 (zero-based)",
+  "historical_archive_issue": "Labour early middle was labelled with only sex-region indices9:25; other windows included all middle nodes. Eight window/method values differ.",
+  "canonical_paper_middle_percentages": {
+    "Factor_Cov": 4.384590362081903,
+    "Factor_ML": 4.320893196661544,
+    "Diag_Cov": 3.9457440168589013,
+    "Diag_ML": 3.8818525679146023
+  },
+  "current_supplement_sha256": "7ae15f38ed6373e64161662e57eed9f2e8ef21839a217f972dbb5d3531ecbfcc",
+  "fresh_audit_sha256": "354c8084461aca6d3f6e67863c895526bee603bd3193dd88407d22a86c180e58",
+  "fresh_audit_scope": "same-family provisional, raw arrays for sixteen windows; original audit retained unchanged; manuscript since clarified and shortened without changing claims",
+  "current_checks": [
+    "check_supplement_results.py --supplement <supplement/main.tex>",
+    "check_li_levels.py --supplement <supplement/main.tex>"
+  ]
+}

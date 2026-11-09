@@ -1,0 +1,13 @@
+﻿comparator,level,implementation,recomputed,displayed
+Factor,system,Cov,4.769243766897002,4.77
+Factor,system,ML,4.57908060969689,4.58
+Factor,middle,Cov,4.384590362081904,4.38
+Factor,middle,ML,4.320893196661544,4.32
+Factor,bottom,Cov,5.519264789008588,5.52
+Factor,bottom,ML,5.506671755531453,5.51
+Diag,system,Cov,4.855882700404096,4.86
+Diag,system,ML,4.671812429169865,4.67
+Diag,middle,Cov,3.9457440168589013,3.95
+Diag,middle,ML,3.8818525679146023,3.88
+Diag,bottom,Cov,5.018853960245853,5.02
+Diag,bottom,ML,5.006104513229054,5.01
