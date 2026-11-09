@@ -1,0 +1,94 @@
+{
+  "document_version": "ai-disclosure-20261109",
+  "date": "2026-11-09",
+  "fixed_tag": "ai-disclosure-20261109",
+  "numerical_input_version": "unified-v11-20261108",
+  "files": {
+    "CPOR_Supplement_Scientific_Review_Clean_20261109.pdf": {
+      "pdf": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_kais_unified_three_backbones_20261108\\delivery\\CPOR_Supplement_Scientific_Review_Clean_20261109.pdf",
+      "sha256": "96deb7e7bb1e524f591c38e99768c55af4dbc1642f9b50715f87af3b9c51dff6",
+      "bytes": 226751,
+      "pages": 13,
+      "source": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_kais_unified_three_backbones_20261108\\source\\supplement\\main.tex",
+      "source_sha256": "7ae15f38ed6373e64161662e57eed9f2e8ef21839a217f972dbb5d3531ecbfcc",
+      "enlarged_pages": [
+        13
+      ],
+      "role": "Supplement"
+    },
+    "CPOR_OR2_v11_Scientific_Review_Addendum_20261109.zip": {
+      "role": "current result checks and code documentation",
+      "sha256": "557cec1f77c4aa89ca74d9a29af1a0d5ad7ff30d9237e5aa8d30153f8eb4209d",
+      "bytes": 229492
+    },
+    "CPOR_OR2_v11.zip": {
+      "role": "unchanged full numerical archive",
+      "sha256": "33663316f5d3d8490f2ac955bc2966c4a25224cd0404b39ae56c8eda659accfd",
+      "bytes": 957956873
+    },
+    "Numerical_Resources_20261108_v11.zip": {
+      "role": "unchanged aggregate archive",
+      "sha256": "89938dd839016c56bad1d680fad647b8e1a7c066d06fa58a1b29ab65997e08c3",
+      "bytes": 2777388
+    },
+    "CPOR_Cover_Letter_Submission_20261109.pdf": {
+      "role": "submission cover letter",
+      "pages": 1,
+      "sha256": "4e40191c0c4eda3d37ea977e93a0d3fcf1ad210ba607896a0c9ad5e3c8bea80c",
+      "bytes": 39059,
+      "source_sha256": "08467903088a9dbd2fac326ded849984f62952938d8bce23b023ebacac151f4e",
+      "selected_input_pdf_sha256": "f318593463ca43a4b215595fb23ec7b70459ee0bd8cb4e290cd2ab213220c845",
+      "text_identity_checked": true
+    },
+    "CPOR_Manuscript_AI_Disclosure_Clean_20261109.pdf": {
+      "role": "Manuscript",
+      "pages": 24,
+      "sha256": "062348f358a6deaf2a9e5d1040aa1a8420f8008f18047e2539365766f19b4656",
+      "bytes": 580792,
+      "source_sha256": "ad7a5a501ae7d315a1d56036a6bdee53f988d150e2fe2e4f075ebb17de82183d"
+    },
+    "CPOR_LaTeX_AI_Disclosure_20261109.zip": {
+      "role": "matching editable sources",
+      "sha256": "3e1940396f94204e22c88ad9d13a73bb73f27ac7169502c555a7df364bb40cdc",
+      "bytes": 276474
+    }
+  },
+  "new_experiments": 0,
+  "measurement_values_changed": false,
+  "figure1_preserved": true,
+  "previous_scientific_main_documents": {
+    "CPOR_Manuscript_Scientific_Main_Clean_20261109.pdf": {
+      "pdf": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_kais_unified_three_backbones_20261108\\delivery\\CPOR_Manuscript_Scientific_Main_Clean_20261109.pdf",
+      "sha256": "78daa82b67744cb1537908d1fedca1f99ec1d7aa8a6484e64a4ea57628b74ddb",
+      "bytes": 579523,
+      "pages": 24,
+      "source": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_kais_unified_three_backbones_20261108\\source\\main.tex",
+      "source_sha256": "e2c2578f552b68b69ae9df97aea0fa867e41e4c8fd5d929b3552ac39a33a5d1c",
+      "enlarged_pages": [
+        10,
+        12,
+        14,
+        22
+      ],
+      "role": "Manuscript"
+    },
+    "CPOR_Supplement_Scientific_Main_Clean_20261109.pdf": {
+      "pdf": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_kais_unified_three_backbones_20261108\\delivery\\CPOR_Supplement_Scientific_Main_Clean_20261109.pdf",
+      "sha256": "e5448b4d0fde1d17b8d84c44070653b4ebcb5fb8a4d0af43babbd5ca8d7443fa",
+      "bytes": 226819,
+      "pages": 13,
+      "source": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_kais_unified_three_backbones_20261108\\source\\supplement\\main.tex",
+      "source_sha256": "64c188796d37fd572a1e2fae9ec2092fcace56a58204d21be450408fb8bec8b6",
+      "enlarged_pages": [],
+      "role": "Supplement"
+    }
+  },
+  "Li_aggregation_scope": "all nonsystem nonbottom nodes, Labour includes regional and sex-region series",
+  "settings_index": "docs/README.md",
+  "scientific_resource_tag": "scientific-review-20261109",
+  "selected_cover_variant": "Unified, concise cover letter; text identical to existing CPOR_Cover_Letter_Unified_20261108.pdf",
+  "previous_document_version": "submission-aligned-20261109",
+  "paper_source_changed": true,
+  "supplement_source_changed": false,
+  "only_change": "User-requested AI-use declaration wording"
+}
