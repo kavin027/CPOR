@@ -1,6 +1,13 @@
 # CPOR resource index
 
-## Current Information Sciences submission files — 9 November 2026
+## Current Information Sciences Coherent PIR comparison — 9 November 2026
+
+[Current document and numerical map](review_resources/20261109_is_coherent_pir/README.md)
+adds Coherent PIR to Tables 6-7 and Supplement S1-S6 using existing three-run results.
+Reconciliation effects, protection costs and equal-protection gains are kept separate.
+The fixed scientific code remains scientific-review-20261109; no new experiment.
+
+## Previous Information Sciences cover-letter update — 9 November 2026
 
 [Current document map and final cover letter](review_resources/20261109_is_cover_final/README.md).
 Only the author-requested cover-letter paragraph was deleted. Scientific manuscript,

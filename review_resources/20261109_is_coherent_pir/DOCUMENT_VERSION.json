@@ -1,0 +1,45 @@
+{
+  "document_version": "is-coherent-pir-20261109",
+  "previous_document_version": "is-cover-final-20261109",
+  "scientific_code_version": "scientific-review-20261109",
+  "numerical_input_version": "unified-v11-20261108",
+  "resource_version": "compact-v11-coherent-pir-20261109",
+  "changes": [
+    "42 existing three-run Coherent PIR mean RMSEs added to main Tables 6-7",
+    "42 existing mean/SD pairs added to Supplement S1-S6",
+    "Reconciliation, protection and equal-protection comparisons clarified in results, abstract and conclusion",
+    "Current OR2 presentation checks and document mapping updated"
+  ],
+  "figure1_unchanged": true,
+  "all_preexisting_numeric_records_unchanged": true,
+  "new_experiments": 0,
+  "files": {
+    "CPOR_IS_Coherent_Manuscript_Clean_20261109.pdf": {
+      "sha256": "fbc140ed89d382a05d76020edbdd1c1374187c66d184574dfbd8575c9221461c",
+      "bytes": 763712,
+      "pages": 37
+    },
+    "CPOR_IS_Coherent_Supplement_Clean_20261109.pdf": {
+      "sha256": "d9772249c7d2d0b9623a9f5fb2d853534415beb8912da66f3d62d7c63c01e880",
+      "bytes": 227248,
+      "pages": 13
+    },
+    "CPOR_IS_Coherent_Cover_Letter_Clean_20261109.pdf": {
+      "sha256": "e62589b90902254dab6761f12058c953e10cb79e87da03d6e68c2bb5dc5ad3c3",
+      "bytes": 38361,
+      "pages": 1
+    },
+    "CPOR_IS_Coherent_Manuscript_LaTeX_20261109.zip": {
+      "sha256": "861d225ac2b4c7582bc568299afa0f65419472059438eba2cc8688fa730e59b0",
+      "bytes": 193829
+    },
+    "CPOR_IS_Coherent_Editable_Project_20261109.zip": {
+      "sha256": "2f371ae8406c5ffb3553bf0b8320c293ddd2f7192ecc54ad68e48284e12b0c59",
+      "bytes": 346330
+    },
+    "CPOR_OR2_Compact_v11_Coherent_PIR_20261109.zip": {
+      "sha256": "beb65ced252e2457eb44eb41a6bb7b3b6ace46869d99b0025a32b455a0731588",
+      "bytes": 9157304
+    }
+  }
+}

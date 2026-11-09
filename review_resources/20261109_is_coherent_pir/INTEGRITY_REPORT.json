@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "prior_frozen_files_preserved": true,
+  "original_main_and_supplement_numeric_cells_preserved": true,
+  "new_main_Coherent_PIR_cells": 42,
+  "new_supplement_mean_sd_pairs": 42,
+  "all_equations_theorems_and_other_tables_unchanged": true,
+  "figure1_and_figure2_byte_identical": true,
+  "requested_cover_paragraph_remains_deleted": true,
+  "references_and_numbering_checked": true,
+  "pdfs": {
+    "CPOR_IS_Coherent_Cover_Letter_Clean_20261109.pdf": {
+      "pages": 1,
+      "sha256": "e62589b90902254dab6761f12058c953e10cb79e87da03d6e68c2bb5dc5ad3c3",
+      "bytes": 38361
+    },
+    "CPOR_IS_Coherent_Manuscript_Clean_20261109.pdf": {
+      "pages": 37,
+      "sha256": "fbc140ed89d382a05d76020edbdd1c1374187c66d184574dfbd8575c9221461c",
+      "bytes": 763712
+    },
+    "CPOR_IS_Coherent_Supplement_Clean_20261109.pdf": {
+      "pages": 13,
+      "sha256": "d9772249c7d2d0b9623a9f5fb2d853534415beb8912da66f3d62d7c63c01e880",
+      "bytes": 227248
+    }
+  },
+  "new_experiments": 0,
+  "numerical_scope": "Existing-result arithmetic and recorded checks; no raw-prediction replay or training."
+}

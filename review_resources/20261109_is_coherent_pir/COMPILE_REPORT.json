@@ -1,0 +1,23 @@
+{
+  "Manuscript": {
+    "diagnostics": [],
+    "output": [
+      "Output written on H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_information_"
+    ],
+    "success": true
+  },
+  "Supplement": {
+    "diagnostics": [],
+    "output": [
+      "Output written on H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_information_"
+    ],
+    "success": true
+  },
+  "Cover_Letter": {
+    "diagnostics": [],
+    "output": [
+      "Output written on H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_information_"
+    ],
+    "success": true
+  }
+}

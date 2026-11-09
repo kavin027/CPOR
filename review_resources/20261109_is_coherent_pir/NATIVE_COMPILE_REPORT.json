@@ -1,0 +1,29 @@
+{
+  "main": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"path\":\"H:/Codex/FcConvMixer/IJEPES_RR_RECAP/output/cpor_information_sciences_coherent_pir_20261109/source/main.tex\",\"mainDocument\":\"H:\\\\Codex\\\\FcConvMixer\\\\IJEPES_RR_RECAP\\\\output\\\\cpor_information_sciences_coherent_pir_20261109\\\\source/main.tex\",\"kind\":\"success\",\"message\":\"The current source compiled successfully with the desktop editor's compiler.\"}"
+      }
+    ],
+    "isError": false
+  },
+  "supplement": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"path\":\"H:/Codex/FcConvMixer/IJEPES_RR_RECAP/output/cpor_information_sciences_coherent_pir_20261109/source/supplement/main.tex\",\"mainDocument\":\"H:\\\\Codex\\\\FcConvMixer\\\\IJEPES_RR_RECAP\\\\output\\\\cpor_information_sciences_coherent_pir_20261109\\\\source\\\\supplement/main.tex\",\"kind\":\"success\",\"message\":\"The current source compiled successfully with the desktop editor's compiler.\"}"
+      }
+    ],
+    "isError": false
+  },
+  "cover": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"path\":\"H:/Codex/FcConvMixer/IJEPES_RR_RECAP/output/cpor_information_sciences_coherent_pir_20261109/correspondence/Cover_Letter.tex\",\"mainDocument\":\"H:\\\\Codex\\\\FcConvMixer\\\\IJEPES_RR_RECAP\\\\output\\\\cpor_information_sciences_coherent_pir_20261109\\\\correspondence/Cover_Letter.tex\",\"kind\":\"success\",\"message\":\"The current source compiled successfully with the desktop editor's compiler.\"}"
+      }
+    ],
+    "isError": false
+  }
+}
