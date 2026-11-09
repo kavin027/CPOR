@@ -1,0 +1,46 @@
+{
+  "document_version": "is-minor-20261109",
+  "target_journal": "Information Sciences",
+  "scientific_code_version": "scientific-review-20261109",
+  "scientific_code_url": "https://github.com/kavin027/CPOR/tree/scientific-review-20261109",
+  "numerical_input_version": "unified-v11-20261108",
+  "compact_resource_version": "compact-submission-20261109",
+  "previous_is_version": "is-transfer-20261109",
+  "changes": [
+    "15 duplicate paragraph-heading periods",
+    "standard CRediT roles",
+    "current document/resource mapping"
+  ],
+  "figure1_unchanged": true,
+  "new_experiments": 0,
+  "evidence_scope": "Stored-result arithmetic, node-to-level aggregation and previously recorded protection checks. Full raw-prediction replay/training inputs are not included.",
+  "files": {
+    "CPOR_IS_Minor_Manuscript_Clean_20261109.pdf": {
+      "sha256": "4cf2c9744e00e7e689c6499848c60eb410ff85fb48d90bf21ee4bd087029c170",
+      "bytes": 719230,
+      "pages": 37
+    },
+    "CPOR_IS_Minor_Supplement_Clean_20261109.pdf": {
+      "sha256": "3eef8960806f529bb3358f475242880a7291bc2bea93f71afccc4ac1c99d3225",
+      "bytes": 226772,
+      "pages": 13
+    },
+    "CPOR_IS_Minor_Cover_Letter_Clean_20261109.pdf": {
+      "sha256": "12e6c7d1d10cc7ac74a981a5778862b60b12b449081419641e1f7766e2c7ff4f",
+      "bytes": 39019,
+      "pages": 1
+    },
+    "CPOR_IS_Minor_Manuscript_LaTeX_20261109.zip": {
+      "sha256": "6d5dc3b318c833982f3569c3ccfa8253a67924595c70a69fe38e1d612bd3c7f7",
+      "bytes": 193294
+    },
+    "CPOR_IS_Minor_Editable_Project_20261109.zip": {
+      "sha256": "be620ab2b1926e98c8f8d431f699e8a71c73221b0a35e8fa5645ba5ed341e1ff",
+      "bytes": 345808
+    },
+    "CPOR_OR2_Compact_v11_20261109.zip": {
+      "sha256": "c135f829cc6716a8198fb83c42f1362197bbd3b6c87efb90132f45ea40ec6726",
+      "bytes": 9154123
+    }
+  }
+}

@@ -1,6 +1,15 @@
 # CPOR resource index
 
-## Current document alignment — 9 November 2026
+## Current Information Sciences documents — 9 November 2026
+
+Start with the [IS minor-revision document map](review_resources/20261109_is_minor/README.md)
+and [exact PDF/source/resource hashes](review_resources/20261109_is_minor/DOCUMENT_VERSION.json).
+The current main paper has 37 pages and the supplement 13. The fixed scientific code/specification
+version remains scientific-review-20261109; compact OR2 v11 is unchanged. This is a punctuation,
+CRediT and document-index update with no experiment changes. The compact archive checks stored
+result arithmetic and audit summaries; full raw-input replay and retraining are separate.
+
+## Earlier KAIS document alignment — 9 November 2026
 
 [Current clean-PDF version map](review_resources/20261109_clarity_minor/README.md) and [file hashes](review_resources/20261109_clarity_minor/DOCUMENT_VERSION.json) identify the 24-page manuscript and 17-page supplement. This wording-only update corrects the S5 protocol description; the numerical records, OR2 v11 and all experiments remain unchanged. The older receipts below identify their corresponding older PDFs.
 

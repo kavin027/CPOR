@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "original_frozen_files_unchanged": true,
+  "scientific_body_unchanged": true,
+  "abstract_unchanged": true,
+  "all_equations_theorems_and_table_cells_unchanged": true,
+  "supplement_scientific_content_unchanged": true,
+  "cross_document_references_checked": true,
+  "figures": {
+    "images/Fig1_CPOR_Framework.pdf": "94d9236bf979fca5ae7da1af22869fc4c8676f1263398b6783993f1c1ab62e09",
+    "artwork/Fig1_CPOR_Framework.svg": "6dc3c768fb80a9ddd20e54eb5a77521e8ebb8c6e874dc72e32f2c9d5d31113ce",
+    "images/Fig2_Protection_Tradeoffs.pdf": "d1e68a149ba40c81471a994e21c1a9e0209c114b576ff6b3b5a510d7857129ae",
+    "artwork/Fig2_Protection_Tradeoffs.svg": "0ee11fc7f39f1f778e6ac6c9bafd9230286942085edab078921ff363f83fb88d"
+  },
+  "pdfs": {
+    "CPOR_IS_Minor_Cover_Letter_Clean_20261109.pdf": {
+      "pages": 1,
+      "sha256": "12e6c7d1d10cc7ac74a981a5778862b60b12b449081419641e1f7766e2c7ff4f",
+      "bytes": 39019
+    },
+    "CPOR_IS_Minor_Manuscript_Clean_20261109.pdf": {
+      "pages": 37,
+      "sha256": "4cf2c9744e00e7e689c6499848c60eb410ff85fb48d90bf21ee4bd087029c170",
+      "bytes": 719230
+    },
+    "CPOR_IS_Minor_Supplement_Clean_20261109.pdf": {
+      "pages": 13,
+      "sha256": "3eef8960806f529bb3358f475242880a7291bc2bea93f71afccc4ac1c99d3225",
+      "bytes": 226772
+    }
+  },
+  "new_experiments": 0,
+  "or2_original_zip_unchanged": true,
+  "or2_stored_result_checks_passed": true,
+  "scope": "Formatting and existing-record verification only; no raw trajectory replay or training."
+}
