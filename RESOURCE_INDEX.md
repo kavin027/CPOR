@@ -1,6 +1,12 @@
 # CPOR resource index
 
-## Current Information Sciences documents — 9 November 2026
+## Current Information Sciences submission files — 9 November 2026
+
+[Current document map and final cover letter](review_resources/20261109_is_cover_final/README.md).
+Only the author-requested cover-letter paragraph was deleted. Scientific manuscript,
+supplement, results, figure assets and compact OR2 are unchanged; the prior release is preserved.
+
+## Previous Information Sciences minor-revision documents — 9 November 2026
 
 Start with the [IS minor-revision document map](review_resources/20261109_is_minor/README.md)
 and [exact PDF/source/resource hashes](review_resources/20261109_is_minor/DOCUMENT_VERSION.json).

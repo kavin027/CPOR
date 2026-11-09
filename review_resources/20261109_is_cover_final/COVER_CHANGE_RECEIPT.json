@@ -1,0 +1,11 @@
+{
+  "only_cover_paragraph_deleted": true,
+  "cover_source_sha256": "dbe1fd1d6742b8a0f9bcc68cfc083e5e9ba40892d02d32250366697ffb6d91ce",
+  "cover_pdf_sha256": "6c67302b216e8430bcee1603ed0aa9dfeecf1dcb41b317565c5087473e5ca23b",
+  "unchanged": {
+    "CPOR_IS_Minor_Manuscript_Clean_20261109.pdf": "4cf2c9744e00e7e689c6499848c60eb410ff85fb48d90bf21ee4bd087029c170",
+    "CPOR_IS_Minor_Supplement_Clean_20261109.pdf": "3eef8960806f529bb3358f475242880a7291bc2bea93f71afccc4ac1c99d3225",
+    "CPOR_IS_Minor_Manuscript_LaTeX_20261109.zip": "6d5dc3b318c833982f3569c3ccfa8253a67924595c70a69fe38e1d612bd3c7f7",
+    "CPOR_OR2_Compact_v11_20261109.zip": "c135f829cc6716a8198fb83c42f1362197bbd3b6c87efb90132f45ea40ec6726"
+  }
+}
