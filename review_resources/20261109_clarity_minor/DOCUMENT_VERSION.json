@@ -1,0 +1,73 @@
+{
+  "document_version": "clarity-minor-20261109",
+  "date": "2026-11-09",
+  "numerical_record_version": "unified-v11-20261108",
+  "files": {
+    "CPOR_Manuscript_Minor_Aligned_Clean_20261109.pdf": {
+      "role": "manuscript",
+      "pages": 24,
+      "bytes": 591045,
+      "sha256": "f68131c975b3741879e13ba368c917ba99afe65c6c98a7cbe71e7b3fd86773cf",
+      "source_sha256": "e1d763340d6acfdd3b2d92610e731430510359d174748f41f1e17f1dc4774f08"
+    },
+    "CPOR_Supplement_Minor_Aligned_Clean_20261109.pdf": {
+      "role": "supplement",
+      "pages": 17,
+      "bytes": 332949,
+      "sha256": "963f189bf22f49bef83c647598cd6cbb4e962e2b4b0acf4edd5a67e5a970f01c",
+      "source_sha256": "dd53dabf9c5e51f1a3eae74ea37dd88010bf08e644bcf4fc81adad477ae4c361"
+    },
+    "CPOR_Cover_Letter_PIR_Consistent_Clean_20261108.pdf": {
+      "role": "cover letter, unchanged",
+      "bytes": 39702,
+      "sha256": "702adfc0ba37bfdcd5a57f7891c2726460b89795791841404509642d71c03c0c"
+    },
+    "CPOR_LaTeX_Minor_Aligned_20261109.zip": {
+      "role": "editable LaTeX sources",
+      "bytes": 245029,
+      "sha256": "b9c11ce73109935d8c785d70cbcf519cde3a486adfe19bfd57407b109c21b86e"
+    },
+    "CPOR_OR2_v11.zip": {
+      "role": "complete submission numerical payload, unchanged",
+      "bytes": 957956873,
+      "sha256": "33663316f5d3d8490f2ac955bc2966c4a25224cd0404b39ae56c8eda659accfd"
+    },
+    "Numerical_Resources_20261108_v11.zip": {
+      "role": "public aggregate numerical records, unchanged",
+      "bytes": 2777388,
+      "sha256": "89938dd839016c56bad1d680fad647b8e1a7c066d06fa58a1b29ab65997e08c3"
+    }
+  },
+  "previous_full_clarity_documents": {
+    "CPOR_Manuscript_Full_Clarity_Clean_20261109.pdf": {
+      "pages": 24,
+      "sha256": "7bdd4fc4467ceb7a57a4207f542762a1ec846836d84ed3dd254ecc8faee6071d"
+    },
+    "CPOR_Supplement_Full_Clarity_Clean_20261109.pdf": {
+      "pages": 17,
+      "sha256": "3638109cb124aee07f3649c272699c43b4ecd39d22e12eefae72a9bd77e64338"
+    }
+  },
+  "changes_from_full_clarity": [
+    "S5 distinguishes the window aggregation from RMSE over all 144 continuous observations.",
+    "Main-paper resource link points to this document-version map."
+  ],
+  "numerical_results_changed": false,
+  "new_experiments": 0,
+  "figure1_preserved": true,
+  "figure_1_sha256": {
+    "images/Fig1_CPOR_Framework.pdf": "94d9236bf979fca5ae7da1af22869fc4c8676f1263398b6783993f1c1ab62e09",
+    "artwork/Fig1_CPOR_Framework.svg": "6dc3c768fb80a9ddd20e54eb5a77521e8ebb8c6e874dc72e32f2c9d5d31113ce"
+  },
+  "numerical_index": "https://github.com/kavin027/CPOR/tree/unified-v11-20261108/review_resources/20261108_unified",
+  "aggregation": {
+    "window": "Average early and late RMSE within each backbone and training run before computing the paired percentage reduction.",
+    "continuous": "Use the single RMSE computed over all 144 observations, then compute the paired percentage reduction.",
+    "dataset_effect": "Within either protocol, average paired reductions over the three backbones and three runs to obtain one effect per dataset."
+  },
+  "checks": {
+    "aggregate_command": "python current/check_tables.py",
+    "stored_trajectory_command": "python current/check_tables.py --trajectories",
+    "scope": "Aggregate checking uses public records. Stored-trajectory checking additionally needs the complete submission payload; neither command retrains backbones or reruns forecast-release optimization."
+  }
+}

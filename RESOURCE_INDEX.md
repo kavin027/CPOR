@@ -1,5 +1,9 @@
 # CPOR resource index
 
+## Current document alignment — 9 November 2026
+
+[Current clean-PDF version map](review_resources/20261109_clarity_minor/README.md) and [file hashes](review_resources/20261109_clarity_minor/DOCUMENT_VERSION.json) identify the 24-page manuscript and 17-page supplement. This wording-only update corrects the S5 protocol description; the numerical records, OR2 v11 and all experiments remain unchanged. The older receipts below identify their corresponding older PDFs.
+
 ## Current unified seven-dataset update
 
 Start with [OR2 v11](review_resources/20261108_unified/README.md), [aggregate records/checker](review_resources/20261108_unified/Numerical_Resources_20261108_v11.zip), [version map](review_resources/20261108_unified/CURRENT_VERSION.json) and [submission receipts](review_resources/20261108_unified/FINAL_RECEIPT.json).
