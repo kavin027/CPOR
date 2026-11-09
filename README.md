@@ -8,6 +8,10 @@ CPOR derives the exact one-step protection set for nodewise cumulative squared-e
 
 ## Current manuscript and numerical resources
 
+The [frozen compact submission](review_resources/20261109_compact_submission/README.md)
+uses the unchanged AI-declaration scientific PDFs and one integrated compact OR2.
+The older full OR2 and check addendum remain historical resources.
+
 The [AI-use declaration update](review_resources/20261109_ai_disclosure/README.md)
 contains the current main PDF and matching sources; the Supplement, selected
 cover letter and numerical evidence are unchanged.
