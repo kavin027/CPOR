@@ -1,5 +1,11 @@
 # CPOR
 
+## Current manuscript evidence — Machine Learning revision (13 November 2026)
+
+[MLJ-R1-20261113: run-level results, check command, supplemental archive map and manuscript checksums](review_resources/mlj-r1-20261113/README.md)
+
+### Previous releases
+
 **Cumulative Protection for Online Reconciliation**
 
 Code and results for CPOR: Cumulative Protection for Online Reconciliation with Nodewise Error Limits, Lei Zhang, Capital Normal University.

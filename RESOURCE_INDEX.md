@@ -1,5 +1,11 @@
 # CPOR resource index
 
+## Current manuscript evidence — Machine Learning revision (13 November 2026)
+
+[MLJ-R1-20261113: run-level results, check command, supplemental archive map and manuscript checksums](review_resources/mlj-r1-20261113/README.md)
+
+### Previous releases
+
 ## Current Information Sciences Coherent PIR comparison — 9 November 2026
 
 [Current document and numerical map](review_resources/20261109_is_coherent_pir/README.md)
