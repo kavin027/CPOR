@@ -1,0 +1,7 @@
+paper_location,quantities,root,records,check_command
+"Main Table 9 and Supplement, unprotected violations",Counts and finite severity by candidate and protocol,This directory,SEVERITY.csv | SEVERITY_BY_STREAM.csv | ORDER_STATISTICS.csv,python check_provenance.py
+Main Table 13 and Supplement S23,November original regional and overall RMSE timing and protection,OR2,november/rmse.csv | november/audits.csv | november/paired_gains.csv | november/release_times.csv,python check_results.py
+Supplement S24,November timing and matched midpoint reset,OR2,november/rmse.csv | november/release_times.csv | november/timing_summary.csv,python check_results.py
+Supplement S25,NNLS and alternative reference,OR2,revision/refstats/REFERENCE_TRAJECTORIES.csv | revision/refstats/REFERENCE_SUMMARY.csv,python revision/refstats/check_refstats.py
+Supplement S26,November delay-specific streams and clocks,OR2,revision/aemo/delay_runs.csv | revision/aemo/delay_summary.csv | revision/aemo/release_records/ | revision/aemo/vintage_records.csv,python revision/aemo/check_aemo.py
+Fixed-partition certificate and Supplement S9,37/126 and 14/63 matched held sequences,OR2,fixed_groups/exact_grid.csv | fixed_groups/node_moments.csv | fixed_groups/corner_audit.csv | fixed_groups/archive_inputs.sha256,python fixed_groups/check_certificate.py
