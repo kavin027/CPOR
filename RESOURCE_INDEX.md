@@ -1,5 +1,8 @@
 # CPOR resource index
 
+**Current Machine Learning revision:** [MLJ-V13-20261113 · files, evidence and numbering map](review_resources/mlj-v13-20261113/README.md)
+
+
 ## Current Machine Learning evidence
 
 [MLJ-V12-20261113: new controls, delay and reference analyses, submission hashes and checks](review_resources/mlj-v12-20261113/README.md)

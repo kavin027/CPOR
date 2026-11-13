@@ -1,0 +1,11 @@
+predecessor_table,current_table,subject
+6,6,Window accuracy
+7,7,Continuous accuracy
+8,8,Protection cost
+8a,9,Full vs fixed two-group by dataset
+9,10,Prefix compliance
+10,11,Target controls
+11,12,Selected levels
+12,13,AEMO whole month
+13,14,November immediate feedback
+14,15,First-report clock
