@@ -1,6 +1,10 @@
 # CPOR resource index
 
-## Current manuscript evidence — Machine Learning revision (13 November 2026)
+## Current manuscript files
+
+[Final editorial revision: submission checksums and fixed R2 numerical resource](review_resources/mlj-r2-final-20261113/README.md)
+
+## Numerical evidence — Machine Learning revision (13 November 2026)
 
 [MLJ-R2-20261113: run-level results, check command, supplemental archive map and manuscript checksums](review_resources/mlj-r2-20261113/README.md)
 
