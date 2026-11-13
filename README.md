@@ -1,5 +1,10 @@
 # CPOR
 
+## Current Machine Learning evidence
+
+[MLJ-V12-20261113: new controls, delay and reference analyses, submission hashes and checks](review_resources/mlj-v12-20261113/README.md)
+
+
 ## Current manuscript files
 
 [Final editorial revision: submission checksums and fixed R2 numerical resource](review_resources/mlj-r2-final-20261113/README.md)

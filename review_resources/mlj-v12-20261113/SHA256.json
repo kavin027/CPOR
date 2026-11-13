@@ -1,0 +1,16 @@
+{
+  "check_public.py": "570566a01a61c5fc7c8415b2001250cd311a3f94928e6e7deec71e04cf57f4a6",
+  "clock_new/nnls_scores.csv": "9addbd242daee42ae563c20b2423a365ed818309afe71ecbcd1de592771fccdc",
+  "clock_new/stream_scores.csv": "6d317d51ecc3e397b3ed3ad0d78e682cd5b65ba82ff86561ba346284f35ec14b",
+  "controls_new/check_controls.py": "a8121aad56afa075dbf82c2e03468f9cfeba020da75e4d63dc9104785299e270",
+  "controls_new/dataset_effects.csv": "cee21476dc8ebef7116ae33cbccad3354b37bcd6c253195e1e473601d90523e5",
+  "controls_new/stream_records.csv": "062a60dfa243b4ba4eea74c09f3454f348444333e16ddb61684c51fac7437b2b",
+  "controls_new/summary.csv": "9b91a383fcd4f04bb46abac02722f57b5e32176cb8f65ba752f051549b346c24",
+  "FILES.json": "fdc4b76d475cbb7b60aa1a5f9b5918921d7e6a960282302bd0a5cc589f2e318b",
+  "presentation/dataset_effects.csv": "4ab54f9e119f1d4a846e0612704eb9c970217f12fd6e6915ce2456a678a88538",
+  "presentation/heatmap.csv": "f85669096d3a5c0d1c18626c94d06a6b085e0a73ba9c573f9a76fd57f0361100",
+  "presentation/region_scale.csv": "60069de1bbdec2b9db029aee43f98308d905410e9a8fc436d2ba479fb651c9a4",
+  "README.md": "589e0623ae1b79ffc3aec573cf1f3eef6349a580368a771a71d1f70a2010b2f9",
+  "theory_new/check_theory.py": "b08d9c1f177e85c7ba5368d4404f979d1e7280c1ba4e455d471e8a97ce108e28",
+  "theory_new/PRIMARY_SOURCES.md": "121b808dbdeadd7b4e1e8c8500021f90403107585714bca9694c2b1df8cbac39"
+}
