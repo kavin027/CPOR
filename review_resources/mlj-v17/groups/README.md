@@ -1,0 +1,22 @@
+# Full projection and componentwise Independent publication
+
+From this directory run `python check.py` in a Python 3.11 environment with NumPy, pandas and SciPy. The script verifies the payload hashes, rebuilds every statistical and geometry table from unrounded issue and node summaries, and checks representative releases against their latent boxes. The examples retain aggregation matrices, reference and candidate bounds, and released predictions; they do not contain observations. Pooled timing uses seven matched DLinear continuous paths (one training run); the measured rules include their own certification work.
+
+## Data and comparisons
+
+The 189 streams cover seven datasets, three backbones, three runs and three paths per combination (two 72-issue windows and one 144-issue continuous path). For mean-node RMSE, first average nodes on each path, then average the two windows within a paired run, compute the paired gain, and finally weight runs, backbones and datasets equally. Positive gain favors Full. Absolute differences are given in each dataset's original unit. Per-node wins compare each node’s average RMSE across runs and backbones within its dataset. Reference units for RH remain unspecified in its source.
+
+Continuous was the prespecified primary protocol for the historical-grid Independent evaluation. The window result is secondary. The two-protocol family check treats both together. Dataset percentile intervals use all ordered resamples of seven entire datasets; the exact sign-flip checks enumerate the 128 whole-dataset sign assignments. These summaries quantify sensitivity across the seven benchmarks.
+
+## Geometry and score decomposition
+
+Full and Independent receive identical reference and candidate forecasts, with separate realized balances. For the geometric test only, fix the two archived endpoint witnesses before observing the outcome. Test whether any componentwise intermediate witness can reproduce the released Full prediction within the reported observation tolerances. A stored witness can leave its component box even when another witness replicates the forecast. The issue records distinguish direct coordinate crossings, joint separating certificates and feasible alternative witnesses. The diagnosis deliberately fixes the endpoint representations. `box.py` implements the acceptance rules, and the examples are chosen as the first encountered witness excursion in each dataset and classification under the archived input index. Exact support checks use rational representations of supplied floats.
+
+For issue-attribution within node j, sum (squared Independent error minus squared Full error) over selected dates and divide by the common factor T times (node RMSE under Independent plus node RMSE under Full). This yields additive contributions in the node's original unit. For the matched-state calculation separately, rerun Independent at every issue using Full’s preissue allowance. Score these one-step actions and always settle the archived Full action. The resulting M* measures a sequence of one-step alternatives, without its own ledger. Compare M* with the two online scores as in followup.tex.
+
+The weighted squared candidate distance uses the archived diagonal variances. For its numerical diagnostic, count (D_F-D_I)/(1+D_I)>0.000001 at the same preissue balance. This scale has an absolute floor near zero. The mathematical distance ordering concerns the exact optimizers. Real predictions also reflect the implementation’s solver tolerances and inward margins.
+
+## Inputs and replay
+
+`node_geometry.csv.gz` records unrounded per-path, per-node scores, issue-class contributions and counts. `issue_geometry.csv.gz` gives the classification, same-state objective values and realized contributions at every release. `matched_time.csv.gz` contains paired publication timings. All other tables can be rebuilt from these files. To recompute the entire audit from original forecast arrays, the study source driver `geometry.py` requires the v16 `run_groups.py` environment, the 189-input index supplied in the v15 kit, the matching unified forecast cache, and saved online Independent predictions in the v16 run directory. Set CPOR_V16_GROUPS to a directory containing `run_groups.py` when using a different checkout, then run `python geometry.py --archive CACHE --index INPUTS.csv --runs INDEPENDENT_RUNS`. To regenerate the compact records locally, `reduce_geometry.py` uses the original repository's archive-directory layout. The portable checker does not require those external inputs.
+

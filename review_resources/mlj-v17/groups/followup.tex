@@ -1,0 +1,29 @@
+% v17 supplement: self-contained material for the Full--Independent contrast.
+\paragraph{Paired effects against componentwise shrinkage.}
+Independent may choose a different coefficient for each underlying component. It uses the same objective, coherent PIR target, reference and error limit as Full. The primary contrast fixed before the v16 replay was the mean-node RMSE reduction on the continuous protocol. The following table gives the mean difference in original units (Independent minus Full) and the mean paired percentage. We average the two window RMSEs within each dataset, backbone and training run before forming a window percentage. The dataset summaries weight the backbone--run pairs equally. The units column applies to both absolute differences.
+
+\begin{center}\small
+\begin{tabular}{llrrrr}\toprule
+ & & \multicolumn{2}{c}{Window} &\multicolumn{2}{c}{Continuous}\\
+Dataset & Unit & Difference & Gain (\%) & Difference & Gain (\%)\\\midrule
+AEMO & MW & 1.5039 & 0.2072 & 1.7310 & 0.2715\\
+ECommerce & Items & $-0.0642$ & $-0.0042$ & $-0.0581$ & $-0.0036$\\
+Labour & Thousand persons & 0.0262 & 0.1562 & 0.0420 & 0.2402\\
+M5 & Items & 0.4505 & 0.1046 & 0.4300 & 0.1015\\
+RH & Unspecified & 5.1424 & 0.4125 & 5.8350 & 0.4392\\
+Traffic & Dimensionless & 0.0045 & 0.1164 & 0.0036 & 0.0934\\
+Wiki2 & Page views & $-1.4645$ & $-0.0566$ & 0.5048 & 0.0159\\\bottomrule
+\end{tabular}\end{center}
+
+Across seven equally weighted datasets, Full's mean continuous improvement was 0.16545\% (six positive effects). The 95\% percentile interval from all $7^7$ ordered dataset resamples was [0.06365, 0.27980]\%. In windows the mean was 0.13372\% (five positive effects), with interval [0.03630, 0.24394]\%. These intervals describe sensitivity to reweighting the seven selected datasets. The exact two-sided sign-flip $p$ was 0.03125 for the primary continuous contrast and 0.0625 for the secondary window contrast. Grouping the two Full--Independent contrasts into one Holm family gives adjusted $p=0.0625$ for both. The Common and fixed-two comparisons address different hypotheses. No operational equivalence margin was specified. In the existing serial timing replay, Full and Independent took 3.862 and 2.294\,ms per release on average (95th percentiles 10.110 and 6.176\,ms). This comparison uses one DLinear continuous trajectory per dataset and 1,008 releases per rule.
+
+\paragraph{Where the extra freedom changes the release.}
+Let $l$ and $h$ denote the componentwise minimum and maximum of the archived reference and candidate witnesses at the current issue. The observed forecasts attainable by componentwise interpolation lie in $\{Sw:l\le w\le h\}$ before imposing the release intervals. We compared the stored Full prediction $p$ with this set using observed-coordinate tolerances $\delta_i=2(2\times10^{-6}+10^{-8}|p_i|)$. A coordinate below $(Sl)_i-\delta_i$ or above $(Sh)_i+\delta_i$ suffices to exclude the box. Otherwise a bounded feasibility program searches for any witness. We accept an explicit witness within tolerance or verify a separating linear functional against the entire box. All 18,144 issues were classified. The test keeps both endpoint witnesses fixed and allows alternative representations of the published forecast within that box.
+
+In the continuous ECommerce streams the stored Full witness left the latent box at 1,287 of 1,296 issues. At 1,230 of these issues a different witness within the box reproduced the observed forecast within tolerance; only 57 releases required movement outside the box. In RH, 989 releases were outside, and 938 of them required a joint separation test. On Wiki2, 1,287 continuous releases left the box. Of the 53,046 node--issue pairs where Full crossed the scalar range $[(Sl)_i,(Sh)_i]$ beyond tolerance, Full's actual absolute error was smaller than Independent's in 24,244 and larger in 28,802. At the bottom level Full improved 69 of 150 Wiki2 series when each series' RMSE was averaged across the nine streams. The largest bottom-series deterioration was 5.212\%. The corresponding numbers of improving bottom series were 22/32 on Labour, 12/30 on M5 and 166/200 on Traffic. On the AEMO continuous streams, all 1,294 individual range crossings were at the five regions, and Full was more accurate on 847 of them. For Tasmania it was more accurate on only 27 of 85 crossings.
+
+\paragraph{Current action and earlier releases.}
+To hold the available allowance fixed, we replayed Independent once at the start of every issue from Full's own realized allowance. We scored those actions against the next observations and settled the original Full release. Let $M_I$ and $M_F$ be the online path scores for Independent and Full, and $M_*$ the score formed from these matched-state actions. We split $100(M_I-M_F)/M_I$ into $100(M_*-M_F)/M_I$ and $100(M_I-M_*)/M_I$. In continuous evaluation the two terms contributed 0.1140 and 0.0515 percentage points; in windows they contributed 0.1134 and 0.0203. These terms use Full's path as the reference for this diagnostic; a policy that actually released the matched-state actions would develop a different allowance.
+
+For the same-state target-distance check we use $D(p)=\sum_i(p_i-z_i)^2/v_i$, where $v_i$ is the archived projection variance. The stored Full release had $(D_F-D_I)/(1+D_I)>10^{-6}$ in 31 of 18,144 same-state comparisons. The largest normalized excess was $2.073\times10^{-6}$ and the largest absolute excess was $7.853\times10^{-6}$ in weighted squared-distance units. These small reversals concern the numerically accepted releases and their interior margins. The ideal projection comparison applies to exact minimizers on nested sets.
+

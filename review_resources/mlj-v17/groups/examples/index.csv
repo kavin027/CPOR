@@ -1,0 +1,11 @@
+dataset,case,issue,box,latent_witness_out,node_low,node_high,file
+AEMO,AEMO_DLinear_1_continuous,11,out_coordinate,1,1,0,AEMO_out_coordinate.npz
+ECommerce,ECommerce_DLinear_1_continuous,2,in_lp,98,0,0,ECommerce_in_lp.npz
+ECommerce,ECommerce_DLinear_1_continuous,9,out_joint,97,0,0,ECommerce_out_joint.npz
+Labour,Labour_DLinear_1_continuous,2,out_coordinate,3,3,1,Labour_out_coordinate.npz
+M5,M5_DLinear_1_continuous,2,out_coordinate,3,0,3,M5_out_coordinate.npz
+RH,RH_DLinear_1_continuous,2,in_lp,24,0,0,RH_in_lp.npz
+RH,RH_DLinear_1_continuous,6,out_joint,26,0,0,RH_out_joint.npz
+RH,RH_DLinear_1_continuous,31,out_coordinate,28,0,2,RH_out_coordinate.npz
+Traffic,Traffic_DLinear_1_continuous,2,out_coordinate,29,2,27,Traffic_out_coordinate.npz
+Wiki2,Wiki2_DLinear_1_continuous,2,out_coordinate,25,8,17,Wiki2_out_coordinate.npz
