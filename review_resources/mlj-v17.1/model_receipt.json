@@ -1,0 +1,29 @@
+{
+  "dataset": "AEMO",
+  "run": 1,
+  "backbone": "DLinear",
+  "torch": "2.11.0+cu128",
+  "model_sha256": "e0f0e443ab01af8acf8ed350430d5aee42f2d73dffa7d2d5f5864fe7f13c9dfa",
+  "pir_sha256": "b3973d26ace8197038efc9d733a2c01b76a1b9e4ecac3b27f20f364b09e2b06d",
+  "DLinear_export": "6c59bb35954a3cf6951f17ed3e4641f5afe32d500a1dc778c5d8a19669ca7ecb",
+  "PIR_export": "d2d3167e6d4dd81661af7ba1b73259f230b393116d4e876625528720cb42d79f",
+  "original_forecast_npz_sha256": "4944a075b1487a6aebfd29a2d9c27b3c0a6b0abe5c9548ccaf30f44ac98db558",
+  "retrieval_cutoff": "2026-09-30 06:00 NEM time",
+  "source_data_sha256": "7a382597c203ceace2e693848109029ca3a41027ddbc8b3a732e65cda86019cc",
+  "mean": [
+    24062.875613247863,
+    8377.995366809118,
+    6928.544494301996,
+    1609.7733725071225,
+    1134.991391025641,
+    6011.570988603989
+  ],
+  "sd": [
+    3313.5448022619667,
+    1156.4990775813758,
+    1055.350166253448,
+    266.2933349485783,
+    106.30061196935821,
+    889.7387185312443
+  ]
+}

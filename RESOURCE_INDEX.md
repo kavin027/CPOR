@@ -1,6 +1,8 @@
 # CPOR resource index
 
-**Current evidence (MLJ v17):** [Full and componentwise shrinkage, delayed first-report replays and independently checked trajectory certificates](review_resources/mlj-v17/README.md).
+**Current release (MLJ v17.1):** [Revised table map, training coverage and model-to-publication example](review_resources/mlj-v17.1/README.md).
+
+**Frozen computational evidence (MLJ v17):** [Full and componentwise shrinkage, delayed first-report replays and independently checked trajectory certificates](review_resources/mlj-v17/README.md).
 
 **Historical evidence (MLJ v16):** [Stronger protected rules, certificate scope and first-report demand replay](review_resources/mlj-v16/README.md).
 
