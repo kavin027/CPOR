@@ -1,6 +1,8 @@
 # CPOR resource index
 
-**Current Machine Learning revision:** [MLJ-V13-20261113 · files, evidence and numbering map](review_resources/mlj-v13-20261113/README.md)
+**Current evidence (MLJ v15):** [Two independently checkable examples, all 189 path certificates, and the November release replay](review_resources/mlj-v15/README.md). [Download the two-example ZIP](review_resources/mlj-v15/CPOR_Two_Examples.zip).
+
+**Previous Machine Learning revision:** [MLJ-V13-20261113 · files, evidence and numbering map](review_resources/mlj-v13-20261113/README.md)
 
 
 ## Current Machine Learning evidence
