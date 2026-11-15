@@ -1,0 +1,13 @@
+{
+  "protocol": "6d8fe62eadcc6e2e84298afff144fb4453e0f58e1f0d88d934a00919f5e3c8a6",
+  "data": "46820726c0dd52dd5bbc243f49df942805652ebf402a0551b4cfca9d7815d7dd",
+  "ckpt": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_aemo_full_three_runs_20261107\\runs\\PatchTST\\1\\models\\PatchTST\\best.ckpt",
+  "ckpt_hash": "a0e23cf90aa70cc4abb6dd76555db276d754f208be06049e62df2ae60a879aa8",
+  "pir": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_aemo_full_three_runs_20261107\\runs\\PatchTST\\1\\models\\PatchTST\\PIR_checkpoint.pt",
+  "pir_hash": "06abe6c417ac8b44ca66d57f246f632955a76f6761f98b925aff07f5282fba1b",
+  "october_replay_max_mw": {
+    "raw": 0.0,
+    "pir": 0.0
+  },
+  "sha256": "e76972c7b5060be1492aaa63760cfb7d01520c2ed054930fdd0a9ad79db6c40a"
+}

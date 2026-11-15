@@ -1,0 +1,15 @@
+% Insert in S7; does not change existing table or equation numbers.
+\paragraph{Candidate settings.}
+\begin{center}\small
+\begin{tabular}{@{}p{.27\linewidth}p{.65\linewidth}@{}}
+\toprule
+Component & Frozen setting\\\midrule
+Bias and lag rules & Bias corrections average the most recent 3, 7, 14 or 28 returned base errors. The remaining lag rules use the latest returned observation, the mean of the last seven returned observations and the seven-issue lag.\\
+Ridge error correction & Per node, standardize six features on the fitting history: supplied forecast, latest returned observation, seven-observation mean, position in the 12-issue block divided by 12, and sine/cosine of day of week. Regress the base error divided by $\sqrt{v_i}$ on these features with intercept and ridge coefficient 10. Use up to 36 returned records; the benchmark starts this fit at 12.\\
+Cov & Up to 28 returned error vectors; $\rho=0.1$, $\tau=10^{-6}$ and $\gamma_{\min}=10^{-12}$. An empty history gives uniform weights over the nine experts.\\
+ML & Start with nine equal weights per node. Cumulative gains and cumulative squared gains start at zero. Divide the positive cumulative gain by one plus cumulative squared gain before normalization; all zero scores give uniform weights.\\
+Node scale & Before calibration, compute the population variance $v_i^0$ of each node. Set $v_i=\max\{v_i^0,10^{-12},10^{-6}m\}$, where $m$ is the median of the $v_i^0>10^{-12}$, or zero when that set is empty.\\
+\bottomrule
+\end{tabular}
+\end{center}
+

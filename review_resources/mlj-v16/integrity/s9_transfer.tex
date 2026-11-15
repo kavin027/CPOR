@@ -1,0 +1,13 @@
+% Insert after S9's two-sided trajectory certificate.
+\paragraph{Stored endpoints and literal underlying directions.}
+With the recorded reference $b_t$ and candidate $z_t$, write $e^b_t=Su_t^b-b_t$ and $e^z_t=Su_t^z-z_t$, treating stored numbers as binary rationals. The certified interval for $V$ concerns the affine map $p_t=b_t+D_tx_t$ in Eq.~\eqref{eq:pathobjective}, whose second direction closes on $z_t-b_t$. Direct summation over the second group instead gives $\widetilde D_{t,2}=D_{t,2}+e^z_t-e^b_t$. The first direction is unchanged. We recomputed the norm and constraint cuts with $\widetilde D_t$ throughout the objective and every term of Eq.~\eqref{eq:pathconstraint}. Denote this verified lower bound by $\widetilde L$. It concerns the release $p^0_t=b_t+\widetilde D_tx_t$ with the original contract reference.
+
+Using both underlying witnesses literally gives $p^w_t=Su^b_t+\widetilde D_tx_t=p^0_t+e^b_t$. To also allow the stored reference as a fallback, set $x_t=0$ whenever it is released. At the first issue every feasible rule must release the reference, so use $x_1=0$. Then the discrepancy is bounded by $\delta_{t,i}=|e^b_{t,i}|$ for $t>1$, and by zero for $t=1$. Let $M_{t,i}=\sum_j|\widetilde D_{t,ij}|$ and $\eta=R-1$. Write $r_{t,i}=b_{t,i}-y_{t,i}$. The increase of the past squared loss at $s$ in replacing $p^w$ by $p^0$ is at most
+$\delta_{s,i}\{2(|r_{s,i}|+M_{s,i})+\delta_{s,i}\}$. On either branch of the envelope, the derivative with respect to the revision $d$ has magnitude at most $2(R/\eta)|d|$. Thus $g_{t,i}(p^0)\le H_{t,i}$ for any feasible witness path, where
+\begin{equation}
+ H_{t,i}=\sum_{s<t}\delta_{s,i}\{2(|r_{s,i}|+M_{s,i})+\delta_{s,i}\}
+  +2(R/\eta)\delta_{t,i}(M_{t,i}+\delta_{t,i}).
+ \tag{P4}\label{eq:pathperturb}
+\end{equation}
+The reverse triangle inequality bounds the difference in the two objectives by $\max_{t,i}\delta_{t,i}$. If $\mu_j\ge0$ multiplies a constraint cut for node $i_j$, issue $t_j$, the minimum error of any such witness path is therefore at least $\widetilde L-\max_{t,i}\delta_{t,i}-\sum_j\mu_j H_{t_j,i_j}$. We evaluated this deduction with rationals using the accepted multipliers. All 94 window and 45 continuous strict separations persist. The 32 and 18 reverse comparisons use feasible witnesses for the stored, endpoint-closed class. These computations retain the same chosen underlying representations, partition and contract reference. OR2 gives each trajectory's score interval, downward-rounded separation margin, reconstruction discrepancies and transfer deduction.
+

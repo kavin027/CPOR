@@ -1,0 +1,12 @@
+cut  comparator 
+0    AdaptiveTwo    0.916864
+     Common         2.373435
+     Direct         6.915761
+     Reference      4.179382
+4    AdaptiveTwo    0.935388
+     Common         2.418789
+     Direct         3.676446
+     Reference      4.257376
+Name: overall_gain, dtype: float64
+Node-run wins 48 / 54 median gain 0.46159154794375157 worst {'bb': 'DUET', 'run': '2021', 'node': 'QLD1', 'rmse_ratio': 0.9445767035357284, 'gain': -0.2412157328169462} max ratio 1.0049487514474982
+PASS: regenerated 45 paths; identical 45 largest delta MW 0

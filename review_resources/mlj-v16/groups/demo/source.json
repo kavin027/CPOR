@@ -1,0 +1,28 @@
+{
+  "case": "AEMO_DLinear_1_continuous",
+  "data_source": "AEMO operational demand plus estimated rooftop PV, five NEM regions and sum; October 2026, final 144 half-hours",
+  "dataset_source": [
+    "https://nemweb.com.au/Reports/Current/Operational_Demand/ACTUAL_DAILY/",
+    "https://nemweb.com.au/Reports/Current/ROOFTOP_PV/ACTUAL/"
+  ],
+  "note": "Observed values are aggregated regional MW. Forecasts use frozen model outputs.",
+  "archive": {
+    "context": {
+      "path": "streams/AEMO/DLinear/1/continuous/context.npz",
+      "sha256": "6d30fb3987ff0b3b2b015ec8f30750a4d3a7a0ac36cc95ea4e11dbf9bb98dc52"
+    },
+    "PIRCoherent": {
+      "path": "streams/AEMO/DLinear/1/continuous/carry/PIRCoherent.npz",
+      "sha256": "ccae6d01d52465d9724dca801e3b64ee07bd43b586819a521c3584173a3a86b5"
+    },
+    "PIRFull": {
+      "path": "streams/AEMO/DLinear/1/continuous/carry/PIRFull.npz",
+      "sha256": "7513d33755d72e5f2fdb860e2f98ca4e14df11c1a876533b25d7687fcdfd8696"
+    },
+    "PIRTwoGroup": {
+      "path": "streams/AEMO/DLinear/1/continuous/carry/PIRTwoGroup.npz",
+      "sha256": "285a4215302bc0a3f5212466c2e7cd5089b1e391225bc9a5659dcf593b6b2630"
+    }
+  },
+  "sha256": "8dcc77af0c09ad2f9a8405277f3db9b71e7951d08968312d2631e0c00977cb87"
+}

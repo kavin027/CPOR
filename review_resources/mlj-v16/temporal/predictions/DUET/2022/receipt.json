@@ -1,0 +1,13 @@
+{
+  "protocol": "6d8fe62eadcc6e2e84298afff144fb4453e0f58e1f0d88d934a00919f5e3c8a6",
+  "data": "46820726c0dd52dd5bbc243f49df942805652ebf402a0551b4cfca9d7815d7dd",
+  "ckpt": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_unified_protocol_duet_20261108\\streams\\AEMO\\DUET\\2022\\fits\\month\\model.pt",
+  "ckpt_hash": "19d1a3c2e15e5ad593ccc01edd73c029621b0e1c2ec6f250ee6600ec102ccb47",
+  "pir": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_unified_protocol_duet_20261108\\streams\\AEMO\\DUET\\2022\\month\\external\\PIR_checkpoint.pt",
+  "pir_hash": "4387dc4e00730a9f0239ae037251ee6e4de11f06a5168c8dc5e89f67b597e78f",
+  "october_replay_max_mw": {
+    "raw": 0.0,
+    "pir": 0.0
+  },
+  "sha256": "a433d127a1c9d4d326e356ff145ed1ac4b2e2efdfd3287174d2a5f0dc99712ca"
+}

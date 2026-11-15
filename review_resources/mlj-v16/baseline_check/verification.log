@@ -1,0 +1,37 @@
+LI 16 1152 173 {'Labour': 0, 'M5': 109, 'Traffic': 0, 'Wiki2': 64} extra [0, 0]
+R crosscheck ['stream', 'release', 'max_scaled_diff', 'chosen', 'python_lambda', 'max_prediction_diff'] 17
+{'release': 15.0, 'max_scaled_diff': 4.27234381427907e-10, 'chosen': 100000.0, 'python_lambda': 100000.0, 'max_prediction_diff': 1.2895015970571e-06}
+Robust 22 rank-deficient 18 range by dataset
+          rank        n      off_training_rowspace_fraction          cond_identified                   RobustMN                RobustOrth             
+           min max  min  max                            min      max             min           max          min          max          min          max
+dataset                                                                                                                                               
+ECommerce   14  14   14   14                        0.00000  0.00000       309.90179  7.754818e+02   1943.90476  13666.28894   1943.90476  13666.28894
+Labour      36  36   57   57                        0.00000  0.00194     96251.58460  2.037660e+08    230.08319   1033.60405    229.68655   1033.60405
+M5          36  36   44   44                        0.00000  0.00249     67087.75000  6.770598e+08   4170.60517  14623.98998   4170.60517  14624.22213
+RH           6   6    7    7                        0.00000  0.00000    674041.43569  3.318541e+08   1491.82835   5158.11284   1491.82835   5158.11284
+Traffic     36  36  207  207                        0.00856  0.01769     16070.48568  3.337480e+04     13.56742     64.18067     13.46814     63.53232
+Wiki2       36  36  199  199                        0.05526  0.30256      6381.60856  1.171685e+04  15412.64875  52467.40132  15427.85663  52463.48004
+max normal 1.194053189301957e-09
+protection effect 82.01399421456865 90.5675342056382
+{
+  "data": "Australian births",
+  "paper_ratios": [
+    0.968,
+    0.973
+  ],
+  "measured": [
+    0.9697636282130353,
+    0.9755179472600138
+  ],
+  "source_alpha": 1,
+  "sdps": [
+    0.2504799311816096,
+    0.2504799311816096
+  ],
+  "relative_gap": 0.0,
+  "status": [
+    "optimal",
+    "optimal"
+  ],
+  "note": "Paper-selected alpha; new Prophet fits, independent equivalent solver; no MOSEK run or claim of exact environment replication."
+}

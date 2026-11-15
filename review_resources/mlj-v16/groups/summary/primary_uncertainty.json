@@ -1,0 +1,20 @@
+{
+  "continuous": {
+    "n_datasets": 7,
+    "datasets_favor_full": 6,
+    "mean": 0.16544629282420065,
+    "median": 0.10150089098598257,
+    "min_leave_one_out": 0.11981660138079964,
+    "max_leave_one_out": 0.19361717456461672,
+    "descriptive_signflip_two_sided": 0.03125
+  },
+  "window": {
+    "n_datasets": 7,
+    "datasets_favor_full": 5,
+    "mean": 0.13372483173105842,
+    "median": 0.1163946310935477,
+    "min_leave_one_out": 0.08726002428796127,
+    "max_leave_one_out": 0.1654531213102094,
+    "descriptive_signflip_two_sided": 0.0625
+  }
+}

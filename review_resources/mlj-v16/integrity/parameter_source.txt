@@ -1,0 +1,109 @@
+
+output/cpor_unified_protocol_duet_20261108/protocol_engine.py · context · lines 25–48
+def context(ds,bb,s,part):
+    d=folder(ds,bb,s)/part;d.mkdir(parents=True,exist_ok=True);p=d/'context.npz'
+    if p.exists():return load(p)
+    a=rawdata(ds,bb,s,part);raw,y,S=a['raw'],a['truth'],a['S'];wide,_,_=starts(ds);cal=int(a['cal_start']);v=wide.iloc[:cal].var(ddof=0).to_numpy();positive=v[v>1e-12];v=np.maximum(v,max(1e-12,1e-6*np.median(positive)) if len(positive) else 1e-12);b,ub=old.project(S,raw)
+    tick=time.perf_counter();bank=None;reuse=None
+    if part in ['early','late'] and ds!='AEMO' and bb!='DUET':
+        src=oldsource(ds,bb,part,s)
+        if ds=='Labour' and part=='early':reuse=load(src);bank=reuse['bank']
+        elif (src.parent/'contexts.npz').exists():
+            z=load(src.parent/'contexts.npz')
+            if 'bank' in z:bank=z['bank']
+    if bank is None:bank=fresh.expert_bank(wide,raw,v,cal)
+    n,J=bank.shape[1:];co=[];mo=[];w=np.full((n,J),1/J);regrets=np.zeros_like(w);sq=np.zeros_like(w);scaled=bank/np.sqrt(v)[None,:,None];labels=y/np.sqrt(v)[None,:]
+    for t in range(len(y)):
+        wc=np.full_like(bank[t],1/J) if not t else fresh.weights(old.cov.moment(bank[:t],y[:t],v,t),old.cov);co.append((bank[t]*wc).sum(1));pm=(scaled[t]*w).sum(1);mo.append(pm*np.sqrt(v));r=2*(pm-labels[t])[:,None]*(pm[:,None]-scaled[t]);regrets+=r;sq+=r*r;q=np.maximum(regrets,0)/(1+sq);den=q.sum(1,keepdims=True);w=np.divide(q,den,out=np.full_like(q,1/J),where=den>0)
+    co=np.array(co);mo=np.array(mo);ct,cu=old.project(S,co,v);mt,mu=old.project(S,mo,v);experts=np.stack([old.project(S,bank[:36,:,j],v)[0] for j in range(J)],2);chosen=int(np.argmin(np.sqrt(((experts-y[:36,:,None])**2).mean(0)).mean(0)));cb,cbu=old.project(S,bank[:,:,chosen],v)
+    x=dict(raw=raw,truth=y,S=S,v=v,b=b,ub=ub,CovRaw=co,CovTarget=ct,CovU=cu,MLTarget=mt,MLU=mu,CalBest=cb,CalBestU=cbu,chosen=np.array(chosen),start=a['start'],cal_start=a['cal_start'])
+    if part in ['early','late'] and ds!='AEMO' and bb!='DUET':
+        src=oldsource(ds,bb,part,s)
+        if reuse is not None:
+            for key in ['v','b','ub','CovTarget','MLTarget']:np.testing.assert_allclose(x[key],reuse[key],rtol=1e-12,atol=2e-8)
+        else:
+            original=load(src);ctx=load(src.parent/'contexts.npz');ctl=load(src.parent/'controls.npz');np.testing.assert_array_equal(original['raw'],raw);np.testing.assert_array_equal(original['v'],v);np.testing.assert_allclose(ct,ctx['D'],rtol=1e-12,atol=2e-8);np.testing.assert_allclose(mt[36:],ctl['MLPol'],rtol=1e-12,atol=2e-8)
+    np.savez_compressed(p,**x);js(d/'CONTEXT_READY.json',dict(sha256=sha(p),calibration_start=str(wide.index[cal]),score_start=str(wide.index[int(a['start'])]),observations=len(y)-36,chosen_expert=chosen,seconds=time.perf_counter()-tick,registration_sha256=sha(H/'REGISTRATION.json')));print('CONTEXT',ds,bb,s,part,flush=True);return x
+
+output/rr_recap_error_dependence_20261003/method.py · moment · lines 58–64
+def moment(bank,y,v,t,diagonal=False):
+    e=(bank[max(0,t-28):t]-y[max(0,t-28):t,:,None])/np.sqrt(v)[None,:,None]
+    G=np.einsum('tjk,tjl->jkl',e,e)/len(e)
+    diag=np.diagonal(G,axis1=1,axis2=2);scale=np.maximum(diag.mean(1),1e-12)
+    Q=np.zeros_like(G) if diagonal else .9*G
+    ids=np.arange(G.shape[-1]);Q[:,ids,ids]+=(diag if diagonal else .1*diag)+1e-6*scale[:,None]
+    return Q/scale[:,None,None]
+
+output/rr_recap_evidence_extension_20261002/frozen_core.py · expert_bank · lines 63–84
+def expert_bank(wide,raw,v,start):
+    y=wide.to_numpy(); m=raw.shape[1];features=[];bank=[]
+    for t,f in enumerate(raw):
+        i=start+t; weekday=wide.index[i].dayofweek
+        feat=np.column_stack([f,y[i-1],y[i-7:i].mean(0),np.tile([(t%12+1)/12,
+            np.sin(2*np.pi*weekday/7),np.cos(2*np.pi*weekday/7)],(m,1))])
+        features.append(feat)
+        estimates=[f]
+        for window in [3,7,14,28]:
+            left=max(0,t-window)
+            bias=np.mean(raw[left:t]-y[start+left:i],axis=0) if t else np.zeros(m)
+            estimates.append(f-bias)
+        estimates.extend([y[i-1],y[i-7:i].mean(0),y[i-7]])
+        ridge=f.copy()
+        if t>=12:
+            left=max(0,t-36); X=np.asarray(features[left:t]);error=raw[left:t]-y[start+left:i]
+            for j in range(m):
+                scaler=StandardScaler().fit(X[:,j]);model=Ridge(alpha=10.).fit(scaler.transform(X[:,j]),error[:,j]/np.sqrt(v[j]))
+                ridge[j]-=model.predict(scaler.transform(feat[j][None,:]))[0]*np.sqrt(v[j])
+        estimates.append(ridge)
+        bank.append(np.stack(estimates,axis=1))
+    return np.asarray(bank)
+
+output/cpor_mlj_v15_20261115/or2_verified/v12/clock_new/replay.py · bank · lines 23–62
+def bank(yall,raw,k,bb,seed):
+    # The already-observed October days initialize 36 records. Only November targets
+    # reported by this issue contribute new errors or update ML gain accumulators.
+    ctx=O/"cpor_unified_protocol_duet_20261108/streams/AEMO"/bb/str(seed)/"month/context.npz"
+    if not ctx.exists():ctx=O/"cpor_aemo_full_three_runs_20261107/runs"/bb/str(seed)/"context.npz"
+    x=np.load(ctx); np.testing.assert_allclose(x["truth"][-36:],hist.to_numpy()[-36:])
+    hraw=x["raw"][-72:]; octy=hist.to_numpy()
+    seedbank=legacy.cpu.fresh.expert_bank(hist,hraw,v,len(hist)-72)[-36:]
+    past=list(seedbank);oldraw=list(hraw[-36:]);oldy=list(octy[-36:]);feats=[]
+    for i in range(len(hist)-36,len(hist)):
+        feats.append(features(hist.iloc[i].to_numpy()*0+hraw[i-len(hist)],octy[i-1],octy[i-7:i].mean(0),calendar(hist.index[i],((i-len(hist))%12+1)/12)))
+    # Reinitialize then replay ML chronologically for October support.
+    gains=np.zeros((6,9));sumq=np.zeros_like(gains); wt=np.ones_like(gains)/9
+    def update(pred,mix,obs):
+        nonlocal wt
+        g=2*((mix-obs)/np.sqrt(v))[:,None]*((mix[:,None]-pred)/np.sqrt(v)[:,None]);gains[:]+=g;sumq[:]+=g*g
+        q=np.maximum(gains,0)/(1+sumq);den=q.sum(1,keepdims=True)
+        wt=np.divide(q,den,out=np.full_like(q,1/9),where=den>0)
+    for a,obs in zip(past,oldy):
+        update(a,(a*wt).sum(1),obs)
+    banks=[];mres=[];cres=[];novfeatures=[];uniform=[]
+    for t,f in enumerate(raw):
+        ti=24+t;end=ti-k+1;n=t-k
+        if n>=0:
+            obs=yall.iloc[24+n].to_numpy()
+            update(banks[n],mres[n],obs);past.append(banks[n]);oldraw.append(raw[n]);oldy.append(obs);feats.append(novfeatures[n])
+        # Use latest returned label, trailing seven returned labels, and the literal
+        # seven-step seasonal lag (already mature). Ridge sees only mature records.
+        lag=yall.iloc[end-1].to_numpy();mean=yall.iloc[end-7:end].to_numpy().mean(0)
+        X=features(f,lag,mean,calendar(yall.index[ti],(t%12+1)/12))
+        errors=np.array(oldraw)-np.array(oldy)
+        estimates=[f,*[f-e for e in (errors[-w:].mean(0) for w in (3,7,14,28))],lag,mean,yall.iloc[ti-7].to_numpy()]
+        r=f.copy();xx=np.asarray(feats[-36:])
+        for j in range(6):
+            sc=StandardScaler().fit(xx[:,j]);reg=Ridge(alpha=10.).fit(sc.transform(xx[:,j]),errors[-36:,j]/np.sqrt(v[j]))
+            r[j]-=reg.predict(sc.transform(X[j][None,:]))[0]*np.sqrt(v[j])
+        a=np.stack([*estimates,r],axis=1)
+        wc=legacy.cpu.fresh.weights(legacy.cpu.old.cov.moment(np.asarray(past),np.array(oldy),v,len(past)),legacy.cpu.old.cov)
+        cres.append((a*wc).sum(1));mres.append((a*wt).sum(1));banks.append(a);novfeatures.append(X);uniform.append((gains<=0).all(1))
+    return {s:legacy.cpu.old.project(S,row,v) for s,row in [('Cov',cres),('ML',mres)]},np.stack(uniform)
+
+output/cpor_mlj_v15_20261115/or2_verified/v12/clock_new/replay.py · features · lines 21–22
+def features(raw,latest,seven,meta):
+    return np.column_stack([raw,latest,seven,np.tile(meta,(6,1))])
+
+output/cpor_mlj_v15_20261115/or2_verified/v12/clock_new/replay.py · calendar · lines 19–20
+def calendar(ds,phase):
+    return [phase,np.sin(2*np.pi*ds.dayofweek/7),np.cos(2*np.pi*ds.dayofweek/7)]

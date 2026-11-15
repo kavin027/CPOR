@@ -1,0 +1,16 @@
+{
+  "previous_last_extracted_interval": "2026-11-13 00:00:00",
+  "overlapping_archived_files": 62,
+  "previously_retained_component_rows_for_these_scoring_dates": 0,
+  "newly_scored_dates_with_any_first_report_already_in_previous_source_zips": 4,
+  "newly_scored_dates_with_all_ten_first_reports_already_in_previous_source_zips": 3,
+  "previously_cached_scoring_date_keys": {
+    "2026-11-13 00:30:00": 10,
+    "2026-11-13 01:00:00": 10,
+    "2026-11-13 01:30:00": 10,
+    "2026-11-13 02:00:00": 5
+  },
+  "scored_half_hours": 96,
+  "context_half_hours": 24,
+  "coverage": "source-receipt overlap check against immediately preceding AEMO historical extension; no claim about what an author may ever have viewed"
+}

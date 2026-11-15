@@ -1,0 +1,9 @@
+scope,protocol,comparator,dataset_backbone_cells,group_runs,gain_pct
+all,continuous_carry,PIRCommon,21,63,4.338888207539756
+all,continuous_carry,PIRTwoGroup,21,63,3.281969562595548
+all,window,PIRCommon,21,63,3.5668050832341334
+all,window,PIRTwoGroup,21,63,2.716278085968648
+omit_8_group_runs,continuous_carry,PIRCommon,21,55,4.333521830146826
+omit_8_group_runs,continuous_carry,PIRTwoGroup,21,55,3.2762354875206356
+omit_8_group_runs,window,PIRCommon,21,55,3.5671372961654297
+omit_8_group_runs,window,PIRTwoGroup,21,55,2.716191503083251

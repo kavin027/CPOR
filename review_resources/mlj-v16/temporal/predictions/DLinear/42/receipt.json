@@ -1,0 +1,13 @@
+{
+  "protocol": "6d8fe62eadcc6e2e84298afff144fb4453e0f58e1f0d88d934a00919f5e3c8a6",
+  "data": "46820726c0dd52dd5bbc243f49df942805652ebf402a0551b4cfca9d7815d7dd",
+  "ckpt": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_aemo_full_three_runs_20261107\\runs\\DLinear\\42\\models\\DLinear\\best.ckpt",
+  "ckpt_hash": "25c9563a9ad646b6018f567fa2c464024426cea26babc036ed692db2e025ac69",
+  "pir": "H:\\Codex\\FcConvMixer\\IJEPES_RR_RECAP\\output\\cpor_aemo_full_three_runs_20261107\\runs\\DLinear\\42\\models\\DLinear\\PIR_checkpoint.pt",
+  "pir_hash": "7c680979a5f9a926236742ec8bd2db2e077d011a89836ef1e4314821eff88677",
+  "october_replay_max_mw": {
+    "raw": 0.0,
+    "pir": 0.0
+  },
+  "sha256": "ee0119d47a999d66719358a812bca72ccfcdd7427792f9730012d901741b14c4"
+}

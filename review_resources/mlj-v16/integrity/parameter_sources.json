@@ -1,0 +1,50 @@
+[
+  {
+    "file": "output/cpor_unified_protocol_duet_20261108/protocol_engine.py",
+    "sha256": "d5a66f29cc4c15237fcca7531db3c398038dc34bc35906a83e7f8a800dad68ec",
+    "function": "context",
+    "first_line": 25,
+    "last_line": 48,
+    "excerpt_sha256": "0503e3fb4fbfe493b3a6fbf6b6d5f83f1d631c54edf13261096c8678dc326efe"
+  },
+  {
+    "file": "output/rr_recap_error_dependence_20261003/method.py",
+    "sha256": "9c610d55ca9564f504c7868c9462fe59bc6cdf128d3ba800cc843b1643e6efe5",
+    "function": "moment",
+    "first_line": 58,
+    "last_line": 64,
+    "excerpt_sha256": "5ecadefe2ca1faa429045a125a6c4d0f742e205e7d262b47e1a4eb35895ea7dc"
+  },
+  {
+    "file": "output/rr_recap_evidence_extension_20261002/frozen_core.py",
+    "sha256": "ee7c9a03a363903bac461f1ebb796de6656007eddb7f5081fd4874e2298f4007",
+    "function": "expert_bank",
+    "first_line": 63,
+    "last_line": 84,
+    "excerpt_sha256": "8adf7357d738238e8e0ffcb3c4e26d3ebfe9455fd0970a5fa8b61d7bae883775"
+  },
+  {
+    "file": "output/cpor_mlj_v15_20261115/or2_verified/v12/clock_new/replay.py",
+    "sha256": "d08584f6f1e61dd9e2f2d7cbd774e7ab26596a7649fd47bd1e07c197c73c9465",
+    "function": "bank",
+    "first_line": 23,
+    "last_line": 62,
+    "excerpt_sha256": "e6fe7c1386a74764df86be2d16ccd59d5fd6893dedbe585b226d268c3e0ef4df"
+  },
+  {
+    "file": "output/cpor_mlj_v15_20261115/or2_verified/v12/clock_new/replay.py",
+    "sha256": "d08584f6f1e61dd9e2f2d7cbd774e7ab26596a7649fd47bd1e07c197c73c9465",
+    "function": "features",
+    "first_line": 21,
+    "last_line": 22,
+    "excerpt_sha256": "b7856e805869ce97f89e106a4eb39e9b0c5d0edee56c74fb9d1a62e509aefb38"
+  },
+  {
+    "file": "output/cpor_mlj_v15_20261115/or2_verified/v12/clock_new/replay.py",
+    "sha256": "d08584f6f1e61dd9e2f2d7cbd774e7ab26596a7649fd47bd1e07c197c73c9465",
+    "function": "calendar",
+    "first_line": 19,
+    "last_line": 20,
+    "excerpt_sha256": "14fdf2a4b23bbe358bc83e37c8a87f9b192e256fdd71c48157ca07e4ff727de3"
+  }
+]
